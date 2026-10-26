@@ -1,0 +1,102 @@
+---
+import '../styles/global.css';
+import { getSite } from '../lib/content';
+
+interface Props {
+  title?: string;
+  description?: string;
+  section?: 'home' | 'design' | 'vfx' | 'kicks';
+  image?: string;
+}
+const { title, description = 'Huzzah: production design, pre-vis, props and VFX.', section = 'design', image } = Astro.props;
+const site = await getSite();
+const fullTitle = title ? `${title} | Huzzah` : 'Huzzah';
+
+const navs = {
+  home: [],
+  design: [
+    { href: '/design', label: 'Work' },
+    { href: '/design/category/production-design', label: 'Production Design' },
+    { href: '/design/category/pre-vis', label: 'Pre-Vis' },
+    { href: '/design/category/props', label: 'Props' },
+    { href: '/services', label: 'Services' },
+    { href: '/about', label: 'About' },
+    { href: '/contact', label: 'Contact' },
+  ],
+  vfx: [
+    { href: '/vfx', label: 'Work' },
+    { href: '/contact', label: 'Contact' },
+  ],
+  kicks: [
+    { href: '/kicks', label: 'For Kicks' },
+    { href: '/design', label: '← Design' },
+  ],
+};
+const nav = navs[section];
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<!doctype html>
+<html lang="en" data-section={section}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    {image && <meta property="og:image" content={image} />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {section !== 'home' && (
+      <header class="header">
+        <a class="logo" href={section === 'vfx' ? '/vfx' : '/design'} aria-label="Huzzah home">
+          HUZZAH<span class="logo-sub">{section === 'vfx' ? 'VFX' : section === 'kicks' ? 'FOR KICKS' : 'DESIGN'}</span>
+        </a>
+        <nav class="nav" aria-label="Main">
+          {nav.map((n) => (
+            <a href={n.href} aria-current={path === n.href ? 'page' : undefined}>{n.label}</a>
+          ))}
+        </nav>
+      </header>
+    )}
+
+    <main>
+      <slot />
+    </main>
+
+    {section !== 'home' && (
+      <footer class="footer">
+        <div class="footer-inner">
+          <span>© {new Date().getFullYear()} Huzzah. Toronto.</span>
+          <span class="footer-links">
+            {site.instagram && <a href={site.instagram} rel="noopener">Instagram</a>}
+            {site.imdb && <a href={site.imdb} rel="noopener">IMDb</a>}
+            {site.email && <a href={`mailto:${site.email}`}>{site.email}</a>}
+          </span>
+        </div>
+      </footer>
+    )}
+
+    <script>
+      const io = new IntersectionObserver(
+        (entries) =>
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add('in');
+              io.unobserve(e.target);
+            }
+          }),
+        { threshold: 0.12 },
+      );
+      document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+    </script>
+  </body>
+</html>

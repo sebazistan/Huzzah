@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import { image, galleryImages, embedUrl, paragraphs, formatDate, type Project } from '../lib/content';
+interface Props { project: Project; section: 'design' | 'vfx' | 'kicks'; backHref: string; backLabel: string }
+const { project: p, section, backHref, backLabel } = Astro.props;
+const hero = image(p);
+const gallery = galleryImages(p);
+const videos = p.videos.map(embedUrl).filter(Boolean) as string[];
+---
+
+<Base title={p.title} description={p.summary || undefined} section={section} image={hero || undefined}>
+  {hero && (
+    <div class="hero-img">
+      <img src={hero} alt={p.title} fetchpriority="high" />
+      <div class="hero-fade"></div>
+    </div>
+  )}
+
+  <article class="wrap project">
+    <a class="back" href={backHref}>← {backLabel}</a>
+    <h1>{p.title}</h1>
+    <p class="meta">{[p.type, formatDate(p.date)].filter(Boolean).join(' · ')}</p>
+
+    <div class="project-grid">
+      <div class="project-text">
+        {paragraphs(p.description).map((t) => <p>{t}</p>)}
+        {p.links.length > 0 && (
+          <div class="btn-row">
+            {p.links.map((l) => <a class="btn" href={l.url} rel="noopener">{l.label}</a>)}
+          </div>
+        )}
+      </div>
+      {p.credits.length > 0 && (
+        <dl class="credits">
+          {p.credits.map((c) => (<><dt>{c.label}</dt><dd>{c.value}</dd></>))}
+        </dl>
+      )}
+    </div>
+
+    {videos.length > 0 && (
+      <section class="block">
+        <h2>Video</h2>
+        <div class="videos">
+          {videos.map((src) => (
+            <div class="video"><iframe src={src} title={`${p.title} video`} loading="lazy" allow="accelerometer; autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {gallery.length > 0 && (
+      <section class="block">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          {gallery.map((src) => (
+            <a class="reveal" href={src} target="_blank" rel="noopener"><img src={src} alt="" loading="lazy" decoding="async" /></a>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+</Base>

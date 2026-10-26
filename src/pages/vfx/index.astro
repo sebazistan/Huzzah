@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { getProjects } from '../../lib/content';
+
+const projects = await getProjects('vfx');
+const order = ['Feature', 'Series', 'Short', 'Commercial', 'Music Video', 'Promo'];
+const types = order.filter((t) => projects.some((p) => p.type === t));
+---
+
+<Base title="VFX" section="vfx" description="Huzzah creates award-winning VFX for film, television and the web.">
+  <section class="wrap hero">
+    <h1>VFX<em>.</em></h1>
+    <p>
+      Huzzah creates award-winning VFX for film, television and the web, for projects at every budget level,
+      including <strong>Kids in the Hall</strong>{' '}and <strong>Longing</strong>. Winner of a Canadian Screen Award for VFX.
+    </p>
+  </section>
+
+  <div class="wrap">
+    <div class="filters" role="group" aria-label="Filter by type">
+      <button class="chip" aria-pressed="true" data-type="all">All</button>
+      {types.map((t) => <button class="chip" aria-pressed="false" data-type={t}>{t}</button>)}
+    </div>
+
+    <div class="grid" id="grid">
+      {projects.map((p, i) => (
+        <div data-type={p.type} style="display:contents"><ProjectCard project={p} base="/vfx" index={i} /></div>
+      ))}
+    </div>
+  </div>
+
+  <script>
+    const chips = document.querySelectorAll<HTMLButtonElement>('.chip');
+    const items = document.querySelectorAll<HTMLElement>('#grid > [data-type]');
+    chips.forEach((chip) =>
+      chip.addEventListener('click', () => {
+        chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+        const t = chip.dataset.type;
+        items.forEach((el) => {
+          const show = t === 'all' || el.dataset.type === t;
+          el.firstElementChild!.toggleAttribute('hidden', !show);
+        });
+      }),
+    );
+  </script>
+</Base>

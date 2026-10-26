@@ -1,0 +1,21 @@
+---
+import ProjectPage from '../../components/ProjectPage.astro';
+import { getProjects, getCategories } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const cats = await getCategories();
+  const projects = await getProjects('design');
+  return projects.map((project) => {
+    const cat = cats.find((c) => c.slug === project.category);
+    return { params: { slug: project.slug }, props: { project, cat } };
+  });
+}
+const { project, cat } = Astro.props;
+---
+
+<ProjectPage
+  project={project}
+  section="design"
+  backHref={cat ? `/design/category/${cat.slug}` : '/design'}
+  backLabel={cat ? cat.name : 'Work'}
+/>

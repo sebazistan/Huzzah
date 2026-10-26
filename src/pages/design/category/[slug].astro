@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ProjectCard from '../../../components/ProjectCard.astro';
+import { getProjects, getCategories } from '../../../lib/content';
+
+export async function getStaticPaths() {
+  const cats = (await getCategories('design'));
+  const projects = await getProjects('design');
+  return cats.map((cat) => ({
+    params: { slug: cat.slug },
+    props: { cat, projects: projects.filter((p) => p.category === cat.slug) },
+  }));
+}
+const { cat, projects } = Astro.props;
+---
+
+<Base title={cat.name} description={cat.blurb}>
+  <section class="wrap hero">
+    <h1>{cat.name}</h1>
+    <p>{cat.blurb}</p>
+  </section>
+  <div class="wrap">
+    {projects.length === 0 && <p style="color:var(--muted)">Nothing here yet.</p>}
+    <div class="grid">
+      {projects.map((p, i) => <ProjectCard project={p} base="/design" index={i} />)}
+    </div>
+  </div>
+</Base>

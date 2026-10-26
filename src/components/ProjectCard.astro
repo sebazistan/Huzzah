@@ -1,0 +1,17 @@
+---
+import { image, formatDate, type Project } from '../lib/content';
+interface Props { project: Project; base: string; index?: number }
+const { project: p, base, index = 0 } = Astro.props;
+const img = image(p);
+const meta = [p.type, formatDate(p.date)].filter(Boolean).join(' · ');
+---
+
+<a class="card reveal" href={`${base}/${p.slug}`} style={`--d:${(index % 3) * 70}ms`}>
+  <div class="card-media">
+    {img ? <img src={img} alt="" loading="lazy" decoding="async" /> : <div class="card-ph"><span>{p.title}</span></div>}
+  </div>
+  <div class="card-body">
+    <h3>{p.title}</h3>
+    {meta && <p>{meta}</p>}
+  </div>
+</a>

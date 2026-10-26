@@ -1,0 +1,18 @@
+---
+import { getSite } from '../lib/content';
+const site = await getSite();
+const endpoint = site.formEndpoint;
+---
+
+{endpoint ? (
+  <form class="form" action={endpoint} method="POST">
+    <label>Name<input name="name" required autocomplete="name" /></label>
+    <label>Email<input type="email" name="email" required autocomplete="email" /></label>
+    <label>Message<textarea name="message" required></textarea></label>
+    <button class="btn" type="submit">Send</button>
+  </form>
+) : (
+  <p class="form-note">
+    {site.email ? <>Email me at <a href={`mailto:${site.email}`} style="color:var(--accent)">{site.email}</a>.</> : <>Add a contact email in the admin (Site settings) to show it here.</>}
+  </p>
+)}

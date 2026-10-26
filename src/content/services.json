@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "title": "Production Design",
+      "text": "Movies, TV shows, webseries and commercials. From concept and pre-vis to blueprints, prop design and creation, budget management, and leading teams of set dressers and carpenters.",
+      "link": "/design/category/production-design"
+    },
+    {
+      "title": "Pre-Vis",
+      "text": "A key early step where a vision becomes a shareable plan. Realistic, artistic or animated (animatic) previsualization, always open to revision.",
+      "link": "/design/category/pre-vis"
+    },
+    {
+      "title": "Props",
+      "text": "Fabrication across several technologies: blueprints for builders, CNC and laser-cutting files, 3D-printing CAD files, mold making, casting in plastic or silicone, and graphics.",
+      "link": "/design/category/props"
+    }
+  ]
+}
