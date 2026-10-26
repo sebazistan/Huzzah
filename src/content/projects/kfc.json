@@ -1,17 +1,36 @@
 {
   "section": "design",
-  "category": "production-design",
-  "type": "",
-  "date": null,
+  "category": "props",
+  "type": "Commercial",
+  "date": "2021-05-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "A statue built for a KFC commercial.",
+  "description": "Take a closer look at some of the stuff that we built for the project.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
+  "cover": "kfc.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Crux"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
   "links": [],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "kfc-01.jpg",
+    "kfc-02.png",
+    "kfc-03.jpg",
+    "kfc-04.jpg",
+    "kfc-05.jpg",
+    "kfc-06.jpg",
+    "kfc-07.jpg",
+    "kfc-08.jpg",
+    "kfc-09.jpg"
+  ],
   "galleryUrls": [],
-  "title": "KFC"
+  "title": "KFC Statue"
 }

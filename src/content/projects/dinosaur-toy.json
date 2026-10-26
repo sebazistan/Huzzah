@@ -1,17 +1,33 @@
 {
   "section": "design",
   "category": "props",
-  "type": "",
-  "date": null,
+  "type": "Commercial",
+  "date": "2020-01-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "Designed and built a dinosaur head for a TV commercial.",
+  "description": "Designed and built a dinosaur head for a TV commercial.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
+  "cover": "dinosaur-toy.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Devile's Workshop"
+    }
+  ],
   "links": [],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "dinosaur-toy-01.jpg",
+    "dinosaur-toy-02.jpg",
+    "dinosaur-toy-03.jpg",
+    "dinosaur-toy-04.jpg",
+    "dinosaur-toy-05.jpg",
+    "dinosaur-toy-06.jpg",
+    "dinosaur-toy-07.jpg",
+    "dinosaur-toy-08.jpg",
+    "dinosaur-toy-09.jpg",
+    "dinosaur-toy-10.jpg"
+  ],
   "galleryUrls": [],
   "title": "Dinosaur Toy"
 }

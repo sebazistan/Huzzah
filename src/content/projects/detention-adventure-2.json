@@ -1,17 +1,51 @@
 {
   "section": "design",
   "category": "production-design",
-  "type": "",
-  "date": null,
+  "type": "Series",
+  "date": "2021-07-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "Three nerdy friends and the school bully must get themselves thrown into detention.",
+  "description": "Three nerdy friends and the school bully must get themselves thrown into detention. They then need to find the entrance to a trapped labyrinth of tunnels guarding Alexander Graham Bell's hidden lab.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
-  "links": [],
+  "cover": "detention-adventure-2.png",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "LoCo Motion and Broken Compass Films"
+    },
+    {
+      "label": "Director",
+      "value": "Joe Kicak"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    },
+    {
+      "label": "Awards",
+      "value": "CSA"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt7267968/"
+    },
+    {
+      "label": "Watch on Gem",
+      "url": "https://gem.cbc.ca/media/detention-adventure/s03"
+    },
+    {
+      "label": "Train Car",
+      "url": "/design/detention-design"
+    }
+  ],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "detention-adventure-2-01.jpg",
+    "detention-adventure-2-02.jpg",
+    "detention-adventure-2-03.jpg"
+  ],
   "galleryUrls": [],
   "title": "Detention Adventure 3"
 }

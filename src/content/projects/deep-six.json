@@ -1,17 +1,54 @@
 {
   "section": "design",
   "category": "production-design",
-  "type": "",
-  "date": null,
+  "type": "Feature",
+  "date": "2017-12-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "A realistic live-action deep space forward operating base, 250 years in the future.",
+  "description": "A realistic live-action depiction of a deep space forward operating base set 250 years in the future, where a crew, isolated from home, attempts a near-impossible mission.\n\nDirector Davin Lengyel pushes every project to the limits of its budget, and this one was especially difficult.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
-  "links": [],
+  "cover": "deep-six.png",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Space Mop"
+    },
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    },
+    {
+      "label": "Awards",
+      "value": "TO Webfest, International Online Web Fest, CSA Nominee"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt6416100/"
+    },
+    {
+      "label": "VFX",
+      "url": "/vfx/deep-six-2"
+    }
+  ],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "deep-six-01.jpg",
+    "deep-six-02.jpg",
+    "deep-six-03.png",
+    "deep-six-04.jpg",
+    "deep-six-05.jpg",
+    "deep-six-06.jpg",
+    "deep-six-07.png",
+    "deep-six-08.png",
+    "deep-six-09.jpg",
+    "deep-six-10.jpg"
+  ],
   "galleryUrls": [],
   "title": "Deep Six"
 }

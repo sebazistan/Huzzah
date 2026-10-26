@@ -1,17 +1,30 @@
 {
   "section": "design",
-  "category": "production-design",
-  "type": "",
-  "date": null,
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2019-02-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "Pre-vis for a Hershey Chocolates TV commercial.",
+  "description": "Pre-vis for a Hershey Chocolates TV commercial.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
+  "cover": "hershey.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Alexis DeBad"
+    }
+  ],
   "links": [],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "hershey-01.jpg",
+    "hershey-02.jpg",
+    "hershey-03.jpg",
+    "hershey-04.jpg",
+    "hershey-05.jpg",
+    "hershey-06.jpg",
+    "hershey-07.jpg"
+  ],
   "galleryUrls": [],
   "title": "Hershey"
 }

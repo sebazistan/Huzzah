@@ -1,17 +1,30 @@
 {
   "section": "design",
   "category": "props",
-  "type": "",
-  "date": null,
+  "type": "Commercial",
+  "date": "2022-08-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "Design work for a TV commercial.",
+  "description": "Design work for a TV commercial.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
+  "cover": "hellmans-trophy.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
   "links": [],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "hellmans-trophy-01.jpg",
+    "hellmans-trophy-02.jpg",
+    "hellmans-trophy-03.jpg",
+    "hellmans-trophy-04.jpg",
+    "hellmans-trophy-05.jpg",
+    "hellmans-trophy-06.jpg",
+    "hellmans-trophy-07.jpg"
+  ],
   "galleryUrls": [],
   "title": "Hellman's Trophy"
 }

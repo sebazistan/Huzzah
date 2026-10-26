@@ -1,17 +1,29 @@
 {
   "section": "design",
-  "category": "production-design",
+  "category": "pre-vis",
   "type": "",
-  "date": null,
+  "date": "2020-06-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "Take a closer look at some of the stuff that we built for the project.",
+  "description": "Take a closer look at some of the stuff that we built for the project.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
+  "cover": "cira.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
   "links": [],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "cira-01.jpg",
+    "cira-02.jpg",
+    "cira-03.jpg",
+    "cira-04.jpg",
+    "cira-05.jpg",
+    "cira-06.jpg"
+  ],
   "galleryUrls": [],
   "title": "CIRA"
 }

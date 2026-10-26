@@ -1,17 +1,29 @@
 {
   "section": "design",
-  "category": "production-design",
-  "type": "",
-  "date": null,
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2022-01-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
+  "cover": "desjardins.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
   "links": [],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "desjardins-01.jpg",
+    "desjardins-02.jpg",
+    "desjardins-03.jpg",
+    "desjardins-04.jpg",
+    "desjardins-05.jpg",
+    "desjardins-06.jpg"
+  ],
   "galleryUrls": [],
   "title": "Desjardins"
 }

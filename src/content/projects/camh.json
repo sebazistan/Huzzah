@@ -1,17 +1,28 @@
 {
   "section": "design",
-  "category": "production-design",
-  "type": "",
-  "date": null,
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2020-06-01",
   "featured": true,
-  "summary": "",
-  "description": "",
+  "summary": "Pre-vis for a PSA.",
+  "description": "Pre-vis for a PSA.",
   "coverUrl": "",
-  "cover": null,
-  "credits": [],
+  "cover": "camh.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
   "links": [],
   "videos": [],
-  "gallery": [],
+  "gallery": [
+    "camh-01.jpg",
+    "camh-02.jpg",
+    "camh-03.jpg",
+    "camh-04.jpg",
+    "camh-05.jpg"
+  ],
   "galleryUrls": [],
-  "title": "CAMH"
+  "title": "CamH"
 }
