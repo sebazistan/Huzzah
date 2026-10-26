@@ -4,13 +4,23 @@
   "type": "Music Video",
   "date": "2015-05-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Music video for Meaghan Smith.",
+  "description": "Music video for Meaghan Smith.",
   "coverUrl": "",
   "cover": "vfx-friends-like-you.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=d8tb02l8btI"
+  ],
+  "gallery": [
+    "vfx-friends-like-you-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

@@ -1,0 +1,17 @@
+---
+import { getAwards, href } from '../lib/content';
+interface Props { section: 'design' | 'vfx' }
+const awards = await getAwards(Astro.props.section);
+---
+
+<ul class="awards">
+  {awards.map((a) => (
+    <li class="reveal">
+      <span class={`award-result ${a.result === 'Winner' ? 'win' : ''}`}>{a.result}</span>
+      <div>
+        <h2>{a.award}</h2>
+        <p>{a.url ? <a href={href(a.url)} rel="noopener">{a.detail}</a> : a.detail}</p>
+      </div>
+    </li>
+  ))}
+</ul>

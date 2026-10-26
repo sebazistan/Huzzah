@@ -4,13 +4,36 @@
   "type": "Series",
   "date": "2016-01-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "'My 90 Year Old Roomate' is an award winning Canadian comedy show.",
+  "description": "'My 90 Year Old Roomate' is an award winning Canadian comedy show.",
   "coverUrl": "",
   "cover": "vfx-my-90-year-old-roomate.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sebastian Cluer/ Rob Stefaniuk"
+    },
+    {
+      "label": "Client",
+      "value": "LoCo Motion Pictures"
+    },
+    {
+      "label": "Awards",
+      "value": "CSA Winner"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt5667828/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=-c9jjj5MNBA"
+  ],
+  "gallery": [
+    "vfx-my-90-year-old-roomate-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

@@ -1,12 +1,14 @@
 ---
-import { image, formatDate, type Project } from '../lib/content';
+import { image, formatDate, href, type Project } from '../lib/content';
 interface Props { project: Project; base: string; index?: number }
 const { project: p, base, index = 0 } = Astro.props;
 const img = image(p);
 const meta = [p.type, formatDate(p.date)].filter(Boolean).join(' · ');
+// Toilet Town is a mini-site with its own pages
+const target = p.slug === 'toilet-town' ? '/kicks/toilet-town' : `${base}/${p.slug}`;
 ---
 
-<a class="card reveal" href={`${base}/${p.slug}`} style={`--d:${(index % 3) * 70}ms`}>
+<a class="card reveal" href={href(target)} style={`--d:${(index % 3) * 70}ms`}>
   <div class="card-media">
     {img ? <img src={img} alt="" loading="lazy" decoding="async" /> : <div class="card-ph"><span>{p.title}</span></div>}
   </div>

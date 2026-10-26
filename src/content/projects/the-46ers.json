@@ -4,13 +4,27 @@
   "type": "Feature",
   "date": "2016-05-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for feature film.",
+  "description": "VFX for feature film.",
   "coverUrl": "",
   "cover": "vfx-the-46ers.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Blake Cortright"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://pro.imdb.com/title/tt3544506"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=mlS5u3c4AmI",
+    "https://www.youtube.com/watch?v=smEDyPhC8oE"
+  ],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

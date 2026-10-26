@@ -4,13 +4,40 @@
   "type": "Series",
   "date": "2017-01-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "A comedy web series about an infertile couple struggling to conceive with the help of a doctor... and unsolicited advice from everyone they know. Featured on CBC Gem.…",
+  "description": "A comedy web series about an infertile couple struggling to conceive with the help of a doctor... and unsolicited advice from everyone they know. Featured on CBC Gem. Huzzah's work on this one was fixing mistakes.",
   "coverUrl": "",
   "cover": "vfx-how-to-buy-a-baby.jpeg",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Molly McGlynn / Adriana Maggs"
+    },
+    {
+      "label": "Client",
+      "value": "LoCo Motion pictures"
+    },
+    {
+      "label": "Awards",
+      "value": "CSA Winner"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt5848774/"
+    },
+    {
+      "label": "Check it out",
+      "url": "https://gem.cbc.ca/how-to-buy-a-baby"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=fiKl4MQzAqs"
+  ],
+  "gallery": [
+    "vfx-how-to-buy-a-baby-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

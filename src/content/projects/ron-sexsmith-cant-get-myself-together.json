@@ -4,13 +4,28 @@
   "type": "Music Video",
   "date": "2015-12-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Music video",
+  "description": "Music video",
   "coverUrl": "",
   "cover": "vfx-ron-sexsmith-cant-get-myself-together.jpeg",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Jason Levangie"
+    },
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=hfS5Ar92ZIg"
+  ],
+  "gallery": [
+    "vfx-ron-sexsmith-cant-get-myself-together-01.jpg",
+    "vfx-ron-sexsmith-cant-get-myself-together-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

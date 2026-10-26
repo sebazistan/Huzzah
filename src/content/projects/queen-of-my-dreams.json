@@ -4,13 +4,34 @@
   "type": "Feature",
   "date": "2023-08-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "From IMDB: \"Azra is worlds apart from her conservative Muslim mother. Following a tragedy, Azra finds herself on a Bollywood-inspired journey to Pakistan - guided by…",
+  "description": "From IMDB: \"Azra is worlds apart from her conservative Muslim mother. Following a tragedy, Azra finds herself on a Bollywood-inspired journey to Pakistan - guided by memories of her mother's youth in Karachi and her own coming-of-age in rural Canada.\" Starring the fantastic Amrit Kaur.\n\nHuzzah provided a number of shots, including screen replacement and a number of paint outs.",
   "coverUrl": "",
   "cover": "vfx-queen-of-my-dreams.jpg",
-  "credits": [],
-  "links": [],
-  "videos": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Fawzia Mirza"
+    },
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    },
+    {
+      "label": "Awards",
+      "value": "Director's Guild"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://pro.imdb.com/title/tt21876438/filmmakers"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=NWLvgMbWQF0"
+  ],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

@@ -4,13 +4,28 @@
   "type": "Music Video",
   "date": "2020-11-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Music video starring Rich Aucoin.",
+  "description": "Music video starring Rich Aucoin.",
   "coverUrl": "",
   "cover": "vfx-rich-aucoin-walls.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Jason Levangie"
+    },
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=k52Ls_63SD0"
+  ],
+  "gallery": [
+    "vfx-rich-aucoin-walls-01.jpg",
+    "vfx-rich-aucoin-walls-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

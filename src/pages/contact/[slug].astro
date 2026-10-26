@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import ContactForm from '../../components/ContactForm.astro';
+import { getContactForms, getSite } from '../../lib/content';
+import { ttNav, ttBrand } from '../../lib/toilet-town';
+
+export async function getStaticPaths() {
+  const forms = await getContactForms();
+  return forms.map((form) => ({ params: { slug: form.slug }, props: { form } }));
+}
+const { form } = Astro.props;
+const site = await getSite();
+const isTT = form.slug === 'toilet-town';
+const email = form.email || site.email;
+---
+
+<Base
+  title="Contact"
+  section={form.section}
+  nav={isTT ? ttNav : undefined}
+  brand={isTT ? ttBrand : undefined}
+>
+  <div class="wrap page">
+    <h1>{form.heading.replace(/[.!]$/, '')}<span style="color:var(--accent)">{form.heading.match(/[.!]$/)?.[0] ?? '.'}</span></h1>
+    {form.intro && <p>{form.intro}</p>}
+    <ContactForm form={form} />
+    {email && <p class="form-note" style="margin-top:2rem">Or email <a href={`mailto:${email}`} style="color:var(--accent)">{email}</a> directly.</p>}
+  </div>
+</Base>

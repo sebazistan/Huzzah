@@ -3,7 +3,8 @@ import ProjectPage from '../../components/ProjectPage.astro';
 import { getProjects } from '../../lib/content';
 
 export async function getStaticPaths() {
-  const projects = await getProjects('kicks');
+  // Toilet Town is a mini-site with its own pages under /kicks/toilet-town/
+  const projects = (await getProjects('kicks')).filter((p) => p.slug !== 'toilet-town');
   return projects.map((project) => ({ params: { slug: project.slug }, props: { project } }));
 }
 const { project } = Astro.props;

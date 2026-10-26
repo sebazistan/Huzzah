@@ -1,18 +1,65 @@
 ---
 import { getSite } from '../lib/content';
+
+interface Props {
+  form: { slug: string; heading: string; intro: string; email: string; endpoint: string; subjectPrefix: string };
+}
+const { form } = Astro.props;
 const site = await getSite();
-const endpoint = site.formEndpoint;
+const email = form.email || site.email;
+const endpoint = form.endpoint || site.formEndpoint;
 ---
 
-{endpoint ? (
-  <form class="form" action={endpoint} method="POST">
-    <label>Name<input name="name" required autocomplete="name" /></label>
-    <label>Email<input type="email" name="email" required autocomplete="email" /></label>
-    <label>Message<textarea name="message" required></textarea></label>
-    <button class="btn" type="submit">Send</button>
-  </form>
-) : (
-  <p class="form-note">
-    {site.email ? <>Email me at <a href={`mailto:${site.email}`} style="color:var(--accent)">{site.email}</a>.</> : <>Add a contact email in the admin (Site settings) to show it here.</>}
-  </p>
-)}
+<form class="form" data-endpoint={endpoint} data-email={email} data-prefix={form.subjectPrefix} data-topic={form.slug} novalidate>
+  <label>Name<input name="name" required autocomplete="name" /></label>
+  <label>Email<input type="email" name="email" required autocomplete="email" /></label>
+  <label>Subject<input name="subject" autocomplete="off" /></label>
+  <label>Message<textarea name="message" required></textarea></label>
+  <!-- honeypot: real visitors never see or fill this -->
+  <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+  <button class="btn" type="submit">Send</button>
+  <p class="form-status" role="status" aria-live="polite"></p>
+</form>
+{!endpoint && !email && <p class="form-note">Add a contact email in the admin (Site settings or Contact pages) to enable this form.</p>}
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('form.form').forEach((form) => {
+    const status = form.querySelector<HTMLElement>('.form-status')!;
+    const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const d = Object.fromEntries(new FormData(form)) as Record<string, string>;
+      if (d.website) return; // bot
+      if (!d.name?.trim() || !d.email?.trim() || !d.message?.trim()) {
+        status.textContent = 'Please fill in your name, email and message.';
+        return;
+      }
+      const prefix = form.dataset.prefix || 'Website';
+      const subject = `${prefix}: ${d.subject?.trim() || 'Hello'}`;
+      const { endpoint, email } = form.dataset;
+
+      if (endpoint) {
+        btn.disabled = true;
+        status.textContent = 'Sending…';
+        try {
+          const res = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify({ name: d.name, email: d.email, subject, message: d.message, _subject: subject, _replyto: d.email, topic: form.dataset.topic }),
+          });
+          if (!res.ok) throw new Error(String(res.status));
+          form.reset();
+          status.textContent = 'Thank you! Your message has been sent.';
+        } catch {
+          status.textContent = 'Oops! Something went wrong. Please try again, or email directly.';
+        } finally {
+          btn.disabled = false;
+        }
+      } else if (email) {
+        const body = `${d.message}\n\n${d.name} <${d.email}>`;
+        location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        status.textContent = 'Opening your email app…';
+      }
+    });
+  });
+</script>

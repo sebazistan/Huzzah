@@ -1,0 +1,34 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { getAlbums, ttImg, href } from '../../../../lib/content';
+import { ttNav, ttBrand } from '../../../../lib/toilet-town';
+
+export async function getStaticPaths() {
+  const albums = await getAlbums();
+  return albums.map((album, i) => ({
+    params: { album: album.slug },
+    props: { album, prev: albums[i - 1], next: albums[i + 1] },
+  }));
+}
+const { album, prev, next } = Astro.props;
+---
+
+<Base title={`Toilet Town: ${album.title}`} section="kicks" nav={ttNav} brand={ttBrand}>
+  <article class="wrap project">
+    <a class="back" href={href('/kicks/toilet-town/photos')}>← All albums</a>
+    <h1 style="font-size:clamp(2rem,5vw,3.5rem)">{album.title}</h1>
+    <section class="block">
+      <div class="gallery">
+        {album.photos.map((p) => (
+          <figure class="reveal">
+            <a href={ttImg(p)} target="_blank" rel="noopener"><img src={ttImg(p)} alt="" loading="lazy" decoding="async" /></a>
+          </figure>
+        ))}
+      </div>
+    </section>
+    <nav class="pager">
+      {prev ? <a href={href(`/kicks/toilet-town/photos/${prev.slug}`)}>← {prev.title}</a> : <span></span>}
+      {next ? <a href={href(`/kicks/toilet-town/photos/${next.slug}`)}>{next.title} →</a> : <span></span>}
+    </nav>
+  </article>
+</Base>

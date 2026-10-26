@@ -3,6 +3,12 @@ import config from '../../keystatic.config';
 
 export const reader = createReader(process.cwd(), config);
 
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+/** Prefix site-internal paths with the deploy base path (empty on the real domain). */
+export const href = (p: string) =>
+  /^([a-z]+:|#|\/\/)/i.test(p) ? p : BASE + (p.startsWith('/') ? p : `/${p}`);
+
 export type Section = 'design' | 'vfx' | 'kicks';
 
 export async function getSite() {
@@ -32,12 +38,32 @@ export async function getProjects(section?: Section) {
 export type Project = Awaited<ReturnType<typeof getProjects>>[number];
 
 export const image = (p: { cover?: string | null; coverUrl?: string }) =>
-  p.cover ? `/images/projects/${p.cover}` : p.coverUrl || '';
+  p.cover ? href(`/images/projects/${p.cover}`) : p.coverUrl || '';
 
 export const galleryImages = (p: Project) => [
-  ...p.gallery.map((g) => `/images/gallery/${g}`),
-  ...p.galleryUrls,
+  ...p.gallery.map((g, i) => ({ src: href(`/images/gallery/${g}`), caption: p.galleryCaptions[i] ?? '' })),
+  ...p.galleryUrls.map((src) => ({ src, caption: '' })),
 ];
+
+export async function getContactForms() {
+  return (await reader.singletons.contact.read())?.forms ?? [];
+}
+
+export async function getAwards(section: 'design' | 'vfx') {
+  const items = (await reader.singletons.awards.read())?.items ?? [];
+  return items.filter((a) => a.section === section);
+}
+
+export async function getToiletTown() {
+  return (await reader.singletons.toiletTown.read())!;
+}
+
+export async function getAlbums() {
+  const all = await reader.collections.albums.all();
+  return all.map((a) => ({ slug: a.slug, ...a.entry })).sort((a, b) => a.order - b.order);
+}
+
+export const ttImg = (name: string | null) => (name ? href(`/images/ttown/${name}`) : '');
 
 export function formatDate(d: string | null) {
   if (!d) return '';

@@ -4,13 +4,33 @@
   "type": "Series",
   "date": "2015-11-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a webseries. Title sequence by Huzzah.",
+  "description": "VFX for a webseries. Title sequence by Huzzah.",
   "coverUrl": "",
   "cover": "vfx-v-morgan-is-dead-21044.jpeg",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Zoe Robyn"
+    },
+    {
+      "label": "Client",
+      "value": "Smokebomb"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt5195740/?ref_=nv_sr_srsg_0_tt_2_nm_6_in_0_q_v%2520morgan"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=cGTsaJDZ2tE",
+    "https://www.youtube.com/watch?v=WPCH5joRBbg"
+  ],
+  "gallery": [
+    "vfx-v-morgan-is-dead-21044-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

@@ -1,0 +1,32 @@
+{
+  "title": "Album 10",
+  "order": 10,
+  "cover": "album-10-cover.jpg",
+  "photos": [
+    "album-10-001.jpg",
+    "album-10-002.jpg",
+    "album-10-003.jpg",
+    "album-10-004.jpg",
+    "album-10-005.jpg",
+    "album-10-006.jpg",
+    "album-10-007.jpg",
+    "album-10-008.jpg",
+    "album-10-009.jpg",
+    "album-10-010.jpg",
+    "album-10-011.jpg",
+    "album-10-012.jpg",
+    "album-10-013.jpg",
+    "album-10-014.jpg",
+    "album-10-015.jpg",
+    "album-10-016.jpg",
+    "album-10-017.jpg",
+    "album-10-018.jpg",
+    "album-10-019.jpg",
+    "album-10-020.jpg",
+    "album-10-021.jpg",
+    "album-10-022.jpg",
+    "album-10-023.jpg",
+    "album-10-024.jpg",
+    "album-10-025.jpg"
+  ]
+}

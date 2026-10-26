@@ -4,13 +4,23 @@
   "type": "Music Video",
   "date": "2017-08-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Music video.",
+  "description": "Music video.\n\nFor a time I did a bunch of \"lyric videos\" for Jason Levangie of Shut Up and Colour. These were always fun and a little daunting. 3 or so minutes is a lot of animation and design to knock out in a week or so. The schedule and budget on these was always really tight, but I'm proud of (most) of them.",
   "coverUrl": "",
   "cover": "vfx-meghan-patrick.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=bDNDeafOhCI"
+  ],
+  "gallery": [
+    "vfx-meghan-patrick-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

@@ -4,13 +4,24 @@
   "type": "Music Video",
   "date": "2015-12-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Music video for Chris Hadfield.",
+  "description": "Music video for Chris Hadfield.",
   "coverUrl": "",
   "cover": "vfx-chris-hadfield-ride-that-lightning.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=GLxt_lhtFzM"
+  ],
+  "gallery": [
+    "vfx-chris-hadfield-ride-that-lightning-01.jpg",
+    "vfx-chris-hadfield-ride-that-lightning-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

@@ -4,13 +4,25 @@
   "type": "Series",
   "date": "2024-01-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Establishing shots for Space Janitors 4.",
+  "description": "Establishing shots for Space Janitors 4.",
   "coverUrl": "",
   "cover": "vfx-space-janitors-4.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sam Wong"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=5qY4MlekRcI"
+  ],
+  "gallery": [
+    "vfx-space-janitors-4-01.jpg",
+    "vfx-space-janitors-4-02.jpg",
+    "vfx-space-janitors-4-03.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

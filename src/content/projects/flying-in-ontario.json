@@ -1,0 +1,28 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2025-01-01",
+  "featured": false,
+  "title": "Flying in Ontario",
+  "summary": "Drone video from around Ontario. Message me if you want to use this in your project. I have lots more like this!",
+  "description": "Drone video from around Ontario. Message me if you want to use this in your project. I have lots more like this!",
+  "coverUrl": "",
+  "cover": "kicks-flying-in-ontario.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=5aj_HTccBIs",
+    "https://www.youtube.com/watch?v=zPsDGMToImE",
+    "https://www.youtube.com/watch?v=6Bp8ctxC3sY",
+    "https://www.youtube.com/watch?v=cGwNcOjKRYw",
+    "https://www.youtube.com/watch?v=jVQsyFdBX1E",
+    "https://www.youtube.com/watch?v=0J2zr40Y5kE"
+  ],
+  "gallery": [
+    "kicks-flying-in-ontario-01.jpg",
+    "kicks-flying-in-ontario-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

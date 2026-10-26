@@ -4,13 +4,34 @@
   "type": "Series",
   "date": "2015-01-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Space Janitors was a Canadian web series. The show is a parody of the Star Wars franchise and the plot is focused on two janitors, Darby & Mike, on a space station. It…",
+  "description": "Space Janitors was a Canadian web series. The show is a parody of the Star Wars franchise and the plot is focused on two janitors, Darby & Mike, on a space station. It is available through the series producer Shaftesbury Plus on YouTube.",
   "coverUrl": "",
   "cover": "vfx-space-janitors-3.jpeg",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Space Mop"
+    },
+    {
+      "label": "Awards",
+      "value": "CSA"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt2266399/?ref_=fn_all_ttl_1"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=I6kqlVVIoRE"
+  ],
+  "gallery": [
+    "vfx-space-janitors-3-01.jpg",
+    "vfx-space-janitors-3-02.jpg",
+    "vfx-space-janitors-3-03.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

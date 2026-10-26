@@ -1,0 +1,25 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2017-01-01",
+  "featured": false,
+  "title": "Bar40 Bitters",
+  "summary": "Video I shot and edited for Bar40 Bitters. I actually DID do this for money.",
+  "description": "Video I shot and edited for Bar40 Bitters. I actually DID do this for money.",
+  "coverUrl": "",
+  "cover": "kicks-bar40-bitters.jpg",
+  "credits": [],
+  "links": [
+    {
+      "label": "Check it out",
+      "url": "https://www.instagram.com/bar40bitters/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=jkR1HcbiSD0"
+  ],
+  "gallery": [],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

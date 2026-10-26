@@ -4,13 +4,39 @@
   "type": "Series",
   "date": "2022-04-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "From IMDB: \"Three roomates who can't make rent would rather get high than work menial jobs. So they set out to find sugar daddies to pay their bills.\"",
+  "description": "From IMDB: \"Three roomates who can't make rent would rather get high than work menial jobs. So they set out to find sugar daddies to pay their bills.\"\n\nHuzzah created a colourful intro for the series.",
   "coverUrl": "",
   "cover": "vfx-sugar-highs.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Thom Fitzgerald"
+    },
+    {
+      "label": "Distributor",
+      "value": "OutTV"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt15397704/?ref_=fn_all_ttl_1"
+    },
+    {
+      "label": "Check it out",
+      "url": "https://www.primevideo.com/detail/Sugar-Highs/0U2NXCSGCHXKLU7NTZKLCIH9PT"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=UfxukxudXqw"
+  ],
+  "gallery": [
+    "vfx-sugar-highs-01.jpg",
+    "vfx-sugar-highs-02.jpg",
+    "vfx-sugar-highs-03.jpg",
+    "vfx-sugar-highs-04.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

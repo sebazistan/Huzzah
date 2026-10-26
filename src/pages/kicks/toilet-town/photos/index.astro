@@ -1,0 +1,24 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { getToiletTown, getAlbums, ttImg, href } from '../../../../lib/content';
+import { ttNav, ttBrand } from '../../../../lib/toilet-town';
+const tt = await getToiletTown();
+const albums = await getAlbums();
+---
+
+<Base title="Toilet Town Photos" section="kicks" nav={ttNav} brand={ttBrand}>
+  <section class="wrap hero">
+    <h1>Photos<em>.</em></h1>
+    <p>{tt.photosIntro}</p>
+  </section>
+  <div class="wrap">
+    <div class="grid">
+      {albums.map((a, i) => (
+        <a class="card reveal" href={href(`/kicks/toilet-town/photos/${a.slug}`)} style={`--d:${(i % 3) * 70}ms`}>
+          <div class="card-media">{a.cover && <img src={ttImg(a.cover)} alt="" loading="lazy" decoding="async" />}</div>
+          <div class="card-body"><h3>{a.title}</h3><p>{a.photos.length} photos</p></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

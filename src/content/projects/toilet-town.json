@@ -1,0 +1,27 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2022-12-01",
+  "featured": false,
+  "title": "Toilet Town",
+  "summary": "A photo project documenting the street toilets of Toronto.",
+  "description": "A photo project documenting the street toilets of Toronto.",
+  "coverUrl": "",
+  "cover": "kicks-toilet-town.jpg",
+  "credits": [],
+  "links": [
+    {
+      "label": "Check it out",
+      "url": "https://www.huzzahdesign.com/ttown/ttown"
+    }
+  ],
+  "videos": [],
+  "gallery": [
+    "kicks-toilet-town-01.jpg",
+    "kicks-toilet-town-02.jpg",
+    "kicks-toilet-town-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

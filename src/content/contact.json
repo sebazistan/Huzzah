@@ -1,0 +1,40 @@
+{
+  "forms": [
+    {
+      "slug": "design",
+      "section": "design",
+      "heading": "Say hi.",
+      "intro": "Production design, pre-vis and props. Tell me about your project.",
+      "email": "",
+      "endpoint": "",
+      "subjectPrefix": "Huzzah Design"
+    },
+    {
+      "slug": "vfx",
+      "section": "vfx",
+      "heading": "Say hi.",
+      "intro": "VFX for film, television and the web. Tell me about your project.",
+      "email": "",
+      "endpoint": "",
+      "subjectPrefix": "Huzzah VFX"
+    },
+    {
+      "slug": "kicks",
+      "section": "kicks",
+      "heading": "Say hi.",
+      "intro": "Questions about a For Kicks project? Drop a line.",
+      "email": "",
+      "endpoint": "",
+      "subjectPrefix": "Huzzah For Kicks"
+    },
+    {
+      "slug": "toilet-town",
+      "section": "kicks",
+      "heading": "Get in touch!",
+      "intro": "Send your street toilet photos.",
+      "email": "",
+      "endpoint": "",
+      "subjectPrefix": "Toilet Town"
+    }
+  ]
+}

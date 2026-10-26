@@ -4,13 +4,30 @@
   "type": "Promo",
   "date": "2021-01-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Shot by Dave Lam, a teaser for the upcoming Silver Cord. A psychological thriller about mental illness, heaven and hell.",
+  "description": "Shot by Dave Lam, a teaser for the upcoming Silver Cord. A psychological thriller about mental illness, heaven and hell.",
   "coverUrl": "",
   "cover": "vfx-silver-cord-de434.jpeg",
-  "credits": [],
-  "links": [],
-  "videos": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    },
+    {
+      "label": "Client",
+      "value": "Space Mop"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.youtube.com/watch?v=f4E8dEHok6E&t=2s"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=f4E8dEHok6E"
+  ],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

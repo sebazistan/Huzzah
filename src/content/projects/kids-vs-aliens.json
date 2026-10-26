@@ -4,13 +4,42 @@
   "type": "Feature",
   "date": "2022-08-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "From IMDB: \"A house slumber party turns to terror when bloodthirsty aliens attack, forcing two warring siblings to band together to survive the night.\"",
+  "description": "From IMDB: \"A house slumber party turns to terror when bloodthirsty aliens attack, forcing two warring siblings to band together to survive the night.\"\n\nHuzzah provided a number of shots, mostly having to do with a giant skull-shaped alien spaceship.",
   "coverUrl": "",
   "cover": "vfx-kids-vs-aliens.jpeg",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Jason Eisener"
+    },
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    },
+    {
+      "label": "Distributor",
+      "value": "Shudder"
+    },
+    {
+      "label": "Awards",
+      "value": "ACTRA Award"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt21862626/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=3F_feNb4oYQ"
+  ],
+  "gallery": [
+    "vfx-kids-vs-aliens-01.jpg",
+    "vfx-kids-vs-aliens-02.jpg",
+    "vfx-kids-vs-aliens-03.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

@@ -64,6 +64,37 @@ Leave the "(temporary) URL" fields empty. They were only used for the migration 
 
 Add a project with **Section = For Kicks**. It appears on `/kicks`, which is linked from the Design side. A category isn't required.
 
+## Contact pages and forms
+
+Admin → **Contact pages**. Each entry in the list is one contact page at `/contact/<name>`:
+
+| Entry | Page | Menu it appears in |
+|---|---|---|
+| `design` | `/contact/design` | Design |
+| `vfx` | `/contact/vfx` | VFX |
+| `kicks` | `/contact/kicks` | For Kicks |
+| `toilet-town` | `/contact/toilet-town` | Toilet Town |
+
+To add another contact page (for example "Press" or "Hiring"), click **Add item**, give it a URL name, pick the **Site section** (this sets its look and menu), and fill in the heading and intro. Link to it from anywhere as `/contact/<name>`.
+
+Each page has its own **email** and **form service URL**. If either is empty it falls back to the main email in **Site settings**.
+
+**How a form delivers messages**
+- **With a form service URL**: the message is sent to that service, which emails you. Free services: [Formspree](https://formspree.io), [Web3Forms](https://web3forms.com), [Basin](https://usebasin.com). Create a form there, copy its URL into the page's *Form service URL*, and publish. Use a separate form per page if you want them routed or labelled differently (the subject also carries a prefix like "Huzzah VFX: …").
+- **Without one**: pressing Send opens the visitor's email app with the message filled in, addressed to the page's email. It works, but it is less smooth than a form service.
+
+## Awards
+
+Admin → **Awards**. Each entry says whether it shows on the Design or VFX awards page, plus the result, award name, what it was for, and an optional link.
+
+## Toilet Town
+
+Toilet Town is a mini-site inside For Kicks: `/kicks/toilet-town` (home), `/photos` (12 albums), `/about`, `/shop` and its own contact page.
+
+- Page text and images: admin → **Toilet Town**.
+- Albums: admin → **Toilet Town albums**. Add photos to an album or create a new one. Order controls the sequence.
+- The home page quote area is empty on purpose. The original had a passage from a book; paste in whatever you want shown (and credit it) in **Toilet Town → Intro**.
+
 ## Images and video
 
 - **Images**: upload in the admin. They are saved to `public/images/`.
@@ -110,7 +141,10 @@ git push
 | `/vfx` | VFX archive with type filters |
 | `/vfx/<project>` | VFX project page |
 | `/kicks`, `/kicks/<project>` | For Kicks |
-| `/about`, `/services`, `/contact` | Text pages |
+| `/about`, `/services` | Text pages |
+| `/design/awards`, `/vfx/awards`, `/vfx/about` | Awards and VFX About |
+| `/kicks/toilet-town/…` | Toilet Town mini-site |
+| `/contact/<name>` | Contact pages (design, vfx, kicks, toilet-town) |
 
 ## Changing the look or layout
 
@@ -125,8 +159,14 @@ Ask Claude to make these changes; no need to edit by hand.
 ## Hosting and domain
 
 - Hosting: GitHub Pages. Repo **Settings → Pages → Source: GitHub Actions**.
-- To use `huzzahdesign.com`: add it under **Settings → Pages → Custom domain**, then point DNS at GitHub as instructed there. Do this only when you're ready to leave Webflow.
-- Contact form: paste a form-service URL (for example Formspree) into **Site settings → Contact form endpoint**. Until then the page shows your email address instead.
+- Until the domain moves, the site is built for the preview address `sebazistan.github.io/Huzzah`. This is controlled by two lines in `.github/workflows/deploy.yml` (`SITE_URL` and `BASE_PATH`).
+- **To switch to `huzzahdesign.com`:**
+  1. Delete those two lines (`SITE_URL` and `BASE_PATH`) from `deploy.yml` and push.
+  2. In **Settings → Pages → Custom domain**, enter `www.huzzahdesign.com`, then point your DNS at GitHub as it instructs.
+  3. Tick **Enforce HTTPS** once it becomes available.
+  Do this only when you're ready to leave Webflow.
+- **Old links**: every old Webflow address (`/huzzah/design/…`, `/huzzah/vfx-about`, `/ttown/…` and so on) redirects to its new page, using the list in `astro.config.mjs`. GitHub Pages does this with a quick browser redirect rather than a permanent (301) redirect. Cloudflare Pages could do true 301s if that ever matters for search ranking.
+- **Contact forms**: see "Contact pages and forms" above.
 
 ## Troubleshooting
 
@@ -135,10 +175,15 @@ Ask Claude to make these changes; no need to edit by hand.
 - **Change doesn't appear on the live site**: you must commit **and push**; check the Actions tab for a failed build.
 - **Images missing**: confirm they were committed (`git status` should be clean after `git add -A`).
 
-## Still to do before cancelling Webflow
+## Status: what was migrated from Webflow
 
-- Fill in VFX project pages (text, videos, galleries), VFX About and Awards.
-- Add your email address and Instagram/IMDb links in Site settings.
-- Add redirects from the old `/huzzah/...` URLs so old links and Google results keep working.
-- Add For Kicks projects.
-- Point the domain at the new site.
+Done: all 12 design projects, all 55 VFX projects, all 28 For Kicks projects, Toilet Town (12 albums, About, Shop), About and Awards for both sides, VFX client logos, redirects for old URLs, and every image (stored in this repo, not on Webflow).
+
+Before cancelling Webflow:
+
+1. **Contact forms**: create a form at a form service and paste its URL into **Contact pages** (see above). Send a test message from each page.
+2. **Check the pasted contact email** (taken from your old Contact page) in **Site settings** is the one you want public.
+3. **Skim the imported text.** Captions on images are kept, but formatting inside long project texts (bold, links, bullet lists) is simplified to plain paragraphs.
+4. Switch the domain (see "Hosting and domain").
+
+Images are about 310 MB. GitHub's 1 GB guideline counts the whole git history, which also stores every image once, so expect the repo to reach roughly 500–600 MB after the next push. Keep new uploads resized, and avoid re-uploading or replacing large images repeatedly because every old version stays in history.

@@ -4,13 +4,32 @@
   "type": "Series",
   "date": "2019-02-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Daniel Rosenberg directed raunchy comedy show produced for IPF.",
+  "description": "Daniel Rosenberg directed raunchy comedy show produced for IPF.",
   "coverUrl": "",
   "cover": "vfx-cam-girlfriend.jpeg",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Daniel Rosenberg"
+    },
+    {
+      "label": "Client",
+      "value": "IPF"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt8122780/?ref_=tt_mv_close"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=tgKE4XIuJJM"
+  ],
+  "gallery": [
+    "vfx-cam-girlfriend-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

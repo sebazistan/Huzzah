@@ -4,13 +4,23 @@
   "type": "Music Video",
   "date": "2013-05-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a music video.",
+  "description": "VFX for a music video.\n\nKathleen Edwards is having a bad day. I was VFX supervisor for the shoot and was also the VFX artist. It was a challenging project-- makeup effects didn't work and things went slightly off the rails. As they do.",
   "coverUrl": "",
   "cover": "vfx-kathleen-edwards-chameleon.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Noah Pink"
+    }
+  ],
   "links": [],
-  "videos": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=pZg6WQ_WppA",
+    "https://www.youtube.com/watch?v=t-RWH6kYFKk",
+    "https://www.youtube.com/watch?v=4m7l4aqcI7E"
+  ],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

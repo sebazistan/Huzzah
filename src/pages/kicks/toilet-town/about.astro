@@ -1,0 +1,14 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getToiletTown, paragraphs, ttImg } from '../../../lib/content';
+import { ttNav, ttBrand } from '../../../lib/toilet-town';
+const tt = await getToiletTown();
+---
+
+<Base title="Toilet Talk" section="kicks" nav={ttNav} brand={ttBrand}>
+  <div class="wrap page">
+    <h1>{tt.aboutHeading}<span style="color:var(--accent)">.</span></h1>
+    {tt.aboutImage && <img src={ttImg(tt.aboutImage)} alt="" style="border-radius:14px;margin-bottom:2rem" />}
+    {paragraphs(tt.aboutText).map((t) => <p>{t}</p>)}
+  </div>
+</Base>

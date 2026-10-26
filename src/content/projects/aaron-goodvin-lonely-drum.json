@@ -4,13 +4,28 @@
   "type": "Music Video",
   "date": "2017-12-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Music video for Arron Goodvin. I'm especially proud of the square dancing in this. It's legit, and was so much work to recreate, but totally worth it.",
+  "description": "Music video for Arron Goodvin. I'm especially proud of the square dancing in this. It's legit, and was so much work to recreate, but totally worth it.",
   "coverUrl": "",
   "cover": "vfx-aaron-goodvin-lonely-drum.jpeg",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.youtube.com/watch?v=fERLJoAvd5k"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=fERLJoAvd5k"
+  ],
+  "gallery": [
+    "vfx-aaron-goodvin-lonely-drum-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

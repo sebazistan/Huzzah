@@ -1,0 +1,24 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2016-01-01",
+  "featured": false,
+  "title": "Exo",
+  "summary": "Marie Kozlova stars in a fun sci fi short.",
+  "description": "Marie Kozlova stars in a fun sci fi short.",
+  "coverUrl": "",
+  "cover": "kicks-exo.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=LEg7vd5xmOo"
+  ],
+  "gallery": [
+    "kicks-exo-01.jpg",
+    "kicks-exo-02.jpg",
+    "kicks-exo-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

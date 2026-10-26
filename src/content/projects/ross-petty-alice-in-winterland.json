@@ -4,13 +4,26 @@
   "type": "Feature",
   "date": "2021-12-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a Ross Petty production.",
+  "description": "VFX for a Ross Petty production.",
   "coverUrl": "",
   "cover": "vfx-ross-petty-alice-in-winterland.jpeg",
-  "credits": [],
-  "links": [],
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Ross Petty"
+    }
+  ],
+  "links": [
+    {
+      "label": "Check it out",
+      "url": "https://www.rosspetty.com/"
+    }
+  ],
   "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "gallery": [
+    "vfx-ross-petty-alice-in-winterland-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

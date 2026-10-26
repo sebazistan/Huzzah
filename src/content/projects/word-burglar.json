@@ -4,13 +4,25 @@
   "type": "Music Video",
   "date": "2022-10-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a Wordburglar music video.",
+  "description": "VFX for a Wordburglar music video.",
   "coverUrl": "",
   "cover": "vfx-word-burglar.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Jason Levangie"
+    },
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    }
+  ],
   "links": [],
-  "videos": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=8vG8DDcTa6U"
+  ],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

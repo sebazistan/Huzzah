@@ -4,13 +4,17 @@
   "type": "Promo",
   "date": "2014-05-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for TEDx Halifax",
+  "description": "VFX for TEDx Halifax",
   "coverUrl": "",
   "cover": "vfx-tedx.png",
   "credits": [],
   "links": [],
-  "videos": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=4wFTmYFizKg",
+    "https://www.youtube.com/watch?v=Uz3OITz_yzM"
+  ],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

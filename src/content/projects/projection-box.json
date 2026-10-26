@@ -1,0 +1,22 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2021-07-01",
+  "featured": false,
+  "title": "Projection Box",
+  "summary": "Designed and built a wall mounting projection box.",
+  "description": "Designed and built a wall mounting projection box.",
+  "coverUrl": "",
+  "cover": "kicks-projection-box.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "kicks-projection-box-01.jpg",
+    "kicks-projection-box-02.jpg",
+    "kicks-projection-box-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

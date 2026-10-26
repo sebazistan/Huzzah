@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getSite } from '../lib/content';
+import { getSite, href } from '../lib/content';
 const site = await getSite();
 ---
 
@@ -8,7 +8,11 @@ const site = await getSite();
   <div class="wrap page">
     <h1>About<span style="color:var(--accent)">.</span></h1>
     <p>{site.bio}</p>
-    <p><a href="/services" style="color:var(--accent)">Services →</a></p>
+    <p>
+      <a href={href('/services')} style="color:var(--accent)">Services →</a>
+      &nbsp;&nbsp;
+      <a href={href('/design/awards')} style="color:var(--accent)">Awards →</a>
+    </p>
     <h2 style="margin-top:3rem;font-size:1.5rem">Clients</h2>
     <ul class="clients">
       {site.clients.map((c) => <li>{c}</li>)}

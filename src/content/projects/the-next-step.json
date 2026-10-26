@@ -4,13 +4,40 @@
   "type": "Series",
   "date": "2022-08-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "From IMDB: \"As the A-Troupe dancers prepare for the regional dance competition, relationships and loyalties are put to the test at the Next Step studio.\"",
+  "description": "From IMDB: \"As the A-Troupe dancers prepare for the regional dance competition, relationships and loyalties are put to the test at the Next Step studio.\"\n\nHuzzah provided a number of shots including motion graphics and a variety of fixes, including some complicated paint-outs.",
   "coverUrl": "",
   "cover": "vfx-the-next-step.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Mitchell Ness"
+    },
+    {
+      "label": "Client",
+      "value": "Boat Rocker Media"
+    },
+    {
+      "label": "Distributor",
+      "value": "CBC"
+    },
+    {
+      "label": "Awards",
+      "value": "CSA, Bafta"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt2374744/?ref_=ttfc_fc_tt"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=OBiGzKNttLM"
+  ],
+  "gallery": [
+    "vfx-the-next-step-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

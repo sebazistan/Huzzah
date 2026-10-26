@@ -1,0 +1,23 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2024-10-01",
+  "featured": false,
+  "title": "Bench box",
+  "summary": "We built a bench box with storage.",
+  "description": "We built a bench box with storage.",
+  "coverUrl": "",
+  "cover": "kicks-bench-box.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "kicks-bench-box-01.jpg",
+    "kicks-bench-box-02.jpg",
+    "kicks-bench-box-03.jpg",
+    "kicks-bench-box-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

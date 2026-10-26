@@ -4,13 +4,42 @@
   "type": "Series",
   "date": "2024-07-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "From IMDB: \"Emmy's mother died and she hates what she's wearing. Emmy knows she could live her best life, if her dead mother would JUST. STOP. TALKING. She's dead, but…",
+  "description": "From IMDB: \"Emmy's mother died and she hates what she's wearing. Emmy knows she could live her best life, if her dead mother would JUST. STOP. TALKING. She's dead, but she's still disappointed.\"\n\nHuzzah provided a number of shots, mostly to fix continuity errors and other gaffes as well as digital enhancement to a scene involving a house fire.",
   "coverUrl": "",
   "cover": "vfx-my-dead-mom.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Wendy Litner"
+    },
+    {
+      "label": "Client",
+      "value": "LoCo Motion Pictures"
+    },
+    {
+      "label": "Distributor",
+      "value": "Crave"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt29912660/?ref_=ttfc_fc_tt"
+    },
+    {
+      "label": "Check it out",
+      "url": "https://tv.apple.com/ca/show/my-dead-mom/umc.cmc.192d07fudn2b5hyj8jt5msyj6"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=b7P3_kjNows"
+  ],
+  "gallery": [
+    "vfx-my-dead-mom-01.jpg",
+    "vfx-my-dead-mom-02.jpg",
+    "vfx-my-dead-mom-03.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

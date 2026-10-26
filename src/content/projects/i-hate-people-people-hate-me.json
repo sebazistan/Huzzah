@@ -4,13 +4,37 @@
   "type": "Series",
   "date": "2023-02-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "From IMDB: \"Perpetually disturbed by the world around them, two friends navigate their lives as outliers in Toronto's queer community.\"",
+  "description": "From IMDB: \"Perpetually disturbed by the world around them, two friends navigate their lives as outliers in Toronto's queer community.\"\n\nOn set supervision and VFX for a TV show. Huzzah provided a number of shots including screen replacements and other fixes.",
   "coverUrl": "",
   "cover": "vfx-i-hate-people-people-hate-me.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Blake Mawson"
+    },
+    {
+      "label": "Client",
+      "value": "Loco Motion Films"
+    },
+    {
+      "label": "Awards",
+      "value": "CSA"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt19860750/?ref_=ext_shr_lnk"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=lHX8HmstAJw"
+  ],
+  "gallery": [
+    "vfx-i-hate-people-people-hate-me-01.jpg",
+    "vfx-i-hate-people-people-hate-me-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

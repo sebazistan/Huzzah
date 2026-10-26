@@ -4,13 +4,38 @@
   "type": "Feature",
   "date": "2024-08-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX supervision and post work for 'Longing', starring Richard Gere and Diane Kruger. From IMDB: \"A business mogul runs into his old small town girlfriend while she is…",
+  "description": "VFX supervision and post work for 'Longing', starring Richard Gere and Diane Kruger. From IMDB: \"A business mogul runs into his old small town girlfriend while she is visiting the big city only to find out that they had a child together that he was unaware of. Based on an award-winning foreign language film.\"\n\nHuzzah provided a number of VFX shots for 'Longing', most notably for a pivotal dream sequence which made use of a high-res 3D scan of a school. The 3D scan was created mostly using drone photography, also by Huzzah. Compositing, which was done partially in Canada by Huzzah and partially overseas, was tricky as the rectilinear snorkel lens used was quite soft, and introduced some odd distortion to the image.",
   "coverUrl": "",
   "cover": "vfx-longing.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Savi Gabizon"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt8442220/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=cx0wrMWZd4g",
+    "https://www.youtube.com/watch?v=f7gOEPV3jHg",
+    "https://www.youtube.com/watch?v=IytAcfaM5lk"
+  ],
+  "gallery": [
+    "vfx-longing-01.jpg",
+    "vfx-longing-02.jpg",
+    "vfx-longing-03.jpg",
+    "vfx-longing-04.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": [
+    "Temp comp work",
+    "Looking through the monitor",
+    "The final model was 150 million polygons give or take a few.",
+    "This shot made the poster."
+  ]
 }

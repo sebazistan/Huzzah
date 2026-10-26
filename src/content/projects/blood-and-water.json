@@ -4,13 +4,28 @@
   "type": "Series",
   "date": "2021-05-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Blood and Water is a gritty character driven crime-drama. The series follows Jo Bradley, the lead detective of the Vancouver homicide division, as she unravels a murder…",
+  "description": "Blood and Water is a gritty character driven crime-drama. The series follows Jo Bradley, the lead detective of the Vancouver homicide division, as she unravels a murder mystery steeped in scandal. Starring Simu Liu.\n\nHuzzah worked on a number of shots for the series which included paint outs, fixing mistakes, screen replacement and so on.",
   "coverUrl": "",
   "cover": "vfx-blood-and-water.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Breakthrough Entertainment"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt4474750/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=eOjk__qubrM"
+  ],
+  "gallery": [
+    "vfx-blood-and-water-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

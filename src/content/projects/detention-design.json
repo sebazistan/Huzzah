@@ -24,11 +24,18 @@
   ],
   "links": [
     {
-      "label": "Detention Adventure 3",
-      "url": "/design/detention-adventure-2"
+      "label": "IMDb",
+      "url": "https://www.huzzahdesign.com/project-page/detention-adventure-2"
+    },
+    {
+      "label": "Check it out",
+      "url": "https://www.huzzahdesign.com/huzzah/design/detention-adventure-2"
     }
   ],
-  "videos": [],
+  "videos": [
+    "https://www.youtube.com/shorts/vL2Dq6zh9DQ",
+    "https://www.youtube.com/shorts/o-NdemqWV0c"
+  ],
   "gallery": [
     "detention-design-01.jpg",
     "detention-design-02.jpg",
@@ -48,5 +55,6 @@
     "detention-design-16.jpg"
   ],
   "galleryUrls": [],
-  "title": "Train Car"
+  "title": "Train Car",
+  "galleryCaptions": []
 }

@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "section": "vfx",
+      "result": "Winner",
+      "award": "Canadian Screen Award (CSA)",
+      "detail": "Best Visual Effects for Detention Adventure",
+      "url": "https://www.imdb.com/title/tt7267968/"
+    },
+    {
+      "section": "vfx",
+      "result": "Winner",
+      "award": "TO Webfest Award",
+      "detail": "Best Visual Effects for Detention Adventure",
+      "url": "https://www.imdb.com/title/tt7267968/"
+    },
+    {
+      "section": "vfx",
+      "result": "Winner",
+      "award": "TO Webfest Award",
+      "detail": "Best Visual Effects for Deep Six",
+      "url": "https://www.imdb.com/title/tt6416100/"
+    },
+    {
+      "section": "vfx",
+      "result": "Nominated",
+      "award": "IAWTV Award",
+      "detail": "Best Visual Effects for Space Janitors",
+      "url": "https://www.imdb.com/title/tt2266399/"
+    },
+    {
+      "section": "design",
+      "result": "Winner",
+      "award": "TO Webfest Award 2024",
+      "detail": "Best Production Design for Space Janitors",
+      "url": "/design/space-janitors-s4"
+    },
+    {
+      "section": "design",
+      "result": "Nominated",
+      "award": "Indie Series Awards",
+      "detail": "Best Production Design for Detention Adventure",
+      "url": "/design/detention-adventure-2"
+    },
+    {
+      "section": "design",
+      "result": "Winner",
+      "award": "IOWF Award",
+      "detail": "Best Production Design for Deep Six",
+      "url": "/design/deep-six"
+    },
+    {
+      "section": "design",
+      "result": "Nominated",
+      "award": "IAWTV Award",
+      "detail": "Best Design for Space Janitors",
+      "url": "/design/space-janitors-s4"
+    }
+  ]
+}

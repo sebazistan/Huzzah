@@ -4,13 +4,24 @@
   "type": "Music Video",
   "date": "2016-07-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a music video.",
+  "description": "VFX for a music video.",
   "coverUrl": "",
   "cover": "vfx-proof.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Jason Levangie"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=-_HFgCTEbfE",
+    "https://www.youtube.com/watch?v=UaiDVJMleUY"
+  ],
+  "gallery": [
+    "vfx-proof-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

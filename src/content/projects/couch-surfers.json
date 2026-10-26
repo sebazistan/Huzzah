@@ -4,13 +4,21 @@
   "type": "Series",
   "date": "2015-01-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Titles for a TV pitch",
+  "description": "Titles for a TV pitch",
   "coverUrl": "",
   "cover": "vfx-couch-surfers.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Jesson Moen/ Joe McLaren"
+    }
+  ],
   "links": [],
-  "videos": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=u61crr7JPJU"
+  ],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

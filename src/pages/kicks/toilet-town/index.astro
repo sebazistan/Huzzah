@@ -1,0 +1,21 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getToiletTown, ttImg, href } from '../../../lib/content';
+import { ttNav, ttBrand } from '../../../lib/toilet-town';
+const tt = await getToiletTown();
+---
+
+<Base title="Toilet Town" section="kicks" nav={ttNav} brand={ttBrand} description={tt.subheading} image={ttImg(tt.heroImage)}>
+  {tt.heroImage && (
+    <div class="hero-img"><img src={ttImg(tt.heroImage)} alt="" fetchpriority="high" /><div class="hero-fade"></div></div>
+  )}
+  <section class="wrap hero" style="padding-top:2rem">
+    <h1>{tt.heading}<em>.</em></h1>
+    <p>{tt.subheading}</p>
+    {tt.intro && <p style="max-width:60ch;font-style:italic">{tt.intro}</p>}
+    <div class="btn-row">
+      <a class="btn" href={href('/kicks/toilet-town/photos')}>Photos</a>
+      <a class="btn" href={href('/kicks/toilet-town/about')} style="background:transparent;color:var(--text);border:1px solid var(--line)">Read more</a>
+    </div>
+  </section>
+</Base>

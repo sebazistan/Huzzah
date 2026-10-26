@@ -4,13 +4,26 @@
   "type": "Feature",
   "date": "2014-05-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a documentary.",
+  "description": "VFX for a documentary.",
   "coverUrl": "",
   "cover": "vfx-preempting-dissent.png",
-  "credits": [],
-  "links": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Greg Elmer"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt4200884/"
+    }
+  ],
   "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "gallery": [
+    "vfx-preempting-dissent-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

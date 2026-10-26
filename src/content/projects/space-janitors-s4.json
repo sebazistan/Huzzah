@@ -4,8 +4,8 @@
   "type": "Series",
   "date": "2023-11-01",
   "featured": true,
-  "summary": "Season 4 of the sci-fi comedy: creatures, large sets and complicated props.",
-  "description": "Season 3 of Space Janitors was one of my first Production Design jobs in Toronto. Season 4, made about ten years later, was far more ambitious, with creatures, large sets, and complicated props.\n\nThere were setbacks, including a COVID-19 infection on the crew, but the project was a success. It was made with a small art team: Ben Harris, Jasmine Anguah and Maria Carbajal, with help from Marie Kozlova.",
+  "summary": "Season 4 of the sci fi comedy.",
+  "description": "Season 4 of the sci fi comedy.\n\nSpace Janitors season 3 was one of my first Production Design jobs in Toronto. Season 3 was tough, but season 4, coming a full 10 years later, was even more ambitious, with a number of creatures, large sets and complicated props. Still, despite some hiccups (contracting covid, for example) it was a big success. We put the money on the screen. A very small but motivated art team consisting of Ben Harris, Jasmine Anguah, and Maria Carbajal (with help from my long-time partner Marie Kozlova) made the magic happen. Seeing Ben wriggle out of the snake costume, dripping sweat, is something I'll never forget.",
   "coverUrl": "",
   "cover": "space-janitors-s4.jpg",
   "credits": [
@@ -29,10 +29,14 @@
   "links": [
     {
       "label": "IMDb",
-      "url": "https://www.imdb.com/title/tt2266399"
+      "url": "https://www.imdb.com/title/tt2266399/?ref_=ext_shr_lnk"
     }
   ],
-  "videos": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=TQ5sNo-4KnM",
+    "https://www.youtube.com/watch?v=2MTBv-R9sUY",
+    "https://www.youtube.com/watch?v=PPgujDDsARE"
+  ],
   "gallery": [
     "space-janitors-s4-01.jpg",
     "space-janitors-s4-02.jpg",
@@ -56,5 +60,6 @@
     "space-janitors-s4-20.jpg"
   ],
   "galleryUrls": [],
-  "title": "Space Janitors 4"
+  "title": "Space Janitors 4",
+  "galleryCaptions": []
 }

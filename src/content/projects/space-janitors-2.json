@@ -4,13 +4,33 @@
   "type": "Series",
   "date": "2013-06-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for Space Janitors S2.",
+  "description": "VFX for Space Janitors S2.\n\nI approached Davin Lengyl a few months before season 2 went to camera to say that I liked certain things about the show but that the VFX in season 1 were \"stinky\". It wasn't a very charming way to introduce myself but Davin was open minded enough to reply that if I thought I could do better I should take a shot at a few scenes in season 2. It was the beginning of a long friendship and led to a bunch of other projects that certainly took my career in a different and interesting direction.\n\nFor the record the effects in season 2 were a least slightly less stinky.",
   "coverUrl": "",
   "cover": "vfx-space-janitors-2.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    },
+    {
+      "label": "Client",
+      "value": "Space Mop"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt2266399/?ref_=fn_all_ttl_1"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=yUcLJuFHQ8g",
+    "https://www.youtube.com/watch?v=lPfKkEr4LrY"
+  ],
+  "gallery": [
+    "vfx-space-janitors-2-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

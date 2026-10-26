@@ -4,13 +4,24 @@
   "type": "Music Video",
   "date": "2015-05-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Music video for Chris Hadfield.",
+  "description": "Music video for Chris Hadfield.",
   "coverUrl": "",
   "cover": "vfx-chris-hadfield-feet-up.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Shut up and Colour"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=EL_Ks90e964"
+  ],
+  "gallery": [
+    "vfx-chris-hadfield-feet-up-01.jpg",
+    "vfx-chris-hadfield-feet-up-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

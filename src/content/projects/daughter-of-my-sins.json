@@ -4,13 +4,24 @@
   "type": "Music Video",
   "date": "2015-08-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Music video for Chris Hadfield",
+  "description": "Music video for Chris Hadfield",
   "coverUrl": "",
   "cover": "vfx-daughter-of-my-sins.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Shut Up and Colour"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=lCiXYhWSBrY"
+  ],
+  "gallery": [
+    "vfx-daughter-of-my-sins-01.jpg",
+    "vfx-daughter-of-my-sins-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

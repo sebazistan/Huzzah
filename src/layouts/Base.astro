@@ -1,14 +1,17 @@
 ---
 import '../styles/global.css';
-import { getSite } from '../lib/content';
+import { getSite, href } from '../lib/content';
 
 interface Props {
   title?: string;
   description?: string;
   section?: 'home' | 'design' | 'vfx' | 'kicks';
   image?: string;
+  /** Override the section's menu (used by mini-sites like Toilet Town). */
+  nav?: { href: string; label: string }[];
+  brand?: { label: string; sub: string; href: string };
 }
-const { title, description = 'Huzzah: production design, pre-vis, props and VFX.', section = 'design', image } = Astro.props;
+const { title, description = 'Huzzah: production design, pre-vis, props and VFX.', section = 'design', image, nav: navOverride, brand } = Astro.props;
 const site = await getSite();
 const fullTitle = title ? `${title} | Huzzah` : 'Huzzah';
 
@@ -21,19 +24,28 @@ const navs = {
     { href: '/design/category/props', label: 'Props' },
     { href: '/services', label: 'Services' },
     { href: '/about', label: 'About' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/contact/design', label: 'Contact' },
   ],
   vfx: [
     { href: '/vfx', label: 'Work' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/vfx/about', label: 'About' },
+    { href: '/vfx/awards', label: 'Awards' },
+    { href: '/contact/vfx', label: 'Contact' },
   ],
   kicks: [
     { href: '/kicks', label: 'For Kicks' },
+    { href: '/contact/kicks', label: 'Contact' },
     { href: '/design', label: '← Design' },
   ],
 };
-const nav = navs[section];
-const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const nav = navOverride ?? navs[section];
+const norm = (p: string) => p.replace(/\/$/, '') || '/';
+const path = norm(Astro.url.pathname);
+const logo = brand ?? {
+  label: 'HUZZAH',
+  sub: section === 'vfx' ? 'VFX' : section === 'kicks' ? 'FOR KICKS' : 'DESIGN',
+  href: section === 'vfx' ? '/vfx' : '/design',
+};
 ---
 
 <!doctype html>
@@ -46,7 +58,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     {image && <meta property="og:image" content={image} />}
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={href('/favicon.svg')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,12 +69,12 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
   <body>
     {section !== 'home' && (
       <header class="header">
-        <a class="logo" href={section === 'vfx' ? '/vfx' : '/design'} aria-label="Huzzah home">
-          HUZZAH<span class="logo-sub">{section === 'vfx' ? 'VFX' : section === 'kicks' ? 'FOR KICKS' : 'DESIGN'}</span>
+        <a class="logo" href={href(logo.href)} aria-label={`${logo.label} home`}>
+          {logo.label}<span class="logo-sub">{logo.sub}</span>
         </a>
         <nav class="nav" aria-label="Main">
           {nav.map((n) => (
-            <a href={n.href} aria-current={path === n.href ? 'page' : undefined}>{n.label}</a>
+            <a href={href(n.href)} aria-current={path === norm(href(n.href)) ? 'page' : undefined}>{n.label}</a>
           ))}
         </nav>
       </header>

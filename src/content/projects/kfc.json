@@ -22,7 +22,7 @@
   "videos": [],
   "gallery": [
     "kfc-01.jpg",
-    "kfc-02.png",
+    "kfc-02.jpg",
     "kfc-03.jpg",
     "kfc-04.jpg",
     "kfc-05.jpg",
@@ -32,5 +32,6 @@
     "kfc-09.jpg"
   ],
   "galleryUrls": [],
-  "title": "KFC Statue"
+  "title": "KFC Statue",
+  "galleryCaptions": []
 }

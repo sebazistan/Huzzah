@@ -4,13 +4,29 @@
   "type": "Promo",
   "date": "2021-04-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for an advertisement for a Murdoch Mysteries themed AR game.",
+  "description": "VFX for an advertisement for a Murdoch Mysteries themed AR game.",
   "coverUrl": "",
   "cover": "vfx-murdoch-mysteries-crime-nights.jpg",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Shaftesbury Films"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.cbc.ca/murdochmysteries/m_site/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=_ogKiWI0fxk"
+  ],
+  "gallery": [
+    "vfx-murdoch-mysteries-crime-nights-01.jpg",
+    "vfx-murdoch-mysteries-crime-nights-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

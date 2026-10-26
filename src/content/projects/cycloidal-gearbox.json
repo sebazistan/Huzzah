@@ -1,0 +1,20 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2025-01-01",
+  "featured": false,
+  "title": "Cycloidal Gearbox",
+  "summary": "Working on a gearbox or a stepper motor.",
+  "description": "Working on a gearbox or a stepper motor.",
+  "coverUrl": "",
+  "cover": "kicks-cycloidal-gearbox.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=fzVbToTo6zM"
+  ],
+  "gallery": [],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

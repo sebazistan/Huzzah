@@ -4,13 +4,32 @@
   "type": "Short",
   "date": "2022-09-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a short film.",
+  "description": "VFX for a short film.",
   "coverUrl": "",
   "cover": "vfx-hot-singles.jpeg",
-  "credits": [],
-  "links": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Peter Sreckovic"
+    },
+    {
+      "label": "Client",
+      "value": "Landed Entertainment"
+    },
+    {
+      "label": "Awards",
+      "value": "HorrorOrigins Best Sci-Fi Short Film"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt21957464/awards/?ref_=tt_awd"
+    }
+  ],
   "videos": [],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

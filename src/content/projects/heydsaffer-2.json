@@ -15,12 +15,16 @@
     }
   ],
   "links": [],
-  "videos": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=wdG9zSnoUy0",
+    "https://www.youtube.com/watch?v=SJ-Df0J0ZQY"
+  ],
   "gallery": [
     "heydsaffer-2-01.jpg",
     "heydsaffer-2-02.jpg",
     "heydsaffer-2-03.jpg"
   ],
   "galleryUrls": [],
-  "title": "Heydsaffer 2"
+  "title": "Heydsaffer 2",
+  "galleryCaptions": []
 }

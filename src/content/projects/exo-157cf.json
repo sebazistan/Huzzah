@@ -4,13 +4,25 @@
   "type": "Short",
   "date": "2016-01-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Marie Kozlova stars in a fun sci fi short.",
+  "description": "Marie Kozlova stars in a fun sci fi short.",
   "coverUrl": "",
   "cover": "vfx-exo-157cf.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sebastian Harder"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=LEg7vd5xmOo"
+  ],
+  "gallery": [
+    "vfx-exo-157cf-01.jpg",
+    "vfx-exo-157cf-02.jpg",
+    "vfx-exo-157cf-03.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

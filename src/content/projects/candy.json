@@ -4,13 +4,28 @@
   "type": "Short",
   "date": "2022-12-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a short film starring the iconic Candy Maldonado.",
+  "description": "VFX for a short film starring the iconic Candy Maldonado.",
   "coverUrl": "",
   "cover": "vfx-candy.png",
-  "credits": [],
-  "links": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Luke Black"
+    },
+    {
+      "label": "Client",
+      "value": "Landed Entertainment"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://pro.imdb.com/title/tt24248250?s=0ac397a0-ae58-da2e-7465-b50f5cb0d757&site_preference=normal"
+    }
+  ],
   "videos": [],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

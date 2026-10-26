@@ -4,13 +4,31 @@
   "type": "Short",
   "date": "2021-08-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a short. This eventually became a feature film.",
+  "description": "VFX for a short. This eventually became a feature film.",
   "coverUrl": "",
   "cover": "vfx-scared-shitless.png",
-  "credits": [],
-  "links": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Mike Fly Fleischhaker"
+    },
+    {
+      "label": "Client",
+      "value": "Happy Cat Productions"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt13318732/?ref_=tt_mv_close"
+    }
+  ],
   "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "gallery": [
+    "vfx-scared-shitless-01.jpg",
+    "vfx-scared-shitless-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

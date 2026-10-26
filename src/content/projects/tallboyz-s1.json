@@ -4,13 +4,47 @@
   "type": "Series",
   "date": "2022-10-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Tallboyz is a Canadian sketch comedy troupe.",
+  "description": "Tallboyz is a Canadian sketch comedy troupe.\n\nI was involved in Tallboyz for all 3 seasons. In Season 1 my work was restricted to a single sketch- I was hired to paint out \"FBI\", which appeared on hats and T-shirts in a bunch of shots. Apparently \"FBI\" is trademarked, something that the production found out after shooting the sketch.\n\nIn Season 2 I came back, but this time I had a lot to do. With VFX now on their radar the Tallboyz expanded their scope. This time around I was on set as the VFX supervisor. It was the height of Covid, so the shoot was challenging. In the end though Tallboyz S2 was bigger and better, and thanks in part to the work of Huzzah and the magic of VFX, the scope was much broader. TV deadlines are tight- is wasn't uncommon to receive an entire episode's worth of material to work on less than 2 weeks out from final delivery. Those were long days and weeks but the result was rewarding. At the CSAs the show took 4 awards including \"best sketch comedy program or series\".\n\nSeason 3 was bigger than ever. I was on set for the bulk of the shoot and overseeing VFX that was bigger and wilder than before, including a sequence involving a huge practical 12' tall wheel that was digitally cloned. Working with Bruce McColloch again was a pleasure.",
   "coverUrl": "",
   "cover": "vfx-tallboyz-s1.jpeg",
-  "credits": [],
-  "links": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Bruce McCulloch"
+    },
+    {
+      "label": "Client",
+      "value": "Accent Entertainment"
+    },
+    {
+      "label": "Distributor",
+      "value": "CBC"
+    },
+    {
+      "label": "Awards",
+      "value": "4 CSAs"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt10974808/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_tallboyz"
+    },
+    {
+      "label": "Check it out",
+      "url": "https://gem.cbc.ca/tallboyz"
+    }
+  ],
   "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "gallery": [
+    "vfx-tallboyz-s1-01.jpg",
+    "vfx-tallboyz-s1-02.jpg",
+    "vfx-tallboyz-s1-03.jpg",
+    "vfx-tallboyz-s1-04.jpg",
+    "vfx-tallboyz-s1-05.jpg",
+    "vfx-tallboyz-s1-06.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

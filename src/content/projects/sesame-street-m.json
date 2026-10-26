@@ -4,13 +4,24 @@
   "type": "Series",
   "date": "2015-06-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for Sesame Street.",
+  "description": "VFX for Sesame Street.",
   "coverUrl": "",
   "cover": "vfx-sesame-street-m.png",
-  "credits": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Noah Pink"
+    }
+  ],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=dHM7KBNKap0"
+  ],
+  "gallery": [
+    "vfx-sesame-street-m-01.jpg",
+    "vfx-sesame-street-m-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

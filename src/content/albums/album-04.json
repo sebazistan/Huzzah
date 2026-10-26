@@ -1,0 +1,32 @@
+{
+  "title": "Album 04",
+  "order": 4,
+  "cover": "album-04-cover.jpg",
+  "photos": [
+    "album-04-001.jpg",
+    "album-04-002.jpg",
+    "album-04-003.jpg",
+    "album-04-004.jpg",
+    "album-04-005.jpg",
+    "album-04-006.jpg",
+    "album-04-007.jpg",
+    "album-04-008.jpg",
+    "album-04-009.jpg",
+    "album-04-010.jpg",
+    "album-04-011.jpg",
+    "album-04-012.jpg",
+    "album-04-013.jpg",
+    "album-04-014.jpg",
+    "album-04-015.jpg",
+    "album-04-016.jpg",
+    "album-04-017.jpg",
+    "album-04-018.jpg",
+    "album-04-019.jpg",
+    "album-04-020.jpg",
+    "album-04-021.jpg",
+    "album-04-022.jpg",
+    "album-04-023.jpg",
+    "album-04-024.jpg",
+    "album-04-025.jpg"
+  ]
+}

@@ -4,13 +4,18 @@
   "type": "Short",
   "date": "2016-06-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "VFX for a short film.",
+  "description": "VFX for a short film.",
   "coverUrl": "",
   "cover": "vfx-second-guard.png",
   "credits": [],
   "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "videos": [
+    "https://www.youtube.com/watch?v=0sFvKa54QaY"
+  ],
+  "gallery": [
+    "vfx-second-guard-01.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

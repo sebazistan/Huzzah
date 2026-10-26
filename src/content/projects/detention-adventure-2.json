@@ -4,8 +4,8 @@
   "type": "Series",
   "date": "2021-07-01",
   "featured": true,
-  "summary": "Three nerdy friends and the school bully must get themselves thrown into detention.",
-  "description": "Three nerdy friends and the school bully must get themselves thrown into detention. They then need to find the entrance to a trapped labyrinth of tunnels guarding Alexander Graham Bell's hidden lab.",
+  "summary": "Three nerdy friends and the school bully must get themselves thrown into detention to find the entrance to a labyrinth of trap-laden tunnels protecting the fabled hidden…",
+  "description": "Three nerdy friends and the school bully must get themselves thrown into detention to find the entrance to a labyrinth of trap-laden tunnels protecting the fabled hidden lab of Alexander Graham Bell.\n\nWhen I signed up to design this show Joe Kicak promised me two things. He said \"it's going to be hell and you will win awards.\" And he was right on both counts.",
   "coverUrl": "",
   "cover": "detention-adventure-2.png",
   "credits": [
@@ -32,20 +32,20 @@
       "url": "https://www.imdb.com/title/tt7267968/"
     },
     {
-      "label": "Watch on Gem",
+      "label": "Check it out",
       "url": "https://gem.cbc.ca/media/detention-adventure/s03"
-    },
-    {
-      "label": "Train Car",
-      "url": "/design/detention-design"
     }
   ],
-  "videos": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=pmJy8EAQaI0",
+    "https://www.youtube.com/watch?v=RVV6PhOixVg"
+  ],
   "gallery": [
     "detention-adventure-2-01.jpg",
     "detention-adventure-2-02.jpg",
     "detention-adventure-2-03.jpg"
   ],
   "galleryUrls": [],
-  "title": "Detention Adventure 3"
+  "title": "Detention Adventure 3",
+  "galleryCaptions": []
 }

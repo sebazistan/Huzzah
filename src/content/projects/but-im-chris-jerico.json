@@ -4,13 +4,36 @@
   "type": "Series",
   "date": "2017-10-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "'But I'm Chris Jerico' is an award winning Canadian comedy show.",
+  "description": "'But I'm Chris Jerico' is an award winning Canadian comedy show.\n\n'But I'm Chris Jerico' is an award winning Canadian comedy show.",
   "coverUrl": "",
   "cover": "vfx-but-im-chris-jerico.jpeg",
-  "credits": [],
-  "links": [],
-  "videos": [],
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Mike Fly Fleischhaker"
+    },
+    {
+      "label": "Client",
+      "value": "Insight Production Co."
+    },
+    {
+      "label": "Awards",
+      "value": "Canadian Comedy Awards Winner"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt3300126/?ref_=fn_all_ttl_1"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=DxcB4ZDr2E8",
+    "https://www.youtube.com/watch?v=TwiyGQIDb9w",
+    "https://www.youtube.com/watch?v=Q1Cr4nVSG4M"
+  ],
   "gallery": [],
-  "galleryUrls": []
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

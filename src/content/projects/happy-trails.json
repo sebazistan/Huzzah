@@ -1,0 +1,27 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2023-01-01",
+  "featured": false,
+  "title": "Happy Trails",
+  "summary": "Interactive map of the bike trails in Toronto. Check it out!",
+  "description": "Interactive map of the bike trails in Toronto. Check it out!",
+  "coverUrl": "",
+  "cover": "kicks-happy-trails.jpg",
+  "credits": [],
+  "links": [
+    {
+      "label": "Check it out",
+      "url": "https://www.huzzahdesign.com/happy-trails/happy-trails"
+    }
+  ],
+  "videos": [],
+  "gallery": [
+    "kicks-happy-trails-01.jpg",
+    "kicks-happy-trails-02.jpg",
+    "kicks-happy-trails-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

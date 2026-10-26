@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getSite, href } from '../../lib/content';
+const site = await getSite();
+---
+
+<Base title="About VFX" section="vfx">
+  <div class="wrap page">
+    <h1>About<span style="color:var(--accent)">.</span></h1>
+    <p>{site.vfxBio}</p>
+    <p><a href={href('/vfx/awards')} style="color:var(--accent)">Awards →</a></p>
+    <h2 style="margin-top:3rem;font-size:1.5rem">Clients</h2>
+    <p style="font-size:.9rem;color:var(--muted)">Not an exhaustive list. Here's a few:</p>
+    <div class="logos">
+      {site.vfxClientLogos.map((l, i) => <div class="logo-tile reveal" style={`--d:${(i % 4) * 60}ms`}><img src={href(`/images/clients/${l}`)} alt={`Client logo ${i + 1}`} loading="lazy" /></div>)}
+    </div>
+  </div>
+</Base>

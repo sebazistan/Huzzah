@@ -4,13 +4,29 @@
   "type": "Commercial",
   "date": "2024-04-01",
   "featured": false,
-  "summary": "",
-  "description": "",
+  "summary": "Animation for a PSA from Melanoma Canada.",
+  "description": "Animation for a PSA from Melanoma Canada.",
   "coverUrl": "",
   "cover": "vfx-burnwatch.png",
-  "credits": [],
-  "links": [],
-  "videos": [],
-  "gallery": [],
-  "galleryUrls": []
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Melanoma Canada"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://burnwatch.ca/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=d4UW3fXX6Ms"
+  ],
+  "gallery": [
+    "vfx-burnwatch-01.jpg",
+    "vfx-burnwatch-02.jpg"
+  ],
+  "galleryUrls": [],
+  "galleryCaptions": []
 }

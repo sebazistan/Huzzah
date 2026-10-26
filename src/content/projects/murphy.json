@@ -1,0 +1,30 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2023-06-01",
+  "featured": false,
+  "title": "Murphy",
+  "summary": "Designed and built a murphy bed. Solid oak slats!",
+  "description": "Designed and built a murphy bed. Solid oak slats!",
+  "coverUrl": "",
+  "cover": "kicks-murphy.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "kicks-murphy-01.jpg",
+    "kicks-murphy-02.jpg",
+    "kicks-murphy-03.jpg",
+    "kicks-murphy-04.jpg",
+    "kicks-murphy-05.jpg",
+    "kicks-murphy-06.jpg",
+    "kicks-murphy-07.jpg",
+    "kicks-murphy-08.jpg",
+    "kicks-murphy-09.jpg",
+    "kicks-murphy-10.jpg",
+    "kicks-murphy-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

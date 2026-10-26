@@ -2,10 +2,10 @@
   "heroHeading": "Welcome.",
   "tagline": "Production design, pre-vis and props for film, television and commercials.",
   "bio": "Huzzah is a Canadian digital film services company in Toronto that has won a Canadian Screen Award. Sebastian Harder leads the company, bringing over ten years of film and television experience. His work has appeared in feature films, advertising, and TV.",
-  "email": "",
+  "email": "sebazistan@gmail.com",
   "formEndpoint": "",
-  "instagram": "",
-  "imdb": "",
+  "instagram": "https://www.instagram.com/huzzah_design/",
+  "imdb": "https://www.imdb.com/name/nm4530938/",
   "clients": [
     "Gem (CBC)",
     "OUT TV",
@@ -16,5 +16,16 @@
     "Spacemop",
     "Shut Up and Color",
     "Broken Compass Films"
+  ],
+  "vfxBio": "Huzzah is a Canadian Screen Award winning digital film services company based in Toronto, Canada. Headed by Sebastian Harder, Huzzah brings more than a decade of experience working in film and television. His work has been featured in feature films, advertising and on TV.",
+  "vfxClientLogos": [
+    "logo1.jpg",
+    "logo2.jpg",
+    "logo3.jpg",
+    "logo4.jpg",
+    "logo5.jpg",
+    "logo6.jpg",
+    "logo7.jpg",
+    "logo8.jpg"
   ]
 }

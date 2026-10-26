@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { image, galleryImages, embedUrl, paragraphs, formatDate, type Project } from '../lib/content';
+import { image, galleryImages, embedUrl, paragraphs, formatDate, href, type Project } from '../lib/content';
 interface Props { project: Project; section: 'design' | 'vfx' | 'kicks'; backHref: string; backLabel: string }
 const { project: p, section, backHref, backLabel } = Astro.props;
 const hero = image(p);
@@ -17,7 +17,7 @@ const videos = p.videos.map(embedUrl).filter(Boolean) as string[];
   )}
 
   <article class="wrap project">
-    <a class="back" href={backHref}>← {backLabel}</a>
+    <a class="back" href={href(backHref)}>← {backLabel}</a>
     <h1>{p.title}</h1>
     <p class="meta">{[p.type, formatDate(p.date)].filter(Boolean).join(' · ')}</p>
 
@@ -26,7 +26,7 @@ const videos = p.videos.map(embedUrl).filter(Boolean) as string[];
         {paragraphs(p.description).map((t) => <p>{t}</p>)}
         {p.links.length > 0 && (
           <div class="btn-row">
-            {p.links.map((l) => <a class="btn" href={l.url} rel="noopener">{l.label}</a>)}
+            {p.links.map((l) => <a class="btn" href={href(l.url)} rel="noopener">{l.label}</a>)}
           </div>
         )}
       </div>
@@ -52,8 +52,11 @@ const videos = p.videos.map(embedUrl).filter(Boolean) as string[];
       <section class="block">
         <h2>Gallery</h2>
         <div class="gallery">
-          {gallery.map((src) => (
-            <a class="reveal" href={src} target="_blank" rel="noopener"><img src={src} alt="" loading="lazy" decoding="async" /></a>
+          {gallery.map(({ src, caption }) => (
+            <figure class="reveal">
+              <a href={src} target="_blank" rel="noopener"><img src={src} alt={caption} loading="lazy" decoding="async" /></a>
+              {caption && <figcaption>{caption}</figcaption>}
+            </figure>
           ))}
         </div>
       </section>
