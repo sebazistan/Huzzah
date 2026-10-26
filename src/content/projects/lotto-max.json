@@ -1,0 +1,26 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2020-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Lotto Max",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "lotto-max.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "lotto-max-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

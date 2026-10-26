@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2025-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Embark",
+  "summary": "Prop work for an Embark TV commercial.",
+  "description": "Prop work for an Embark TV commercial.",
+  "coverUrl": "",
+  "cover": "embark.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "embark-01.jpg",
+    "embark-02.jpg",
+    "embark-03.jpg",
+    "embark-04.jpg",
+    "embark-05.jpg",
+    "embark-06.jpg",
+    "embark-07.jpg",
+    "embark-08.jpg",
+    "embark-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

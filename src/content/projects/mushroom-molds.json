@@ -1,0 +1,40 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Feature",
+  "date": "2025-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Mushroom Molds",
+  "summary": "More props for 'Silver Cord'. I 3D printed molds to make mushrooms from 2 part expanding foam. It worked really well. In the first version of Silver Cord I used real mushrooms, which looked good but didn't last very long. These things were bomb-proof. They were meant to look kinda rotty and gross.",
+  "description": "More props for 'Silver Cord'. I 3D printed molds to make mushrooms from 2 part expanding foam. It worked really well. In the first version of Silver Cord I used real mushrooms, which looked good but didn't last very long. These things were bomb-proof. They were meant to look kinda rotty and gross.",
+  "coverUrl": "",
+  "cover": "mushroom-molds.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/uuLErIhyHF4"
+  ],
+  "gallery": [
+    "mushroom-molds-01.jpg",
+    "mushroom-molds-02.jpg",
+    "mushroom-molds-03.jpg",
+    "mushroom-molds-04.jpg",
+    "mushroom-molds-05.jpg",
+    "mushroom-molds-06.jpg",
+    "mushroom-molds-07.jpg",
+    "mushroom-molds-08.jpg",
+    "mushroom-molds-09.jpg",
+    "mushroom-molds-10.jpg",
+    "mushroom-molds-11.jpg",
+    "mushroom-molds-12.jpg",
+    "mushroom-molds-13.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

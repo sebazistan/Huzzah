@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Zhu Pets",
+  "summary": "Pre-vis for a Zhu Pets TV commercial.",
+  "description": "Pre-vis for a Zhu Pets TV commercial.",
+  "coverUrl": "",
+  "cover": "zhu-pets.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Dylan Juckes"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "zhu-pets-01.jpg",
+    "zhu-pets-02.jpg",
+    "zhu-pets-03.jpg",
+    "zhu-pets-04.jpg",
+    "zhu-pets-05.jpg",
+    "zhu-pets-06.jpg",
+    "zhu-pets-07.jpg",
+    "zhu-pets-08.jpg",
+    "zhu-pets-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

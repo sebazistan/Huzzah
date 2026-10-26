@@ -1,0 +1,51 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2021-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Boardwalk",
+  "summary": "Custom built light-up boardwalk built for a dance sequence in Detention Adventure.",
+  "description": "Custom built light-up boardwalk built for a dance sequence in Detention Adventure.",
+  "coverUrl": "",
+  "cover": "boardwalk.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Joe Kicak"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "Check it out",
+      "url": "/design/detention-adventure-2"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=bDxBDQEuKUw",
+    "https://www.youtube.com/watch?v=RVV6PhOixVg",
+    "https://www.youtube.com/shorts/Ht23aIgV1pQ",
+    "https://www.youtube.com/shorts/9LDWyP2kfmw"
+  ],
+  "gallery": [
+    "boardwalk-01.jpg",
+    "boardwalk-02.jpg",
+    "boardwalk-03.jpg",
+    "boardwalk-04.jpg",
+    "boardwalk-05.jpg",
+    "boardwalk-06.jpg",
+    "boardwalk-07.jpg",
+    "boardwalk-08.jpg",
+    "boardwalk-09.jpg",
+    "boardwalk-10.jpg",
+    "boardwalk-11.jpg",
+    "boardwalk-12.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

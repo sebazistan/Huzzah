@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2020-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Rock",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "rock.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "rock-01.jpg",
+    "rock-02.jpg",
+    "rock-03.jpg",
+    "rock-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

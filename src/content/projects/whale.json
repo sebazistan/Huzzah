@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2022-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Whale",
+  "summary": "Design for a TV commercial.",
+  "description": "Design for a TV commercial.",
+  "coverUrl": "",
+  "cover": "whale.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "whale-01.jpg",
+    "whale-02.jpg",
+    "whale-03.jpg",
+    "whale-04.jpg",
+    "whale-05.jpg",
+    "whale-06.jpg",
+    "whale-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

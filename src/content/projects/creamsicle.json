@@ -1,0 +1,24 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2025-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Creamsicle",
+  "summary": "Creamsicle prop for a TV commercial.",
+  "description": "Creamsicle prop for a TV commercial.",
+  "coverUrl": "",
+  "cover": "creamsicle.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "creamsicle-01.jpg",
+    "creamsicle-02.jpg",
+    "creamsicle-03.jpg",
+    "creamsicle-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

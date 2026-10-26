@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-03-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Wild Wings",
+  "summary": "Pre-vis for a Buffalo Wild Wings TV commercial.",
+  "description": "Pre-vis for a Buffalo Wild Wings TV commercial.",
+  "coverUrl": "",
+  "cover": "wild-wings.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Alexis DeBad"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "wild-wings-01.jpg",
+    "wild-wings-02.jpg",
+    "wild-wings-03.jpg",
+    "wild-wings-04.jpg",
+    "wild-wings-05.jpg",
+    "wild-wings-06.jpg",
+    "wild-wings-07.jpg",
+    "wild-wings-08.jpg",
+    "wild-wings-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

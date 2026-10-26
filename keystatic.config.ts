@@ -175,6 +175,10 @@ export default config({
         }),
         date: fields.date({ label: 'Date' }),
         featured: fields.checkbox({ label: 'Show in Featured Work', defaultValue: false }),
+        legacySlug: fields.text({
+          label: 'Old Webflow URL name (only needed for redirects)',
+          description: 'Leave empty for new projects.',
+        }),
         summary: fields.text({ label: 'Card summary', multiline: true }),
         description: fields.text({
           label: 'About (blank line = new paragraph)',

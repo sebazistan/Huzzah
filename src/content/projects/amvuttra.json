@@ -1,0 +1,37 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2025-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Amvuttra",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "amvuttra.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "amvuttra-01.jpg",
+    "amvuttra-02.jpg",
+    "amvuttra-03.jpg",
+    "amvuttra-04.jpg",
+    "amvuttra-05.jpg",
+    "amvuttra-06.jpg",
+    "amvuttra-07.jpg",
+    "amvuttra-08.jpg",
+    "amvuttra-09.jpg",
+    "amvuttra-10.jpg",
+    "amvuttra-11.jpg",
+    "amvuttra-12.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

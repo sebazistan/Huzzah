@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2020-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "GE",
+  "summary": "Pre-vis for a GE commercial.",
+  "description": "Pre-vis for a GE commercial.",
+  "coverUrl": "",
+  "cover": "ge.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jason MacIsaac"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "ge-01.jpg",
+    "ge-02.jpg",
+    "ge-03.jpg",
+    "ge-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

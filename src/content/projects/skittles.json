@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Skittles",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "skittles.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "skittles-01.jpg",
+    "skittles-02.jpg",
+    "skittles-03.jpg",
+    "skittles-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

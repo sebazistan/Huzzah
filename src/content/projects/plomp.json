@@ -1,0 +1,48 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Plomp",
+  "summary": "A silly milkable prop for Space Janitors S4.",
+  "description": "A silly milkable prop for Space Janitors S4.",
+  "coverUrl": "",
+  "cover": "plomp.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sam Wong"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/sBrvzCDPdK8",
+    "https://youtu.be/8evST3mfHtM",
+    "https://youtube.com/shorts/aF8j1Sohnvg",
+    "https://youtu.be/UC-aTJymGkE"
+  ],
+  "gallery": [
+    "plomp-01.jpg",
+    "plomp-02.jpg",
+    "plomp-03.jpg",
+    "plomp-04.jpg",
+    "plomp-05.jpg",
+    "plomp-06.jpg",
+    "plomp-07.jpg",
+    "plomp-08.jpg",
+    "plomp-09.jpg",
+    "plomp-10.jpg",
+    "plomp-11.jpg",
+    "plomp-12.jpg",
+    "plomp-13.jpg",
+    "plomp-14.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

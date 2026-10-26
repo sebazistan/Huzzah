@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2024-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Absolute",
+  "summary": "Previs for a TV commercial.",
+  "description": "Previs for a TV commercial.",
+  "coverUrl": "",
+  "cover": "absolute.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Carol Sloan"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "absolute-01.jpg",
+    "absolute-02.jpg",
+    "absolute-03.jpg",
+    "absolute-04.jpg",
+    "absolute-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

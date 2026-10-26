@@ -1,0 +1,45 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2022-07-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Personal Assistant",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "personal-assistant.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Crux"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "personal-assistant-01.jpg",
+    "personal-assistant-02.jpg",
+    "personal-assistant-03.jpg",
+    "personal-assistant-04.jpg",
+    "personal-assistant-05.jpg",
+    "personal-assistant-06.jpg",
+    "personal-assistant-07.jpg",
+    "personal-assistant-08.jpg",
+    "personal-assistant-09.jpg",
+    "personal-assistant-10.jpg",
+    "personal-assistant-11.jpg",
+    "personal-assistant-12.jpg",
+    "personal-assistant-13.jpg",
+    "personal-assistant-14.jpg",
+    "personal-assistant-15.jpg",
+    "personal-assistant-16.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

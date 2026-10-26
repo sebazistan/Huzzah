@@ -1,0 +1,27 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Seysara",
+  "summary": "Pre-vis for a Seysara TV commercial.",
+  "description": "Pre-vis for a Seysara TV commercial.",
+  "coverUrl": "",
+  "cover": "seysara.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jason MacIsaac"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "seysara-01.jpg",
+    "seysara-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Series",
+  "date": "2018-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Hudson and Rex",
+  "summary": "Design for an installation",
+  "description": "Design for an installation",
+  "coverUrl": "",
+  "cover": "hudson-and-rex.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Rebecca Herr"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "hudson-and-rex-01.jpg",
+    "hudson-and-rex-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

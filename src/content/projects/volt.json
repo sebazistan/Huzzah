@@ -1,0 +1,26 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Volt",
+  "summary": "Pre-vis for a Volt commercial.",
+  "description": "Pre-vis for a Volt commercial.",
+  "coverUrl": "",
+  "cover": "volt.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jason MacIsaac"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "volt-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

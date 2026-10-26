@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2018-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Fiber One",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "fiber-one.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "fiber-one-01.jpg",
+    "fiber-one-02.jpg",
+    "fiber-one-03.jpg",
+    "fiber-one-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,58 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2024-12-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Telescope",
+  "summary": "Telescope prop for McDonalds. Thanks Ben Harris!",
+  "description": "Telescope prop for McDonalds. Thanks Ben Harris!",
+  "coverUrl": "",
+  "cover": "telescope.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jeremy Macfarlane"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/a6vBq_nQOtk"
+  ],
+  "gallery": [
+    "telescope-01.jpg",
+    "telescope-02.jpg",
+    "telescope-03.jpg",
+    "telescope-04.jpg",
+    "telescope-05.jpg",
+    "telescope-06.jpg",
+    "telescope-07.jpg",
+    "telescope-08.jpg",
+    "telescope-09.jpg",
+    "telescope-10.jpg",
+    "telescope-11.jpg",
+    "telescope-12.jpg",
+    "telescope-13.jpg",
+    "telescope-14.jpg",
+    "telescope-15.jpg",
+    "telescope-16.jpg",
+    "telescope-17.jpg",
+    "telescope-18.jpg",
+    "telescope-19.jpg",
+    "telescope-20.jpg",
+    "telescope-21.jpg",
+    "telescope-22.jpg",
+    "telescope-23.jpg",
+    "telescope-24.jpg",
+    "telescope-25.jpg",
+    "telescope-26.jpg",
+    "telescope-27.jpg",
+    "telescope-28.jpg",
+    "telescope-29.jpg",
+    "telescope-30.jpg",
+    "telescope-31.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

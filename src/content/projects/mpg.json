@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "MPG",
+  "summary": "Pre-vis for a MPG commercial.",
+  "description": "Pre-vis for a MPG commercial.",
+  "coverUrl": "",
+  "cover": "mpg.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Dominika Monicka"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "mpg-01.jpg",
+    "mpg-02.jpg",
+    "mpg-03.jpg",
+    "mpg-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

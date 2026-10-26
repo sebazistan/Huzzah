@@ -1,0 +1,60 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Walrus",
+  "summary": "Milky mandy the walrus built for Space Janitors.",
+  "description": "Milky mandy the walrus built for Space Janitors.",
+  "coverUrl": "",
+  "cover": "walrus.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sam Wong"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt2266399/"
+    },
+    {
+      "label": "Check it out",
+      "url": "/design/space-janitors-s4"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=UeuXbolaA9Y",
+    "https://www.youtube.com/watch?v=KRTGuqf2qjA",
+    "https://www.youtube.com/shorts/j3PIGZHEm8s",
+    "https://www.youtube.com/watch?v=LWXPRDWRMVw"
+  ],
+  "gallery": [
+    "walrus-01.jpg",
+    "walrus-02.jpg",
+    "walrus-03.jpg",
+    "walrus-04.jpg",
+    "walrus-05.jpg",
+    "walrus-06.jpg",
+    "walrus-07.jpg",
+    "walrus-08.jpg",
+    "walrus-09.jpg",
+    "walrus-10.jpg",
+    "walrus-11.jpg",
+    "walrus-12.jpg",
+    "walrus-13.jpg",
+    "walrus-14.jpg",
+    "walrus-15.jpg",
+    "walrus-16.jpg",
+    "walrus-17.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

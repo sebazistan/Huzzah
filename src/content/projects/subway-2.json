@@ -1,0 +1,37 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2022-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Subway 2",
+  "summary": "Pre-vis for a Subway commercial.",
+  "description": "Pre-vis for a Subway commercial.",
+  "coverUrl": "",
+  "cover": "subway-2.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Dominika Monicka"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "subway-2-01.jpg",
+    "subway-2-02.jpg",
+    "subway-2-03.jpg",
+    "subway-2-04.jpg",
+    "subway-2-05.jpg",
+    "subway-2-06.jpg",
+    "subway-2-07.jpg",
+    "subway-2-08.jpg",
+    "subway-2-09.jpg",
+    "subway-2-10.jpg",
+    "subway-2-11.jpg",
+    "subway-2-12.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

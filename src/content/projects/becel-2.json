@@ -1,0 +1,33 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2018-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Becel 2",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "becel-2.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "becel-2-01.jpg",
+    "becel-2-02.jpg",
+    "becel-2-03.jpg",
+    "becel-2-04.jpg",
+    "becel-2-05.jpg",
+    "becel-2-06.jpg",
+    "becel-2-07.jpg",
+    "becel-2-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

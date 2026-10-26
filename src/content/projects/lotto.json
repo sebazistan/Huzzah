@@ -1,0 +1,35 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Lotto",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "lotto.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "lotto-01.jpg",
+    "lotto-02.jpg",
+    "lotto-03.jpg",
+    "lotto-04.jpg",
+    "lotto-05.jpg",
+    "lotto-06.jpg",
+    "lotto-07.jpg",
+    "lotto-08.jpg",
+    "lotto-09.jpg",
+    "lotto-10.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

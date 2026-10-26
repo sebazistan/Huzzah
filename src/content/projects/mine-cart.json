@@ -1,0 +1,38 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2021-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Mine Cart",
+  "summary": "One of many props I designed and built for Detention Adventure.",
+  "description": "One of many props I designed and built for Detention Adventure.",
+  "coverUrl": "",
+  "cover": "mine-cart.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "Check it out",
+      "url": "/design/detention-adventure-2"
+    }
+  ],
+  "videos": [],
+  "gallery": [
+    "mine-cart-01.jpg",
+    "mine-cart-02.jpg",
+    "mine-cart-03.jpg",
+    "mine-cart-04.jpg",
+    "mine-cart-05.jpg",
+    "mine-cart-06.jpg",
+    "mine-cart-07.jpg",
+    "mine-cart-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

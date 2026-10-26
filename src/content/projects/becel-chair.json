@@ -1,0 +1,35 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2018-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Becel Chair",
+  "summary": "Design work for a Becel commercial.",
+  "description": "Design work for a Becel commercial.",
+  "coverUrl": "",
+  "cover": "becel-chair.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "becel-chair-01.jpg",
+    "becel-chair-02.jpg",
+    "becel-chair-03.jpg",
+    "becel-chair-04.jpg",
+    "becel-chair-05.jpg",
+    "becel-chair-06.jpg",
+    "becel-chair-07.jpg",
+    "becel-chair-08.jpg",
+    "becel-chair-09.jpg",
+    "becel-chair-10.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

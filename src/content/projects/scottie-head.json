@@ -1,0 +1,45 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2022-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Scottie Head",
+  "summary": "A 3D printed head with an internal mechanism to spray Axe body spray out of the mouth.",
+  "description": "A 3D printed head with an internal mechanism to spray Axe body spray out of the mouth.",
+  "coverUrl": "",
+  "cover": "scottie-head.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Axe"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/NJYixJfv_uU"
+  ],
+  "gallery": [
+    "scottie-head-01.jpg",
+    "scottie-head-02.jpg",
+    "scottie-head-03.jpg",
+    "scottie-head-04.jpg",
+    "scottie-head-05.jpg",
+    "scottie-head-06.jpg",
+    "scottie-head-07.jpg",
+    "scottie-head-08.jpg",
+    "scottie-head-09.jpg",
+    "scottie-head-10.jpg",
+    "scottie-head-11.jpg",
+    "scottie-head-12.jpg",
+    "scottie-head-13.jpg",
+    "scottie-head-14.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

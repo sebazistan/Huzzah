@@ -1,0 +1,43 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Feature",
+  "date": "2024-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "The Killgrin",
+  "summary": "A horror movie directed by Joanna Tsanis. From IMDB: \"After a personal tragedy, Miranda explores unconventional self-help methods, only to learn from a spiritual healer that she has an infection of her aura called a 'killgrin', which thrives off her misery.\"",
+  "description": "A horror movie directed by Joanna Tsanis. From IMDB: \"After a personal tragedy, Miranda explores unconventional self-help methods, only to learn from a spiritual healer that she has an infection of her aura called a 'killgrin', which thrives off her misery.\"",
+  "coverUrl": "",
+  "cover": "killgrin.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Smiler Films"
+    },
+    {
+      "label": "Director",
+      "value": "Joanna Tsanis"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    },
+    {
+      "label": "Awards",
+      "value": "FilmQuest: Best Makeup FX - Feature"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt33452942/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=fmdhAaioWr8"
+  ],
+  "gallery": [],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

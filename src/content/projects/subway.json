@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Subway",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "subway.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Alexis DeBad"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "subway-01.jpg",
+    "subway-02.jpg",
+    "subway-03.jpg",
+    "subway-04.jpg",
+    "subway-05.jpg",
+    "subway-06.jpg",
+    "subway-07.jpg",
+    "subway-08.jpg",
+    "subway-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

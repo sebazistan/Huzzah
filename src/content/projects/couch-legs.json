@@ -1,0 +1,24 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2023-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Couch legs",
+  "summary": "I designed and fabricated some fake wooden couch legs for a TV commercial.",
+  "description": "I designed and fabricated some fake wooden couch legs for a TV commercial.",
+  "coverUrl": "",
+  "cover": "couch-legs.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "couch-legs-01.jpg",
+    "couch-legs-02.jpg",
+    "couch-legs-03.jpg",
+    "couch-legs-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

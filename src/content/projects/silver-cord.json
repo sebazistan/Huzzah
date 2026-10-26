@@ -1,0 +1,49 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Short",
+  "date": "2021-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Silver Cord 1",
+  "summary": "Shot by Dave Lam, a teaser for the upcoming Silver Cord. A psychological thriller about mental illness, heaven and hell.",
+  "description": "Shot by Dave Lam, a teaser for the upcoming Silver Cord. A psychological thriller about mental illness, heaven and hell.",
+  "coverUrl": "",
+  "cover": "silver-cord.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Space Mop"
+    },
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "Watch",
+      "url": "https://www.youtube.com/watch?v=f4E8dEHok6E&t=2s"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=f4E8dEHok6E&t=3s"
+  ],
+  "gallery": [
+    "silver-cord-01.jpg",
+    "silver-cord-02.jpg",
+    "silver-cord-03.jpg",
+    "silver-cord-04.jpg",
+    "silver-cord-05.jpg",
+    "silver-cord-06.jpg",
+    "silver-cord-07.jpg",
+    "silver-cord-08.jpg",
+    "silver-cord-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Feature",
+  "date": "2025-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Ugly Jesus",
+  "summary": "Hand made ugly Jesus for a horror movie.",
+  "description": "Hand made ugly Jesus for a horror movie.",
+  "coverUrl": "",
+  "cover": "ugly-jesus.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "ugly-jesus-01.jpg",
+    "ugly-jesus-02.jpg",
+    "ugly-jesus-03.jpg",
+    "ugly-jesus-04.jpg",
+    "ugly-jesus-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

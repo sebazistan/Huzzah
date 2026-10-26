@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2021-02-02",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Bounty",
+  "summary": "Design work for a TV commercial.",
+  "description": "Design work for a TV commercial.",
+  "coverUrl": "",
+  "cover": "bounty.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "bounty-01.jpg",
+    "bounty-02.jpg",
+    "bounty-03.jpg",
+    "bounty-04.jpg",
+    "bounty-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

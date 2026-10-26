@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Series",
+  "date": "2023-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "I Hate People Pickups",
+  "summary": "I art directed a day of pick ups and inserts.",
+  "description": "I art directed a day of pick ups and inserts.",
+  "coverUrl": "",
+  "cover": "i-hate-people.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Loco Motion"
+    },
+    {
+      "label": "Director",
+      "value": "Blake Mawson"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "i-hate-people-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

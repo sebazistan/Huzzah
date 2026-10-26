@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "BMO Safe",
+  "summary": "I designed and helped fabricate a safe for a BMO commercial",
+  "description": "I designed and helped fabricate a safe for a BMO commercial",
+  "coverUrl": "",
+  "cover": "bmo-safe.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "bmo-safe-01.jpg",
+    "bmo-safe-02.jpg",
+    "bmo-safe-03.jpg",
+    "bmo-safe-04.jpg",
+    "bmo-safe-05.jpg",
+    "bmo-safe-06.jpg",
+    "bmo-safe-07.jpg",
+    "bmo-safe-08.jpg",
+    "bmo-safe-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

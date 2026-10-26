@@ -1,0 +1,27 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2020-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "CIBC",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "cibc.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "cibc-01.jpg",
+    "cibc-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

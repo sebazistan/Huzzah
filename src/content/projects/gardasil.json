@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2023-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Gardasil",
+  "summary": "Pre-vis for a Gardasil commercial.",
+  "description": "Pre-vis for a Gardasil commercial.",
+  "coverUrl": "",
+  "cover": "gardasil.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "gardasil-01.jpg",
+    "gardasil-02.jpg",
+    "gardasil-03.jpg",
+    "gardasil-04.jpg",
+    "gardasil-05.jpg",
+    "gardasil-06.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

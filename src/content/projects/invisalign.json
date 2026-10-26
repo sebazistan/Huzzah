@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2023-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Invisalign",
+  "summary": "I designed sets for an Invisalign commercial.",
+  "description": "I designed sets for an Invisalign commercial.",
+  "coverUrl": "",
+  "cover": "invisalign.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "invisalign-01.jpg",
+    "invisalign-02.jpg",
+    "invisalign-03.jpg",
+    "invisalign-04.jpg",
+    "invisalign-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

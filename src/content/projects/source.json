@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Source",
+  "summary": "Pre-vis for a The Source commercial.",
+  "description": "Pre-vis for a The Source commercial.",
+  "coverUrl": "",
+  "cover": "source.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Dominika Monicka"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "source-01.jpg",
+    "source-02.jpg",
+    "source-03.jpg",
+    "source-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

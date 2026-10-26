@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2022-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Checkout Counter",
+  "summary": "Designed a self-checkout counter for a TV commercial. Since it had to be finished in one day I created a design that could snap together quickly and provided colour coded, easy to read instructions. A one day build that turned out great!",
+  "description": "Designed a self-checkout counter for a TV commercial. Since it had to be finished in one day I created a design that could snap together quickly and provided colour coded, easy to read instructions. A one day build that turned out great!",
+  "coverUrl": "",
+  "cover": "checkout-counter.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Crux"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "checkout-counter-01.jpg",
+    "checkout-counter-02.jpg",
+    "checkout-counter-03.jpg",
+    "checkout-counter-04.jpg",
+    "checkout-counter-05.jpg",
+    "checkout-counter-06.jpg",
+    "checkout-counter-07.jpg",
+    "checkout-counter-08.jpg",
+    "checkout-counter-09.jpg",
+    "checkout-counter-10.jpg",
+    "checkout-counter-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

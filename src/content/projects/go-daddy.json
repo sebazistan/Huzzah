@@ -1,0 +1,26 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2018-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Go Daddy",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "go-daddy.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Rebecca Petro"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "go-daddy-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

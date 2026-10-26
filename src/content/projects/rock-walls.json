@@ -1,0 +1,37 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2021-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Rock Walls",
+  "summary": "Designed and built some background rock walls for Detention Adventure",
+  "description": "Designed and built some background rock walls for Detention Adventure",
+  "coverUrl": "",
+  "cover": "rock-walls.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Joe Kicak"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "Check it out",
+      "url": "/design/detention-adventure-2"
+    }
+  ],
+  "videos": [],
+  "gallery": [
+    "rock-walls-01.jpg",
+    "rock-walls-02.jpg",
+    "rock-walls-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

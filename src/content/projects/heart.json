@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2022-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Heart",
+  "summary": "Heart design and fabrication for a sign. Needed to fit existing metal cage. Not to brag but others attempted this and failed.... their attempts are in the gallery!",
+  "description": "Heart design and fabrication for a sign. Needed to fit existing metal cage. Not to brag but others attempted this and failed.... their attempts are in the gallery!",
+  "coverUrl": "",
+  "cover": "heart.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Crux"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "heart-01.jpg",
+    "heart-02.jpg",
+    "heart-03.jpg",
+    "heart-04.jpg",
+    "heart-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

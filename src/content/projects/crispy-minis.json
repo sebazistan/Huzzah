@@ -1,0 +1,42 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2024-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Crispy Minis",
+  "summary": "Pre-vis for a commercial.",
+  "description": "Pre-vis for a commercial.",
+  "coverUrl": "",
+  "cover": "crispy-minis.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/wng1-MJT9ic",
+    "https://youtu.be/DL3o88jbtAk",
+    "https://youtu.be/wQqOzZZjKkA"
+  ],
+  "gallery": [
+    "crispy-minis-01.jpg",
+    "crispy-minis-02.jpg",
+    "crispy-minis-03.jpg",
+    "crispy-minis-04.jpg",
+    "crispy-minis-05.jpg",
+    "crispy-minis-06.jpg",
+    "crispy-minis-07.jpg",
+    "crispy-minis-08.jpg",
+    "crispy-minis-09.jpg",
+    "crispy-minis-10.jpg",
+    "crispy-minis-11.jpg",
+    "crispy-minis-12.jpg",
+    "crispy-minis-13.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

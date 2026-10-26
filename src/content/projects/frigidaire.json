@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Frigidaire",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "frigidaire.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "frigidaire-01.jpg",
+    "frigidaire-02.jpg",
+    "frigidaire-03.jpg",
+    "frigidaire-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

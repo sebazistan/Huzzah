@@ -1,0 +1,27 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2024-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Ikea",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "ikea-9.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "ikea-9-01.jpg",
+    "ikea-9-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

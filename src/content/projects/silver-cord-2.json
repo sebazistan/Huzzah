@@ -1,0 +1,54 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Feature",
+  "date": "2025-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Silver Cord 2",
+  "summary": "Production Design for an upcoming feature.",
+  "description": "Production Design for an upcoming feature.",
+  "coverUrl": "",
+  "cover": "silver-cord-2.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt18069208/?ref_=fn_all_ttl_2"
+    }
+  ],
+  "videos": [],
+  "gallery": [
+    "silver-cord-2-01.jpg",
+    "silver-cord-2-02.jpg",
+    "silver-cord-2-03.jpg",
+    "silver-cord-2-04.jpg",
+    "silver-cord-2-05.jpg",
+    "silver-cord-2-06.jpg",
+    "silver-cord-2-07.jpg",
+    "silver-cord-2-08.jpg",
+    "silver-cord-2-09.jpg",
+    "silver-cord-2-10.jpg",
+    "silver-cord-2-11.jpg",
+    "silver-cord-2-12.jpg",
+    "silver-cord-2-13.jpg",
+    "silver-cord-2-14.jpg",
+    "silver-cord-2-15.jpg",
+    "silver-cord-2-16.jpg",
+    "silver-cord-2-17.jpg",
+    "silver-cord-2-18.jpg",
+    "silver-cord-2-19.jpg",
+    "silver-cord-2-20.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

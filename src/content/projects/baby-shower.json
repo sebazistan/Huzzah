@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2023-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Baby Shower",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "baby-shower.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "baby-shower-01.jpg",
+    "baby-shower-02.jpg",
+    "baby-shower-03.jpg",
+    "baby-shower-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

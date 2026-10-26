@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2022-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Hospital",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "hospital.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "hospital-01.jpg",
+    "hospital-02.jpg",
+    "hospital-03.jpg",
+    "hospital-04.jpg",
+    "hospital-05.jpg",
+    "hospital-06.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

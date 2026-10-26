@@ -1,0 +1,40 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Vision Works",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "vision-works.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "vision-works-01.jpg",
+    "vision-works-02.jpg",
+    "vision-works-03.jpg",
+    "vision-works-04.jpg",
+    "vision-works-05.jpg",
+    "vision-works-06.jpg",
+    "vision-works-07.jpg",
+    "vision-works-08.jpg",
+    "vision-works-09.jpg",
+    "vision-works-10.jpg",
+    "vision-works-11.jpg",
+    "vision-works-12.jpg",
+    "vision-works-13.jpg",
+    "vision-works-14.jpg",
+    "vision-works-15.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2023-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Quickbooks",
+  "summary": "Previs for a Quickbooks commercial.",
+  "description": "Previs for a Quickbooks commercial.",
+  "coverUrl": "",
+  "cover": "quickbooks-2.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "quickbooks-2-01.jpg",
+    "quickbooks-2-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

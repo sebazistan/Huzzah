@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Listerine",
+  "summary": "Pre-vis for a Listerine commercial.",
+  "description": "Pre-vis for a Listerine commercial.",
+  "coverUrl": "",
+  "cover": "listerine.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jason MacIsaac"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "listerine-01.jpg",
+    "listerine-02.jpg",
+    "listerine-03.jpg",
+    "listerine-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

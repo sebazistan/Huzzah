@@ -1,0 +1,38 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Series",
+  "date": "2015-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "V Morgan is Dead",
+  "summary": "Production design for a webseries.",
+  "description": "Production design for a webseries.",
+  "coverUrl": "",
+  "cover": "v-morgan-is-dead.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Smokebomb"
+    },
+    {
+      "label": "Director",
+      "value": "Zoe Robyn"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://pro.imdb.com/title/tt5195740"
+    }
+  ],
+  "videos": [
+    "https://youtu.be/cGTsaJDZ2tE",
+    "https://youtu.be/WPCH5joRBbg"
+  ],
+  "gallery": [
+    "v-morgan-is-dead-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

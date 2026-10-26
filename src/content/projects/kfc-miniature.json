@@ -1,0 +1,37 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2020-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "KFC Miniature",
+  "summary": "Designed and helped build a miniature KFC restaurant for an installation.",
+  "description": "Designed and helped build a miniature KFC restaurant for an installation.",
+  "coverUrl": "",
+  "cover": "kfc-miniature.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Crux"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "kfc-miniature-01.jpg",
+    "kfc-miniature-02.jpg",
+    "kfc-miniature-03.jpg",
+    "kfc-miniature-04.jpg",
+    "kfc-miniature-05.jpg",
+    "kfc-miniature-06.jpg",
+    "kfc-miniature-07.jpg",
+    "kfc-miniature-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Lightsaber",
+  "summary": "Light saber prop with buttons for different \"modes\". Designed by Sebastian Harder, resin printed by Ben Harris.",
+  "description": "Light saber prop with buttons for different \"modes\". Designed by Sebastian Harder, resin printed by Ben Harris.",
+  "coverUrl": "",
+  "cover": "lightsaber.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sam Wong"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "lightsaber-01.jpg",
+    "lightsaber-02.jpg",
+    "lightsaber-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

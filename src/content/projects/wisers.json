@@ -1,0 +1,27 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2017-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Wisers",
+  "summary": "Design work for a TV commercial.",
+  "description": "Design work for a TV commercial.",
+  "coverUrl": "",
+  "cover": "wisers.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Michael Walker"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/QlarMTa6rbg",
+    "https://youtu.be/udlgFTmiZiI"
+  ],
+  "gallery": [],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

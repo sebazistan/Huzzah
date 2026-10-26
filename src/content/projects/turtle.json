@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2019-12-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Turtle",
+  "summary": "Turtle Prop for a TV commercial.",
+  "description": "Turtle Prop for a TV commercial.",
+  "coverUrl": "",
+  "cover": "turtle.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [
+    "https://youtu.be/OX86zp2FMec"
+  ],
+  "gallery": [
+    "turtle-01.jpg",
+    "turtle-02.jpg",
+    "turtle-03.jpg",
+    "turtle-04.jpg",
+    "turtle-05.jpg",
+    "turtle-06.jpg",
+    "turtle-07.jpg",
+    "turtle-08.jpg",
+    "turtle-09.jpg",
+    "turtle-10.jpg",
+    "turtle-11.jpg",
+    "turtle-12.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

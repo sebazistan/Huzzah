@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import { readdirSync, readFileSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import react from '@astrojs/react';
 import keystatic from '@keystatic/astro';
 
@@ -34,18 +34,34 @@ function legacyRedirects() {
   for (let n = 1; n <= 12; n++) r[`/ttown/albums/album-${n}`] = `/kicks/toilet-town/photos/album-${String(n).padStart(2, '0')}`;
   for (const f of readdirSync('src/content/projects')) {
     const slug = f.replace('.json', '');
-    const { section } = JSON.parse(readFileSync(`src/content/projects/${f}`, 'utf8'));
-    if (section === 'design') r[`/huzzah/design/${slug}`] = `/design/${slug}`;
-    if (section === 'kicks') r[`/huzzah/design/${slug}`] = slug === 'toilet-town' ? '/kicks/toilet-town' : `/kicks/${slug}`;
+    const { section, legacySlug } = JSON.parse(readFileSync(`src/content/projects/${f}`, 'utf8'));
+    const old = legacySlug || slug; // legacySlug is set when the new file name differs from the Webflow URL
+    if (section === 'design') r[`/huzzah/design/${old}`] = `/design/${slug}`;
+    if (section === 'kicks') r[`/huzzah/design/${old}`] = slug === 'toilet-town' ? '/kicks/toilet-town' : `/kicks/${slug}`;
   }
   return r;
 }
+
+const redirects = legacyRedirects();
+
+// Cloudflare Pages reads dist/_redirects and serves true 301s for old URLs.
+// (Astro's own redirects below remain as a fallback on hosts without that file.)
+const cloudflareRedirects = {
+  name: 'cloudflare-redirects',
+  hooks: {
+    /** @param {{ dir: URL }} ctx */
+    'astro:build:done': ({ dir }) => {
+      const lines = Object.entries(redirects).map(([from, to]) => `${from} ${to} 301`);
+      writeFileSync(new URL('_redirects', dir), lines.join('\n') + '\n');
+    },
+  },
+};
 
 export default defineConfig({
   // On the real domain these are unset. The GitHub Pages preview sets them
   // (see .github/workflows/deploy.yml) because it serves from /Huzzah/.
   site: process.env.SITE_URL || 'https://www.huzzahdesign.com',
   base: process.env.BASE_PATH || '/',
-  redirects: legacyRedirects(),
-  integrations: [react(), ...(isDev ? [keystatic()] : [])],
+  redirects,
+  integrations: [react(), cloudflareRedirects, ...(isDev ? [keystatic()] : [])],
 });

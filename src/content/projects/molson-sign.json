@@ -1,0 +1,26 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Molson Sign",
+  "summary": "I designed a sign for a Molson commercial.",
+  "description": "I designed a sign for a Molson commercial.",
+  "coverUrl": "",
+  "cover": "molson-sign.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "molson-sign-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

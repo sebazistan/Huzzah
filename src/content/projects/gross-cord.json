@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Feature",
+  "date": "2025-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Gross Cord",
+  "summary": "I had a lot of fun with this project. This tentacle looking thing was a kind of umbilical cord that was attached to the lead actor in 'Silver Cord'.",
+  "description": "I had a lot of fun with this project. This tentacle looking thing was a kind of umbilical cord that was attached to the lead actor in 'Silver Cord'.",
+  "coverUrl": "",
+  "cover": "gross-cord.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "gross-cord-01.jpg",
+    "gross-cord-02.jpg",
+    "gross-cord-03.jpg",
+    "gross-cord-04.jpg",
+    "gross-cord-05.jpg",
+    "gross-cord-06.jpg",
+    "gross-cord-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

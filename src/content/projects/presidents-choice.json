@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "President's Choice",
+  "summary": "Pre-vis and animatic for a TV commercial.",
+  "description": "Pre-vis and animatic for a TV commercial.",
+  "coverUrl": "",
+  "cover": "presidents-choice.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "presidents-choice-01.jpg",
+    "presidents-choice-02.jpg",
+    "presidents-choice-03.jpg",
+    "presidents-choice-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,41 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2024-12-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Air Dancer",
+  "summary": "Design for a TV commercial.",
+  "description": "Design for a TV commercial.",
+  "coverUrl": "",
+  "cover": "air-dancer.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "air-dancer-01.jpg",
+    "air-dancer-02.jpg",
+    "air-dancer-03.jpg",
+    "air-dancer-04.jpg",
+    "air-dancer-05.jpg",
+    "air-dancer-06.jpg",
+    "air-dancer-07.jpg",
+    "air-dancer-08.jpg",
+    "air-dancer-09.jpg",
+    "air-dancer-10.jpg",
+    "air-dancer-11.jpg",
+    "air-dancer-12.jpg",
+    "air-dancer-13.jpg",
+    "air-dancer-14.jpg",
+    "air-dancer-15.jpg",
+    "air-dancer-16.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

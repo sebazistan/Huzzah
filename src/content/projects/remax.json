@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2020-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "REMAX",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "remax.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "remax-01.jpg",
+    "remax-02.jpg",
+    "remax-03.jpg",
+    "remax-04.jpg",
+    "remax-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2024-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "TD Robot",
+  "summary": "Prop Design for a commercial.",
+  "description": "Prop Design for a commercial.",
+  "coverUrl": "",
+  "cover": "td.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "td-01.jpg",
+    "td-02.jpg",
+    "td-03.jpg",
+    "td-04.jpg",
+    "td-05.jpg",
+    "td-06.jpg",
+    "td-07.jpg",
+    "td-08.jpg",
+    "td-09.jpg",
+    "td-10.jpg",
+    "td-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

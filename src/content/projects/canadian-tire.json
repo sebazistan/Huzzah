@@ -1,0 +1,27 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2020-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Canadian Tire",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "canadian-tire.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "canadian-tire-01.jpg",
+    "canadian-tire-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

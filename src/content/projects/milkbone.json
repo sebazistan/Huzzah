@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2024-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Milkbone",
+  "summary": "Design for a TV commercial.",
+  "description": "Design for a TV commercial.",
+  "coverUrl": "",
+  "cover": "milkbone.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "milkbone-01.jpg",
+    "milkbone-02.jpg",
+    "milkbone-03.jpg",
+    "milkbone-04.jpg",
+    "milkbone-05.jpg",
+    "milkbone-06.jpg",
+    "milkbone-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

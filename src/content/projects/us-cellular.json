@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2023-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "US Cellular",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "us-cellular.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "us-cellular-01.jpg",
+    "us-cellular-02.jpg",
+    "us-cellular-03.jpg",
+    "us-cellular-04.jpg",
+    "us-cellular-05.jpg",
+    "us-cellular-06.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

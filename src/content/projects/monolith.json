@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2021-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Monolith",
+  "summary": "Prop work for Detention Adventure",
+  "description": "Prop work for Detention Adventure",
+  "coverUrl": "",
+  "cover": "monolith.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Joe Kicak"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/GIgjL0WOW7c"
+  ],
+  "gallery": [
+    "monolith-01.jpg",
+    "monolith-02.jpg",
+    "monolith-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

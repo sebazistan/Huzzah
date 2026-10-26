@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2023-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "TJX",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "tjx.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "tjx-01.jpg",
+    "tjx-02.jpg",
+    "tjx-03.jpg",
+    "tjx-04.jpg",
+    "tjx-05.jpg",
+    "tjx-06.jpg",
+    "tjx-07.jpg",
+    "tjx-08.jpg",
+    "tjx-09.jpg",
+    "tjx-10.jpg",
+    "tjx-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

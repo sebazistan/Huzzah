@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2018-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Paderno",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "paderno.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "paderno-01.jpg",
+    "paderno-02.jpg",
+    "paderno-03.jpg",
+    "paderno-04.jpg",
+    "paderno-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

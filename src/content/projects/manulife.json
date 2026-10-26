@@ -1,0 +1,33 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Manulife",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "manulife.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "manulife-01.jpg",
+    "manulife-02.jpg",
+    "manulife-03.jpg",
+    "manulife-04.jpg",
+    "manulife-05.jpg",
+    "manulife-06.jpg",
+    "manulife-07.jpg",
+    "manulife-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

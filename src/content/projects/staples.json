@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2025-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Staples",
+  "summary": "Prop work for a Staples TV Commercial.",
+  "description": "Prop work for a Staples TV Commercial.",
+  "coverUrl": "",
+  "cover": "staples.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "staples-01.jpg",
+    "staples-02.jpg",
+    "staples-03.jpg",
+    "staples-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

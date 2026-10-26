@@ -1,0 +1,26 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Feature",
+  "date": "2012-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Under the Volcano",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "under-the-volcano.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [
+    "https://youtu.be/PCdCrh9nyKk",
+    "https://youtu.be/kul4caNv7s8",
+    "https://youtu.be/D2bWa1Y-gdU"
+  ],
+  "gallery": [
+    "under-the-volcano-01.jpg",
+    "under-the-volcano-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

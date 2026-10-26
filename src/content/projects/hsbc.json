@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2022-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "HSBC",
+  "summary": "Design for an installation.",
+  "description": "Design for an installation.",
+  "coverUrl": "",
+  "cover": "hsbc.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "hsbc-01.jpg",
+    "hsbc-02.jpg",
+    "hsbc-03.jpg",
+    "hsbc-04.jpg",
+    "hsbc-05.jpg",
+    "hsbc-06.jpg",
+    "hsbc-07.jpg",
+    "hsbc-08.jpg",
+    "hsbc-09.jpg",
+    "hsbc-10.jpg",
+    "hsbc-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2020-07-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Home Depot",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "home-depot.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "home-depot-01.jpg",
+    "home-depot-02.jpg",
+    "home-depot-03.jpg",
+    "home-depot-04.jpg",
+    "home-depot-05.jpg",
+    "home-depot-06.jpg",
+    "home-depot-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Multipass",
+  "summary": "My version of the multipass from the movie The Fifth Element. Designed and laser cut by Sebastian Harder. These were designed to fit in a custom built sci fi keyhole.",
+  "description": "My version of the multipass from the movie The Fifth Element. Designed and laser cut by Sebastian Harder. These were designed to fit in a custom built sci fi keyhole.",
+  "coverUrl": "",
+  "cover": "multipass.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sam Wong"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "multipass-01.jpg",
+    "multipass-02.jpg",
+    "multipass-03.jpg",
+    "multipass-04.jpg",
+    "multipass-05.jpg",
+    "multipass-06.jpg",
+    "multipass-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2020-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Sign Post",
+  "summary": "design for a TV commercial.",
+  "description": "design for a TV commercial.",
+  "coverUrl": "",
+  "cover": "sign-post.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "sign-post-01.jpg",
+    "sign-post-02.jpg",
+    "sign-post-03.jpg",
+    "sign-post-04.jpg",
+    "sign-post-05.jpg",
+    "sign-post-06.jpg",
+    "sign-post-07.jpg",
+    "sign-post-08.jpg",
+    "sign-post-09.jpg",
+    "sign-post-10.jpg",
+    "sign-post-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

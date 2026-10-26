@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2020-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Marshalls",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "marshalls.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "marshalls-01.jpg",
+    "marshalls-02.jpg",
+    "marshalls-03.jpg",
+    "marshalls-04.jpg",
+    "marshalls-05.jpg",
+    "marshalls-06.jpg",
+    "marshalls-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

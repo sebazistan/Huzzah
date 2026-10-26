@@ -1,0 +1,28 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Guiness",
+  "summary": "Pre-vis and plans for a TV commercial.",
+  "description": "Pre-vis and plans for a TV commercial.",
+  "coverUrl": "",
+  "cover": "guiness.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "guiness-01.jpg",
+    "guiness-02.jpg",
+    "guiness-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

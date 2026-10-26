@@ -1,0 +1,35 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Series",
+  "date": "2022-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Topline",
+  "summary": "Production design work for Topline.",
+  "description": "Production design work for Topline.",
+  "coverUrl": "",
+  "cover": "topline.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Romeo Candido"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/es/title/tt16390628/?ref_=nm_flmg_job_2_accord_2_cdt_t_3"
+    }
+  ],
+  "videos": [],
+  "gallery": [
+    "topline-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

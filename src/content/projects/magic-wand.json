@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2018-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Magic Wand",
+  "summary": "Design work for a TV commercial.",
+  "description": "Design work for a TV commercial.",
+  "coverUrl": "",
+  "cover": "magic-wand.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "magic-wand-01.jpg",
+    "magic-wand-02.jpg",
+    "magic-wand-03.jpg",
+    "magic-wand-04.jpg",
+    "magic-wand-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Sesqui",
+  "summary": "Designed and fabricated a parasol for a scary clown for a commercial.",
+  "description": "Designed and fabricated a parasol for a scary clown for a commercial.",
+  "coverUrl": "",
+  "cover": "sesqui.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "sesqui-01.jpg",
+    "sesqui-02.jpg",
+    "sesqui-03.jpg",
+    "sesqui-04.jpg",
+    "sesqui-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

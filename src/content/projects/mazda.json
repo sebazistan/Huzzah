@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2020-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Mazda",
+  "summary": "Pre-vis for an installation.",
+  "description": "Pre-vis for an installation.",
+  "coverUrl": "",
+  "cover": "mazda.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "mazda-01.jpg",
+    "mazda-02.jpg",
+    "mazda-03.jpg",
+    "mazda-04.jpg",
+    "mazda-05.jpg",
+    "mazda-06.jpg",
+    "mazda-07.jpg",
+    "mazda-08.jpg",
+    "mazda-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

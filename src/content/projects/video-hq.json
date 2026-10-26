@@ -1,0 +1,26 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2024-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Video HQ",
+  "summary": "Sign cut for a Frito Lays commercial.",
+  "description": "Sign cut for a Frito Lays commercial.",
+  "coverUrl": "",
+  "cover": "video-hq.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "video-hq-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

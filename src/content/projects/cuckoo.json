@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2018-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Cuckoo",
+  "summary": "Pre-vis for a theatre set.",
+  "description": "Pre-vis for a theatre set.",
+  "coverUrl": "",
+  "cover": "cuckoo.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Oliver Welton"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "cuckoo-01.jpg",
+    "cuckoo-02.jpg",
+    "cuckoo-03.jpg",
+    "cuckoo-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

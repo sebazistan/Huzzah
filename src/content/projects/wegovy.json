@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2025-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Wegovy",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "wegovy.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/cOQwn4C1T0M"
+  ],
+  "gallery": [
+    "wegovy-01.jpg",
+    "wegovy-02.jpg",
+    "wegovy-03.jpg",
+    "wegovy-04.jpg",
+    "wegovy-05.jpg",
+    "wegovy-06.jpg",
+    "wegovy-07.jpg",
+    "wegovy-08.jpg",
+    "wegovy-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

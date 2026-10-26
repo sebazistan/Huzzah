@@ -1,0 +1,40 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2025-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Money Tap",
+  "summary": "Money Tap Prop.",
+  "description": "Money Tap Prop.",
+  "coverUrl": "",
+  "cover": "money-tap.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/FpQGoftCF7E",
+    "https://youtu.be/UTz8aogFh08",
+    "https://youtu.be/6QPzbQNWt0g"
+  ],
+  "gallery": [
+    "money-tap-01.jpg",
+    "money-tap-02.jpg",
+    "money-tap-03.jpg",
+    "money-tap-04.jpg",
+    "money-tap-05.jpg",
+    "money-tap-06.jpg",
+    "money-tap-07.jpg",
+    "money-tap-08.jpg",
+    "money-tap-09.jpg",
+    "money-tap-10.jpg",
+    "money-tap-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

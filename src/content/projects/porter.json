@@ -1,0 +1,23 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2025-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Porter",
+  "summary": "I designed and built a Porter Airlines chair. The tray and armrests raise/lower.",
+  "description": "I designed and built a Porter Airlines chair. The tray and armrests raise/lower.",
+  "coverUrl": "",
+  "cover": "porter.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "porter-01.jpg",
+    "porter-02.jpg",
+    "porter-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

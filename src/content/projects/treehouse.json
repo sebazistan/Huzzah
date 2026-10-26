@@ -1,0 +1,26 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2018-07-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Treehouse",
+  "summary": "I was part of a treehouse build for a TV commercial.",
+  "description": "I was part of a treehouse build for a TV commercial.",
+  "coverUrl": "",
+  "cover": "treehouse.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [
+    "https://youtube.com/shorts/3nNwRzXHFpw"
+  ],
+  "gallery": [
+    "treehouse-01.jpg",
+    "treehouse-02.jpg",
+    "treehouse-03.jpg",
+    "treehouse-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

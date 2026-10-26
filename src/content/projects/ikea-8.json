@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2023-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Ikea",
+  "summary": "Pre-vis for an Ikea commercial.",
+  "description": "Pre-vis for an Ikea commercial.",
+  "coverUrl": "",
+  "cover": "ikea-8.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "ikea-8-01.jpg",
+    "ikea-8-02.jpg",
+    "ikea-8-03.jpg",
+    "ikea-8-04.jpg",
+    "ikea-8-05.jpg",
+    "ikea-8-06.jpg",
+    "ikea-8-07.jpg",
+    "ikea-8-08.jpg",
+    "ikea-8-09.jpg",
+    "ikea-8-10.jpg",
+    "ikea-8-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2019-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Netflix",
+  "summary": "Design for a TV commercial.",
+  "description": "Design for a TV commercial.",
+  "coverUrl": "",
+  "cover": "netflix.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "netflix-01.jpg",
+    "netflix-02.jpg",
+    "netflix-03.jpg",
+    "netflix-04.jpg",
+    "netflix-05.jpg",
+    "netflix-06.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

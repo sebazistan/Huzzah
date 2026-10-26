@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2018-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Raptors Hotel",
+  "summary": "Pre-vis for a Raptors themed hotel suite.",
+  "description": "Pre-vis for a Raptors themed hotel suite.",
+  "coverUrl": "",
+  "cover": "raptors-hotel.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Cheryl Thompson"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "raptors-hotel-01.jpg",
+    "raptors-hotel-02.jpg",
+    "raptors-hotel-03.jpg",
+    "raptors-hotel-04.jpg",
+    "raptors-hotel-05.jpg",
+    "raptors-hotel-06.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

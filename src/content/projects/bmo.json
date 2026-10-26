@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "BMO",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "bmo.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "bmo-01.jpg",
+    "bmo-02.jpg",
+    "bmo-03.jpg",
+    "bmo-04.jpg",
+    "bmo-05.jpg",
+    "bmo-06.jpg",
+    "bmo-07.jpg",
+    "bmo-08.jpg",
+    "bmo-09.jpg",
+    "bmo-10.jpg",
+    "bmo-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

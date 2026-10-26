@@ -1,0 +1,33 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2024-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Midas",
+  "summary": "Pre-vis for a TV Commercial.",
+  "description": "Pre-vis for a TV Commercial.",
+  "coverUrl": "",
+  "cover": "midas.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jordan Worth"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "midas-01.jpg",
+    "midas-02.jpg",
+    "midas-03.jpg",
+    "midas-04.jpg",
+    "midas-05.jpg",
+    "midas-06.jpg",
+    "midas-07.jpg",
+    "midas-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

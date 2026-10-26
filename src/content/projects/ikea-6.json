@@ -1,0 +1,28 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Ikea",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "ikea-6.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "ikea-6-01.jpg",
+    "ikea-6-02.jpg",
+    "ikea-6-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

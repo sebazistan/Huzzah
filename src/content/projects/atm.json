@@ -1,0 +1,39 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2020-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "ATM",
+  "summary": "I designed and built functional buttons for a toy ATM.",
+  "description": "I designed and built functional buttons for a toy ATM.",
+  "coverUrl": "",
+  "cover": "atm.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [
+    "https://youtube.com/shorts/DV8FuFZwxY0",
+    "https://youtube.com/shorts/yDBHTcNU-VY"
+  ],
+  "gallery": [
+    "atm-01.jpg",
+    "atm-02.jpg",
+    "atm-03.jpg",
+    "atm-04.jpg",
+    "atm-05.jpg",
+    "atm-06.jpg",
+    "atm-07.jpg",
+    "atm-08.jpg",
+    "atm-09.jpg",
+    "atm-10.jpg",
+    "atm-11.jpg",
+    "atm-12.jpg",
+    "atm-13.jpg",
+    "atm-14.jpg",
+    "atm-15.jpg",
+    "atm-16.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

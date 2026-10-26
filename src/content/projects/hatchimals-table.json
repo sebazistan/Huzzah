@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2018-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Hatchimals Table",
+  "summary": "Design for a TV commercial.",
+  "description": "Design for a TV commercial.",
+  "coverUrl": "",
+  "cover": "hatchimals-table.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "hatchimals-table-01.jpg",
+    "hatchimals-table-02.jpg",
+    "hatchimals-table-03.jpg",
+    "hatchimals-table-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

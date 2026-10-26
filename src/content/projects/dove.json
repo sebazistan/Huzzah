@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2022-03-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Dove",
+  "summary": "Pre-vis for an installation.",
+  "description": "Pre-vis for an installation.",
+  "coverUrl": "",
+  "cover": "dove.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "dove-01.jpg",
+    "dove-02.jpg",
+    "dove-03.jpg",
+    "dove-04.jpg",
+    "dove-05.jpg",
+    "dove-06.jpg",
+    "dove-07.jpg",
+    "dove-08.jpg",
+    "dove-09.jpg",
+    "dove-10.jpg",
+    "dove-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

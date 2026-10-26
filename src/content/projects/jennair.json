@@ -1,0 +1,35 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2025-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Jennair",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "jennair.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "jennair-01.jpg",
+    "jennair-02.jpg",
+    "jennair-03.jpg",
+    "jennair-04.jpg",
+    "jennair-05.jpg",
+    "jennair-06.jpg",
+    "jennair-07.jpg",
+    "jennair-08.jpg",
+    "jennair-09.jpg",
+    "jennair-10.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2021-03-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Vice Jaguar",
+  "summary": "Design for an installation at Vice.",
+  "description": "Design for an installation at Vice.",
+  "coverUrl": "",
+  "cover": "vice-jaguar.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "vice-jaguar-01.jpg",
+    "vice-jaguar-02.jpg",
+    "vice-jaguar-03.jpg",
+    "vice-jaguar-04.jpg",
+    "vice-jaguar-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

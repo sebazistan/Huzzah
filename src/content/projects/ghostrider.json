@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2020-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Ghostrider",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "ghostrider.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jason MacIsaac"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "ghostrider-01.jpg",
+    "ghostrider-02.jpg",
+    "ghostrider-03.jpg",
+    "ghostrider-04.jpg",
+    "ghostrider-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

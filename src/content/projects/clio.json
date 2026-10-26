@@ -1,0 +1,38 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2020-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "CLIO",
+  "summary": "Design work for a TV commercial.",
+  "description": "Design work for a TV commercial.",
+  "coverUrl": "",
+  "cover": "clio.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "clio-01.jpg",
+    "clio-02.jpg",
+    "clio-03.jpg",
+    "clio-04.jpg",
+    "clio-05.jpg",
+    "clio-06.jpg",
+    "clio-07.jpg",
+    "clio-08.jpg",
+    "clio-09.jpg",
+    "clio-10.jpg",
+    "clio-11.jpg",
+    "clio-12.jpg",
+    "clio-13.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

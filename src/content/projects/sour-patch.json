@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2022-02-02",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Sour Patch",
+  "summary": "Design for a Sour Patch TV commercial.",
+  "description": "Design for a Sour Patch TV commercial.",
+  "coverUrl": "",
+  "cover": "sour-patch.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "James MacDonald"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "sour-patch-01.jpg",
+    "sour-patch-02.jpg",
+    "sour-patch-03.jpg",
+    "sour-patch-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

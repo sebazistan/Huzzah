@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Mr Clean",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "mr-clean.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "mr-clean-01.jpg",
+    "mr-clean-02.jpg",
+    "mr-clean-03.jpg",
+    "mr-clean-04.jpg",
+    "mr-clean-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,53 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Series",
+  "date": "2016-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Space Janitors 3",
+  "summary": "Space Janitors is a Canadian web series. The show is a parody of the Star Wars franchise and the plot is focused on two janitors, Darby & Mike, on a space station. It is available through the series producer Shaftesbury Plus.",
+  "description": "Space Janitors is a Canadian web series. The show is a parody of the Star Wars franchise and the plot is focused on two janitors, Darby & Mike, on a space station. It is available through the series producer Shaftesbury Plus.",
+  "coverUrl": "",
+  "cover": "space-janitors-s3.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Space Mop"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "Watch",
+      "url": "https://www.youtube.com/watch?v=aLN9Vb75GWQ&t=2s"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=TYMfPtYWPFc&list=PLdmFJ0zGH7opetIrvhCj8dx7ndw6UaGGv&index=1"
+  ],
+  "gallery": [
+    "space-janitors-s3-01.jpg",
+    "space-janitors-s3-02.jpg",
+    "space-janitors-s3-03.jpg",
+    "space-janitors-s3-04.jpg",
+    "space-janitors-s3-05.jpg",
+    "space-janitors-s3-06.jpg",
+    "space-janitors-s3-07.jpg",
+    "space-janitors-s3-08.jpg",
+    "space-janitors-s3-09.jpg",
+    "space-janitors-s3-10.jpg",
+    "space-janitors-s3-11.jpg",
+    "space-janitors-s3-12.jpg",
+    "space-janitors-s3-13.jpg",
+    "space-janitors-s3-14.jpg",
+    "space-janitors-s3-15.jpg",
+    "space-janitors-s3-16.jpg",
+    "space-janitors-s3-17.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

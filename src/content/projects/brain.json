@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Feature",
+  "date": "2025-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Brain",
+  "summary": "This was one of the more unusual props I've built and I'm still not sure what it was all about. It was meant to be a gooey gross brain that an ominous-looking monk type character sticks his hand into the top of.",
+  "description": "This was one of the more unusual props I've built and I'm still not sure what it was all about. It was meant to be a gooey gross brain that an ominous-looking monk type character sticks his hand into the top of.",
+  "coverUrl": "",
+  "cover": "brain.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Davin Lengyel"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastan Harder"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "brain-01.jpg",
+    "brain-02.jpg",
+    "brain-03.jpg",
+    "brain-04.jpg",
+    "brain-05.jpg",
+    "brain-06.jpg",
+    "brain-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

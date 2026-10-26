@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2023-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "BMO airport",
+  "summary": "Pre-vis for a BMO commercial.",
+  "description": "Pre-vis for a BMO commercial.",
+  "coverUrl": "",
+  "cover": "bmo-airport.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "bmo-airport-01.jpg",
+    "bmo-airport-02.jpg",
+    "bmo-airport-03.jpg",
+    "bmo-airport-04.jpg",
+    "bmo-airport-05.jpg",
+    "bmo-airport-06.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

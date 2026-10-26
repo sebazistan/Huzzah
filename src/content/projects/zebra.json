@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2024-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Zebra",
+  "summary": "I designed and built a life-size zebra for an event.",
+  "description": "I designed and built a life-size zebra for an event.",
+  "coverUrl": "",
+  "cover": "zebra.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "zebra-01.jpg",
+    "zebra-02.jpg",
+    "zebra-03.jpg",
+    "zebra-04.jpg",
+    "zebra-05.jpg",
+    "zebra-06.jpg",
+    "zebra-07.jpg",
+    "zebra-08.jpg",
+    "zebra-09.jpg",
+    "zebra-10.jpg",
+    "zebra-11.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

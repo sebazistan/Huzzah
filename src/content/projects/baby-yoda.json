@@ -1,0 +1,40 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Baby Yoda",
+  "summary": "A custom puppet for a series.",
+  "description": "A custom puppet for a series.",
+  "coverUrl": "",
+  "cover": "baby-yoda.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sam Wong"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/8KAMEIQjaNs"
+  ],
+  "gallery": [
+    "baby-yoda-01.jpg",
+    "baby-yoda-02.jpg",
+    "baby-yoda-03.jpg",
+    "baby-yoda-04.jpg",
+    "baby-yoda-05.jpg",
+    "baby-yoda-06.jpg",
+    "baby-yoda-07.jpg",
+    "baby-yoda-08.jpg",
+    "baby-yoda-09.jpg",
+    "baby-yoda-10.jpg",
+    "baby-yoda-11.jpg",
+    "baby-yoda-12.jpg",
+    "baby-yoda-13.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

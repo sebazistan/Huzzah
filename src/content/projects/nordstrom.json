@@ -1,0 +1,28 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Nordstrom",
+  "summary": "Pre-vis for an installation.",
+  "description": "Pre-vis for an installation.",
+  "coverUrl": "",
+  "cover": "nordstrom.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "nordstrom-01.jpg",
+    "nordstrom-02.jpg",
+    "nordstrom-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

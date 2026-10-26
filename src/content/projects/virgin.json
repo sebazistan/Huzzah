@@ -1,0 +1,33 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-06-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Virgin",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "virgin.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "virgin-01.jpg",
+    "virgin-02.jpg",
+    "virgin-03.jpg",
+    "virgin-04.jpg",
+    "virgin-05.jpg",
+    "virgin-06.jpg",
+    "virgin-07.jpg",
+    "virgin-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

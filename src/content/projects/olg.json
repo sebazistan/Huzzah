@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-03-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "OLG",
+  "summary": "Pre-vis for an OLG commercial.",
+  "description": "Pre-vis for an OLG commercial.",
+  "coverUrl": "",
+  "cover": "olg.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jason MacIsaac"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "olg-01.jpg",
+    "olg-02.jpg",
+    "olg-03.jpg",
+    "olg-04.jpg",
+    "olg-05.jpg",
+    "olg-06.jpg",
+    "olg-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,33 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2024-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Gnome mugs",
+  "summary": "Miniature mugs, abacus and desk for a BMO commercial. Ben Harris led this project.",
+  "description": "Miniature mugs, abacus and desk for a BMO commercial. Ben Harris led this project.",
+  "coverUrl": "",
+  "cover": "gnome-mugs.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "gnome-mugs-01.jpg",
+    "gnome-mugs-02.jpg",
+    "gnome-mugs-03.jpg",
+    "gnome-mugs-04.jpg",
+    "gnome-mugs-05.jpg",
+    "gnome-mugs-06.jpg",
+    "gnome-mugs-07.jpg",
+    "gnome-mugs-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

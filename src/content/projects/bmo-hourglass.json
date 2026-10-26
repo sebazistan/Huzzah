@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2024-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "BMO Hourglass",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "bmo-hourglass.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "bmo-hourglass-01.jpg",
+    "bmo-hourglass-02.jpg",
+    "bmo-hourglass-03.jpg",
+    "bmo-hourglass-04.jpg",
+    "bmo-hourglass-05.jpg",
+    "bmo-hourglass-06.jpg",
+    "bmo-hourglass-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

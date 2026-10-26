@@ -1,0 +1,41 @@
+{
+  "section": "design",
+  "category": "production-design",
+  "type": "Series",
+  "date": "2020-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "The D Cut",
+  "summary": "The D Cut follows an iconic queer hair salon fighting to stay open amid neighbourhood gentrification. D \"Marie Marolle\", hairdresser and local icon, believes everyone is just a cut away from living their best life and provides a safe space for queer cuts on a pay-what-you-can basis. On Crave.",
+  "description": "The D Cut follows an iconic queer hair salon fighting to stay open amid neighbourhood gentrification. D \"Marie Marolle\", hairdresser and local icon, believes everyone is just a cut away from living their best life and provides a safe space for queer cuts on a pay-what-you-can basis. On Crave.",
+  "coverUrl": "",
+  "cover": "the-d-cut.jpg",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "Shaftesbury"
+    },
+    {
+      "label": "Director",
+      "value": "D. W. Waterson"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/title/tt12605456/"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=jYD1DOzHVQ8"
+  ],
+  "gallery": [
+    "the-d-cut-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

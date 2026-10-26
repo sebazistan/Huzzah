@@ -1,0 +1,25 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2025-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Football Spinner",
+  "summary": "I designed and built a rig to spin a football on camera.",
+  "description": "I designed and built a rig to spin a football on camera.",
+  "coverUrl": "",
+  "cover": "football-spinner.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "football-spinner-01.jpg",
+    "football-spinner-02.jpg",
+    "football-spinner-03.jpg",
+    "football-spinner-04.jpg",
+    "football-spinner-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

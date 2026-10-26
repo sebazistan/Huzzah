@@ -1,0 +1,37 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-10-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Badges",
+  "summary": "Badges designed by Sebastian Harder, resin printed and painted by Ben Harris.",
+  "description": "Badges designed by Sebastian Harder, resin printed and painted by Ben Harris.",
+  "coverUrl": "",
+  "cover": "badges.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Sam Wong"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "badges-01.jpg",
+    "badges-02.jpg",
+    "badges-03.jpg",
+    "badges-04.jpg",
+    "badges-05.jpg",
+    "badges-06.jpg",
+    "badges-07.jpg",
+    "badges-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

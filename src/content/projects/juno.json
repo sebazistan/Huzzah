@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2023-12-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Juno",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "juno.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "juno-01.jpg",
+    "juno-02.jpg",
+    "juno-03.jpg",
+    "juno-04.jpg",
+    "juno-05.jpg",
+    "juno-06.jpg",
+    "juno-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,33 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-05-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Sleep Country Chair",
+  "summary": "I designed a chair for a Sleep Country commercial.",
+  "description": "I designed a chair for a Sleep Country commercial.",
+  "coverUrl": "",
+  "cover": "sleep-country-chair.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "sleep-country-chair-01.jpg",
+    "sleep-country-chair-02.jpg",
+    "sleep-country-chair-03.jpg",
+    "sleep-country-chair-04.jpg",
+    "sleep-country-chair-05.jpg",
+    "sleep-country-chair-06.jpg",
+    "sleep-country-chair-07.jpg",
+    "sleep-country-chair-08.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

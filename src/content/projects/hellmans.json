@@ -1,0 +1,26 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "Commercial",
+  "date": "2024-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Hellmans",
+  "summary": "Pre-vis for a commercial.",
+  "description": "Pre-vis for a commercial.",
+  "coverUrl": "",
+  "cover": "hellmans.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "hellmans-01.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

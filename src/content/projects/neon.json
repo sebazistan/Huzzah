@@ -1,0 +1,36 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Series",
+  "date": "2022-08-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Neon",
+  "summary": "Neon signs for a series.",
+  "description": "Neon signs for a series.",
+  "coverUrl": "",
+  "cover": "neon.jpg",
+  "credits": [
+    {
+      "label": "Director",
+      "value": "Romeo Candido"
+    },
+    {
+      "label": "Production Designer",
+      "value": "Sebastian Harder"
+    }
+  ],
+  "links": [
+    {
+      "label": "IMDb",
+      "url": "https://www.imdb.com/es/title/tt16390628/?ref_=nm_flmg_job_2_accord_2_cdt_t_3"
+    }
+  ],
+  "videos": [],
+  "gallery": [
+    "neon-01.jpg",
+    "neon-02.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

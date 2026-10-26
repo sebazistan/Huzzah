@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2023-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "BMO Dollar",
+  "summary": "",
+  "description": "",
+  "coverUrl": "",
+  "cover": "bmo-dollar.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=orK8xyCZy_4"
+  ],
+  "gallery": [
+    "bmo-dollar-01.jpg",
+    "bmo-dollar-02.jpg",
+    "bmo-dollar-03.jpg",
+    "bmo-dollar-04.jpg",
+    "bmo-dollar-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

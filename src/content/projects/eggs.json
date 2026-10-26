@@ -1,0 +1,42 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2021-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Eggs",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "eggs.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "eggs-01.jpg",
+    "eggs-02.jpg",
+    "eggs-03.jpg",
+    "eggs-04.jpg",
+    "eggs-05.jpg",
+    "eggs-06.jpg",
+    "eggs-07.jpg",
+    "eggs-08.jpg",
+    "eggs-09.jpg",
+    "eggs-10.jpg",
+    "eggs-11.jpg",
+    "eggs-12.jpg",
+    "eggs-13.jpg",
+    "eggs-14.jpg",
+    "eggs-15.jpg",
+    "eggs-16.jpg",
+    "eggs-17.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

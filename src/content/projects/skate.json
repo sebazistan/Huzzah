@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2024-12-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Skate",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "skate.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "skate-01.jpg",
+    "skate-02.jpg",
+    "skate-03.jpg",
+    "skate-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

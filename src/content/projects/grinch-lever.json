@@ -1,0 +1,27 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2024-12-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Grinch Lever",
+  "summary": "Ben Harris designed this one.",
+  "description": "Ben Harris designed this one.",
+  "coverUrl": "",
+  "cover": "grinch-lever.jpg",
+  "credits": [],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "grinch-lever-01.jpg",
+    "grinch-lever-02.jpg",
+    "grinch-lever-03.jpg",
+    "grinch-lever-04.jpg",
+    "grinch-lever-05.jpg",
+    "grinch-lever-06.jpg",
+    "grinch-lever-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

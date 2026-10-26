@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2022-01-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Interac",
+  "summary": "Pre-vis for an Interac TV commercial.",
+  "description": "Pre-vis for an Interac TV commercial.",
+  "coverUrl": "",
+  "cover": "interac.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "James MacDonald"
+    }
+  ],
+  "links": [],
+  "videos": [
+    "https://youtu.be/PqYvW1bavzw"
+  ],
+  "gallery": [
+    "interac-01.jpg",
+    "interac-02.jpg",
+    "interac-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

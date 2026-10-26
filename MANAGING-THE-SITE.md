@@ -156,7 +156,17 @@ The design lives in code, not in the admin:
 
 Ask Claude to make these changes; no need to edit by hand.
 
-## Hosting and domain
+## Hosting on Cloudflare Pages (recommended)
+
+1. Cloudflare dashboard → Workers & Pages → Create → Pages → **Connect to Git** → pick this repo.
+2. Framework preset **Astro**, build command `npm run build`, output directory `dist`.
+3. Environment variable: `NODE_VERSION` = `24`. Do **not** set `SITE_URL` or `BASE_PATH` (those are only for the GitHub preview).
+4. Every push to `main` now deploys automatically. The build writes a `_redirects` file, so old Webflow URLs get real permanent (301) redirects.
+5. When you're ready to leave Webflow: Pages project → **Custom domains** → add `www.huzzahdesign.com` and follow the DNS prompts.
+
+Cloudflare has no total-size cap for a site like this (limits are per file and the number of files), which GitHub Pages does.
+
+## Hosting and domain (GitHub Pages, current preview)
 
 - Hosting: GitHub Pages. Repo **Settings → Pages → Source: GitHub Actions**.
 - Until the domain moves, the site is built for the preview address `sebazistan.github.io/Huzzah`. This is controlled by two lines in `.github/workflows/deploy.yml` (`SITE_URL` and `BASE_PATH`).
@@ -177,7 +187,11 @@ Ask Claude to make these changes; no need to edit by hand.
 
 ## Status: what was migrated from Webflow
 
-Done: all 12 design projects, all 55 VFX projects, all 28 For Kicks projects, Toilet Town (12 albums, About, Shop), About and Awards for both sides, VFX client logos, redirects for old URLs, and every image (stored in this repo, not on Webflow).
+Done (checked against your Webflow CMS exports): all 284 published Design entries (135 Pre-vis, 103 Props, 18 Production Design, 28 For Kicks), all published VFX projects, Toilet Town (12 albums, About, Shop), About and Awards for both sides, VFX client logos, 300+ redirects for old URLs, and every image (stored in this repo, not on Webflow).
+
+Left out on purpose: the 4 unpublished drafts in the Webflow export (`cibc2025`, `moose`, `stickers`, `webb`), the empty shop and checkout template pages, the empty search and photography pages, and the **Happy Trails** interactive map (needs the Webflow code export to port).
+
+Three projects exist on both the Design and VFX sides under the same name (Burnwatch, Don't Come Upstairs, My Dead Mom). The design versions are stored with a `-design` suffix, and the old `/huzzah/design/...` links redirect to them.
 
 Before cancelling Webflow:
 

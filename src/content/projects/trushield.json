@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2020-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Trushield",
+  "summary": "Pre-vis for a Trushield TV commercial.",
+  "description": "Pre-vis for a Trushield TV commercial.",
+  "coverUrl": "",
+  "cover": "trushield.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jason MacIsaac"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "trushield-01.jpg",
+    "trushield-02.jpg",
+    "trushield-03.jpg",
+    "trushield-04.jpg",
+    "trushield-05.jpg",
+    "trushield-06.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

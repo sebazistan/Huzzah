@@ -1,0 +1,28 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2020-09-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Bush Beans",
+  "summary": "Design for a TV comemrcial.",
+  "description": "Design for a TV comemrcial.",
+  "coverUrl": "",
+  "cover": "bush-beans.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "bush-beans-01.jpg",
+    "bush-beans-02.jpg",
+    "bush-beans-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

@@ -1,0 +1,31 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Special K",
+  "summary": "Pre-vis for an installation.",
+  "description": "Pre-vis for an installation.",
+  "coverUrl": "",
+  "cover": "special-k.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Dominika Monicka"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "special-k-01.jpg",
+    "special-k-02.jpg",
+    "special-k-03.jpg",
+    "special-k-04.jpg",
+    "special-k-05.jpg",
+    "special-k-06.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

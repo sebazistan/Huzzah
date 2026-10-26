@@ -1,0 +1,32 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-04-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Cool Maker",
+  "summary": "Pre-vis for a Cool Maker TV commercial. Includes vector files for CNC.",
+  "description": "Pre-vis for a Cool Maker TV commercial. Includes vector files for CNC.",
+  "coverUrl": "",
+  "cover": "cool-maker.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Dominika Monicka"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "cool-maker-01.jpg",
+    "cool-maker-02.jpg",
+    "cool-maker-03.jpg",
+    "cool-maker-04.jpg",
+    "cool-maker-05.jpg",
+    "cool-maker-06.jpg",
+    "cool-maker-07.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

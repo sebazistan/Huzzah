@@ -1,0 +1,29 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2024-12-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Tasty Straw",
+  "summary": "I designed, 3D printed and painted a \"tasty\" straw for a TV commercial.",
+  "description": "I designed, 3D printed and painted a \"tasty\" straw for a TV commercial.",
+  "coverUrl": "",
+  "cover": "tasty-straw.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "tasty-straw-01.jpg",
+    "tasty-straw-02.jpg",
+    "tasty-straw-03.jpg",
+    "tasty-straw-04.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

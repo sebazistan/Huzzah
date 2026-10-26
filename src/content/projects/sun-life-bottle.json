@@ -1,0 +1,28 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "Commercial",
+  "date": "2021-12-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "Sun Life Bottle",
+  "summary": "Design for a TV commercial.",
+  "description": "Design for a TV commercial.",
+  "coverUrl": "",
+  "cover": "sun-life-bottle.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Kailee Clayton"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "sun-life-bottle-01.jpg",
+    "sun-life-bottle-02.jpg",
+    "sun-life-bottle-03.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

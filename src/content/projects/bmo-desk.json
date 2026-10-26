@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "category": "props",
+  "type": "",
+  "date": "2018-02-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "BMO Desk",
+  "summary": "Design work of a TV commercial.",
+  "description": "Design work of a TV commercial.",
+  "coverUrl": "",
+  "cover": "bmo-desk.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "bmo-desk-01.jpg",
+    "bmo-desk-02.jpg",
+    "bmo-desk-03.jpg",
+    "bmo-desk-04.jpg",
+    "bmo-desk-05.jpg",
+    "bmo-desk-06.jpg",
+    "bmo-desk-07.jpg",
+    "bmo-desk-08.jpg",
+    "bmo-desk-09.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}

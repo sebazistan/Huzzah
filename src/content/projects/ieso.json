@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "category": "pre-vis",
+  "type": "",
+  "date": "2019-11-01",
+  "featured": false,
+  "legacySlug": "",
+  "title": "IESO",
+  "summary": "Pre-vis for a TV commercial.",
+  "description": "Pre-vis for a TV commercial.",
+  "coverUrl": "",
+  "cover": "ieso.jpg",
+  "credits": [
+    {
+      "label": "Production Designer",
+      "value": "Jesson Moen"
+    }
+  ],
+  "links": [],
+  "videos": [],
+  "gallery": [
+    "ieso-01.jpg",
+    "ieso-02.jpg",
+    "ieso-03.jpg",
+    "ieso-04.jpg",
+    "ieso-05.jpg"
+  ],
+  "galleryCaptions": [],
+  "galleryUrls": []
+}
