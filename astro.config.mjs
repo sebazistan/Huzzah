@@ -30,6 +30,14 @@ function legacyRedirects() {
     '/ttown/about': '/kicks/toilet-town/about',
     '/ttown/shop': '/kicks/toilet-town/shop',
     '/ttown/contact': '/contact/toilet-town',
+    // Happy Trails now lives on its own domain (separate GitHub Pages site)
+    '/happy-trails/happy-trails': 'https://happytrailstoronto.com/',
+    '/happy-trails/happy-trails-backup': 'https://happytrailstoronto.com/',
+    '/happy-trails/crossings': 'https://happytrailstoronto.com/',
+    '/happy-trails/about': 'https://happytrailstoronto.com/about',
+    '/happy-trails/trails': 'https://happytrailstoronto.com/trails',
+    '/happy-trails/beltline': 'https://happytrailstoronto.com/beltline',
+    '/happy-trails/contact': 'https://happytrailstoronto.com/contact',
   };
   for (let n = 1; n <= 12; n++) r[`/ttown/albums/album-${n}`] = `/kicks/toilet-town/photos/album-${String(n).padStart(2, '0')}`;
   for (const f of readdirSync('src/content/projects')) {

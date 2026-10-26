@@ -189,7 +189,7 @@ Cloudflare has no total-size cap for a site like this (limits are per file and t
 
 Done (checked against your Webflow CMS exports): all 284 published Design entries (135 Pre-vis, 103 Props, 18 Production Design, 28 For Kicks), all published VFX projects, Toilet Town (12 albums, About, Shop), About and Awards for both sides, VFX client logos, 300+ redirects for old URLs, and every image (stored in this repo, not on Webflow).
 
-Left out on purpose: the 4 unpublished drafts in the Webflow export (`cibc2025`, `moose`, `stickers`, `webb`), the empty shop and checkout template pages, the empty search and photography pages, and the **Happy Trails** interactive map (needs the Webflow code export to port).
+Left out on purpose: the 4 unpublished drafts in the Webflow export (`cibc2025`, `moose`, `stickers`, `webb`), the empty shop and checkout template pages, the empty search and photography pages. **Happy Trails** is not part of this site: it already lives on its own domain, <https://happytrailstoronto.com> (GitHub Pages, not Webflow), so cancelling Webflow doesn't affect it. The old `huzzahdesign.com/happy-trails/...` addresses redirect there.
 
 Three projects exist on both the Design and VFX sides under the same name (Burnwatch, Don't Come Upstairs, My Dead Mom). The design versions are stored with a `-design` suffix, and the old `/huzzah/design/...` links redirect to them.
 
