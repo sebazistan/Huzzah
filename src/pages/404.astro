@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/content';
+---
+
+<Base title="Page not found">
+  <div class="wrap page">
+    <h1>404<span style="color:var(--accent)">.</span></h1>
+    <p>That page doesn't exist (or has moved).</p>
+    <p>
+      <a href={href('/design')} style="color:var(--accent)">Design</a> ·
+      <a href={href('/vfx')} style="color:var(--accent)">VFX</a> ·
+      <a href={href('/kicks')} style="color:var(--accent)">For Kicks</a>
+    </p>
+  </div>
+</Base>

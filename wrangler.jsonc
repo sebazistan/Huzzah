@@ -1,0 +1,11 @@
+{
+  // Cloudflare: publish the static Astro build (dist/) as the site.
+  // _redirects (generated at build time) is picked up automatically.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "huzzah",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
