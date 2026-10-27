@@ -14,7 +14,10 @@ export async function getStaticPaths() {
 const { cat, projects } = Astro.props;
 ---
 
-<Base title={cat.name} description={cat.blurb}>
+<Base
+  title={`${cat.name} projects`}
+  description={`${cat.blurb} Browse ${projects.length} ${cat.name.toLowerCase()} projects by Huzzah, Toronto.`}
+>
   <section class="wrap hero">
     <h1>{cat.name}</h1>
     <p>{cat.blurb}</p>

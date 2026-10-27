@@ -15,7 +15,8 @@ const email = form.email || site.email;
 ---
 
 <Base
-  title="Contact"
+  title={isTT ? 'Contact Toilet Town' : form.section === 'vfx' ? 'Contact: VFX' : form.section === 'kicks' ? 'Contact: For Kicks' : 'Contact: production design, pre-vis and props'}
+  description={isTT ? 'Send your street toilet photos to Toilet Town, a Huzzah photo project in Toronto.' : `${form.intro || 'Get in touch.'} Contact Huzzah in Toronto.`}
   section={isTT ? 'toilet' : form.section}
   nav={isTT ? ttNav : undefined}
   brand={isTT ? ttBrand : undefined}

@@ -2,9 +2,14 @@
 import Base from '../layouts/Base.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import ContactForm from '../components/ContactForm.astro';
-import { getSite, getProjects, getCategories, getContactForms, href } from '../lib/content';
+import { getSite, getProjects, getCategories, getContactForms, getAwards, href } from '../lib/content';
+import { siteJsonLd } from '../lib/seo';
 
 const site = await getSite();
+const winners = [...(await getAwards('design')), ...(await getAwards('vfx'))]
+  .filter((a) => a.result === 'Winner')
+  .map((a) => `${a.award}: ${a.detail}`);
+const jsonLd = siteJsonLd(site, winners, site.shareImage ? href(site.shareImage) : undefined);
 const cats = await getCategories();
 const tiles = cats.filter((c) => c.section === 'design' || c.section === 'kicks');
 const featured = (await getProjects('design')).filter((p) => p.featured);
@@ -12,7 +17,7 @@ const form = (await getContactForms()).find((f) => f.slug === 'design');
 const catHref = (c: (typeof cats)[number]) => href(c.section === 'kicks' ? '/kicks' : `/design/category/${c.slug}`);
 ---
 
-<Base description={site.tagline}>
+<Base rawTitle={site.homeTitle || 'Huzzah'} description={site.homeDescription || site.tagline} jsonLd={jsonLd}>
   <section class="wrap hero">
     <h1>{site.heroHeading.replace(/\.$/, '')}<em>.</em></h1>
     <p>{site.tagline}</p>

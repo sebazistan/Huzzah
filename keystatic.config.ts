@@ -18,6 +18,25 @@ export default config({
       schema: {
         heroHeading: fields.text({ label: 'Home heading' }),
         tagline: fields.text({ label: 'Tagline', multiline: true }),
+        homeTitle: fields.text({
+          label: 'Home page title (shown in Google results and browser tabs)',
+          description: 'About 60 characters. Include what you do and where, for example: Huzzah | Production Design, Pre-Vis & Props in Toronto',
+        }),
+        homeDescription: fields.text({
+          label: 'Home page description (shown in Google results and when shared)',
+          description: 'About 150 characters.',
+          multiline: true,
+        }),
+        shareImage: fields.image({
+          label: 'Default share image (the picture shown when a link is shared)',
+          description: 'Used for pages without their own photo. Best size is 1200 x 630 pixels. Every project uses its own cover photo automatically.',
+          directory: 'public/images/share',
+          publicPath: '/images/share/',
+        }),
+        ownerName: fields.text({
+          label: 'Owner name (for search engines)',
+          description: 'Shown to Google as the person behind Huzzah.',
+        }),
         bio: fields.text({ label: 'About / bio', multiline: true }),
         email: fields.text({ label: 'Contact email' }),
         web3formsKey: fields.text({
@@ -235,6 +254,11 @@ export default config({
         date: fields.date({ label: 'Date' }),
         featured: fields.checkbox({ label: 'Show in Featured Work', defaultValue: false }),
         summary: fields.text({ label: 'Card summary', multiline: true }),
+        seoDescription: fields.text({
+          label: 'Search and share description (optional)',
+          description: 'Shown in Google results and when the page is shared. About 150 characters. Leave empty and one is written for you from the title, category, year and credits.',
+          multiline: true,
+        }),
         description: fields.text({
           label: 'About (blank line = new paragraph)',
           multiline: true,

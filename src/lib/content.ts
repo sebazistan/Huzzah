@@ -39,9 +39,16 @@ export type Project = Awaited<ReturnType<typeof getProjects>>[number];
 
 export const image = (p: { cover?: string | null }) => (p.cover ? href(p.cover) : '');
 
-export const galleryImages = (p: Project) => [
-  ...p.gallery.map((g, i) => ({ src: href(g), caption: p.galleryCaptions[i] ?? '' })),
-];
+/** Gallery photos with a caption and a text description (alt) for screen readers and search. */
+export const galleryImages = (p: Project) =>
+  p.gallery.map((g, i) => {
+    const caption = p.galleryCaptions[i] ?? '';
+    return {
+      src: href(g),
+      caption,
+      alt: caption || `${p.title}: photo ${i + 1} of ${p.gallery.length}`,
+    };
+  });
 
 export async function getContactForms() {
   return (await reader.singletons.contact.read())?.forms ?? [];

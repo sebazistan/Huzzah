@@ -1,8 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Awards from '../../components/Awards.astro';
+import { getAwards } from '../../lib/content';
+
+const awards = await getAwards('design');
+const wins = awards.filter((a) => a.result === 'Winner').length;
+const noms = awards.length - wins;
+const description = `Production design awards for Huzzah: ${wins} ${wins === 1 ? 'win' : 'wins'} and ${noms} ${noms === 1 ? 'nomination' : 'nominations'}, including ${awards[0]?.award ?? 'festival awards'}.`;
 ---
 
-<Base title="Awards" description="Awards and nominations for production design.">
+<Base title="Production design awards" description={description}>
   <Awards section="design" />
 </Base>

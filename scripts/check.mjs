@@ -90,7 +90,8 @@ for (const { slug, file, data: d } of projects) {
   if (d.section === 'design' && !categorySlugs.has(d.category)) problem(`${w}: its Category "${d.category}" does not exist. Pick Production Design, Pre-Vis or Props.`);
   if (d.date && !/^\d{4}-\d{2}-\d{2}$/.test(d.date)) warn(`${w}: the date "${d.date}" looks odd.`);
   if (!TYPES.has(d.type ?? '')) warn(`${w}: the Type "${d.type}" is not one of the usual ones.`);
-  if (!d.cover) warn(`${w}: it has no cover image.`);
+  if (!d.cover) warn(`${w}: it has no cover image, so sharing its link will show the default picture.`);
+  if (d.seoDescription && d.seoDescription.length > 170) warn(`${w}: the search and share description is ${d.seoDescription.length} characters. Google shows about 150-160.`);
   fileRef(d.cover, `${w} cover`);
   (d.gallery || []).forEach((g, i) => fileRef(g, `${w} gallery photo ${i + 1}`));
   if ((d.galleryCaptions || []).length > (d.gallery || []).length) warn(`${w}: it has more captions than photos.`);
@@ -142,6 +143,11 @@ if (site) {
   if (site.email && !email(site.email)) warn(`Site settings: the email "${site.email}" does not look like an email address.`);
   if (site.web3formsKey && !uuid.test(site.web3formsKey.trim())) warn('Site settings: the Web3Forms access key does not look right. It should be a long code like xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx with no spaces.');
   (site.vfxClientLogos || []).forEach((l, i) => fileRef(l, `VFX client logo ${i + 1}`));
+  if (site.shareImage) fileRef(site.shareImage, 'Site settings: default share image');
+  else warn('Site settings: there is no default share image, so links to pages without a photo will show no picture when shared.');
+  if (!site.homeTitle) warn('Site settings: the home page title is empty, so the home page tab will just say "Huzzah".');
+  if (site.homeTitle && site.homeTitle.length > 70) warn(`Site settings: the home page title is ${site.homeTitle.length} characters. Google shows about 60.`);
+  if (site.homeDescription && site.homeDescription.length > 170) warn(`Site settings: the home page description is ${site.homeDescription.length} characters. Google shows about 150-160.`);
 }
 
 const services = readJson(join(root, 'src/content/services.json'));

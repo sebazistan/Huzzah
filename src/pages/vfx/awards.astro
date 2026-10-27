@@ -1,8 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Awards from '../../components/Awards.astro';
+import { getAwards } from '../../lib/content';
+
+const awards = await getAwards('vfx');
+const wins = awards.filter((a) => a.result === 'Winner').length;
+const noms = awards.length - wins;
+const description = `Visual effects awards for Huzzah: ${wins} ${wins === 1 ? 'win' : 'wins'} and ${noms} ${noms === 1 ? 'nomination' : 'nominations'}, including ${awards[0]?.award ?? 'festival awards'}.`;
 ---
 
-<Base title="VFX Awards" section="vfx" description="Awards and nominations for visual effects.">
+<Base title="VFX awards" section="vfx" description={description}>
   <Awards section="vfx" />
 </Base>

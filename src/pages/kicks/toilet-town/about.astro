@@ -2,10 +2,11 @@
 import Base from '../../../layouts/Base.astro';
 import { getToiletTown, paragraphs, ttImg } from '../../../lib/content';
 import { ttNav, ttBrand } from '../../../lib/toilet-town';
+import { clip } from '../../../lib/seo';
 const tt = await getToiletTown();
 ---
 
-<Base title="Toilet Talk" section="toilet" nav={ttNav} brand={ttBrand}>
+<Base title="Toilet Talk: why so many toilets on Toronto curbs?" section="toilet" nav={ttNav} brand={ttBrand} description={clip(tt.intro)} image={ttImg(tt.aboutImage)}>
   <div class="wrap page tt-about">
     <h1>{tt.aboutHeading}<span style="color:var(--accent)">.</span></h1>
     {tt.aboutImage && <img class="tt-about-img" src={ttImg(tt.aboutImage)} alt="" />}

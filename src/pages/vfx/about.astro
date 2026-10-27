@@ -1,10 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getSite, href } from '../../lib/content';
+import { clip } from '../../lib/seo';
 const site = await getSite();
 ---
 
-<Base title="About VFX" section="vfx">
+<Base title="About Huzzah VFX" section="vfx" description={clip(site.vfxBio)}>
   <div class="wrap page">
     <h1>About<span style="color:var(--accent)">.</span></h1>
     <p>{site.vfxBio}</p>

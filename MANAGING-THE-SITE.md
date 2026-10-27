@@ -90,7 +90,8 @@ Editor → **Projects** → **Add**.
 | **Type** | Series, Commercial, Feature, Short, Music Video, Promo or Personal. The VFX page uses it for its filter buttons. |
 | **Date** | Projects are sorted newest first. |
 | **Show in Featured Work** | Puts a Design project on the home page. |
-| **Card summary** | The short text on cards and in search and social previews. |
+| **Card summary** | The short text on cards. |
+| **Search and share description** | *Optional.* What Google shows under the page title, and what appears when the link is shared. About 150 characters. If empty, one is written automatically from the title, category, year and credits. |
 | **About** | The main description. A blank line starts a new paragraph. |
 | **Cover image** | The big image on the project page and its card. |
 | **Credits** | Pairs like *Director: Name*. |
@@ -140,7 +141,7 @@ Editor → **Contact pages**. Each entry is one page at `/contact/<name>`:
 
 All the contact forms use **[Web3Forms](https://web3forms.com)**, a free service that emails you each message. The visitor stays on your page and sees "Thank you".
 
-- **One key covers every page.** It's in Editor → **Site settings → Web3Forms access key**. Messages go to the email address you registered with Web3Forms.
+- **Which key a page uses.** The **Design**, **For Kicks** and **Toilet Town** pages (and the form at the bottom of the home page) use the key in Editor → **Site settings → Web3Forms access key**. The **VFX** page has its own key (Contact pages → the `vfx` entry → *Web3Forms access key for this page*). Each key sends to the email address that Web3Forms form was set up with.
 - **You can tell the pages apart** by the subject, which starts with the page, for example *"Huzzah VFX: Hello"* or *"Toilet Town: …"*. The email also includes a "page" line.
 - **To send one page to a different inbox:** create another key at web3forms.com using that email address, and paste it into that page's own **Web3Forms access key** box (Contact pages). Leave it empty otherwise.
 - **To change or replace the key:** get a new one from web3forms.com (enter your email and they send it), paste it over the old one in Site settings, then Save and Publish.
@@ -156,7 +157,7 @@ All the contact forms use **[Web3Forms](https://web3forms.com)**, a free service
 ## 7. The other editable pages
 
 **Site settings**
-Home heading, tagline, bio, contact email, the **Web3Forms access key** for the contact forms, Instagram and IMDb links, the client list (Design About page), the VFX About text and client logos, the **VFX page intro**, the **For Kicks page intro**, and the **footer text**.
+Home heading, tagline, bio, contact email, the **Web3Forms access key** for the contact forms, Instagram and IMDb links, the client list (Design About page), the VFX About text and client logos, the **VFX page intro**, the **For Kicks page intro**, the **footer text**, and the search and sharing settings (**home page title and description**, **default share image**, **owner name**).
 
 **Services**
 Each service has a title, text, button label, link and a **looping video** that plays on its own, muted, only while it is on screen. Upload an MP4 (required), optionally a WebM (smaller in some browsers), and a still image shown while it loads. Keep clips short and **under about 6 MB**, and **without sound** (browsers won't autoplay video that has sound). Visitors who prefer reduced motion see the still image.
@@ -173,6 +174,18 @@ Pages: home, Photos (12 albums), About, Shop and its own contact page.
 
 **Categories**
 Production Design, Pre-Vis, Props, For Kicks and VFX: each has a name, section, order and a short blurb that shows on the home page tiles.
+
+**Search and sharing (so people can find you, and links look good)**
+
+This is automatic; there's nothing to do for new projects.
+
+- **Titles and descriptions:** every page gets its own. A project's tab and Google title looks like *"KFC Statue: Props (2021) | Huzzah"*. Its description is written from the real facts (title, kind of work, year, client, director, production designer and your one-line summary). To write your own, fill in **Search and share description** on that project. The home page's title and description are in **Site settings**.
+- **Share previews:** when a link is pasted into a message, social post or Slack, it shows a picture, title and description. **Each project uses its own cover photo.** Every other page (home, About, Services, awards, contact) uses the **default share image** in Site settings (best size 1200 × 630 pixels; the current one was made from four of your project covers). You don't need to make social images for individual pages.
+- **Structured data:** behind the scenes, Google is told who Huzzah is (a Toronto studio, with the owner, Instagram and IMDb links and your award wins) and what each project is (with its year, photo, YouTube videos and where it sits in the site).
+- **Photo descriptions (alt text):** photos are described by their project and number, for example *"KFC Statue: photo 3 of 9"*. A **caption** on a photo is used instead when there is one. This helps screen readers and search, but it doesn't describe what is *in* the photo. Add captions where it matters.
+- **Canonical addresses:** every page names its one official address (`https://huzzahdesign.com/…`) so Google doesn't treat `www` and non-`www` as two sites.
+- **Check how a link will look:** after publishing, paste a page address into the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/), LinkedIn's [Post Inspector](https://www.linkedin.com/post-inspector/) or [opengraph.xyz](https://www.opengraph.xyz). Social sites remember old previews, so use those tools to refresh one. Google's [Rich Results Test](https://search.google.com/test/rich-results) checks the structured data.
+- **Google takes time:** after you add the site to Search Console and submit `sitemap-index.xml`, changes can take days or weeks to show in results.
 
 ---
 
@@ -311,6 +324,7 @@ For developers, or for Claude when making changes.
 | A Cloudflare build failed | Click **Copy build log**; the PROBLEM lines explain it. The live site is still on the last good version. |
 | `www.huzzahdesign.com` stopped working | In Cloudflare, check that the placeholder `www` DNS record and the Redirect Rule still exist ([section 9](#9-accounts-where-everything-lives)). |
 | A photo shows as missing | It was renamed, moved or deleted. The check will say which one. |
+| A shared link shows the wrong picture or old text | Social sites remember old previews. Paste the address into the Facebook Sharing Debugger or LinkedIn Post Inspector to refresh it ([section 7](#7-the-other-editable-pages)). |
 | The contact form doesn't send email | Check the Web3Forms key in Site settings is filled in and has no spaces, that you published after adding it, and your spam folder. Then try a test message ([section 6](#6-contact-pages-and-forms)). If it says "Oops", the key may be wrong or the monthly allowance used up: check the Web3Forms dashboard. |
 | The editor shows an image field as empty | Reload the page. If it persists, ask Claude (don't save that project meanwhile). |
 

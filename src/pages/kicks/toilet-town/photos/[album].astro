@@ -13,15 +13,22 @@ export async function getStaticPaths() {
 const { album, prev, next } = Astro.props;
 ---
 
-<Base title={`Toilet Town: ${album.title}`} section="toilet" nav={ttNav} brand={ttBrand}>
+<Base
+  title={`Toilet Town: ${album.title}`}
+  description={`${album.photos.length} photos of street toilets around Toronto from the Toilet Town project, ${album.title}.`}
+  image={ttImg(album.cover)}
+  section="toilet"
+  nav={ttNav}
+  brand={ttBrand}
+>
   <article class="wrap project">
     <a class="back" href={href('/kicks/toilet-town/photos')}>← All albums</a>
     <h1 style="font-size:clamp(2rem,5vw,3.5rem)">{album.title}</h1>
     <section class="block">
       <div class="gallery">
-        {album.photos.map((p) => (
+        {album.photos.map((p, i) => (
           <figure class="reveal">
-            <a href={ttImg(p)} target="_blank" rel="noopener"><img src={ttImg(p)} alt="" loading="lazy" decoding="async" /></a>
+            <a href={ttImg(p)} target="_blank" rel="noopener"><img src={ttImg(p)} alt={`Street toilet in Toronto, ${album.title}, photo ${i + 1} of ${album.photos.length}`} loading="lazy" decoding="async" /></a>
           </figure>
         ))}
       </div>

@@ -1,17 +1,37 @@
 ---
 import Base from '../layouts/Base.astro';
 import { image, galleryImages, embedUrl, paragraphs, formatDate, href, type Project } from '../lib/content';
-interface Props { project: Project; section: 'design' | 'vfx' | 'kicks'; backHref: string; backLabel: string }
-const { project: p, section, backHref, backLabel } = Astro.props;
+import { kindOf, projectTitle, projectDescription, projectJsonLd } from '../lib/seo';
+
+interface Props {
+  project: Project;
+  section: 'design' | 'vfx' | 'kicks';
+  backHref: string;
+  backLabel: string;
+  /** Production Design, Pre-Vis or Props for Design projects (used in the page title and description). */
+  categoryName?: string;
+}
+const { project: p, section, backHref, backLabel, categoryName } = Astro.props;
 const hero = image(p);
 const gallery = galleryImages(p);
 const videos = p.videos.map(embedUrl).filter(Boolean) as string[];
+
+const kind = kindOf(p, categoryName);
+const description = projectDescription(p, categoryName);
+const trail = section === 'design' && backHref === '/' ? [{ name: 'Home', path: '/' }] : section === 'design' ? [{ name: 'Home', path: '/' }, { name: backLabel, path: backHref }] : [{ name: backLabel, path: backHref }];
+const jsonLd = projectJsonLd(p, { url: Astro.url.pathname, description, image: hero || undefined, trail });
 ---
 
-<Base title={p.title} description={p.summary || undefined} section={section} image={hero || undefined}>
+<Base
+  title={projectTitle(p, categoryName)}
+  description={description}
+  section={section}
+  image={hero || undefined}
+  jsonLd={jsonLd}
+>
   {hero && (
     <div class="hero-img">
-      <img src={hero} alt={p.title} fetchpriority="high" />
+      <img src={hero} alt={`${p.title} (${kind})`} fetchpriority="high" />
       <div class="hero-fade"></div>
     </div>
   )}
@@ -52,9 +72,9 @@ const videos = p.videos.map(embedUrl).filter(Boolean) as string[];
       <section class="block">
         <h2>Gallery</h2>
         <div class="gallery">
-          {gallery.map(({ src, caption }) => (
+          {gallery.map(({ src, caption, alt }) => (
             <figure class="reveal">
-              <a href={src} target="_blank" rel="noopener"><img src={src} alt={caption} loading="lazy" decoding="async" /></a>
+              <a href={src} target="_blank" rel="noopener"><img src={src} alt={alt} loading="lazy" decoding="async" /></a>
               {caption && <figcaption>{caption}</figcaption>}
             </figure>
           ))}

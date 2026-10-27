@@ -18,4 +18,5 @@ const { project, cat } = Astro.props;
   section="design"
   backHref={cat ? `/design/category/${cat.slug}` : '/'}
   backLabel={cat ? cat.name : 'Work'}
+  categoryName={cat?.name}
 />

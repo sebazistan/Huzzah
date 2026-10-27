@@ -3,19 +3,31 @@ import '../styles/global.css';
 import '../styles/toilet-town.css';
 import '../styles/lightbox.css';
 import { getSite, href } from '../lib/content';
+import { absUrl } from '../lib/seo';
 
 interface Props {
   title?: string;
+  /** Use instead of "title | Huzzah" when the whole title is already written (the home page). */
+  rawTitle?: string;
   description?: string;
   section?: 'home' | 'design' | 'vfx' | 'kicks' | 'toilet';
   image?: string;
+  /** Structured data for search engines (see src/lib/seo.ts). */
+  jsonLd?: unknown;
+  /** Keep this page out of search results (the 404 page). */
+  noindex?: boolean;
   /** Override the section's menu (used by mini-sites like Toilet Town). */
   nav?: { href: string; label: string }[];
   brand?: { label: string; sub: string; href: string };
 }
-const { title, description = 'Huzzah: production design, pre-vis, props and VFX.', section = 'design', image, nav: navOverride, brand } = Astro.props;
+const { title, rawTitle, description: descriptionProp, section = 'design', image, jsonLd, noindex, nav: navOverride, brand } = Astro.props;
 const site = await getSite();
-const fullTitle = title ? `${title} | Huzzah` : 'Huzzah';
+const description = descriptionProp || site.homeDescription || 'Huzzah: production design, pre-vis, props and VFX.';
+const fullTitle = rawTitle ?? (title ? `${title} | Huzzah` : 'Huzzah');
+
+// Share preview: the page's own photo if it has one, otherwise the site's default picture
+const shareImage = absUrl(image || (site.shareImage ? href(site.shareImage) : ''));
+const canonical = absUrl(Astro.url.pathname);
 
 const navs = {
   home: [],
@@ -58,9 +70,24 @@ const logo = brand ?? {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    {!noindex && <link rel="canonical" href={canonical} />}
+
+    <meta property="og:site_name" content="Huzzah" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:url" content={canonical} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
-    {image && <meta property="og:image" content={image} />}
+    {shareImage && <meta property="og:image" content={shareImage} />}
+    {shareImage && <meta property="og:image:alt" content={fullTitle} />}
+
+    <meta name="twitter:card" content={shareImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    {shareImage && <meta name="twitter:image" content={shareImage} />}
+
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />}
     <link rel="icon" type="image/svg+xml" href={href('/favicon.svg')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
