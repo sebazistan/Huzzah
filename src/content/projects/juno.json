@@ -8,7 +8,6 @@
   "title": "Juno",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/juno/cover.jpg",
   "credits": [
     {
@@ -27,6 +26,5 @@
     "/images/projects/juno/06.jpg",
     "/images/projects/juno/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

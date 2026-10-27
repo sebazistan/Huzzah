@@ -7,7 +7,6 @@
   "title": "Deck Furniture",
   "summary": "Designed and built deck furniture.",
   "description": "Designed and built deck furniture.",
-  "coverUrl": "",
   "cover": "/images/projects/deck-furniture/cover.jpg",
   "credits": [],
   "links": [],
@@ -17,6 +16,5 @@
     "/images/projects/deck-furniture/02.jpg",
     "/images/projects/deck-furniture/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

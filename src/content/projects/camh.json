@@ -6,7 +6,6 @@
   "featured": true,
   "summary": "Pre-vis for a PSA.",
   "description": "Pre-vis for a PSA.",
-  "coverUrl": "",
   "cover": "/images/projects/camh/cover.jpg",
   "credits": [
     {
@@ -23,7 +22,6 @@
     "/images/projects/camh/04.jpg",
     "/images/projects/camh/05.jpg"
   ],
-  "galleryUrls": [],
   "title": "CamH",
   "galleryCaptions": []
 }

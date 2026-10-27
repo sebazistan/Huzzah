@@ -8,7 +8,6 @@
   "title": "Midas",
   "summary": "Pre-vis for a TV Commercial.",
   "description": "Pre-vis for a TV Commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/midas/cover.jpg",
   "credits": [
     {
@@ -28,6 +27,5 @@
     "/images/projects/midas/07.jpg",
     "/images/projects/midas/08.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

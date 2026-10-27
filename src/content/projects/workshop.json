@@ -7,7 +7,6 @@
   "title": "Workshop",
   "summary": "I took it upon myself to take an underused space in the Crux workshop and turn it into a good spot for tinkering and electronics. I had no idea it would be so much work…",
   "description": "I took it upon myself to take an underused space in the Crux workshop and turn it into a good spot for tinkering and electronics. I had no idea it would be so much work to set up and maintain.",
-  "coverUrl": "",
   "cover": "/images/projects/workshop/cover.jpg",
   "credits": [],
   "links": [],
@@ -32,6 +31,5 @@
     "/images/projects/workshop/17.jpg",
     "/images/projects/workshop/18.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

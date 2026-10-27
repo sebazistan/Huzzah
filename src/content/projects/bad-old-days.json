@@ -7,7 +7,6 @@
   "title": "Bad Old Days",
   "summary": "A poster I made based on a cartoon from the 1800s.",
   "description": "A poster I made based on a cartoon from the 1800s.",
-  "coverUrl": "",
   "cover": "/images/projects/bad-old-days/cover.jpg",
   "credits": [],
   "links": [],
@@ -16,6 +15,5 @@
     "/images/projects/bad-old-days/01.jpg",
     "/images/projects/bad-old-days/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

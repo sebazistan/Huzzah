@@ -8,7 +8,6 @@
   "title": "Silver Cord Well",
   "summary": "For the long awaited feature 'Silver Cord' I was tasked with creating a number of fun props including an old well. Thanks to Marie Kozlova for the help!",
   "description": "For the long awaited feature 'Silver Cord' I was tasked with creating a number of fun props including an old well. Thanks to Marie Kozlova for the help!",
-  "coverUrl": "",
   "cover": "/images/projects/silver-cord-well/cover.jpg",
   "credits": [
     {
@@ -55,6 +54,5 @@
     "/images/projects/silver-cord-well/30.jpg",
     "/images/projects/silver-cord-well/31.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

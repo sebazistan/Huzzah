@@ -8,7 +8,6 @@
   "title": "Home Hardware",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/home-hardware/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/home-hardware/04.jpg",
     "/images/projects/home-hardware/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

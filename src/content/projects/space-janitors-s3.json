@@ -8,7 +8,6 @@
   "title": "Space Janitors 3",
   "summary": "Space Janitors is a Canadian web series. The show is a parody of the Star Wars franchise and the plot is focused on two janitors, Darby & Mike, on a space station. It is available through the series producer Shaftesbury Plus.",
   "description": "Space Janitors is a Canadian web series. The show is a parody of the Star Wars franchise and the plot is focused on two janitors, Darby & Mike, on a space station. It is available through the series producer Shaftesbury Plus.",
-  "coverUrl": "",
   "cover": "/images/projects/space-janitors-s3/cover.jpg",
   "credits": [
     {
@@ -48,6 +47,5 @@
     "/images/projects/space-janitors-s3/16.jpg",
     "/images/projects/space-janitors-s3/17.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

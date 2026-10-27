@@ -37,12 +37,10 @@ export async function getProjects(section?: Section) {
 
 export type Project = Awaited<ReturnType<typeof getProjects>>[number];
 
-export const image = (p: { cover?: string | null; coverUrl?: string }) =>
-  p.cover ? href(p.cover) : p.coverUrl || '';
+export const image = (p: { cover?: string | null }) => (p.cover ? href(p.cover) : '');
 
 export const galleryImages = (p: Project) => [
   ...p.gallery.map((g, i) => ({ src: href(g), caption: p.galleryCaptions[i] ?? '' })),
-  ...p.galleryUrls.map((src) => ({ src, caption: '' })),
 ];
 
 export async function getContactForms() {

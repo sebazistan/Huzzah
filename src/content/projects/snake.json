@@ -8,7 +8,6 @@
   "title": "Snake",
   "summary": "Giant snake for Space Janitors S4. Brought to life by Ben Harris. The body was upholstery foam with sintra ribs, textured and painted. Teeth were 3d printed. The whole thing became quite heavy and uncomfortable, which is why Ben was the perfect man to crawl inside the snake and bring it to life.",
   "description": "Giant snake for Space Janitors S4. Brought to life by Ben Harris. The body was upholstery foam with sintra ribs, textured and painted. Teeth were 3d printed. The whole thing became quite heavy and uncomfortable, which is why Ben was the perfect man to crawl inside the snake and bring it to life.",
-  "coverUrl": "",
   "cover": "/images/projects/snake/cover.jpg",
   "credits": [
     {
@@ -41,6 +40,5 @@
     "/images/projects/snake/18.jpg",
     "/images/projects/snake/19.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

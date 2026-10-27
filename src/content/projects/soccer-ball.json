@@ -8,7 +8,6 @@
   "title": "Soccer ball",
   "summary": "I designed and fabricated a 2 part mold to make an extra soft stunt soccer ball.",
   "description": "I designed and fabricated a 2 part mold to make an extra soft stunt soccer ball.",
-  "coverUrl": "",
   "cover": "/images/projects/soccer-ball/cover.jpg",
   "credits": [],
   "links": [],
@@ -33,6 +32,5 @@
     "/images/projects/soccer-ball/17.jpg",
     "/images/projects/soccer-ball/18.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

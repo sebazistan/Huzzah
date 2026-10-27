@@ -8,7 +8,6 @@
   "title": "ATM",
   "summary": "I designed and built functional buttons for a toy ATM.",
   "description": "I designed and built functional buttons for a toy ATM.",
-  "coverUrl": "",
   "cover": "/images/projects/atm/cover.jpg",
   "credits": [],
   "links": [],
@@ -34,6 +33,5 @@
     "/images/projects/atm/15.jpg",
     "/images/projects/atm/16.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Dos Equis",
   "summary": "Pre-vis for a TV commercial",
   "description": "Pre-vis for a TV commercial",
-  "coverUrl": "",
   "cover": "/images/projects/dos-equis/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/dos-equis/04.jpg",
     "/images/projects/dos-equis/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

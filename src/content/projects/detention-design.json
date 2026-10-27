@@ -6,7 +6,6 @@
   "featured": true,
   "summary": "Design work for Detention Adventure S3.",
   "description": "Design work for Detention Adventure S3.",
-  "coverUrl": "",
   "cover": "/images/projects/detention-design/cover.jpg",
   "credits": [
     {
@@ -55,7 +54,6 @@
     "/images/projects/detention-design/15.jpg",
     "/images/projects/detention-design/16.jpg"
   ],
-  "galleryUrls": [],
   "title": "Train Car",
   "galleryCaptions": []
 }

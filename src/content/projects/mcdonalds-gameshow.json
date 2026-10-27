@@ -8,7 +8,6 @@
   "title": "McDonalds Gameshow",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/mcdonalds-gameshow/cover.jpg",
   "credits": [
     {
@@ -28,6 +27,5 @@
     "/images/projects/mcdonalds-gameshow/07.jpg",
     "/images/projects/mcdonalds-gameshow/08.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

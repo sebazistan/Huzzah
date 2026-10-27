@@ -8,7 +8,6 @@
   "title": "Silver Cord 2",
   "summary": "Production Design for an upcoming feature.",
   "description": "Production Design for an upcoming feature.",
-  "coverUrl": "",
   "cover": "/images/projects/silver-cord-2/cover.jpg",
   "credits": [
     {
@@ -49,6 +48,5 @@
     "/images/projects/silver-cord-2/19.jpg",
     "/images/projects/silver-cord-2/20.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Molson Sign",
   "summary": "I designed a sign for a Molson commercial.",
   "description": "I designed a sign for a Molson commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/molson-sign/cover.jpg",
   "credits": [
     {
@@ -21,6 +20,5 @@
   "gallery": [
     "/images/projects/molson-sign/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "Blood and Water",
   "date": "2021-05-01",
   "featured": false,
   "summary": "Blood and Water is a gritty character driven crime-drama. The series follows Jo Bradley, the lead detective of the Vancouver homicide division, as she unravels a murder…",
   "description": "Blood and Water is a gritty character driven crime-drama. The series follows Jo Bradley, the lead detective of the Vancouver homicide division, as she unravels a murder mystery steeped in scandal. Starring Simu Liu.\n\nHuzzah worked on a number of shots for the series which included paint outs, fixing mistakes, screen replacement and so on.",
-  "coverUrl": "",
   "cover": "/images/projects/blood-and-water/cover.png",
   "credits": [
     {
@@ -26,6 +26,5 @@
   "gallery": [
     "/images/projects/blood-and-water/01.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

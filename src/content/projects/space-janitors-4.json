@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "Space Janitors 4",
   "date": "2024-01-01",
   "featured": false,
   "summary": "Establishing shots for Space Janitors 4.",
   "description": "Establishing shots for Space Janitors 4.",
-  "coverUrl": "",
   "cover": "/images/projects/space-janitors-4/cover.png",
   "credits": [
     {
@@ -23,6 +23,5 @@
     "/images/projects/space-janitors-4/02.jpg",
     "/images/projects/space-janitors-4/03.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

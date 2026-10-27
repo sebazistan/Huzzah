@@ -8,7 +8,6 @@
   "title": "Neon",
   "summary": "Neon signs for a series.",
   "description": "Neon signs for a series.",
-  "coverUrl": "",
   "cover": "/images/projects/neon/cover.jpg",
   "credits": [
     {
@@ -31,6 +30,5 @@
     "/images/projects/neon/01.jpg",
     "/images/projects/neon/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

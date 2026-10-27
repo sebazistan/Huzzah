@@ -8,7 +8,6 @@
   "title": "McDonalds",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/mcdonalds-3/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/mcdonalds-3/04.jpg",
     "/images/projects/mcdonalds-3/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

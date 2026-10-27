@@ -8,7 +8,6 @@
   "title": "Fernando",
   "summary": "I designed a vinyl graphic for a motorbike.",
   "description": "I designed a vinyl graphic for a motorbike.",
-  "coverUrl": "",
   "cover": "/images/projects/fernando/cover.jpg",
   "credits": [],
   "links": [],
@@ -16,6 +15,5 @@
   "gallery": [
     "/images/projects/fernando/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

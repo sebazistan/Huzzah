@@ -8,7 +8,6 @@
   "title": "Desjardins 2",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/desjardins-2/cover.jpg",
   "credits": [
     {
@@ -40,6 +39,5 @@
     "/images/projects/desjardins-2/17.jpg",
     "/images/projects/desjardins-2/18.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

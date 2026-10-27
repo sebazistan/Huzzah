@@ -8,7 +8,6 @@
   "title": "McCain Fries",
   "summary": "3D printed best buckle for a McCain TV commercial.",
   "description": "3D printed best buckle for a McCain TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/mccain-fries/cover.jpg",
   "credits": [
     {
@@ -22,6 +21,5 @@
     "/images/projects/mccain-fries/01.jpg",
     "/images/projects/mccain-fries/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

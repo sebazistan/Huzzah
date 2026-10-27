@@ -8,7 +8,6 @@
   "title": "Shoppers",
   "summary": "Pre-vis and animatic for a Shoppers Drug Mart commercial.",
   "description": "Pre-vis and animatic for a Shoppers Drug Mart commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/shoppers-2/cover.jpg",
   "credits": [
     {
@@ -36,6 +35,5 @@
     "/images/projects/shoppers-2/13.jpg",
     "/images/projects/shoppers-2/14.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

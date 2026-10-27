@@ -7,7 +7,6 @@
   "title": "Stools",
   "summary": "The wife and I made some oversize and overly complicated stools for our old place.",
   "description": "The wife and I made some oversize and overly complicated stools for our old place.",
-  "coverUrl": "",
   "cover": "/images/projects/stools/cover.jpg",
   "credits": [],
   "links": [],
@@ -30,6 +29,5 @@
     "/images/projects/stools/15.jpg",
     "/images/projects/stools/16.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

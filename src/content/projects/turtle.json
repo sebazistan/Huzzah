@@ -8,7 +8,6 @@
   "title": "Turtle",
   "summary": "Turtle Prop for a TV commercial.",
   "description": "Turtle Prop for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/turtle/cover.jpg",
   "credits": [],
   "links": [],
@@ -29,6 +28,5 @@
     "/images/projects/turtle/11.jpg",
     "/images/projects/turtle/12.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

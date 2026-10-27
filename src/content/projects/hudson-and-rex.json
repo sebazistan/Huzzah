@@ -8,7 +8,6 @@
   "title": "Hudson and Rex",
   "summary": "Design for an installation",
   "description": "Design for an installation",
-  "coverUrl": "",
   "cover": "/images/projects/hudson-and-rex/cover.jpg",
   "credits": [
     {
@@ -22,6 +21,5 @@
     "/images/projects/hudson-and-rex/01.jpg",
     "/images/projects/hudson-and-rex/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

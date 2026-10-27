@@ -8,7 +8,6 @@
   "title": "Money Tap",
   "summary": "Money Tap Prop.",
   "description": "Money Tap Prop.",
-  "coverUrl": "",
   "cover": "/images/projects/money-tap/cover.jpg",
   "credits": [
     {
@@ -35,6 +34,5 @@
     "/images/projects/money-tap/10.jpg",
     "/images/projects/money-tap/11.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

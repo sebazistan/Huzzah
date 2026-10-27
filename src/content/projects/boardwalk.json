@@ -8,7 +8,6 @@
   "title": "Boardwalk",
   "summary": "Custom built light-up boardwalk built for a dance sequence in Detention Adventure.",
   "description": "Custom built light-up boardwalk built for a dance sequence in Detention Adventure.",
-  "coverUrl": "",
   "cover": "/images/projects/boardwalk/cover.jpg",
   "credits": [
     {
@@ -46,6 +45,5 @@
     "/images/projects/boardwalk/11.jpg",
     "/images/projects/boardwalk/12.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

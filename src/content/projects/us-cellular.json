@@ -8,7 +8,6 @@
   "title": "US Cellular",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/us-cellular/cover.jpg",
   "credits": [
     {
@@ -26,6 +25,5 @@
     "/images/projects/us-cellular/05.jpg",
     "/images/projects/us-cellular/06.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

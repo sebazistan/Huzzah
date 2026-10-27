@@ -8,7 +8,6 @@
   "title": "Skittles",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/skittles/cover.jpg",
   "credits": [
     {
@@ -24,6 +23,5 @@
     "/images/projects/skittles/03.jpg",
     "/images/projects/skittles/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

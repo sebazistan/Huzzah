@@ -8,7 +8,6 @@
   "title": "Circular Stage",
   "summary": "My amazing partner Marie and I designed and built a circular stage for Corpus. Was a tricky build as the stage needed to be quickly stowed and re-assembled.",
   "description": "My amazing partner Marie and I designed and built a circular stage for Corpus. Was a tricky build as the stage needed to be quickly stowed and re-assembled.",
-  "coverUrl": "",
   "cover": "/images/projects/circular-stage/cover.jpg",
   "credits": [],
   "links": [
@@ -43,6 +42,5 @@
     "/images/projects/circular-stage/22.jpg",
     "/images/projects/circular-stage/23.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Feature",
+  "title": "Alice in Winterland",
   "date": "2021-12-01",
   "featured": false,
   "summary": "VFX for a Ross Petty production.",
   "description": "VFX for a Ross Petty production.",
-  "coverUrl": "",
   "cover": "/images/projects/ross-petty-alice-in-winterland/cover.jpeg",
   "credits": [
     {
@@ -24,6 +24,5 @@
   "gallery": [
     "/images/projects/ross-petty-alice-in-winterland/01.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

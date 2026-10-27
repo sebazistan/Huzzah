@@ -7,7 +7,6 @@
   "title": "Mazes",
   "summary": "I draw these for the nephews and they're about the most fun thing to make. Some day I'll quit working and make a book of these.",
   "description": "I draw these for the nephews and they're about the most fun thing to make. Some day I'll quit working and make a book of these.",
-  "coverUrl": "",
   "cover": "/images/projects/mazes/cover.jpg",
   "credits": [],
   "links": [],
@@ -52,6 +51,5 @@
     "/images/projects/mazes/37.jpg",
     "/images/projects/mazes/38.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

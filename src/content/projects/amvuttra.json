@@ -8,7 +8,6 @@
   "title": "Amvuttra",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/amvuttra/cover.jpg",
   "credits": [
     {
@@ -32,6 +31,5 @@
     "/images/projects/amvuttra/11.jpg",
     "/images/projects/amvuttra/12.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

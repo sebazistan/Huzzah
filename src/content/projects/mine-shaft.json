@@ -8,7 +8,6 @@
   "title": "Mine Shaft",
   "summary": "Mine shaft built for Detention Adventure. Scenic painted by Andy.",
   "description": "Mine shaft built for Detention Adventure. Scenic painted by Andy.",
-  "coverUrl": "",
   "cover": "/images/projects/mine-shaft/cover.jpg",
   "credits": [
     {
@@ -44,6 +43,5 @@
     "/images/projects/mine-shaft/12.jpg",
     "/images/projects/mine-shaft/13.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

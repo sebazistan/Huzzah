@@ -8,7 +8,6 @@
   "title": "Baby Shower",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/baby-shower/cover.jpg",
   "credits": [
     {
@@ -24,6 +23,5 @@
     "/images/projects/baby-shower/03.jpg",
     "/images/projects/baby-shower/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

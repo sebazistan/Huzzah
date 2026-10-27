@@ -8,7 +8,6 @@
   "title": "The Killgrin",
   "summary": "A horror movie directed by Joanna Tsanis. From IMDB: \"After a personal tragedy, Miranda explores unconventional self-help methods, only to learn from a spiritual healer that she has an infection of her aura called a 'killgrin', which thrives off her misery.\"",
   "description": "A horror movie directed by Joanna Tsanis. From IMDB: \"After a personal tragedy, Miranda explores unconventional self-help methods, only to learn from a spiritual healer that she has an infection of her aura called a 'killgrin', which thrives off her misery.\"",
-  "coverUrl": "",
   "cover": "/images/projects/killgrin/cover.jpg",
   "credits": [
     {
@@ -38,6 +37,5 @@
     "https://www.youtube.com/watch?v=fmdhAaioWr8"
   ],
   "gallery": [],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

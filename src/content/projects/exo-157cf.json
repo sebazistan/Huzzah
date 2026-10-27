@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Short",
+  "title": "Exo",
   "date": "2016-01-01",
   "featured": false,
   "summary": "Marie Kozlova stars in a fun sci fi short.",
   "description": "Marie Kozlova stars in a fun sci fi short.",
-  "coverUrl": "",
   "cover": "/images/projects/exo-157cf/cover.png",
   "credits": [
     {
@@ -23,6 +23,5 @@
     "/images/projects/exo-157cf/02.jpg",
     "/images/projects/exo-157cf/03.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

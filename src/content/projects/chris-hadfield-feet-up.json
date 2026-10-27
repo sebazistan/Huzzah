@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Music Video",
+  "title": "Chris Hadfield: Feet Up",
   "date": "2015-05-01",
   "featured": false,
   "summary": "Music video for Chris Hadfield.",
   "description": "Music video for Chris Hadfield.",
-  "coverUrl": "",
   "cover": "/images/projects/chris-hadfield-feet-up/cover.png",
   "credits": [
     {
@@ -22,6 +22,5 @@
     "/images/projects/chris-hadfield-feet-up/01.jpg",
     "/images/projects/chris-hadfield-feet-up/02.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Ikea",
   "summary": "Pre-vis for an Ikea commercial.",
   "description": "Pre-vis for an Ikea commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/ikea-8/cover.jpg",
   "credits": [
     {
@@ -31,6 +30,5 @@
     "/images/projects/ikea-8/10.jpg",
     "/images/projects/ikea-8/11.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Crossing Guard",
   "summary": "I designed a crossing guard dummy for a TV commercial. The very elegant and complicated mouth mechanism by Sandy Cameron.",
   "description": "I designed a crossing guard dummy for a TV commercial. The very elegant and complicated mouth mechanism by Sandy Cameron.",
-  "coverUrl": "",
   "cover": "/images/projects/crossing-guard/cover.jpg",
   "credits": [],
   "links": [],
@@ -31,6 +30,5 @@
     "/images/projects/crossing-guard/13.jpg",
     "/images/projects/crossing-guard/14.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

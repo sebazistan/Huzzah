@@ -8,7 +8,6 @@
   "title": "Sun Life Bottle",
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/sun-life-bottle/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/sun-life-bottle/02.jpg",
     "/images/projects/sun-life-bottle/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

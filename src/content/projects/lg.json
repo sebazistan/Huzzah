@@ -8,7 +8,6 @@
   "title": "LG",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/lg/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/lg/02.jpg",
     "/images/projects/lg/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

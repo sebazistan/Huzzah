@@ -8,7 +8,6 @@
   "title": "BMO Hourglass",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/bmo-hourglass/cover.jpg",
   "credits": [
     {
@@ -27,6 +26,5 @@
     "/images/projects/bmo-hourglass/06.jpg",
     "/images/projects/bmo-hourglass/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

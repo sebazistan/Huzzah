@@ -8,7 +8,6 @@
   "title": "Vice Jaguar",
   "summary": "Design for an installation at Vice.",
   "description": "Design for an installation at Vice.",
-  "coverUrl": "",
   "cover": "/images/projects/vice-jaguar/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/vice-jaguar/04.jpg",
     "/images/projects/vice-jaguar/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

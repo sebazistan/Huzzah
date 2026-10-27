@@ -8,7 +8,6 @@
   "title": "Gnome mugs",
   "summary": "Miniature mugs, abacus and desk for a BMO commercial. Ben Harris led this project.",
   "description": "Miniature mugs, abacus and desk for a BMO commercial. Ben Harris led this project.",
-  "coverUrl": "",
   "cover": "/images/projects/gnome-mugs/cover.jpg",
   "credits": [
     {
@@ -28,6 +27,5 @@
     "/images/projects/gnome-mugs/07.jpg",
     "/images/projects/gnome-mugs/08.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

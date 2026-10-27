@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Short",
+  "title": "Where Is it?",
   "date": "2012-03-01",
   "featured": false,
   "summary": "VFX for a short film.",
   "description": "VFX for a short film.\n\nAndrew Gormley directs and stars in this surreal short.",
-  "coverUrl": "",
   "cover": "/images/projects/where-is-it/cover.png",
   "credits": [
     {
@@ -24,6 +24,5 @@
     "https://www.youtube.com/watch?v=4tBo2lpYvK0"
   ],
   "gallery": [],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

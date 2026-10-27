@@ -8,7 +8,6 @@
   "title": "Mazda",
   "summary": "Pre-vis for an installation.",
   "description": "Pre-vis for an installation.",
-  "coverUrl": "",
   "cover": "/images/projects/mazda/cover.jpg",
   "credits": [
     {
@@ -29,6 +28,5 @@
     "/images/projects/mazda/08.jpg",
     "/images/projects/mazda/09.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

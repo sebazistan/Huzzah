@@ -8,7 +8,6 @@
   "title": "Brain",
   "summary": "This was one of the more unusual props I've built and I'm still not sure what it was all about. It was meant to be a gooey gross brain that an ominous-looking monk type character sticks his hand into the top of.",
   "description": "This was one of the more unusual props I've built and I'm still not sure what it was all about. It was meant to be a gooey gross brain that an ominous-looking monk type character sticks his hand into the top of.",
-  "coverUrl": "",
   "cover": "/images/projects/brain/cover.jpg",
   "credits": [
     {
@@ -31,6 +30,5 @@
     "/images/projects/brain/06.jpg",
     "/images/projects/brain/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

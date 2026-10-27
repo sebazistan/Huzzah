@@ -8,7 +8,6 @@
   "title": "Becel Chair",
   "summary": "Design work for a Becel commercial.",
   "description": "Design work for a Becel commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/becel-chair/cover.jpg",
   "credits": [
     {
@@ -30,6 +29,5 @@
     "/images/projects/becel-chair/09.jpg",
     "/images/projects/becel-chair/10.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

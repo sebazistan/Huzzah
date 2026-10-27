@@ -8,7 +8,6 @@
   "title": "Becel",
   "summary": "I designed and helped build Becel costumes. These were CNC'd, sanded, and vacuum formed. Then painted and stickers applied. A big job on a tight deadline, but came together well!",
   "description": "I designed and helped build Becel costumes. These were CNC'd, sanded, and vacuum formed. Then painted and stickers applied. A big job on a tight deadline, but came together well!",
-  "coverUrl": "",
   "cover": "/images/projects/becel/cover.jpg",
   "credits": [
     {
@@ -50,6 +49,5 @@
     "/images/projects/becel/29.jpg",
     "/images/projects/becel/30.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

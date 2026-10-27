@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Feature",
+  "title": "The 46ers",
   "date": "2016-05-01",
   "featured": false,
   "summary": "VFX for feature film.",
   "description": "VFX for feature film.",
-  "coverUrl": "",
   "cover": "/images/projects/the-46ers/cover.png",
   "credits": [
     {
@@ -25,6 +25,5 @@
     "https://www.youtube.com/watch?v=smEDyPhC8oE"
   ],
   "gallery": [],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

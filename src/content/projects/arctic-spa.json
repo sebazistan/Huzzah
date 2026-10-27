@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Commercial",
+  "title": "Arctic Spa",
   "date": "2015-02-01",
   "featured": false,
   "summary": "A series of ads for Arctic Spa that needed 3D logo work and other effects.",
   "description": "A series of ads for Arctic Spa that needed 3D logo work and other effects.",
-  "coverUrl": "",
   "cover": "/images/projects/arctic-spa/cover.jpeg",
   "credits": [
     {
@@ -21,6 +21,5 @@
   "gallery": [
     "/images/projects/arctic-spa/01.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

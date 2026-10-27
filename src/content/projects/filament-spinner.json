@@ -7,7 +7,6 @@
   "title": "Filament Spinner",
   "summary": "In order to ore easily print large scale prints I bought some XL filament rolls, which also needed a custom holder. These work well.",
   "description": "In order to ore easily print large scale prints I bought some XL filament rolls, which also needed a custom holder. These work well.",
-  "coverUrl": "",
   "cover": "/images/projects/filament-spinner/cover.jpg",
   "credits": [],
   "links": [],
@@ -17,6 +16,5 @@
     "/images/projects/filament-spinner/02.jpg",
     "/images/projects/filament-spinner/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

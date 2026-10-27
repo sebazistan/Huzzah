@@ -8,7 +8,6 @@
   "title": "Scottie Head",
   "summary": "A 3D printed head with an internal mechanism to spray Axe body spray out of the mouth.",
   "description": "A 3D printed head with an internal mechanism to spray Axe body spray out of the mouth.",
-  "coverUrl": "",
   "cover": "/images/projects/scottie-head/cover.jpg",
   "credits": [
     {
@@ -40,6 +39,5 @@
     "/images/projects/scottie-head/13.jpg",
     "/images/projects/scottie-head/14.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Interac",
   "summary": "Pre-vis for an Interac TV commercial.",
   "description": "Pre-vis for an Interac TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/interac/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/interac/02.jpg",
     "/images/projects/interac/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

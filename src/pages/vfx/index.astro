@@ -1,20 +1,18 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProjectCard from '../../components/ProjectCard.astro';
-import { getProjects } from '../../lib/content';
+import { getProjects, getSite } from '../../lib/content';
 
+const site = await getSite();
 const projects = await getProjects('vfx');
 const order = ['Feature', 'Series', 'Short', 'Commercial', 'Music Video', 'Promo'];
 const types = order.filter((t) => projects.some((p) => p.type === t));
 ---
 
-<Base title="VFX" section="vfx" description="Huzzah creates award-winning VFX for film, television and the web.">
+<Base title="VFX" section="vfx" description={site.vfxIntro}>
   <section class="wrap hero">
     <h1>VFX<em>.</em></h1>
-    <p>
-      Huzzah creates award-winning VFX for film, television and the web, for projects at every budget level,
-      including <strong>Kids in the Hall</strong>{' '}and <strong>Longing</strong>. Winner of a Canadian Screen Award for VFX.
-    </p>
+    <p>{site.vfxIntro}</p>
   </section>
 
   <div class="wrap">

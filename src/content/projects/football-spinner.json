@@ -8,7 +8,6 @@
   "title": "Football Spinner",
   "summary": "I designed and built a rig to spin a football on camera.",
   "description": "I designed and built a rig to spin a football on camera.",
-  "coverUrl": "",
   "cover": "/images/projects/football-spinner/cover.jpg",
   "credits": [],
   "links": [],
@@ -20,6 +19,5 @@
     "/images/projects/football-spinner/04.jpg",
     "/images/projects/football-spinner/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

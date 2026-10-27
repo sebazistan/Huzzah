@@ -8,7 +8,6 @@
   "title": "Embark",
   "summary": "Prop work for an Embark TV commercial.",
   "description": "Prop work for an Embark TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/embark/cover.jpg",
   "credits": [
     {
@@ -29,6 +28,5 @@
     "/images/projects/embark/08.jpg",
     "/images/projects/embark/09.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

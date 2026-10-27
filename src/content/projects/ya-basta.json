@@ -7,7 +7,6 @@
   "title": "Ya Basta",
   "summary": "A look at a video game by Sebastian Harder! This game has it all- physics, destructible terrain, vehicles etc. This thing started off as a project for a class in…",
   "description": "A look at a video game by Sebastian Harder! This game has it all- physics, destructible terrain, vehicles etc. This thing started off as a project for a class in University and (as they tend to do) sprawled into a bit of a monster that took up a lot of time. This was back in the Flash days and all the code was written in Actionscript 2. When Flash started to fall out of favour and Actionscript 3 came out I decided to call it quits. I didn't use any physics engines for this, instead I cobbled together something more or less by hand that in the end was an effective proof of concept. For a minute I wasn't half bad writing Actionscript and the code for the game ran into the many thousands of lines. The soundtrack is by the immensely talented Andrew Gormley. I'd like to maybe take another crack at designing a basic video game, especially since the tools for doing so have evolved considerably. That said, I always enjoyed Flash and while I understood the reasons it was killed off, interactivity in a web browser was really exciting for a brief period.",
-  "coverUrl": "",
   "cover": "/images/projects/ya-basta/cover.jpg",
   "credits": [],
   "links": [],
@@ -20,6 +19,5 @@
     "/images/projects/ya-basta/03.jpg",
     "/images/projects/ya-basta/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

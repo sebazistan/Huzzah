@@ -8,7 +8,6 @@
   "title": "Wild Wings",
   "summary": "Pre-vis for a Buffalo Wild Wings TV commercial.",
   "description": "Pre-vis for a Buffalo Wild Wings TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/wild-wings/cover.jpg",
   "credits": [
     {
@@ -29,6 +28,5 @@
     "/images/projects/wild-wings/08.jpg",
     "/images/projects/wild-wings/09.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

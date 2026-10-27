@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Feature",
+  "title": "Don't Come Upstairs",
   "date": "2025-06-01",
   "featured": false,
   "summary": "VFX for Mike Lobell's \"Don't Come Upstairs\"",
   "description": "VFX for Mike Lobell's \"Don't Come Upstairs\"",
-  "coverUrl": "",
   "cover": "/images/projects/dont-come-upstairs/cover.png",
   "credits": [
     {
@@ -22,6 +22,5 @@
   ],
   "videos": [],
   "gallery": [],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

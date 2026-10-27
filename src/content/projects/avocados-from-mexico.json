@@ -8,7 +8,6 @@
   "title": "Avocados From Mexico",
   "summary": "Pre-vis for a TV commercial. Photos of Chris Elliot by Sebastian Harder.",
   "description": "Pre-vis for a TV commercial. Photos of Chris Elliot by Sebastian Harder.",
-  "coverUrl": "",
   "cover": "/images/projects/avocados-from-mexico/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/avocados-from-mexico/02.jpg",
     "/images/projects/avocados-from-mexico/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

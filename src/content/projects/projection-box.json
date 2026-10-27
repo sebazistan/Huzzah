@@ -7,7 +7,6 @@
   "title": "Projection Box",
   "summary": "Designed and built a wall mounting projection box.",
   "description": "Designed and built a wall mounting projection box.",
-  "coverUrl": "",
   "cover": "/images/projects/projection-box/cover.jpg",
   "credits": [],
   "links": [],
@@ -17,6 +16,5 @@
     "/images/projects/projection-box/02.jpg",
     "/images/projects/projection-box/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

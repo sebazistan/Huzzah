@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Music Video",
+  "title": "Corone Feroce",
   "date": "2015-05-01",
   "featured": false,
   "summary": "Music video.",
   "description": "Music video.\n\nWe shot this in the middle of the winter in Montreal, which, I probably don't need to say, was challenging. I love everything about this video though.",
-  "coverUrl": "",
   "cover": "/images/projects/corone-feroce/cover.png",
   "credits": [],
   "links": [],
@@ -16,6 +16,5 @@
   "gallery": [
     "/images/projects/corone-feroce/01.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

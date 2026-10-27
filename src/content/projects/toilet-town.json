@@ -7,7 +7,6 @@
   "title": "Toilet Town",
   "summary": "A photo project documenting the street toilets of Toronto.",
   "description": "A photo project documenting the street toilets of Toronto.",
-  "coverUrl": "",
   "cover": "/images/projects/toilet-town/cover.jpg",
   "credits": [],
   "links": [
@@ -22,6 +21,5 @@
     "/images/projects/toilet-town/02.jpg",
     "/images/projects/toilet-town/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

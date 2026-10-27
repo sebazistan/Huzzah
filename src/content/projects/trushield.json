@@ -8,7 +8,6 @@
   "title": "Trushield",
   "summary": "Pre-vis for a Trushield TV commercial.",
   "description": "Pre-vis for a Trushield TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/trushield/cover.jpg",
   "credits": [
     {
@@ -26,6 +25,5 @@
     "/images/projects/trushield/05.jpg",
     "/images/projects/trushield/06.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

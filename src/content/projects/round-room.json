@@ -8,7 +8,6 @@
   "title": "Round Room",
   "summary": "I designed the \"Round Room\" set for the movie 'Deep 6'. This one was a bit nuts- built on a platform with walls sloping outwards. I certainly enjoy a challenge.",
   "description": "I designed the \"Round Room\" set for the movie 'Deep 6'. This one was a bit nuts- built on a platform with walls sloping outwards. I certainly enjoy a challenge.",
-  "coverUrl": "",
   "cover": "/images/projects/round-room/cover.jpg",
   "credits": [
     {
@@ -49,6 +48,5 @@
     "/images/projects/round-room/18.jpg",
     "/images/projects/round-room/19.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

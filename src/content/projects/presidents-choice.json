@@ -8,7 +8,6 @@
   "title": "President's Choice",
   "summary": "Pre-vis and animatic for a TV commercial.",
   "description": "Pre-vis and animatic for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/presidents-choice/cover.jpg",
   "credits": [
     {
@@ -24,6 +23,5 @@
     "/images/projects/presidents-choice/03.jpg",
     "/images/projects/presidents-choice/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

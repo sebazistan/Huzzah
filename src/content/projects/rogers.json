@@ -8,7 +8,6 @@
   "title": "Rogers",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/rogers/cover.jpg",
   "credits": [
     {
@@ -21,6 +20,5 @@
   "gallery": [
     "/images/projects/rogers/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

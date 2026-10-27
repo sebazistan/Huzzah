@@ -8,7 +8,6 @@
   "title": "Servepro Tentacle",
   "summary": "I designed and fabricated a tentacle with a silicone tip.",
   "description": "I designed and fabricated a tentacle with a silicone tip.",
-  "coverUrl": "",
   "cover": "/images/projects/servepro-tentacle/cover.jpg",
   "credits": [],
   "links": [],
@@ -56,6 +55,5 @@
     "/images/projects/servepro-tentacle/38.jpg",
     "/images/projects/servepro-tentacle/39.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

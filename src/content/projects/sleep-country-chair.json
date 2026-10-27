@@ -8,7 +8,6 @@
   "title": "Sleep Country Chair",
   "summary": "I designed a chair for a Sleep Country commercial.",
   "description": "I designed a chair for a Sleep Country commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/sleep-country-chair/cover.jpg",
   "credits": [
     {
@@ -28,6 +27,5 @@
     "/images/projects/sleep-country-chair/07.jpg",
     "/images/projects/sleep-country-chair/08.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

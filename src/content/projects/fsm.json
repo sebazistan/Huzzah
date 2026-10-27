@@ -7,7 +7,6 @@
   "title": "FSM",
   "summary": "As a disciple of the Church of the Flying Spaghetti Monster I felt compelled to make these holy symbols.",
   "description": "As a disciple of the Church of the Flying Spaghetti Monster I felt compelled to make these holy symbols.",
-  "coverUrl": "",
   "cover": "/images/projects/fsm/cover.jpg",
   "credits": [],
   "links": [],
@@ -15,6 +14,5 @@
   "gallery": [
     "/images/projects/fsm/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

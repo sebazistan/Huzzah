@@ -8,7 +8,6 @@
   "title": "Hatchimals Table",
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/hatchimals-table/cover.jpg",
   "credits": [
     {
@@ -24,6 +23,5 @@
     "/images/projects/hatchimals-table/03.jpg",
     "/images/projects/hatchimals-table/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Short",
+  "title": "Planet Moon",
   "date": "2015-08-01",
   "featured": false,
   "summary": "VFX for a short film.",
   "description": "VFX for a short film.\n\nGreig Oldford came up with this silly idea and I animated it. We did this just for fun and it still makes me chuckle.",
-  "coverUrl": "",
   "cover": "/images/projects/planet-moon/cover.png",
   "credits": [
     {
@@ -19,6 +19,5 @@
     "https://www.youtube.com/watch?v=vR2EFnhv-P8"
   ],
   "gallery": [],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

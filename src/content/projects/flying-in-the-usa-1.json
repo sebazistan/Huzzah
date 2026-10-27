@@ -7,7 +7,6 @@
   "title": "Flying in the USA",
   "summary": "Drone video from The USA. If you want to use these let me know. I have lots more like this!",
   "description": "Drone video from The USA. If you want to use these let me know. I have lots more like this!",
-  "coverUrl": "",
   "cover": "/images/projects/flying-in-the-usa-1/cover.jpg",
   "credits": [],
   "links": [],
@@ -22,6 +21,5 @@
   "gallery": [
     "/images/projects/flying-in-the-usa-1/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

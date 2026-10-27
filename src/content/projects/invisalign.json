@@ -8,7 +8,6 @@
   "title": "Invisalign",
   "summary": "I designed sets for an Invisalign commercial.",
   "description": "I designed sets for an Invisalign commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/invisalign/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/invisalign/04.jpg",
     "/images/projects/invisalign/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

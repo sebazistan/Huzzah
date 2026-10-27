@@ -1,227 +1,331 @@
-# Managing the Huzzah site
+# Huzzah site guide
 
-How to edit content, add images and video, and publish changes.
+How to update the site and add to it. Start with the **Quick start**, use the **"How do I…?"** list for everyday jobs, and keep the rest for reference.
 
-## How it works (30 seconds)
+**Contents**
 
-- The site is built with **Astro** and hosted on **Cloudflare** (a Worker serving static files), deployed from the GitHub repo `sebazistan/Huzzah`.
-- Content (projects, categories, text) is stored as small JSON files in `src/content/`. Images are in `public/images/`.
-- You edit content in a web admin called **Keystatic**. It runs **on your computer only** (not on the live site) and saves changes into the project folder.
-- You then **commit and push** to GitHub. Cloudflare rebuilds the site and publishes it, usually within a minute or two.
+1. [Quick start](#1-quick-start)
+2. [How do I…?](#2-how-do-i)
+3. [How the site works](#3-how-the-site-works)
+4. [Adding a project](#4-adding-a-project)
+5. [Photos and video](#5-photos-and-video)
+6. [Contact pages and forms](#6-contact-pages-and-forms)
+7. [The other editable pages](#7-the-other-editable-pages)
+8. [Publishing, the safety check, and undoing](#8-publishing-the-safety-check-and-undoing)
+9. [Accounts: where everything lives](#9-accounts-where-everything-lives)
+10. [Asking Claude for changes](#10-asking-claude-for-changes)
+11. [Site map](#11-site-map)
+12. [Technical reference](#12-technical-reference)
+13. [Troubleshooting](#13-troubleshooting)
+14. [Yearly checklist](#14-yearly-checklist)
+15. [Open to-do list](#15-open-to-do-list)
+
+---
+
+## 1. Quick start
+
+Three steps. The two files are in the project folder (`Huzzah 2026\Huzzah`). Tip: right-click each one, choose **Send to → Desktop (create shortcut)** so they are one click away.
+
+1. **Double-click `Edit site.cmd`.** A black window opens and, a few seconds later, your browser opens the editor. (The very first time on a computer it installs the site's tools, which takes a minute or two.)
+2. **Make your changes** in the editor and click **Save**. To preview the real site, open <http://localhost:4321>.
+3. **Close the black window**, then **double-click `Publish site.cmd`.** It checks your work for mistakes, shows what changed, asks you to type a few words about it, and sends it live. The site updates in about **2 minutes**.
+
+That's the whole routine: **Edit → Save → Publish.**
+
+If the check finds a problem, publishing **stops** and nothing goes live. The message tells you what to fix. See [section 8](#8-publishing-the-safety-check-and-undoing).
+
+> You need an internet connection to publish, but not to edit. Edits are saved on your computer until you publish.
+
+---
+
+## 2. How do I…?
+
+| I want to… | Where | Notes |
+|---|---|---|
+| **Add a project** | Editor → **Projects** → **Add** | See [section 4](#4-adding-a-project). |
+| Edit a project's text, credits or buttons | **Projects** → click it | |
+| **Add photos** to a project | Open the project → **Gallery** → **Add** | The editor files the photos in that project's folder for you. |
+| Replace a project's cover photo | Open the project → **Cover image** → **Replace** | |
+| Add a caption to a photo | **Gallery captions** | One caption per photo, in the same order as the photos. Leave blank for none. |
+| Add a video | **Videos** → **Add** → paste a YouTube or Vimeo link | |
+| Remove a project | Open it → the trash icon → Save → Publish | You can always get it back ([section 8](#8-publishing-the-safety-check-and-undoing)). |
+| Show a Design project on the home page | Tick **Show in Featured Work** | |
+| Change the home heading, tagline, bio, email or social links | **Site settings** | |
+| Change the intro text on the VFX or For Kicks pages, or the footer | **Site settings** | |
+| Change the Services text or one of its looping videos | **Services** | |
+| Add or edit an award | **Awards** | |
+| Add photos or a whole album to Toilet Town | **Toilet Town albums** | |
+| Change the Toilet Town quote, About text or Shop note | **Toilet Town** | |
+| **Add another contact page** | **Contact pages** → **Add item** | See [section 6](#6-contact-pages-and-forms). |
+| Make the contact forms send email | **Contact pages** → **Form service URL** | See [section 6](#6-contact-pages-and-forms). |
+| Change menu items, colors, fonts or layout, or add a new page or section | **Ask Claude** | Examples in [section 10](#10-asking-claude-for-changes). |
+| Undo a mistake | | [Section 8](#8-publishing-the-safety-check-and-undoing). |
+
+---
+
+## 3. How the site works
 
 ```
-edit in admin  →  save  →  commit + push  →  live in ~1–2 min
+Edit site  →  Save  →  Publish site  →  GitHub  →  Cloudflare builds it  →  live
+              (your computer)           (safe copy)   (about 2 minutes)
 ```
 
-## One-time setup (per computer)
+- The site is a set of **ordinary web pages built ahead of time** (made with Astro). There is no database or server to look after, and nothing to patch or update on a schedule.
+- Everything you type in the editor (projects, text, awards) is saved as small **JSON files** in `src/content/`. Photos are in `public/images/`.
+- The editor (**Keystatic**) runs **on your computer only**, not on the live website, so visitors can never reach it.
+- **GitHub** keeps every version of every file, so it is also your backup and your undo button.
+- **Cloudflare** hosts the site and notices each upload, rebuilds, and publishes.
 
-1. Install Node.js LTS: `winget install OpenJS.NodeJS.LTS` (then reopen your terminal).
-2. Clone the repo and install:
-   ```
-   git clone https://github.com/sebazistan/Huzzah.git
-   cd Huzzah
-   npm install
-   ```
+---
 
-## Everyday editing
+## 4. Adding a project
 
-1. In the project folder, run:
-   ```
-   npm run dev
-   ```
-2. Open <http://localhost:4321/keystatic> in your browser.
-3. Choose what to edit:
-   - **Projects**: every design, VFX and For Kicks project.
-   - **Categories**: Production Design, Pre-Vis, Props, For Kicks, VFX.
-   - **Site settings**: home heading, tagline, bio, email, social links, client list, contact form endpoint.
-   - **Services**: the three service blurbs.
-4. Click **Save** in the admin. Preview the real site at <http://localhost:4321>.
-5. When happy, publish (see below). Stop the server with `Ctrl+C`.
-
-## Adding a project
-
-In the admin: **Projects → +**
+Editor → **Projects** → **Add**.
 
 | Field | What it does |
 |---|---|
-| Title | Shows on cards and the project page. Also sets the URL. |
-| **Section** | **Design**, **VFX** or **For Kicks**. Decides which part of the site it appears on. |
-| Category | Design projects only: Production Design, Pre-Vis or Props. |
-| Type | Series, Commercial, Feature, Short, Music Video, Promo. VFX uses this for its filter buttons. |
-| Date | Projects are sorted newest first. |
-| Show in Featured Work | Puts a Design project on the Design home page grid. |
-| Card summary | Short text for cards and search/social previews. |
-| About | Main description. A blank line starts a new paragraph. |
-| Cover image | The big image on the project page and its card. |
-| Credits | Role/name pairs (Client, Director, Production Designer, Awards…). |
-| Buttons / links | e.g. IMDb, Watch link. Use a full `https://…` URL, or a site path like `/design/other-project`. |
-| Videos | Paste YouTube or Vimeo links. They embed automatically. |
-| Gallery | Upload images; they show as a grid. |
+| **Title** | Shown on cards and the project page. It also creates the page address. |
+| **Section** | **Design**, **VFX** or **For Kicks**. Decides which part of the site it appears in. |
+| **Category** | Design projects only: Production Design, Pre-Vis or Props. |
+| **Type** | Series, Commercial, Feature, Short, Music Video, Promo or Personal. The VFX page uses it for its filter buttons. |
+| **Date** | Projects are sorted newest first. |
+| **Show in Featured Work** | Puts a Design project on the home page. |
+| **Card summary** | The short text on cards and in search and social previews. |
+| **About** | The main description. A blank line starts a new paragraph. |
+| **Cover image** | The big image on the project page and its card. |
+| **Credits** | Pairs like *Director: Name*. |
+| **Buttons / links** | For example IMDb or a watch link. Use a full `https://…` address, or a site address like `/design/other-project`. |
+| **Videos** | Paste YouTube or Vimeo links. They play on the page. |
+| **Gallery** and **Gallery captions** | The photo grid. Click a photo to open the carousel. |
+| *Advanced: old Webflow address* | **Leave empty.** It only exists to redirect old Webflow links. |
 
-Leave the "(temporary) URL" fields empty. They were only used for the migration from Webflow.
+**For Kicks projects** (like Toilet Town) appear on `/kicks`. They don't need a category.
 
-### For Kicks projects (e.g. Toilet Town)
+**Toilet Town is special:** it is its own mini-site (see [section 7](#7-the-other-editable-pages)), so its card links there rather than to a normal project page.
 
-Add a project with **Section = For Kicks**. It appears on `/kicks`, which is linked from the Design side. A category isn't required.
+---
 
-## Contact pages and forms
+## 5. Photos and video
 
-Admin → **Contact pages**. Each entry in the list is one contact page at `/contact/<name>`:
+- **Photos live in one folder per project**, named after it:
+  ```
+  public/images/projects/kfc/        cover.jpg, 01.jpg, 02.jpg …
+  public/images/projects/longing/    cover.png, 01.jpg …
+  public/images/ttown/album-03/      cover.jpg, 001.jpg …
+  ```
+  Pages with a single set of pictures use one folder each: `public/images/awards/`, `public/images/clients/`, `public/videos/services/`, and `public/images/ttown/` for the Toilet Town home and About pictures.
+- **Uploading in the editor files things for you.** Add a photo to a project and the editor saves it into that project's folder. Nothing to tidy afterwards.
+- **Don't rename, move or delete photo files by hand.** Each project remembers its photos by path, so a renamed file shows up as missing (and the safety check will stop publishing until it's fixed). To reorganize, ask Claude.
+- **Size:** resize photos before uploading, to about **2000 pixels on the long side** and **under 1 MB** each. Large originals bloat the repository (the check warns about anything over 3 MB).
+- **Repository size:** GitHub recommends keeping a repository under about **1 GB**, and it counts the whole history, so every old version of a replaced photo still counts. It is roughly 550 MB now. If you ever plan a big batch of photos, ask Claude first. The fix for a very large archive is moving images to Cloudflare R2.
+- **Video:** don't upload video files for projects. Host them on YouTube or Vimeo and paste the link. (The looping clips on the Services page are the one exception: see section 7.)
+- **Photo carousel:** clicking any gallery photo (on project pages and Toilet Town albums) opens a full-screen carousel. It works with the arrow keys, Home and End, Esc to close, swiping on a phone, and clicking the dark area. Nothing to set up.
 
-| Entry | Page | Menu it appears in |
+---
+
+## 6. Contact pages and forms
+
+Editor → **Contact pages**. Each entry is one page at `/contact/<name>`:
+
+| Entry | Page | Menu it belongs to |
 |---|---|---|
 | `design` | `/contact/design` | Design |
 | `vfx` | `/contact/vfx` | VFX |
 | `kicks` | `/contact/kicks` | For Kicks |
 | `toilet-town` | `/contact/toilet-town` | Toilet Town |
 
-To add another contact page (for example "Press" or "Hiring"), click **Add item**, give it a URL name, pick the **Site section** (this sets its look and menu), and fill in the heading and intro. Link to it from anywhere as `/contact/<name>`.
+**To add another contact page** (for example "Press"): **Add item**, give it a URL name (lowercase letters, numbers and dashes), choose the **Site section** (this sets its look and menu), and write the heading and intro. Link to it from anywhere as `/contact/<name>`.
 
-Each page has its own **email** and **form service URL**. If either is empty it falls back to the main email in **Site settings**.
+Each page has its own **email** and **form service URL**. Anything left empty falls back to the main email in **Site settings**.
 
 **How a form delivers messages**
-- **With a form service URL**: the message is sent to that service, which emails you. Free services: [Formspree](https://formspree.io), [Web3Forms](https://web3forms.com), [Basin](https://usebasin.com). Create a form there, copy its URL into the page's *Form service URL*, and publish. Use a separate form per page if you want them routed or labelled differently (the subject also carries a prefix like "Huzzah VFX: …").
-- **Without one**: pressing Send opens the visitor's email app with the message filled in, addressed to the page's email. It works, but it is less smooth than a form service.
 
-## Awards
+- **With a form service URL:** the message goes to that service, which emails you. Free choices: [Formspree](https://formspree.io), [Web3Forms](https://web3forms.com) and [Basin](https://usebasin.com). Create a form there, copy its address into the page's *Form service URL*, then Save and Publish. Use a separate form for each page if you want them labelled or routed differently (the subject also gets a prefix like "Huzzah VFX: …").
+- **Without one:** pressing Send opens the visitor's own email app with the message filled in. It works, but it is less smooth than a form service.
 
-Admin → **Awards**. Each entry says whether it shows on the Design or VFX awards page, plus the result, award name, what it was for, and an optional link. The page shows win and nomination counts automatically.
+**After setting up a form, send a test message from each contact page** and confirm it arrives.
 
-The same screen holds the pictures: the **animated trophy** that loops at the top of the VFX page (an animated WebP, converted from your old 3.3 MB GIF to 0.7 MB), a **still version** for visitors who prefer reduced motion, the **award logo**, and one **photo** for each page. To swap the trophy animation, upload a new animated WebP or GIF and keep it under about 1 MB.
+---
 
-## Services page and its looping videos
+## 7. The other editable pages
 
-Admin → **Services**. Each service has its text, a link, and a looping video that plays muted on its own (like the old Webflow page).
+**Site settings**
+Home heading, tagline, bio, contact email, form service fallback, Instagram and IMDb links, the client list (Design About page), the VFX About text and client logos, the **VFX page intro**, the **For Kicks page intro**, and the **footer text**.
 
-- **Looping video (MP4)** is required. **WebM** is optional (some browsers use it because it's smaller) and the **still image** shows while the video loads.
-- Keep each file short (a few seconds to about 15 s) and under about **6 MB**. Videos that autoplay must have **no sound**, or browsers won't play them.
-- The videos live in `public/videos/services/`. They only play while on screen, and visitors who have "reduce motion" turned on see the still image instead.
-- This is different from project videos, which are YouTube or Vimeo links.
+**Services**
+Each service has a title, text, button label, link and a **looping video** that plays on its own, muted, only while it is on screen. Upload an MP4 (required), optionally a WebM (smaller in some browsers), and a still image shown while it loads. Keep clips short and **under about 6 MB**, and **without sound** (browsers won't autoplay video that has sound). Visitors who prefer reduced motion see the still image.
 
-## Toilet Town
+**Awards**
+Each entry says whether it appears on the Design or VFX awards page, the result (Winner or Nominated), the award, what it was for, and an optional link. The win and nomination counts update automatically. The same screen holds the VFX page's **rotating trophy** (an animated image under about 1 MB), its still version, the award logo, and one photo per page.
 
-Toilet Town is a mini-site inside For Kicks: `/kicks/toilet-town` (home), `/photos` (12 albums), `/about`, `/shop` and its own contact page.
+**Toilet Town** (a mini-site inside For Kicks)
+Pages: home, Photos (12 albums), About, Shop and its own contact page.
 
-- Page text and images: admin → **Toilet Town**.
-- Albums: admin → **Toilet Town albums**. Add photos to an album or create a new one. Order controls the sequence.
-- The speech bubble on the home page is **Toilet Town → Intro**. It's currently the opening of your essay ("Why are there so many toilets sitting out on the curb in Toronto?…"). Replace the text to change it.
-- Toilet Town has its **own look**: a lighter, friendly photo-gallery style (warm cream background, rounded fonts, teal and yellow accents, soft shadows). It lives in `src/styles/toilet-town.css`, and the colors are at the top of that file. The rest of the site keeps the dark look.
+- **Toilet Town** (editor): the home-page quote, the About essay and picture, and the Shop note.
+- **Toilet Town albums** (editor): each album's cover and photos. The order field controls the sequence.
+- It has its **own lighter look** (cream background, rounded fonts, teal and yellow accents). The styling is in `src/styles/toilet-town.css`; the colors are at the top of that file.
 
-## Photo carousel
+**Categories**
+Production Design, Pre-Vis, Props, For Kicks and VFX: each has a name, section, order and a short blurb that shows on the home page tiles.
 
-Clicking any photo in a gallery (Toilet Town albums and the galleries on project pages) opens a full-screen carousel: previous/next arrows, a photo counter, and the caption if the photo has one. It works with the keyboard (← → to move, Home/End, Esc to close), by swiping on a phone, and by clicking the dark area to close. Visitors with JavaScript turned off just get the full-size photo. The code is `src/scripts/lightbox.ts` and `src/styles/lightbox.css`, and no setup is needed when you add photos.
+---
 
-## Images and video
+## 8. Publishing, the safety check, and undoing
 
-- **Where photos live**: every project and every Toilet Town album has **its own folder**, named after it:
-  ```
-  public/images/projects/kfc/        cover.jpg, 01.jpg, 02.jpg ...
-  public/images/projects/longing/    cover.png, 01.jpg ...
-  public/images/ttown/album-03/      cover.jpg, 001.jpg ...
-  ```
-  Pages with a single set of pictures use one flat folder: `public/images/awards/`, `public/images/clients/`, `public/videos/services/`, and `public/images/ttown/` (for the Toilet Town home and About pictures).
-- **Uploading in the admin files things for you.** When you add a photo to a project, the admin saves it into that project's folder automatically, so there's nothing to tidy afterwards.
-- **Don't rename or move the photo files by hand.** The admin remembers each photo by its path (it's stored in the project as `/images/projects/<project>/<file>`), so a renamed or moved file shows up as missing. If you want to reorganize, ask Claude to do it, and it updates the project files to match.
-- **Images** can be uploaded in the admin for every section.
-  - Resize before uploading: about **2000 px on the long side**, JPG, under ~500 KB–1 MB each. Large originals bloat the repo.
-  - Keep the whole repo comfortably under **1 GB** (GitHub's guideline). It's roughly 520 MB now, mostly images.
-- **Video**: don't upload video files to the repo. Host on YouTube or Vimeo and paste the link in **Videos**. If you ever need self-hosted video, tell me and we'll set up Cloudflare R2 or Bunny Stream.
+### Publishing
 
-## Publishing changes
+Double-click **`Publish site.cmd`**. It does three things:
 
-Using a terminal in the project folder:
+1. **Checks the site for mistakes** (below). If it finds a problem, it stops and tells you.
+2. **Shows what changed** and asks for a few words describing it.
+3. **Sends it to GitHub.** Cloudflare then rebuilds and the site updates in about 2 minutes. If someone else published in the meantime, it combines the changes first.
 
-```
-git add -A
-git commit -m "Describe what you changed"
-git push
-```
+To watch the deploy: Cloudflare → **Workers & Pages → huzzah → Deployments**. A green check means it's live. (Hard-refresh with Ctrl+F5 if a page looks old.)
 
-(GitHub Desktop works too: review changes, write a message, Commit, then Push.)
+*Prefer to do it by hand?* In a terminal in the project folder: `git add -A`, `git commit -m "what you changed"`, `git push`. GitHub Desktop works too.
 
-Then watch the deploy in **Cloudflare → Workers & Pages → huzzah → Deployments**. A green check means it's live. If it fails, open that build, click **Copy build log**, and paste the last lines to Claude.
+### The safety check
 
-## Deleting or hiding a project
+`npm run check` runs by itself every time you publish and every time Cloudflare builds the site. If it finds a **PROBLEM**, the build stops and **the live site stays exactly as it was**.
 
-- Delete: in the admin open the project and use **Delete**, then publish.
-- Hide without deleting: change its Section to a different one, or remove it and restore from git history if needed. Everything is version-controlled, so you can always undo.
+| Message | What it means | Fix |
+|---|---|---|
+| `PROBLEM … the file /images/projects/kfc/03.jpg is missing` | A photo was renamed, moved or deleted. | Put the file back, or remove that photo from the project's Gallery in the editor. |
+| `PROBLEM … it has no title` | A project has an empty Title. | Type one. |
+| `PROBLEM … Category … does not exist` | A Design project has no valid category. | Choose Production Design, Pre-Vis or Props. |
+| `PROBLEM … the link /design/xyz does not match any design project` | A button points at a page that doesn't exist. | Fix or remove the button. |
+| `PROBLEM … is not a full path` | A picture reference is in the wrong format. | Re-select the picture in the editor. |
+| `PROBLEM … is not valid JSON` | A content file was edited by hand and broken. | Undo that edit, or ask Claude. |
 
-## Undoing a mistake
+**Warnings never stop anything.** They flag things like a very large photo, a project with no cover image, a video link that isn't YouTube or Vimeo, or unused leftover files.
 
-Every publish is a git commit, so nothing is lost. To undo the last published change:
+If a build fails on Cloudflare, open the failed build, click **Copy build log**, and the PROBLEM lines near the end explain why.
 
-```
-git revert HEAD
-git push
-```
+### Undoing a mistake
 
-## Site structure
+Every publish is saved, so nothing is ever truly lost.
 
-| URL | What it is |
+- **Undo the last publish:** ask Claude, or in a terminal: `git revert HEAD` then `git push`.
+- **Bring back a deleted project or an old version:** ask Claude. The full history is in GitHub.
+
+---
+
+## 9. Accounts: where everything lives
+
+| What | Where | Notes |
+|---|---|---|
+| **The domain name** `huzzahdesign.com` | **Squarespace** (the registrar) | Check the **renewal date** and that auto-renew is on. The domain's *nameservers* point to Cloudflare: don't switch them back. The DNS page in Squarespace shows old Webflow records that are **inactive**; leave them alone. |
+| **Hosting and DNS** | **Cloudflare** (project `huzzah`) | Serves the site. `huzzahdesign.com` is attached to it. `www` has a placeholder DNS record (type A, `192.0.2.1`) and a Redirect Rule that sends `www` to the main address. **Don't delete either**, or `www` stops working. |
+| **The site's files and history** | **GitHub:** `sebazistan/Huzzah` | Also your backup. |
+| **Contact forms** | A form service (not set up yet) | See [section 6](#6-contact-pages-and-forms). |
+| **Public email address** | Editor → Site settings → Contact email | Currently shown on the contact pages and the footer. |
+| **Happy Trails** | Its own site, <https://happytrailstoronto.com> | Separate from this one. Old `huzzahdesign.com/happy-trails/…` addresses redirect to it. |
+| **Webflow** | The old host | Still active until you cancel the plan. See [section 15](#15-open-to-do-list). |
+
+**Good habits**
+
+- Turn on **two-step verification** on Squarespace, Cloudflare and GitHub.
+- Use a **password manager**.
+- Add a **second trusted person** with access (Cloudflare: invite a member; GitHub: add a collaborator; Squarespace: add a contributor with domain permissions), so the site isn't locked to one login.
+
+---
+
+## 10. Asking Claude for changes
+
+Anything not in the editor, such as **layout, colors, fonts, menus, new pages, new sections or new features**, you can ask for in plain words. A good request names the page and what you want. For example:
+
+- "On the Services page, make the videos bigger."
+- "Add a Press page to the Design menu with a list of articles I can edit."
+- "Make the project cards on the home page a little larger, with the title over the photo."
+- "Change the For Kicks pages to use the lighter Toilet Town look."
+- "Bring back the project I deleted called Hershey."
+- "A photo on the Hershey page shows as missing. Can you fix it?"
+
+Helpful extras: a screenshot with the problem marked, a link to a page you like, or the feeling you want ("calmer", "more premium"). Say **"push it"** when you're happy and it goes live.
+
+---
+
+## 11. Site map
+
+| Address | What it is |
 |---|---|
-| `/` | Home page = the Design home (featured work, categories, bio, contact). `/design` redirects here. |
-| `/design/<project>` | Design project page |
-| `/design/category/<category>` | Category listing |
-| `/vfx` | VFX archive with type filters. **Not linked from the Design side**: visitors only reach it with the direct link `https://huzzahdesign.com/vfx/`. |
-| `/vfx/<project>` | VFX project page |
+| `/` | Home page (the Design home). `/design` redirects here. |
+| `/design/<project>` | A Design project |
+| `/design/category/<category>` | A category listing |
+| `/design/awards` | Design awards |
+| `/vfx` | VFX archive with filters. **Not linked from the Design side**: visitors reach it only with the direct link `https://huzzahdesign.com/vfx/` |
+| `/vfx/<project>`, `/vfx/about`, `/vfx/awards` | VFX pages |
 | `/kicks`, `/kicks/<project>` | For Kicks |
+| `/kicks/toilet-town/…` | Toilet Town: home, photos, albums, about, shop |
 | `/about`, `/services` | Text pages |
-| `/design/awards`, `/vfx/awards`, `/vfx/about` | Awards and VFX About |
-| `/kicks/toilet-town/…` | Toilet Town mini-site |
-| `/contact/<name>` | Contact pages (design, vfx, kicks, toilet-town) |
+| `/contact/<name>` | Contact pages |
 
-## Changing the look or layout
+---
 
-The design lives in code, not in the admin:
+## 12. Technical reference
 
-- Colors, fonts, spacing: `src/styles/global.css` (colors are at the top).
-- Page layouts: `src/pages/` and `src/layouts/Base.astro`.
-- Which fields projects have: `keystatic.config.ts`.
+For developers, or for Claude when making changes.
 
-Ask Claude to make these changes; no need to edit by hand.
+| Where | What |
+|---|---|
+| `src/content/` | All content as JSON: `projects/`, `categories/`, `albums/`, plus `site.json`, `services.json`, `awards.json`, `contact.json`, `toilet-town.json` |
+| `public/images/`, `public/videos/` | Photos and videos, served as-is |
+| `keystatic.config.ts` | Defines what the editor shows (fields and labels) |
+| `src/pages/` | The pages and their addresses |
+| `src/layouts/Base.astro` | Page frame: header, menus, footer |
+| `src/components/` | Reusable pieces (project card, project page, contact form, awards) |
+| `src/styles/` | `global.css` (the main look, colors at the top), `toilet-town.css`, `lightbox.css` |
+| `src/scripts/lightbox.ts` | The photo carousel |
+| `scripts/check.mjs` | The safety check |
+| `astro.config.mjs` | Site settings, the sitemap, and the list of old Webflow addresses and where they redirect |
+| `wrangler.jsonc`, `.nvmrc` | Cloudflare deploy settings and Node version (24) |
+| `Edit site.cmd`, `Publish site.cmd` | The double-click shortcuts |
+| `docs/MIGRATION-NOTES.md` | History of the Webflow move |
 
-## Hosting and domain (how it's set up)
+**Build and deploy:** build command `npm run build` (runs the check, then Astro); deploy command `npx wrangler deploy`. Pushing to `main` triggers it. No environment variables are needed. The build writes `sitemap-index.xml`, `robots.txt` and a `_redirects` file (permanent redirects for old Webflow addresses). Unknown addresses show `src/pages/404.astro`.
 
-**Hosting: Cloudflare** (Workers & Pages → project **huzzah**), connected to this GitHub repo.
-- Build command `npm run build`; deploy command `npx wrangler deploy`. The deploy settings live in `wrangler.jsonc` (publishes the `dist/` folder).
-- Every push to `main` deploys automatically. Node 24 comes from `.nvmrc`. No environment variables are needed.
-- The build also writes a `_redirects` file, so old Webflow addresses (`/huzzah/design/…`, `/huzzah/vfx-about`, `/ttown/…`, `/happy-trails/…`) get permanent (301) redirects. The list is generated from `astro.config.mjs` and the project files.
-- Unknown addresses show the 404 page (`src/pages/404.astro`).
-- Cloudflare has no total-size cap for a site like this (the limits are 25 MB per file and 20,000 files; the site has roughly 4,300).
+**Images in content files** are stored as full public paths, such as `/images/projects/kfc/cover.jpg`, which is the format the editor expects. For editor-managed collections the editor adds a folder named after the entry.
 
-**Domain: `huzzahdesign.com`**
-- Registered at **Squarespace**, with its **nameservers set to Cloudflare** (`leo.ns.cloudflare.com` and `ruth.ns.cloudflare.com`). DNS records are therefore managed **in Cloudflare**. The DNS page in Squarespace shows old Webflow records, but they are inactive. Don't edit them and don't switch back to Squarespace nameservers.
-- The bare domain `huzzahdesign.com` is attached to the Worker (Domains & Routes) and is the main address.
-- `www.huzzahdesign.com` has a placeholder record (type A, `www`, `192.0.2.1`, proxied) plus a Redirect Rule that sends `www` to the bare domain (301, path kept). **Don't delete that record or the rule**, or `www` will stop working.
-- Email: the domain had no email (MX) records when it moved, so nothing was affected.
+**Limits:** Cloudflare serves files up to 25 MB each and up to 20,000 files per deploy (the site is roughly 4,300). There is no total size cap.
 
-**Webflow**: both domains were removed from the Webflow site, so Webflow no longer claims them. Ignore Webflow's "Domain updates" banner and don't click "Update domain".
+**Search engines:** `sitemap-index.xml` and `robots.txt` are generated automatically.
 
-**Search engines**: `sitemap-index.xml` and `robots.txt` are generated on every build. In Google Search Console, add `https://huzzahdesign.com` and submit `sitemap-index.xml`.
+---
 
-**Contact forms**: see "Contact pages and forms" above.
+## 13. Troubleshooting
 
-## Troubleshooting
+| What you see | What to do |
+|---|---|
+| Double-clicking **Edit site** says Node.js isn't installed | Run `winget install OpenJS.NodeJS.LTS` in a terminal, then double-click it again. |
+| The editor page is blank or won't load | Make sure the black **Edit site** window is still open, then open <http://localhost:4321/keystatic>. |
+| **Publish site** stops with PROBLEM lines | Read them; nothing was sent. See the table in [section 8](#8-publishing-the-safety-check-and-undoing). |
+| **Publish site** says the upload failed | Check your internet connection and run it again. |
+| **Publish site** says it couldn't combine changes | Ask Claude. This only happens if the site was changed from two places at once. |
+| You published but the live site looks the same | Wait 2 minutes, then hard-refresh (Ctrl+F5). Check **Deployments** in Cloudflare for a failed build. |
+| A Cloudflare build failed | Click **Copy build log**; the PROBLEM lines explain it. The live site is still on the last good version. |
+| `www.huzzahdesign.com` stopped working | In Cloudflare, check that the placeholder `www` DNS record and the Redirect Rule still exist ([section 9](#9-accounts-where-everything-lives)). |
+| A photo shows as missing | It was renamed, moved or deleted. The check will say which one. |
+| The contact form doesn't send email | A form service address isn't set for that page yet ([section 6](#6-contact-pages-and-forms)). |
+| The editor shows an image field as empty | Reload the page. If it persists, ask Claude (don't save that project meanwhile). |
 
-- **`node` is not recognized**: close and reopen the terminal after installing Node.
-- **Admin page is blank or won't load**: make sure `npm run dev` is running and use `http://localhost:4321/keystatic`.
-- **Change doesn't appear on the live site**: you must commit **and push**; then check **Deployments** in Cloudflare for a failed build. If the page looks old, hard-refresh (Ctrl+F5); Cloudflare caches pages for a short while.
-- **`www.huzzahdesign.com` stops working**: check the placeholder `www` DNS record and the Redirect Rule still exist in Cloudflare (see "Hosting and domain").
-- **Images missing**: confirm they were committed (`git status` should be clean after `git add -A`).
+---
 
-## Status: what was migrated from Webflow
+## 14. Yearly checklist
 
-Done (checked against your Webflow CMS exports): all 284 published Design entries (135 Pre-vis, 103 Props, 18 Production Design, 28 For Kicks), all published VFX projects, Toilet Town (12 albums, About, Shop), About and Awards for both sides, VFX client logos, 300+ redirects for old URLs, and every image (stored in this repo, not on Webflow).
+- [ ] **Domain renewal** at Squarespace (and auto-renew is on).
+- [ ] Send a **test message** through each contact form.
+- [ ] Click through each section of the live site.
+- [ ] Open the editor (**Edit site**) and confirm it still works.
+- [ ] Check the latest **Cloudflare deployment** is green.
+- [ ] Update the [accounts table](#9-accounts-where-everything-lives) if anything changed.
 
-Left out on purpose: the 4 unpublished drafts in the Webflow export (`cibc2025`, `moose`, `stickers`, `webb`), the empty shop and checkout template pages, the empty search and photography pages. **Happy Trails** is not part of this site: it already lives on its own domain, <https://happytrailstoronto.com> (GitHub Pages, not Webflow), so cancelling Webflow doesn't affect it. The old `huzzahdesign.com/happy-trails/...` addresses redirect there.
+---
 
-Three projects exist on both the Design and VFX sides under the same name (Burnwatch, Don't Come Upstairs, My Dead Mom). The design versions are stored with a `-design` suffix, and the old `/huzzah/design/...` links redirect to them.
+## 15. Open to-do list
 
-The domain has moved to the new site. Before cancelling the Webflow plan (keep it about a week as a fallback):
+Delete items as you finish them.
 
-1. **Contact forms**: create a form at a form service and paste its URL into **Contact pages** (see above). Send a test message from each page.
-2. **Check the pasted contact email** (taken from your old Contact page) in **Site settings** is the one you want public.
-3. **Skim the imported text.** Captions on images are kept, but formatting inside long project texts (bold, links, bullet lists) is simplified to plain paragraphs.
-4. **Export anything you still want from Webflow**, such as old form submissions, then downgrade or cancel the Site plan. Keep the project itself as a backup.
-
-Images are about 520 MB in the repo. GitHub's 1 GB guideline counts the whole git history, which also stores every image once. Keep new uploads resized, and avoid re-uploading or replacing large images repeatedly, because every old version stays in history.
+- [ ] **Connect the contact forms** to a form service and test each page ([section 6](#6-contact-pages-and-forms)).
+- [ ] **Google Search Console:** add `https://huzzahdesign.com` and submit `sitemap-index.xml`.
+- [ ] **Webflow:** keep it as a fallback for about a week after the switch, export any form submissions you want to keep, then downgrade or cancel the Site plan. Keep the project itself as a backup. Don't click Webflow's "Update domain" banner.
+- [ ] Optional: free visitor stats (Cloudflare Web Analytics) and an uptime alert.

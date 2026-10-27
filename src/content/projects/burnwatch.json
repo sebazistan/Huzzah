@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Commercial",
+  "title": "Burnwatch",
   "date": "2024-04-01",
   "featured": false,
   "summary": "Animation for a PSA from Melanoma Canada.",
   "description": "Animation for a PSA from Melanoma Canada.",
-  "coverUrl": "",
   "cover": "/images/projects/burnwatch/cover.png",
   "credits": [
     {
@@ -27,6 +27,5 @@
     "/images/projects/burnwatch/01.jpg",
     "/images/projects/burnwatch/02.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

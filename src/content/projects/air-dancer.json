@@ -8,7 +8,6 @@
   "title": "Air Dancer",
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/air-dancer/cover.jpg",
   "credits": [
     {
@@ -36,6 +35,5 @@
     "/images/projects/air-dancer/15.jpg",
     "/images/projects/air-dancer/16.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

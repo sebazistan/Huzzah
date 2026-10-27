@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "My Dead Mom",
   "date": "2024-07-01",
   "featured": false,
   "summary": "From IMDB: \"Emmy's mother died and she hates what she's wearing. Emmy knows she could live her best life, if her dead mother would JUST. STOP. TALKING. She's dead, but…",
   "description": "From IMDB: \"Emmy's mother died and she hates what she's wearing. Emmy knows she could live her best life, if her dead mother would JUST. STOP. TALKING. She's dead, but she's still disappointed.\"\n\nHuzzah provided a number of shots, mostly to fix continuity errors and other gaffes as well as digital enhancement to a scene involving a house fire.",
-  "coverUrl": "",
   "cover": "/images/projects/my-dead-mom/cover.png",
   "credits": [
     {
@@ -40,6 +40,5 @@
     "/images/projects/my-dead-mom/02.jpg",
     "/images/projects/my-dead-mom/03.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

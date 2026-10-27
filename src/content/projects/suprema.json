@@ -8,7 +8,6 @@
   "title": "Suprema",
   "summary": "Prop Design for Suprema.",
   "description": "Prop Design for Suprema.",
-  "coverUrl": "",
   "cover": "/images/projects/suprema/cover.jpg",
   "credits": [],
   "links": [],
@@ -25,6 +24,5 @@
     "/images/projects/suprema/07.jpg",
     "/images/projects/suprema/08.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

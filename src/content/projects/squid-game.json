@@ -8,7 +8,6 @@
   "title": "Squid Game",
   "summary": "Design for a Squid Game style console.",
   "description": "Design for a Squid Game style console.",
-  "coverUrl": "",
   "cover": "/images/projects/squid-game/cover.jpg",
   "credits": [
     {
@@ -24,6 +23,5 @@
     "/images/projects/squid-game/03.jpg",
     "/images/projects/squid-game/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

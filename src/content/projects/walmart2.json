@@ -8,7 +8,6 @@
   "title": "Walmart",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/walmart2/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/walmart2/02.jpg",
     "/images/projects/walmart2/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

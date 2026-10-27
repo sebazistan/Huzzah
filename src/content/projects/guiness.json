@@ -8,7 +8,6 @@
   "title": "Guiness",
   "summary": "Pre-vis and plans for a TV commercial.",
   "description": "Pre-vis and plans for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/guiness/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/guiness/02.jpg",
     "/images/projects/guiness/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

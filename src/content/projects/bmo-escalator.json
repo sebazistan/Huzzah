@@ -8,7 +8,6 @@
   "title": "BMO Escalator",
   "summary": "I designed and helped fabricate a rig to roll a desk up an angle for a BMO commercial.",
   "description": "I designed and helped fabricate a rig to roll a desk up an angle for a BMO commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/bmo-escalator/cover.jpg",
   "credits": [
     {
@@ -36,6 +35,5 @@
     "/images/projects/bmo-escalator/12.jpg",
     "/images/projects/bmo-escalator/13.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

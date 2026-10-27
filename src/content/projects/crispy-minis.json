@@ -8,7 +8,6 @@
   "title": "Crispy Minis",
   "summary": "Pre-vis for a commercial.",
   "description": "Pre-vis for a commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/crispy-minis/cover.jpg",
   "credits": [
     {
@@ -37,6 +36,5 @@
     "/images/projects/crispy-minis/12.jpg",
     "/images/projects/crispy-minis/13.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

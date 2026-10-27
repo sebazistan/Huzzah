@@ -22,7 +22,7 @@ const catHref = (c: (typeof cats)[number]) => href(c.section === 'kicks' ? '/kic
     <div class="cats">
       {tiles.map((c, i) => (
         <a class="cat reveal" href={catHref(c)} style={`--d:${i * 70}ms`}>
-          {(c.cover || c.coverUrl) && <img src={c.cover ? href(c.cover) : c.coverUrl} alt="" loading="lazy" />}
+          {c.cover && <img src={href(c.cover)} alt="" loading="lazy" />}
           <div><h3>{c.name}</h3><p>{c.blurb}</p></div>
         </a>
       ))}

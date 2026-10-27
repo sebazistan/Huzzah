@@ -8,7 +8,6 @@
   "title": "Quilted Northern",
   "summary": "Pre-vis for a Quilted Northern toilet paper commercial.",
   "description": "Pre-vis for a Quilted Northern toilet paper commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/quilted-northern/cover.jpg",
   "credits": [
     {
@@ -22,6 +21,5 @@
     "/images/projects/quilted-northern/01.jpg",
     "/images/projects/quilted-northern/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

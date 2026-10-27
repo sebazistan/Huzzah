@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Feature",
+  "title": "Preempting Dissent",
   "date": "2014-05-01",
   "featured": false,
   "summary": "VFX for a documentary.",
   "description": "VFX for a documentary.",
-  "coverUrl": "",
   "cover": "/images/projects/preempting-dissent/cover.png",
   "credits": [
     {
@@ -24,6 +24,5 @@
   "gallery": [
     "/images/projects/preempting-dissent/01.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

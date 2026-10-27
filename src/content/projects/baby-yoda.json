@@ -8,7 +8,6 @@
   "title": "Baby Yoda",
   "summary": "A custom puppet for a series.",
   "description": "A custom puppet for a series.",
-  "coverUrl": "",
   "cover": "/images/projects/baby-yoda/cover.jpg",
   "credits": [
     {
@@ -35,6 +34,5 @@
     "/images/projects/baby-yoda/12.jpg",
     "/images/projects/baby-yoda/13.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Special K",
   "summary": "Pre-vis for an installation.",
   "description": "Pre-vis for an installation.",
-  "coverUrl": "",
   "cover": "/images/projects/special-k/cover.jpg",
   "credits": [
     {
@@ -26,6 +25,5 @@
     "/images/projects/special-k/05.jpg",
     "/images/projects/special-k/06.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

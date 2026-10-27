@@ -8,7 +8,6 @@
   "title": "Personal Assistant",
   "summary": "I designed a personal assistant robot that was designed to light up.",
   "description": "I designed a personal assistant robot that was designed to light up.",
-  "coverUrl": "",
   "cover": "/images/projects/personal-assistant-uknyf/cover.jpg",
   "credits": [],
   "links": [],
@@ -25,6 +24,5 @@
     "/images/projects/personal-assistant-uknyf/09.jpg",
     "/images/projects/personal-assistant-uknyf/10.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

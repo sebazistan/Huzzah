@@ -7,7 +7,6 @@
   "title": "Exo",
   "summary": "Marie Kozlova stars in a fun sci fi short.",
   "description": "Marie Kozlova stars in a fun sci fi short.",
-  "coverUrl": "",
   "cover": "/images/projects/exo/cover.jpg",
   "credits": [],
   "links": [],
@@ -19,6 +18,5 @@
     "/images/projects/exo/02.jpg",
     "/images/projects/exo/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

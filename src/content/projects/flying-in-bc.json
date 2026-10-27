@@ -7,7 +7,6 @@
   "title": "Flying in BC",
   "summary": "Drone video from BC. Message if you want to use this in your project. I have lots more like this!",
   "description": "Drone video from BC. Message if you want to use this in your project. I have lots more like this!",
-  "coverUrl": "",
   "cover": "/images/projects/flying-in-bc/cover.jpg",
   "credits": [],
   "links": [],
@@ -20,6 +19,5 @@
     "https://www.youtube.com/watch?v=1pqYEUON39w"
   ],
   "gallery": [],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

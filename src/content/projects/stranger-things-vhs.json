@@ -8,7 +8,6 @@
   "title": "Stranger Things VHS",
   "summary": "I designed a whole bunch of VHS covers for a Stranger Things commercial.",
   "description": "I designed a whole bunch of VHS covers for a Stranger Things commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/stranger-things-vhs/cover.jpg",
   "credits": [
     {
@@ -69,6 +68,5 @@
     "/images/projects/stranger-things-vhs/48.jpg",
     "/images/projects/stranger-things-vhs/49.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

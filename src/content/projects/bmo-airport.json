@@ -8,7 +8,6 @@
   "title": "BMO airport",
   "summary": "Pre-vis for a BMO commercial.",
   "description": "Pre-vis for a BMO commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/bmo-airport/cover.jpg",
   "credits": [
     {
@@ -26,6 +25,5 @@
     "/images/projects/bmo-airport/05.jpg",
     "/images/projects/bmo-airport/06.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

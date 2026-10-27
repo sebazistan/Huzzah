@@ -8,7 +8,6 @@
   "title": "GM",
   "summary": "Pre-vis for a TV commercial. This was a big job requiring some on set VFX supervision as well.",
   "description": "Pre-vis for a TV commercial. This was a big job requiring some on set VFX supervision as well.",
-  "coverUrl": "",
   "cover": "/images/projects/gm/cover.jpg",
   "credits": [
     {
@@ -48,6 +47,5 @@
     "/images/projects/gm/23.jpg",
     "/images/projects/gm/24.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Crave",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/crave/cover.jpg",
   "credits": [
     {
@@ -22,6 +21,5 @@
     "/images/projects/crave/01.jpg",
     "/images/projects/crave/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

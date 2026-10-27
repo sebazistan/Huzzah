@@ -8,7 +8,6 @@
   "title": "Purple Bricks",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/purple-bricks/cover.jpg",
   "credits": [
     {
@@ -22,6 +21,5 @@
     "/images/projects/purple-bricks/01.jpg",
     "/images/projects/purple-bricks/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

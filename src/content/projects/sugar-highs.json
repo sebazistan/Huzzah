@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "Sugar Highs",
   "date": "2022-04-01",
   "featured": false,
   "summary": "From IMDB: \"Three roomates who can't make rent would rather get high than work menial jobs. So they set out to find sugar daddies to pay their bills.\"",
   "description": "From IMDB: \"Three roomates who can't make rent would rather get high than work menial jobs. So they set out to find sugar daddies to pay their bills.\"\n\nHuzzah created a colourful intro for the series.",
-  "coverUrl": "",
   "cover": "/images/projects/sugar-highs/cover.png",
   "credits": [
     {
@@ -37,6 +37,5 @@
     "/images/projects/sugar-highs/03.jpg",
     "/images/projects/sugar-highs/04.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

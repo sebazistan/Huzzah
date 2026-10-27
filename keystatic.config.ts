@@ -31,6 +31,15 @@ export default config({
           itemLabel: (p) => p.value,
         }),
         vfxBio: fields.text({ label: 'VFX About text', multiline: true }),
+        vfxIntro: fields.text({
+          label: 'VFX page intro (the paragraph under the VFX heading)',
+          multiline: true,
+        }),
+        kicksIntro: fields.text({ label: 'For Kicks page intro (the line under the heading)' }),
+        footerText: fields.text({
+          label: 'Footer text',
+          description: 'Shown after the © and the year, at the bottom of every page.',
+        }),
         vfxClientLogos: fields.array(
           fields.image({ label: 'Logo', directory: 'public/images/clients', publicPath: '/images/clients/' }),
           { label: 'Client logos (VFX About page)' },
@@ -168,7 +177,6 @@ export default config({
         section: fields.select({ label: 'Section', options: [...sections], defaultValue: 'design' }),
         order: fields.integer({ label: 'Order', defaultValue: 0 }),
         blurb: fields.text({ label: 'Short blurb', multiline: true }),
-        coverUrl: fields.text({ label: 'Cover image URL (temporary, until images are uploaded)' }),
         cover: fields.image({
           label: 'Cover image',
           directory: 'public/images/categories',
@@ -218,16 +226,11 @@ export default config({
         }),
         date: fields.date({ label: 'Date' }),
         featured: fields.checkbox({ label: 'Show in Featured Work', defaultValue: false }),
-        legacySlug: fields.text({
-          label: 'Old Webflow URL name (only needed for redirects)',
-          description: 'Leave empty for new projects.',
-        }),
         summary: fields.text({ label: 'Card summary', multiline: true }),
         description: fields.text({
           label: 'About (blank line = new paragraph)',
           multiline: true,
         }),
-        coverUrl: fields.text({ label: 'Cover image URL (temporary, until images are uploaded)' }),
         cover: fields.image({
           label: 'Cover image',
           directory: 'public/images/projects',
@@ -263,9 +266,9 @@ export default config({
           label: 'Gallery captions (same order as the images; leave blank for none)',
           itemLabel: (p) => p.value,
         }),
-        galleryUrls: fields.array(fields.text({ label: 'Image URL' }), {
-          label: 'Gallery image URLs (temporary, until images are uploaded)',
-          itemLabel: (p) => p.value,
+        legacySlug: fields.text({
+          label: 'Advanced: old Webflow address (leave empty)',
+          description: 'Only used to redirect an old Webflow link to this project. Leave it empty for new projects.',
         }),
       },
     }),

@@ -8,7 +8,6 @@
   "title": "The D Cut",
   "summary": "The D Cut follows an iconic queer hair salon fighting to stay open amid neighbourhood gentrification. D \"Marie Marolle\", hairdresser and local icon, believes everyone is just a cut away from living their best life and provides a safe space for queer cuts on a pay-what-you-can basis. On Crave.",
   "description": "The D Cut follows an iconic queer hair salon fighting to stay open amid neighbourhood gentrification. D \"Marie Marolle\", hairdresser and local icon, believes everyone is just a cut away from living their best life and provides a safe space for queer cuts on a pay-what-you-can basis. On Crave.",
-  "coverUrl": "",
   "cover": "/images/projects/the-d-cut/cover.jpg",
   "credits": [
     {
@@ -36,6 +35,5 @@
   "gallery": [
     "/images/projects/the-d-cut/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

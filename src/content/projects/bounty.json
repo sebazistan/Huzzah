@@ -8,7 +8,6 @@
   "title": "Bounty",
   "summary": "Design work for a TV commercial.",
   "description": "Design work for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/bounty/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/bounty/04.jpg",
     "/images/projects/bounty/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

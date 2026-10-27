@@ -8,7 +8,6 @@
   "title": "Tim Hortons",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/tim-hortons-2/cover.jpg",
   "credits": [
     {
@@ -35,6 +34,5 @@
     "/images/projects/tim-hortons-2/14.jpg",
     "/images/projects/tim-hortons-2/15.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

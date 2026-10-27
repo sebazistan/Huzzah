@@ -8,7 +8,6 @@
   "title": "Manulife",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/manulife/cover.jpg",
   "credits": [
     {
@@ -28,6 +27,5 @@
     "/images/projects/manulife/07.jpg",
     "/images/projects/manulife/08.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

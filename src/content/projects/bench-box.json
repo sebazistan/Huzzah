@@ -7,7 +7,6 @@
   "title": "Bench box",
   "summary": "We built a bench box with storage.",
   "description": "We built a bench box with storage.",
-  "coverUrl": "",
   "cover": "/images/projects/bench-box/cover.jpg",
   "credits": [],
   "links": [],
@@ -18,6 +17,5 @@
     "/images/projects/bench-box/03.jpg",
     "/images/projects/bench-box/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

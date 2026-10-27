@@ -8,7 +8,6 @@
   "title": "Monolith",
   "summary": "Prop work for Detention Adventure",
   "description": "Prop work for Detention Adventure",
-  "coverUrl": "",
   "cover": "/images/projects/monolith/cover.jpg",
   "credits": [
     {
@@ -29,6 +28,5 @@
     "/images/projects/monolith/02.jpg",
     "/images/projects/monolith/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

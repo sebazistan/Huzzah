@@ -8,7 +8,6 @@
   "title": "Telescope",
   "summary": "Telescope prop for McDonalds. Thanks Ben Harris!",
   "description": "Telescope prop for McDonalds. Thanks Ben Harris!",
-  "coverUrl": "",
   "cover": "/images/projects/telescope/cover.jpg",
   "credits": [
     {
@@ -53,6 +52,5 @@
     "/images/projects/telescope/30.jpg",
     "/images/projects/telescope/31.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

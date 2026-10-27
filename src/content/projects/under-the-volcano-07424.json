@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Feature",
+  "title": "Under the Volcano",
   "date": "2012-06-01",
   "featured": false,
   "summary": "VFX for a long short film.",
   "description": "VFX for a long short film.",
-  "coverUrl": "",
   "cover": "/images/projects/under-the-volcano-07424/cover.png",
   "credits": [
     {
@@ -29,6 +29,5 @@
     "/images/projects/under-the-volcano-07424/01.jpg",
     "/images/projects/under-the-volcano-07424/02.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

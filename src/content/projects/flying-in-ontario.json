@@ -7,7 +7,6 @@
   "title": "Flying in Ontario",
   "summary": "Drone video from around Ontario. Message me if you want to use this in your project. I have lots more like this!",
   "description": "Drone video from around Ontario. Message me if you want to use this in your project. I have lots more like this!",
-  "coverUrl": "",
   "cover": "/images/projects/flying-in-ontario/cover.jpg",
   "credits": [],
   "links": [],
@@ -23,6 +22,5 @@
     "/images/projects/flying-in-ontario/01.jpg",
     "/images/projects/flying-in-ontario/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Jewelers Mutual",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/jewelers-mutual/cover.jpg",
   "credits": [
     {
@@ -27,6 +26,5 @@
     "/images/projects/jewelers-mutual/06.jpg",
     "/images/projects/jewelers-mutual/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

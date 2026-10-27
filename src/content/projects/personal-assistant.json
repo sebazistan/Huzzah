@@ -8,7 +8,6 @@
   "title": "Personal Assistant",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/personal-assistant/cover.jpg",
   "credits": [
     {
@@ -40,6 +39,5 @@
     "/images/projects/personal-assistant/15.jpg",
     "/images/projects/personal-assistant/16.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

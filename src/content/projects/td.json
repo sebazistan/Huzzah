@@ -8,7 +8,6 @@
   "title": "TD Robot",
   "summary": "Prop Design for a commercial.",
   "description": "Prop Design for a commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/td/cover.jpg",
   "credits": [
     {
@@ -31,6 +30,5 @@
     "/images/projects/td/10.jpg",
     "/images/projects/td/11.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

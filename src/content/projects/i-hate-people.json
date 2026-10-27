@@ -8,7 +8,6 @@
   "title": "I Hate People Pickups",
   "summary": "I art directed a day of pick ups and inserts.",
   "description": "I art directed a day of pick ups and inserts.",
-  "coverUrl": "",
   "cover": "/images/projects/i-hate-people/cover.jpg",
   "credits": [
     {
@@ -29,6 +28,5 @@
   "gallery": [
     "/images/projects/i-hate-people/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -7,7 +7,6 @@
   "title": "Golden Warrior",
   "summary": "I helped my dear nephew with his Haloween costume. Fun times! The candy goes in the tube.",
   "description": "I helped my dear nephew with his Haloween costume. Fun times! The candy goes in the tube.",
-  "coverUrl": "",
   "cover": "/images/projects/golden-warrior/cover.jpg",
   "credits": [],
   "links": [],
@@ -16,6 +15,5 @@
     "/images/projects/golden-warrior/01.jpg",
     "/images/projects/golden-warrior/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

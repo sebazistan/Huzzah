@@ -7,7 +7,6 @@
   "title": "Chocolate Logo",
   "summary": "Designed and made a mold for custom chocolates. Will need to figure out how to temper chocolate next!",
   "description": "Designed and made a mold for custom chocolates. Will need to figure out how to temper chocolate next!",
-  "coverUrl": "",
   "cover": "/images/projects/chocolate-logo/cover.jpg",
   "credits": [],
   "links": [],
@@ -16,6 +15,5 @@
     "/images/projects/chocolate-logo/01.jpg",
     "/images/projects/chocolate-logo/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

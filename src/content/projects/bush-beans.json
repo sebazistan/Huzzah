@@ -8,7 +8,6 @@
   "title": "Bush Beans",
   "summary": "Design for a TV comemrcial.",
   "description": "Design for a TV comemrcial.",
-  "coverUrl": "",
   "cover": "/images/projects/bush-beans/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/bush-beans/02.jpg",
     "/images/projects/bush-beans/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Home Hardware",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/home-hardware-2/cover.jpg",
   "credits": [
     {
@@ -29,6 +28,5 @@
     "/images/projects/home-hardware-2/08.jpg",
     "/images/projects/home-hardware-2/09.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

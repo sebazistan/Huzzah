@@ -8,7 +8,6 @@
   "title": "Nordstrom",
   "summary": "Pre-vis for an installation.",
   "description": "Pre-vis for an installation.",
-  "coverUrl": "",
   "cover": "/images/projects/nordstrom/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/nordstrom/02.jpg",
     "/images/projects/nordstrom/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

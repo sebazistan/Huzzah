@@ -8,7 +8,6 @@
   "title": "Judge 2D",
   "summary": "Naturally this was inspired by the killer robot from Judge Dredd. Operated by Jasmine Anguah. 3d model and fabrication mostly by Sebastian Harder.",
   "description": "Naturally this was inspired by the killer robot from Judge Dredd. Operated by Jasmine Anguah. 3d model and fabrication mostly by Sebastian Harder.",
-  "coverUrl": "",
   "cover": "/images/projects/judge-2d/cover.jpg",
   "credits": [
     {
@@ -35,6 +34,5 @@
     "/images/projects/judge-2d/06.jpg",
     "/images/projects/judge-2d/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

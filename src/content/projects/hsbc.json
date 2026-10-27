@@ -8,7 +8,6 @@
   "title": "HSBC",
   "summary": "Design for an installation.",
   "description": "Design for an installation.",
-  "coverUrl": "",
   "cover": "/images/projects/hsbc/cover.jpg",
   "credits": [
     {
@@ -31,6 +30,5 @@
     "/images/projects/hsbc/10.jpg",
     "/images/projects/hsbc/11.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

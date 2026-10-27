@@ -8,7 +8,6 @@
   "title": "BMO Card Box",
   "summary": "Design work of a TV commercial.",
   "description": "Design work of a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/bmo-card-box/cover.jpg",
   "credits": [
     {
@@ -27,6 +26,5 @@
     "/images/projects/bmo-card-box/06.jpg",
     "/images/projects/bmo-card-box/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

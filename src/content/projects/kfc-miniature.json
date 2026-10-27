@@ -8,7 +8,6 @@
   "title": "KFC Miniature",
   "summary": "Designed and helped build a miniature KFC restaurant for an installation.",
   "description": "Designed and helped build a miniature KFC restaurant for an installation.",
-  "coverUrl": "",
   "cover": "/images/projects/kfc-miniature/cover.jpg",
   "credits": [
     {
@@ -32,6 +31,5 @@
     "/images/projects/kfc-miniature/07.jpg",
     "/images/projects/kfc-miniature/08.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

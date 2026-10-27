@@ -8,7 +8,6 @@
   "title": "Absolute",
   "summary": "Previs for a TV commercial.",
   "description": "Previs for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/absolute/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/absolute/04.jpg",
     "/images/projects/absolute/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

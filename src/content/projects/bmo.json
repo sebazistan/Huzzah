@@ -8,7 +8,6 @@
   "title": "BMO",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/bmo/cover.jpg",
   "credits": [
     {
@@ -31,6 +30,5 @@
     "/images/projects/bmo/10.jpg",
     "/images/projects/bmo/11.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

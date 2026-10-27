@@ -8,7 +8,6 @@
   "title": "Skate",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/skate/cover.jpg",
   "credits": [
     {
@@ -24,6 +23,5 @@
     "/images/projects/skate/03.jpg",
     "/images/projects/skate/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

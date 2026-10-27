@@ -8,7 +8,6 @@
   "title": "Servepro",
   "summary": "Pre-vis for a Servepro commercial",
   "description": "Pre-vis for a Servepro commercial",
-  "coverUrl": "",
   "cover": "/images/projects/servepro/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/servepro/02.jpg",
     "/images/projects/servepro/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

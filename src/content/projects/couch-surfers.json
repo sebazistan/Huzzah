@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "Couch Surfers",
   "date": "2015-01-01",
   "featured": false,
   "summary": "Titles for a TV pitch",
   "description": "Titles for a TV pitch",
-  "coverUrl": "",
   "cover": "/images/projects/couch-surfers/cover.png",
   "credits": [
     {
@@ -19,6 +19,5 @@
     "https://www.youtube.com/watch?v=u61crr7JPJU"
   ],
   "gallery": [],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

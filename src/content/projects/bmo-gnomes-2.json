@@ -8,7 +8,6 @@
   "title": "BMO gnomes 2",
   "summary": "Props for a BMO commercial.",
   "description": "Props for a BMO commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/bmo-gnomes-2/cover.jpg",
   "credits": [
     {
@@ -21,6 +20,5 @@
   "gallery": [
     "/images/projects/bmo-gnomes-2/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -6,7 +6,6 @@
   "featured": true,
   "summary": "Pre-vis for a Heydsaffer TV commercial.",
   "description": "Pre-vis for a Heydsaffer TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/heydsaffer-2/cover.jpg",
   "credits": [
     {
@@ -24,7 +23,6 @@
     "/images/projects/heydsaffer-2/02.jpg",
     "/images/projects/heydsaffer-2/03.jpg"
   ],
-  "galleryUrls": [],
   "title": "Heydsaffer 2",
   "galleryCaptions": []
 }

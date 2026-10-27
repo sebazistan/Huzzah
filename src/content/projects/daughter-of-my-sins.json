@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Music Video",
+  "title": "Daughter of My Sins",
   "date": "2015-08-01",
   "featured": false,
   "summary": "Music video for Chris Hadfield",
   "description": "Music video for Chris Hadfield",
-  "coverUrl": "",
   "cover": "/images/projects/daughter-of-my-sins/cover.png",
   "credits": [
     {
@@ -22,6 +22,5 @@
     "/images/projects/daughter-of-my-sins/01.jpg",
     "/images/projects/daughter-of-my-sins/02.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

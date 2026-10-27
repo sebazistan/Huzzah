@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "Macy Murdoch",
   "date": "2023-01-01",
   "featured": false,
   "summary": "From IMDB: \"When a mysterious rival uses a time machine to frame Detective William Murdoch of a murder he didn’t commit, his great-great-great granddaughter Macy and her…",
   "description": "From IMDB: \"When a mysterious rival uses a time machine to frame Detective William Murdoch of a murder he didn’t commit, his great-great-great granddaughter Macy and her friends, Zane and Billie, must travel back to 1910 to re-examine the clues and find the real perpetrator of the crime. But if you thought solving a regular murder mystery was difficult, imagine doing so undercover, in a time that isn’t your own, and without the help of modern technology. To make matters worse, if Macy doesn’t succeed in exonerating Murdoch, she faces a terrible fate — being erased from the future!\"\n\nHuzzah provided a number of shots having to do with time travel sequences. A high res 3D scan of the time travel machine was created for the project as well.",
-  "coverUrl": "",
   "cover": "/images/projects/macy-murdoch-2/cover.jpg",
   "credits": [
     {
@@ -35,6 +35,5 @@
     "/images/projects/macy-murdoch-2/01.jpg",
     "/images/projects/macy-murdoch-2/02.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

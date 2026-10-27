@@ -6,7 +6,6 @@
   "featured": true,
   "summary": "Take a closer look at some of the stuff that we built for the project.",
   "description": "Take a closer look at some of the stuff that we built for the project.",
-  "coverUrl": "",
   "cover": "/images/projects/cira/cover.jpg",
   "credits": [
     {
@@ -24,7 +23,6 @@
     "/images/projects/cira/05.jpg",
     "/images/projects/cira/06.jpg"
   ],
-  "galleryUrls": [],
   "title": "CIRA",
   "galleryCaptions": []
 }

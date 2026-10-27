@@ -8,7 +8,6 @@
   "title": "Couch legs",
   "summary": "I designed and fabricated some fake wooden couch legs for a TV commercial.",
   "description": "I designed and fabricated some fake wooden couch legs for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/couch-legs/cover.jpg",
   "credits": [],
   "links": [],
@@ -19,6 +18,5 @@
     "/images/projects/couch-legs/03.jpg",
     "/images/projects/couch-legs/04.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Grinch Lever",
   "summary": "Ben Harris designed this one.",
   "description": "Ben Harris designed this one.",
-  "coverUrl": "",
   "cover": "/images/projects/grinch-lever/cover.jpg",
   "credits": [],
   "links": [],
@@ -22,6 +21,5 @@
     "/images/projects/grinch-lever/06.jpg",
     "/images/projects/grinch-lever/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

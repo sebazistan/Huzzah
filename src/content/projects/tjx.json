@@ -8,7 +8,6 @@
   "title": "TJX",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/tjx/cover.jpg",
   "credits": [
     {
@@ -31,6 +30,5 @@
     "/images/projects/tjx/10.jpg",
     "/images/projects/tjx/11.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Topline",
   "summary": "Production design work for Topline.",
   "description": "Production design work for Topline.",
-  "coverUrl": "",
   "cover": "/images/projects/topline/cover.jpg",
   "credits": [
     {
@@ -30,6 +29,5 @@
   "gallery": [
     "/images/projects/topline/01.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

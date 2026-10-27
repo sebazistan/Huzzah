@@ -8,7 +8,6 @@
   "title": "Omega",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/omega/cover.jpg",
   "credits": [
     {
@@ -23,6 +22,5 @@
     "/images/projects/omega/02.jpg",
     "/images/projects/omega/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

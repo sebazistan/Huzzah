@@ -8,7 +8,6 @@
   "title": "Milkbone",
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/milkbone/cover.jpg",
   "credits": [
     {
@@ -27,6 +26,5 @@
     "/images/projects/milkbone/06.jpg",
     "/images/projects/milkbone/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

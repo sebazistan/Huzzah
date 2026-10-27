@@ -8,7 +8,6 @@
   "title": "Telescope 2",
   "summary": "They liked my first telescope so much I was tasked with building a new and improved version for McDonalds' 2025 Grinch themed ads.",
   "description": "They liked my first telescope so much I was tasked with building a new and improved version for McDonalds' 2025 Grinch themed ads.",
-  "coverUrl": "",
   "cover": "/images/projects/telescope-2/cover.jpg",
   "credits": [
     {
@@ -51,6 +50,5 @@
     "/images/projects/telescope-2/28.jpg",
     "/images/projects/telescope-2/29.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

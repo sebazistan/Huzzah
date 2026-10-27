@@ -6,7 +6,6 @@
   "featured": true,
   "summary": "Designed and built a dinosaur head for a TV commercial.",
   "description": "Designed and built a dinosaur head for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/dinosaur-toy/cover.jpg",
   "credits": [
     {
@@ -28,7 +27,6 @@
     "/images/projects/dinosaur-toy/09.jpg",
     "/images/projects/dinosaur-toy/10.jpg"
   ],
-  "galleryUrls": [],
   "title": "Dinosaur Toy",
   "galleryCaptions": []
 }

@@ -7,7 +7,6 @@
   "title": "Texture Stamps",
   "summary": "A series of texture stamps (AKA \"cookies\") in size small and large. With handle. At some point in the not too distant future these will be available in the store. These…",
   "description": "A series of texture stamps (AKA \"cookies\") in size small and large. With handle. At some point in the not too distant future these will be available in the store. These are designed to be used to texture your creature sculptures!",
-  "coverUrl": "",
   "cover": "/images/projects/texture-stamps/cover.jpg",
   "credits": [],
   "links": [],
@@ -29,6 +28,5 @@
     "/images/projects/texture-stamps/12.jpg",
     "/images/projects/texture-stamps/13.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "Zebra",
   "summary": "I designed and built a life-size zebra for an event.",
   "description": "I designed and built a life-size zebra for an event.",
-  "coverUrl": "",
   "cover": "/images/projects/zebra/cover.jpg",
   "credits": [],
   "links": [],
@@ -26,6 +25,5 @@
     "/images/projects/zebra/10.jpg",
     "/images/projects/zebra/11.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

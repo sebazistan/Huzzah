@@ -8,7 +8,6 @@
   "title": "Checkout Counter",
   "summary": "Designed a self-checkout counter for a TV commercial. Since it had to be finished in one day I created a design that could snap together quickly and provided colour coded, easy to read instructions. A one day build that turned out great!",
   "description": "Designed a self-checkout counter for a TV commercial. Since it had to be finished in one day I created a design that could snap together quickly and provided colour coded, easy to read instructions. A one day build that turned out great!",
-  "coverUrl": "",
   "cover": "/images/projects/checkout-counter/cover.jpg",
   "credits": [
     {
@@ -31,6 +30,5 @@
     "/images/projects/checkout-counter/10.jpg",
     "/images/projects/checkout-counter/11.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

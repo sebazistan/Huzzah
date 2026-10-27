@@ -7,7 +7,6 @@
   "title": "Happy Trails",
   "summary": "Interactive map of the bike trails in Toronto. Check it out!",
   "description": "Interactive map of the bike trails in Toronto. Check it out!",
-  "coverUrl": "",
   "cover": "/images/projects/happy-trails/cover.jpg",
   "credits": [],
   "links": [
@@ -22,6 +21,5 @@
     "/images/projects/happy-trails/02.jpg",
     "/images/projects/happy-trails/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

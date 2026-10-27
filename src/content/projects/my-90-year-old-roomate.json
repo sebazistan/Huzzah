@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "My 90 Year Old Roomate",
   "date": "2016-01-01",
   "featured": false,
   "summary": "'My 90 Year Old Roomate' is an award winning Canadian comedy show.",
   "description": "'My 90 Year Old Roomate' is an award winning Canadian comedy show.",
-  "coverUrl": "",
   "cover": "/images/projects/my-90-year-old-roomate/cover.png",
   "credits": [
     {
@@ -34,6 +34,5 @@
   "gallery": [
     "/images/projects/my-90-year-old-roomate/01.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

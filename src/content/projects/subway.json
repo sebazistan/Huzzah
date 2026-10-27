@@ -8,7 +8,6 @@
   "title": "Subway",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/subway/cover.jpg",
   "credits": [
     {
@@ -29,6 +28,5 @@
     "/images/projects/subway/08.jpg",
     "/images/projects/subway/09.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

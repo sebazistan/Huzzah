@@ -8,7 +8,6 @@
   "title": "Bell",
   "summary": "Pre-vis for a Bell TV commercial",
   "description": "Pre-vis for a Bell TV commercial",
-  "coverUrl": "",
   "cover": "/images/projects/bell/cover.jpg",
   "credits": [
     {
@@ -30,6 +29,5 @@
     "/images/projects/bell/05.jpg",
     "/images/projects/bell/06.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

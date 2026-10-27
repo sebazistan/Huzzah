@@ -8,7 +8,6 @@
   "title": "Lightsaber",
   "summary": "Light saber prop with buttons for different \"modes\". Designed by Sebastian Harder, resin printed by Ben Harris.",
   "description": "Light saber prop with buttons for different \"modes\". Designed by Sebastian Harder, resin printed by Ben Harris.",
-  "coverUrl": "",
   "cover": "/images/projects/lightsaber/cover.jpg",
   "credits": [
     {
@@ -27,6 +26,5 @@
     "/images/projects/lightsaber/02.jpg",
     "/images/projects/lightsaber/03.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

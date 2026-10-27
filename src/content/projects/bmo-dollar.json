@@ -8,7 +8,6 @@
   "title": "BMO Dollar",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/bmo-dollar/cover.jpg",
   "credits": [
     {
@@ -27,6 +26,5 @@
     "/images/projects/bmo-dollar/04.jpg",
     "/images/projects/bmo-dollar/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

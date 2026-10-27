@@ -8,7 +8,6 @@
   "title": "Mr Clean",
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/mr-clean/cover.jpg",
   "credits": [
     {
@@ -25,6 +24,5 @@
     "/images/projects/mr-clean/04.jpg",
     "/images/projects/mr-clean/05.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

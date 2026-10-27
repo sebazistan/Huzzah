@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "But I'm Chris Jerico",
   "date": "2017-10-01",
   "featured": false,
   "summary": "'But I'm Chris Jerico' is an award winning Canadian comedy show.",
   "description": "'But I'm Chris Jerico' is an award winning Canadian comedy show.\n\n'But I'm Chris Jerico' is an award winning Canadian comedy show.",
-  "coverUrl": "",
   "cover": "/images/projects/but-im-chris-jerico/cover.jpeg",
   "credits": [
     {
@@ -35,6 +35,5 @@
     "https://www.youtube.com/watch?v=KWqLzznqXj8"
   ],
   "gallery": [],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

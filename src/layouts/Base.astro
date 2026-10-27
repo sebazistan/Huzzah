@@ -96,7 +96,7 @@ const logo = brand ?? {
     {section !== 'home' && (
       <footer class="footer">
         <div class="footer-inner">
-          <span>© {new Date().getFullYear()} Huzzah. Toronto.</span>
+          <span>© {new Date().getFullYear()} {site.footerText}</span>
           <span class="footer-links">
             {site.instagram && <a href={site.instagram} rel="noopener">Instagram</a>}
             {site.imdb && <a href={site.imdb} rel="noopener">IMDb</a>}

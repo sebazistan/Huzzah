@@ -8,7 +8,6 @@
   "title": "Whale",
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/whale/cover.jpg",
   "credits": [
     {
@@ -27,6 +26,5 @@
     "/images/projects/whale/06.jpg",
     "/images/projects/whale/07.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -2,11 +2,11 @@
   "section": "vfx",
   "category": "vfx-work",
   "type": "Series",
+  "title": "Sesame Street",
   "date": "2015-06-01",
   "featured": false,
   "summary": "VFX for Sesame Street.",
   "description": "VFX for Sesame Street.",
-  "coverUrl": "",
   "cover": "/images/projects/sesame-street-m/cover.png",
   "credits": [
     {
@@ -22,6 +22,5 @@
     "/images/projects/sesame-street-m/01.jpg",
     "/images/projects/sesame-street-m/02.jpg"
   ],
-  "galleryUrls": [],
   "galleryCaptions": []
 }

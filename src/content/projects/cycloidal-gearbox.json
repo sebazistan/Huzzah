@@ -7,7 +7,6 @@
   "title": "Cycloidal Gearbox",
   "summary": "Working on a gearbox or a stepper motor.",
   "description": "Working on a gearbox or a stepper motor.",
-  "coverUrl": "",
   "cover": "/images/projects/cycloidal-gearbox/cover.jpg",
   "credits": [],
   "links": [],
@@ -15,6 +14,5 @@
     "https://www.youtube.com/watch?v=fzVbToTo6zM"
   ],
   "gallery": [],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

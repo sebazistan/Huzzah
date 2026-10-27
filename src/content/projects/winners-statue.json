@@ -8,7 +8,6 @@
   "title": "Winners Statue",
   "summary": "",
   "description": "",
-  "coverUrl": "",
   "cover": "/images/projects/winners-statue/cover.jpg",
   "credits": [],
   "links": [],
@@ -21,6 +20,5 @@
     "/images/projects/winners-statue/05.jpg",
     "/images/projects/winners-statue/06.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

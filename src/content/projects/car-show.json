@@ -8,7 +8,6 @@
   "title": "Car Show",
   "summary": "Pre-vis for a car show.",
   "description": "Pre-vis for a car show.",
-  "coverUrl": "",
   "cover": "/images/projects/car-show/cover.jpg",
   "credits": [
     {
@@ -35,6 +34,5 @@
     "/images/projects/car-show/14.jpg",
     "/images/projects/car-show/15.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

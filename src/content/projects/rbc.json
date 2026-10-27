@@ -8,7 +8,6 @@
   "title": "RBC",
   "summary": "Pre-vis for a RBC commercial.",
   "description": "Pre-vis for a RBC commercial.",
-  "coverUrl": "",
   "cover": "/images/projects/rbc/cover.jpg",
   "credits": [
     {
@@ -22,6 +21,5 @@
     "/images/projects/rbc/01.jpg",
     "/images/projects/rbc/02.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

@@ -8,7 +8,6 @@
   "title": "People Watching",
   "summary": "Designed and built an installation for the Premiere of the cartoon 'People Watching'.",
   "description": "Designed and built an installation for the Premiere of the cartoon 'People Watching'.",
-  "coverUrl": "",
   "cover": "/images/projects/people-watching/cover.jpg",
   "credits": [],
   "links": [],
@@ -50,6 +49,5 @@
     "/images/projects/people-watching/31.jpg",
     "/images/projects/people-watching/32.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }

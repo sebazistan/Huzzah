@@ -8,7 +8,6 @@
   "title": "Grinch Cave",
   "summary": "I was pretty heavily inolved in designing and helping to fabricate sets and props for McDonalds' grinch commercials. The snow globe machine and the big laser, as well as the telescope were my work.",
   "description": "I was pretty heavily inolved in designing and helping to fabricate sets and props for McDonalds' grinch commercials. The snow globe machine and the big laser, as well as the telescope were my work.",
-  "coverUrl": "",
   "cover": "/images/projects/grinch-cave/cover.jpg",
   "credits": [
     {
@@ -48,6 +47,5 @@
     "/images/projects/grinch-cave/25.jpg",
     "/images/projects/grinch-cave/26.jpg"
   ],
-  "galleryCaptions": [],
-  "galleryUrls": []
+  "galleryCaptions": []
 }
