@@ -4,10 +4,10 @@ How to edit content, add images and video, and publish changes.
 
 ## How it works (30 seconds)
 
-- The site is built with **Astro** and published to **GitHub Pages** from the repo `sebazistan/Huzzah`.
+- The site is built with **Astro** and hosted on **Cloudflare** (a Worker serving static files), deployed from the GitHub repo `sebazistan/Huzzah`.
 - Content (projects, categories, text) is stored as small JSON files in `src/content/`. Images are in `public/images/`.
 - You edit content in a web admin called **Keystatic**. It runs **on your computer only** (not on the live site) and saves changes into the project folder.
-- You then **commit and push** to GitHub. GitHub rebuilds the site and publishes it, usually within a minute or two.
+- You then **commit and push** to GitHub. Cloudflare rebuilds the site and publishes it, usually within a minute or two.
 
 ```
 edit in admin  →  save  →  commit + push  →  live in ~1–2 min
@@ -99,7 +99,7 @@ Toilet Town is a mini-site inside For Kicks: `/kicks/toilet-town` (home), `/phot
 
 - **Images**: upload in the admin. They are saved to `public/images/`.
   - Resize before uploading: about **2000 px on the long side**, JPG, under ~500 KB–1 MB each. Large originals bloat the repo.
-  - Keep the whole repo comfortably under **1 GB** (GitHub's guideline). It's about 175 MB now.
+  - Keep the whole repo comfortably under **1 GB** (GitHub's guideline). It's roughly 520 MB now, mostly images.
 - **Video**: don't upload video files to the repo. Host on YouTube or Vimeo and paste the link in **Videos**. If you ever need self-hosted video, tell me and we'll set up Cloudflare R2 or Bunny Stream.
 
 ## Publishing changes
@@ -114,7 +114,7 @@ git push
 
 (GitHub Desktop works too: review changes, write a message, Commit, then Push.)
 
-Then watch the deploy at **GitHub → Actions**. A green check means it's live. If it's red, open the run and read the error, or paste it to Claude.
+Then watch the deploy in **Cloudflare → Workers & Pages → huzzah → Deployments**. A green check means it's live. If it fails, open that build, click **Copy build log**, and paste the last lines to Claude.
 
 ## Deleting or hiding a project
 
@@ -156,33 +156,33 @@ The design lives in code, not in the admin:
 
 Ask Claude to make these changes; no need to edit by hand.
 
-## Hosting on Cloudflare Pages (recommended)
+## Hosting and domain (how it's set up)
 
-1. Cloudflare dashboard → Workers & Pages → Create → Pages → **Connect to Git** → pick this repo.
-2. Framework preset **Astro**, build command `npm run build`, output directory `dist`.
-3. Environment variable: `NODE_VERSION` = `24`. Do **not** set `SITE_URL` or `BASE_PATH` (those are only for the GitHub preview).
-4. Every push to `main` now deploys automatically. The build writes a `_redirects` file, so old Webflow URLs get real permanent (301) redirects.
-5. When you're ready to leave Webflow: Pages project → **Custom domains** → add `www.huzzahdesign.com` and follow the DNS prompts.
+**Hosting: Cloudflare** (Workers & Pages → project **huzzah**), connected to this GitHub repo.
+- Build command `npm run build`; deploy command `npx wrangler deploy`. The deploy settings live in `wrangler.jsonc` (publishes the `dist/` folder).
+- Every push to `main` deploys automatically. Node 24 comes from `.nvmrc`. No environment variables are needed.
+- The build also writes a `_redirects` file, so old Webflow addresses (`/huzzah/design/…`, `/huzzah/vfx-about`, `/ttown/…`, `/happy-trails/…`) get permanent (301) redirects. The list is generated from `astro.config.mjs` and the project files.
+- Unknown addresses show the 404 page (`src/pages/404.astro`).
+- Cloudflare has no total-size cap for a site like this (the limits are 25 MB per file and 20,000 files; the site has roughly 4,300).
 
-Cloudflare has no total-size cap for a site like this (limits are per file and the number of files), which GitHub Pages does.
+**Domain: `huzzahdesign.com`**
+- Registered at **Squarespace**, with its **nameservers set to Cloudflare** (`leo.ns.cloudflare.com` and `ruth.ns.cloudflare.com`). DNS records are therefore managed **in Cloudflare**. The DNS page in Squarespace shows old Webflow records, but they are inactive. Don't edit them and don't switch back to Squarespace nameservers.
+- The bare domain `huzzahdesign.com` is attached to the Worker (Domains & Routes) and is the main address.
+- `www.huzzahdesign.com` has a placeholder record (type A, `www`, `192.0.2.1`, proxied) plus a Redirect Rule that sends `www` to the bare domain (301, path kept). **Don't delete that record or the rule**, or `www` will stop working.
+- Email: the domain had no email (MX) records when it moved, so nothing was affected.
 
-## Hosting and domain (GitHub Pages, current preview)
+**Webflow**: both domains were removed from the Webflow site, so Webflow no longer claims them. Ignore Webflow's "Domain updates" banner and don't click "Update domain".
 
-- Hosting: GitHub Pages. Repo **Settings → Pages → Source: GitHub Actions**.
-- Until the domain moves, the site is built for the preview address `sebazistan.github.io/Huzzah`. This is controlled by two lines in `.github/workflows/deploy.yml` (`SITE_URL` and `BASE_PATH`).
-- **To switch to `huzzahdesign.com`:**
-  1. Delete those two lines (`SITE_URL` and `BASE_PATH`) from `deploy.yml` and push.
-  2. In **Settings → Pages → Custom domain**, enter `www.huzzahdesign.com`, then point your DNS at GitHub as it instructs.
-  3. Tick **Enforce HTTPS** once it becomes available.
-  Do this only when you're ready to leave Webflow.
-- **Old links**: every old Webflow address (`/huzzah/design/…`, `/huzzah/vfx-about`, `/ttown/…` and so on) redirects to its new page, using the list in `astro.config.mjs`. GitHub Pages does this with a quick browser redirect rather than a permanent (301) redirect. Cloudflare Pages could do true 301s if that ever matters for search ranking.
-- **Contact forms**: see "Contact pages and forms" above.
+**Search engines**: `sitemap-index.xml` and `robots.txt` are generated on every build. In Google Search Console, add `https://huzzahdesign.com` and submit `sitemap-index.xml`.
+
+**Contact forms**: see "Contact pages and forms" above.
 
 ## Troubleshooting
 
 - **`node` is not recognized**: close and reopen the terminal after installing Node.
 - **Admin page is blank or won't load**: make sure `npm run dev` is running and use `http://localhost:4321/keystatic`.
-- **Change doesn't appear on the live site**: you must commit **and push**; check the Actions tab for a failed build.
+- **Change doesn't appear on the live site**: you must commit **and push**; then check **Deployments** in Cloudflare for a failed build. If the page looks old, hard-refresh (Ctrl+F5); Cloudflare caches pages for a short while.
+- **`www.huzzahdesign.com` stops working**: check the placeholder `www` DNS record and the Redirect Rule still exist in Cloudflare (see "Hosting and domain").
 - **Images missing**: confirm they were committed (`git status` should be clean after `git add -A`).
 
 ## Status: what was migrated from Webflow
@@ -193,11 +193,11 @@ Left out on purpose: the 4 unpublished drafts in the Webflow export (`cibc2025`,
 
 Three projects exist on both the Design and VFX sides under the same name (Burnwatch, Don't Come Upstairs, My Dead Mom). The design versions are stored with a `-design` suffix, and the old `/huzzah/design/...` links redirect to them.
 
-Before cancelling Webflow:
+The domain has moved to the new site. Before cancelling the Webflow plan (keep it about a week as a fallback):
 
 1. **Contact forms**: create a form at a form service and paste its URL into **Contact pages** (see above). Send a test message from each page.
 2. **Check the pasted contact email** (taken from your old Contact page) in **Site settings** is the one you want public.
 3. **Skim the imported text.** Captions on images are kept, but formatting inside long project texts (bold, links, bullet lists) is simplified to plain paragraphs.
-4. Switch the domain (see "Hosting and domain").
+4. **Export anything you still want from Webflow**, such as old form submissions, then downgrade or cancel the Site plan. Keep the project itself as a backup.
 
-Images are about 310 MB. GitHub's 1 GB guideline counts the whole git history, which also stores every image once, so expect the repo to reach roughly 500–600 MB after the next push. Keep new uploads resized, and avoid re-uploading or replacing large images repeatedly because every old version stays in history.
+Images are about 520 MB in the repo. GitHub's 1 GB guideline counts the whole git history, which also stores every image once. Keep new uploads resized, and avoid re-uploading or replacing large images repeatedly, because every old version stays in history.

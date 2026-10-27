@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import react from '@astrojs/react';
+import sitemap from '@astrojs/sitemap';
 import keystatic from '@keystatic/astro';
 
 // The Keystatic admin (/keystatic) is a dev-time editor: it runs locally and
@@ -47,12 +48,14 @@ function legacyRedirects() {
     if (section === 'design') r[`/huzzah/design/${old}`] = `/design/${slug}`;
     if (section === 'kicks') r[`/huzzah/design/${old}`] = slug === 'toilet-town' ? '/kicks/toilet-town' : `/kicks/${slug}`;
   }
+  // Point straight at the final (trailing-slash) address so visitors get one hop, not two.
+  for (const [from, to] of Object.entries(r)) if (to.startsWith('/') && !to.endsWith('/')) r[from] = `${to}/`;
   return r;
 }
 
 const redirects = legacyRedirects();
 
-// Cloudflare Pages reads dist/_redirects and serves true 301s for old URLs.
+// Cloudflare reads dist/_redirects and serves true 301s for old URLs.
 // (Astro's own redirects below remain as a fallback on hosts without that file.)
 const cloudflareRedirects = {
   name: 'cloudflare-redirects',
@@ -66,10 +69,13 @@ const cloudflareRedirects = {
 };
 
 export default defineConfig({
-  // On the real domain these are unset. The GitHub Pages preview sets them
-  // (see .github/workflows/deploy.yml) because it serves from /Huzzah/.
-  site: process.env.SITE_URL || 'https://www.huzzahdesign.com',
-  base: process.env.BASE_PATH || '/',
+  // The main address is the bare domain; www redirects to it (Cloudflare redirect rule).
+  site: 'https://huzzahdesign.com',
   redirects,
-  integrations: [react(), cloudflareRedirects, ...(isDev ? [keystatic()] : [])],
+  integrations: [
+    react(),
+    sitemap({ filter: (page) => !/\/(huzzah|ttown|happy-trails)\//.test(page) && !/\/404\/?$/.test(page) }),
+    cloudflareRedirects,
+    ...(isDev ? [keystatic()] : []),
+  ],
 });
