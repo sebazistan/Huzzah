@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 const { album, prev, next } = Astro.props;
 ---
 
-<Base title={`Toilet Town: ${album.title}`} section="kicks" nav={ttNav} brand={ttBrand}>
+<Base title={`Toilet Town: ${album.title}`} section="toilet" nav={ttNav} brand={ttBrand}>
   <article class="wrap project">
     <a class="back" href={href('/kicks/toilet-town/photos')}>← All albums</a>
     <h1 style="font-size:clamp(2rem,5vw,3.5rem)">{album.title}</h1>

@@ -1,11 +1,12 @@
 ---
 import '../styles/global.css';
+import '../styles/toilet-town.css';
 import { getSite, href } from '../lib/content';
 
 interface Props {
   title?: string;
   description?: string;
-  section?: 'home' | 'design' | 'vfx' | 'kicks';
+  section?: 'home' | 'design' | 'vfx' | 'kicks' | 'toilet';
   image?: string;
   /** Override the section's menu (used by mini-sites like Toilet Town). */
   nav?: { href: string; label: string }[];
@@ -37,13 +38,14 @@ const navs = {
     { href: '/contact/kicks', label: 'Contact' },
     { href: '/', label: '← Home' },
   ],
+  toilet: [], // Toilet Town always passes its own menu
 };
 const nav = navOverride ?? navs[section];
 const norm = (p: string) => p.replace(/\/$/, '') || '/';
 const path = norm(Astro.url.pathname);
 const logo = brand ?? {
   label: 'HUZZAH',
-  sub: section === 'vfx' ? 'VFX' : section === 'kicks' ? 'FOR KICKS' : 'DESIGN',
+  sub: section === 'vfx' ? 'VFX' : section === 'kicks' ? 'FOR KICKS' : '',
   href: section === 'vfx' ? '/vfx' : '/',
 };
 ---
@@ -65,12 +67,18 @@ const logo = brand ?? {
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    {section === 'toilet' && (
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet"
+      />
+    )}
   </head>
   <body>
     {section !== 'home' && (
       <header class="header">
         <a class="logo" href={href(logo.href)} aria-label={`${logo.label} home`}>
-          {logo.label}<span class="logo-sub">{logo.sub}</span>
+          {logo.label}{logo.sub && <span class="logo-sub">{logo.sub}</span>}
         </a>
         <nav class="nav" aria-label="Main">
           {nav.map((n) => (

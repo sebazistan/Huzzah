@@ -104,7 +104,8 @@ Toilet Town is a mini-site inside For Kicks: `/kicks/toilet-town` (home), `/phot
 
 - Page text and images: admin → **Toilet Town**.
 - Albums: admin → **Toilet Town albums**. Add photos to an album or create a new one. Order controls the sequence.
-- The home page quote area is empty on purpose. The original had a passage from a book; paste in whatever you want shown (and credit it) in **Toilet Town → Intro**.
+- The speech bubble on the home page is **Toilet Town → Intro**. It's currently the opening of your essay ("Why are there so many toilets sitting out on the curb in Toronto?…"). Replace the text to change it.
+- Toilet Town has its **own look**: a lighter, playful style (cream paper, rounded fonts, sticker-style buttons, tilted photos). It lives in `src/styles/toilet-town.css`, and the colors are at the top of that file. The rest of the site keeps the dark look.
 
 ## Images and video
 

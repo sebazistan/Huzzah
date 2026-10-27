@@ -5,17 +5,29 @@ import { ttNav, ttBrand } from '../../../lib/toilet-town';
 const tt = await getToiletTown();
 ---
 
-<Base title="Toilet Town" section="kicks" nav={ttNav} brand={ttBrand} description={tt.subheading} image={ttImg(tt.heroImage)}>
-  {tt.heroImage && (
-    <div class="hero-img"><img src={ttImg(tt.heroImage)} alt="" fetchpriority="high" /><div class="hero-fade"></div></div>
-  )}
-  <section class="wrap hero" style="padding-top:2rem">
-    <h1>{tt.heading}<em>.</em></h1>
-    <p>{tt.subheading}</p>
-    {tt.intro && <p style="max-width:60ch;font-style:italic">{tt.intro}</p>}
-    <div class="btn-row">
-      <a class="btn" href={href('/kicks/toilet-town/photos')}>Photos</a>
-      <a class="btn" href={href('/kicks/toilet-town/about')} style="background:transparent;color:var(--text);border:1px solid var(--line)">Read more</a>
+<Base title="Toilet Town" section="toilet" nav={ttNav} brand={ttBrand} description={tt.subheading} image={ttImg(tt.heroImage)}>
+  <section class="wrap tt-hero">
+    <div class="tt-hero-text">
+      <h1>{tt.heading}<em>.</em></h1>
+      <p class="tt-sub">{tt.subheading}</p>
+      <div class="btn-row">
+        <a class="btn" href={href('/kicks/toilet-town/photos')}>Browse the photos</a>
+        <a class="btn alt" href={href('/kicks/toilet-town/about')}>Read the story</a>
+      </div>
     </div>
+    {tt.heroImage && (
+      <div class="tt-hero-img">
+        <img src={ttImg(tt.heroImage)} alt="A toilet left out on the curb in Toronto" fetchpriority="high" />
+      </div>
+    )}
   </section>
+
+  {tt.intro && (
+    <section class="wrap tt-quote-wrap">
+      <div class="tt-quote reveal">
+        <p>{tt.intro}</p>
+      </div>
+      <a class="tt-more" href={href('/kicks/toilet-town/about')}>Keep reading</a>
+    </section>
+  )}
 </Base>

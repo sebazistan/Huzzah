@@ -5,10 +5,10 @@ import { ttNav, ttBrand } from '../../../lib/toilet-town';
 const tt = await getToiletTown();
 ---
 
-<Base title="Toilet Talk" section="kicks" nav={ttNav} brand={ttBrand}>
-  <div class="wrap page">
+<Base title="Toilet Talk" section="toilet" nav={ttNav} brand={ttBrand}>
+  <div class="wrap page tt-about">
     <h1>{tt.aboutHeading}<span style="color:var(--accent)">.</span></h1>
-    {tt.aboutImage && <img src={ttImg(tt.aboutImage)} alt="" style="border-radius:14px;margin-bottom:2rem" />}
+    {tt.aboutImage && <img class="tt-about-img" src={ttImg(tt.aboutImage)} alt="" />}
     {paragraphs(tt.aboutText).map((t) => <p>{t}</p>)}
   </div>
 </Base>

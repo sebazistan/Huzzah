@@ -16,7 +16,7 @@ const email = form.email || site.email;
 
 <Base
   title="Contact"
-  section={form.section}
+  section={isTT ? 'toilet' : form.section}
   nav={isTT ? ttNav : undefined}
   brand={isTT ? ttBrand : undefined}
 >
