@@ -105,7 +105,11 @@ Toilet Town is a mini-site inside For Kicks: `/kicks/toilet-town` (home), `/phot
 - Page text and images: admin → **Toilet Town**.
 - Albums: admin → **Toilet Town albums**. Add photos to an album or create a new one. Order controls the sequence.
 - The speech bubble on the home page is **Toilet Town → Intro**. It's currently the opening of your essay ("Why are there so many toilets sitting out on the curb in Toronto?…"). Replace the text to change it.
-- Toilet Town has its **own look**: a lighter, playful style (cream paper, rounded fonts, sticker-style buttons, tilted photos). It lives in `src/styles/toilet-town.css`, and the colors are at the top of that file. The rest of the site keeps the dark look.
+- Toilet Town has its **own look**: a lighter, friendly photo-gallery style (warm cream background, rounded fonts, teal and yellow accents, soft shadows). It lives in `src/styles/toilet-town.css`, and the colors are at the top of that file. The rest of the site keeps the dark look.
+
+## Photo carousel
+
+Clicking any photo in a gallery (Toilet Town albums and the galleries on project pages) opens a full-screen carousel: previous/next arrows, a photo counter, and the caption if the photo has one. It works with the keyboard (← → to move, Home/End, Esc to close), by swiping on a phone, and by clicking the dark area to close. Visitors with JavaScript turned off just get the full-size photo. The code is `src/scripts/lightbox.ts` and `src/styles/lightbox.css`, and no setup is needed when you add photos.
 
 ## Images and video
 

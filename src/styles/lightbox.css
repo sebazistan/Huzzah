@@ -1,0 +1,53 @@
+/* Photo carousel (see src/scripts/lightbox.ts) */
+.lb-open { overflow: hidden; }
+
+.lb {
+  position: fixed; inset: 0; z-index: 1000;
+  display: grid; place-items: center;
+  background: rgba(10, 12, 16, 0.94);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  opacity: 0; transition: opacity 0.2s ease;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+.lb[hidden] { display: none; }
+.lb.open { opacity: 1; }
+
+.lb-stage { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 0.9rem; max-width: 94vw; }
+.lb-img {
+  display: block; max-width: min(94vw, 1800px); max-height: 82vh; width: auto; height: auto;
+  border-radius: 6px; box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+  opacity: 1; transform: none; transition: opacity 0.25s ease, transform 0.25s ease;
+  user-select: none; -webkit-user-drag: none;
+}
+.lb-img.is-loading { opacity: 0; transform: scale(0.985); }
+.lb-cap { color: #d9dde3; font-size: 0.95rem; line-height: 1.5; text-align: center; max-width: 70ch; }
+.lb-cap[hidden] { display: none; }
+
+.lb-top { position: absolute; inset: 0 0 auto 0; display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; pointer-events: none; }
+.lb-top > * { pointer-events: auto; }
+.lb-count { color: #d9dde3; font-size: 0.9rem; font-weight: 600; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
+
+.lb-close, .lb-nav {
+  display: grid; place-items: center; width: 46px; height: 46px; padding: 0;
+  border: 0; border-radius: 50%; cursor: pointer; color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.lb-close:hover, .lb-nav:hover { background: rgba(255, 255, 255, 0.24); }
+.lb-close:focus-visible, .lb-nav:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.lb-nav { position: absolute; top: 50%; margin-top: -23px; }
+.lb-nav[hidden] { display: none; }
+.lb-prev { left: 1rem; }
+.lb-next { right: 1rem; }
+.lb-prev:hover { transform: translateX(-2px); }
+.lb-next:hover { transform: translateX(2px); }
+
+@media (max-width: 700px) {
+  .lb-nav { width: 40px; height: 40px; margin-top: -20px; background: rgba(255, 255, 255, 0.16); }
+  .lb-prev { left: 0.4rem; }
+  .lb-next { right: 0.4rem; }
+  .lb-img { max-height: 76vh; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lb, .lb-img, .lb-close, .lb-nav { transition: none; }
+}

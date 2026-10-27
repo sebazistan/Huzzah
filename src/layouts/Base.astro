@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import '../styles/toilet-town.css';
+import '../styles/lightbox.css';
 import { getSite, href } from '../lib/content';
 
 interface Props {
@@ -105,6 +106,9 @@ const logo = brand ?? {
       </footer>
     )}
 
+    <script>
+      import '../scripts/lightbox';
+    </script>
     <script>
       const io = new IntersectionObserver(
         (entries) =>
