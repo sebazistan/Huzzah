@@ -9,7 +9,7 @@
   "summary": "Money Tap Prop.",
   "description": "Money Tap Prop.",
   "coverUrl": "",
-  "cover": "money-tap.jpg",
+  "cover": "/images/projects/money-tap/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -23,17 +23,17 @@
     "https://youtu.be/6QPzbQNWt0g"
   ],
   "gallery": [
-    "money-tap-01.jpg",
-    "money-tap-02.jpg",
-    "money-tap-03.jpg",
-    "money-tap-04.jpg",
-    "money-tap-05.jpg",
-    "money-tap-06.jpg",
-    "money-tap-07.jpg",
-    "money-tap-08.jpg",
-    "money-tap-09.jpg",
-    "money-tap-10.jpg",
-    "money-tap-11.jpg"
+    "/images/projects/money-tap/01.jpg",
+    "/images/projects/money-tap/02.jpg",
+    "/images/projects/money-tap/03.jpg",
+    "/images/projects/money-tap/04.jpg",
+    "/images/projects/money-tap/05.jpg",
+    "/images/projects/money-tap/06.jpg",
+    "/images/projects/money-tap/07.jpg",
+    "/images/projects/money-tap/08.jpg",
+    "/images/projects/money-tap/09.jpg",
+    "/images/projects/money-tap/10.jpg",
+    "/images/projects/money-tap/11.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

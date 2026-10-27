@@ -9,7 +9,7 @@
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
   "coverUrl": "",
-  "cover": "milkbone.jpg",
+  "cover": "/images/projects/milkbone/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,13 +19,13 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "milkbone-01.jpg",
-    "milkbone-02.jpg",
-    "milkbone-03.jpg",
-    "milkbone-04.jpg",
-    "milkbone-05.jpg",
-    "milkbone-06.jpg",
-    "milkbone-07.jpg"
+    "/images/projects/milkbone/01.jpg",
+    "/images/projects/milkbone/02.jpg",
+    "/images/projects/milkbone/03.jpg",
+    "/images/projects/milkbone/04.jpg",
+    "/images/projects/milkbone/05.jpg",
+    "/images/projects/milkbone/06.jpg",
+    "/images/projects/milkbone/07.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

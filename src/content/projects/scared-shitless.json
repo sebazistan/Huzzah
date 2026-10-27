@@ -7,7 +7,7 @@
   "summary": "VFX for a short. This eventually became a feature film.",
   "description": "VFX for a short. This eventually became a feature film.",
   "coverUrl": "",
-  "cover": "vfx-scared-shitless.png",
+  "cover": "/images/projects/scared-shitless/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -26,8 +26,8 @@
   ],
   "videos": [],
   "gallery": [
-    "vfx-scared-shitless-01.jpg",
-    "vfx-scared-shitless-02.jpg"
+    "/images/projects/scared-shitless/01.jpg",
+    "/images/projects/scared-shitless/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

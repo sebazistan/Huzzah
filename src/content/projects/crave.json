@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "crave.jpg",
+  "cover": "/images/projects/crave/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "crave-01.jpg",
-    "crave-02.jpg"
+    "/images/projects/crave/01.jpg",
+    "/images/projects/crave/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

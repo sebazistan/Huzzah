@@ -9,7 +9,7 @@
   "summary": "Badges designed by Sebastian Harder, resin printed and painted by Ben Harris.",
   "description": "Badges designed by Sebastian Harder, resin printed and painted by Ben Harris.",
   "coverUrl": "",
-  "cover": "badges.jpg",
+  "cover": "/images/projects/badges/cover.jpg",
   "credits": [
     {
       "label": "Director",
@@ -23,14 +23,14 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "badges-01.jpg",
-    "badges-02.jpg",
-    "badges-03.jpg",
-    "badges-04.jpg",
-    "badges-05.jpg",
-    "badges-06.jpg",
-    "badges-07.jpg",
-    "badges-08.jpg"
+    "/images/projects/badges/01.jpg",
+    "/images/projects/badges/02.jpg",
+    "/images/projects/badges/03.jpg",
+    "/images/projects/badges/04.jpg",
+    "/images/projects/badges/05.jpg",
+    "/images/projects/badges/06.jpg",
+    "/images/projects/badges/07.jpg",
+    "/images/projects/badges/08.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

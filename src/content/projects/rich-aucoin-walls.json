@@ -7,7 +7,7 @@
   "summary": "Music video starring Rich Aucoin.",
   "description": "Music video starring Rich Aucoin.",
   "coverUrl": "",
-  "cover": "vfx-rich-aucoin-walls.png",
+  "cover": "/images/projects/rich-aucoin-walls/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -23,8 +23,8 @@
     "https://www.youtube.com/watch?v=k52Ls_63SD0"
   ],
   "gallery": [
-    "vfx-rich-aucoin-walls-01.jpg",
-    "vfx-rich-aucoin-walls-02.jpg"
+    "/images/projects/rich-aucoin-walls/01.jpg",
+    "/images/projects/rich-aucoin-walls/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

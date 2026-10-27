@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a The Source commercial.",
   "description": "Pre-vis for a The Source commercial.",
   "coverUrl": "",
-  "cover": "source.jpg",
+  "cover": "/images/projects/source/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "source-01.jpg",
-    "source-02.jpg",
-    "source-03.jpg",
-    "source-04.jpg"
+    "/images/projects/source/01.jpg",
+    "/images/projects/source/02.jpg",
+    "/images/projects/source/03.jpg",
+    "/images/projects/source/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

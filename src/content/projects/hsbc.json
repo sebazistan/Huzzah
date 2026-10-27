@@ -9,7 +9,7 @@
   "summary": "Design for an installation.",
   "description": "Design for an installation.",
   "coverUrl": "",
-  "cover": "hsbc.jpg",
+  "cover": "/images/projects/hsbc/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,17 +19,17 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "hsbc-01.jpg",
-    "hsbc-02.jpg",
-    "hsbc-03.jpg",
-    "hsbc-04.jpg",
-    "hsbc-05.jpg",
-    "hsbc-06.jpg",
-    "hsbc-07.jpg",
-    "hsbc-08.jpg",
-    "hsbc-09.jpg",
-    "hsbc-10.jpg",
-    "hsbc-11.jpg"
+    "/images/projects/hsbc/01.jpg",
+    "/images/projects/hsbc/02.jpg",
+    "/images/projects/hsbc/03.jpg",
+    "/images/projects/hsbc/04.jpg",
+    "/images/projects/hsbc/05.jpg",
+    "/images/projects/hsbc/06.jpg",
+    "/images/projects/hsbc/07.jpg",
+    "/images/projects/hsbc/08.jpg",
+    "/images/projects/hsbc/09.jpg",
+    "/images/projects/hsbc/10.jpg",
+    "/images/projects/hsbc/11.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

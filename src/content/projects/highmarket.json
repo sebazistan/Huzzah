@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "highmarket.jpg",
+  "cover": "/images/projects/highmarket/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "highmarket-01.jpg",
-    "highmarket-02.jpg"
+    "/images/projects/highmarket/01.jpg",
+    "/images/projects/highmarket/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

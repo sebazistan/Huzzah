@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a Trushield TV commercial.",
   "description": "Pre-vis for a Trushield TV commercial.",
   "coverUrl": "",
-  "cover": "trushield.jpg",
+  "cover": "/images/projects/trushield/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,12 +19,12 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "trushield-01.jpg",
-    "trushield-02.jpg",
-    "trushield-03.jpg",
-    "trushield-04.jpg",
-    "trushield-05.jpg",
-    "trushield-06.jpg"
+    "/images/projects/trushield/01.jpg",
+    "/images/projects/trushield/02.jpg",
+    "/images/projects/trushield/03.jpg",
+    "/images/projects/trushield/04.jpg",
+    "/images/projects/trushield/05.jpg",
+    "/images/projects/trushield/06.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

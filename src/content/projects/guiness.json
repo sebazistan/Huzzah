@@ -9,7 +9,7 @@
   "summary": "Pre-vis and plans for a TV commercial.",
   "description": "Pre-vis and plans for a TV commercial.",
   "coverUrl": "",
-  "cover": "guiness.jpg",
+  "cover": "/images/projects/guiness/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "guiness-01.jpg",
-    "guiness-02.jpg",
-    "guiness-03.jpg"
+    "/images/projects/guiness/01.jpg",
+    "/images/projects/guiness/02.jpg",
+    "/images/projects/guiness/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

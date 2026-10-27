@@ -7,7 +7,7 @@
   "summary": "Pre-vis for a Heydsaffer TV commercial.",
   "description": "Pre-vis for a Heydsaffer TV commercial.",
   "coverUrl": "",
-  "cover": "heydsaffer-2.jpg",
+  "cover": "/images/projects/heydsaffer-2/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -20,9 +20,9 @@
     "https://www.youtube.com/watch?v=SJ-Df0J0ZQY"
   ],
   "gallery": [
-    "heydsaffer-2-01.jpg",
-    "heydsaffer-2-02.jpg",
-    "heydsaffer-2-03.jpg"
+    "/images/projects/heydsaffer-2/01.jpg",
+    "/images/projects/heydsaffer-2/02.jpg",
+    "/images/projects/heydsaffer-2/03.jpg"
   ],
   "galleryUrls": [],
   "title": "Heydsaffer 2",

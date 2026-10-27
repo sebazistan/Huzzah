@@ -7,7 +7,7 @@
   "summary": "Animation for a PSA from Melanoma Canada.",
   "description": "Animation for a PSA from Melanoma Canada.",
   "coverUrl": "",
-  "cover": "vfx-burnwatch.png",
+  "cover": "/images/projects/burnwatch/cover.png",
   "credits": [
     {
       "label": "Client",
@@ -24,8 +24,8 @@
     "https://www.youtube.com/watch?v=d4UW3fXX6Ms"
   ],
   "gallery": [
-    "vfx-burnwatch-01.jpg",
-    "vfx-burnwatch-02.jpg"
+    "/images/projects/burnwatch/01.jpg",
+    "/images/projects/burnwatch/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

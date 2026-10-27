@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "ieso.jpg",
+  "cover": "/images/projects/ieso/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "ieso-01.jpg",
-    "ieso-02.jpg",
-    "ieso-03.jpg",
-    "ieso-04.jpg",
-    "ieso-05.jpg"
+    "/images/projects/ieso/01.jpg",
+    "/images/projects/ieso/02.jpg",
+    "/images/projects/ieso/03.jpg",
+    "/images/projects/ieso/04.jpg",
+    "/images/projects/ieso/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

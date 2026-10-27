@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "baby-shower.jpg",
+  "cover": "/images/projects/baby-shower/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "baby-shower-01.jpg",
-    "baby-shower-02.jpg",
-    "baby-shower-03.jpg",
-    "baby-shower-04.jpg"
+    "/images/projects/baby-shower/01.jpg",
+    "/images/projects/baby-shower/02.jpg",
+    "/images/projects/baby-shower/03.jpg",
+    "/images/projects/baby-shower/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,14 +9,14 @@
   "summary": "Sandy and I built the shoulder portion of a big purple monster for an actor to sit on. For a TV commercial.",
   "description": "Sandy and I built the shoulder portion of a big purple monster for an actor to sit on. For a TV commercial.",
   "coverUrl": "",
-  "cover": "purple-monster.jpg",
+  "cover": "/images/projects/purple-monster/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "purple-monster-01.jpg",
-    "purple-monster-02.jpg",
-    "purple-monster-03.jpg"
+    "/images/projects/purple-monster/01.jpg",
+    "/images/projects/purple-monster/02.jpg",
+    "/images/projects/purple-monster/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

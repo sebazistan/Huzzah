@@ -9,7 +9,7 @@
   "summary": "Previs and design work for a TV commercial.",
   "description": "Previs and design work for a TV commercial.",
   "coverUrl": "",
-  "cover": "dairy-farmers-canada.jpg",
+  "cover": "/images/projects/dairy-farmers-canada/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,14 +19,14 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "dairy-farmers-canada-01.jpg",
-    "dairy-farmers-canada-02.jpg",
-    "dairy-farmers-canada-03.jpg",
-    "dairy-farmers-canada-04.jpg",
-    "dairy-farmers-canada-05.jpg",
-    "dairy-farmers-canada-06.jpg",
-    "dairy-farmers-canada-07.jpg",
-    "dairy-farmers-canada-08.jpg"
+    "/images/projects/dairy-farmers-canada/01.jpg",
+    "/images/projects/dairy-farmers-canada/02.jpg",
+    "/images/projects/dairy-farmers-canada/03.jpg",
+    "/images/projects/dairy-farmers-canada/04.jpg",
+    "/images/projects/dairy-farmers-canada/05.jpg",
+    "/images/projects/dairy-farmers-canada/06.jpg",
+    "/images/projects/dairy-farmers-canada/07.jpg",
+    "/images/projects/dairy-farmers-canada/08.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

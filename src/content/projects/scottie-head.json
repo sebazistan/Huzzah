@@ -9,7 +9,7 @@
   "summary": "A 3D printed head with an internal mechanism to spray Axe body spray out of the mouth.",
   "description": "A 3D printed head with an internal mechanism to spray Axe body spray out of the mouth.",
   "coverUrl": "",
-  "cover": "scottie-head.jpg",
+  "cover": "/images/projects/scottie-head/cover.jpg",
   "credits": [
     {
       "label": "Client",
@@ -25,20 +25,20 @@
     "https://youtu.be/NJYixJfv_uU"
   ],
   "gallery": [
-    "scottie-head-01.jpg",
-    "scottie-head-02.jpg",
-    "scottie-head-03.jpg",
-    "scottie-head-04.jpg",
-    "scottie-head-05.jpg",
-    "scottie-head-06.jpg",
-    "scottie-head-07.jpg",
-    "scottie-head-08.jpg",
-    "scottie-head-09.jpg",
-    "scottie-head-10.jpg",
-    "scottie-head-11.jpg",
-    "scottie-head-12.jpg",
-    "scottie-head-13.jpg",
-    "scottie-head-14.jpg"
+    "/images/projects/scottie-head/01.jpg",
+    "/images/projects/scottie-head/02.jpg",
+    "/images/projects/scottie-head/03.jpg",
+    "/images/projects/scottie-head/04.jpg",
+    "/images/projects/scottie-head/05.jpg",
+    "/images/projects/scottie-head/06.jpg",
+    "/images/projects/scottie-head/07.jpg",
+    "/images/projects/scottie-head/08.jpg",
+    "/images/projects/scottie-head/09.jpg",
+    "/images/projects/scottie-head/10.jpg",
+    "/images/projects/scottie-head/11.jpg",
+    "/images/projects/scottie-head/12.jpg",
+    "/images/projects/scottie-head/13.jpg",
+    "/images/projects/scottie-head/14.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "budweiser.jpg",
+  "cover": "/images/projects/budweiser/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,14 +19,14 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "budweiser-01.jpg",
-    "budweiser-02.jpg",
-    "budweiser-03.jpg",
-    "budweiser-04.jpg",
-    "budweiser-05.jpg",
-    "budweiser-06.jpg",
-    "budweiser-07.jpg",
-    "budweiser-08.jpg"
+    "/images/projects/budweiser/01.jpg",
+    "/images/projects/budweiser/02.jpg",
+    "/images/projects/budweiser/03.jpg",
+    "/images/projects/budweiser/04.jpg",
+    "/images/projects/budweiser/05.jpg",
+    "/images/projects/budweiser/06.jpg",
+    "/images/projects/budweiser/07.jpg",
+    "/images/projects/budweiser/08.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

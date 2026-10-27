@@ -9,7 +9,7 @@
   "summary": "Props for a BMO commercial.",
   "description": "Props for a BMO commercial.",
   "coverUrl": "",
-  "cover": "bmo-gnomes-2.jpg",
+  "cover": "/images/projects/bmo-gnomes-2/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,7 +19,7 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "bmo-gnomes-2-01.jpg"
+    "/images/projects/bmo-gnomes-2/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

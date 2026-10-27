@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "us-cellular.jpg",
+  "cover": "/images/projects/us-cellular/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,12 +19,12 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "us-cellular-01.jpg",
-    "us-cellular-02.jpg",
-    "us-cellular-03.jpg",
-    "us-cellular-04.jpg",
-    "us-cellular-05.jpg",
-    "us-cellular-06.jpg"
+    "/images/projects/us-cellular/01.jpg",
+    "/images/projects/us-cellular/02.jpg",
+    "/images/projects/us-cellular/03.jpg",
+    "/images/projects/us-cellular/04.jpg",
+    "/images/projects/us-cellular/05.jpg",
+    "/images/projects/us-cellular/06.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

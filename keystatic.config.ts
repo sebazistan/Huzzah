@@ -254,8 +254,8 @@ export default config({
         gallery: fields.array(
           fields.image({
             label: 'Image',
-            directory: 'public/images/gallery',
-            publicPath: '/images/gallery/',
+            directory: 'public/images/projects',
+            publicPath: '/images/projects/',
           }),
           { label: 'Gallery' },
         ),

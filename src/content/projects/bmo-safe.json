@@ -9,7 +9,7 @@
   "summary": "I designed and helped fabricate a safe for a BMO commercial",
   "description": "I designed and helped fabricate a safe for a BMO commercial",
   "coverUrl": "",
-  "cover": "bmo-safe.jpg",
+  "cover": "/images/projects/bmo-safe/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "bmo-safe-01.jpg",
-    "bmo-safe-02.jpg",
-    "bmo-safe-03.jpg",
-    "bmo-safe-04.jpg",
-    "bmo-safe-05.jpg",
-    "bmo-safe-06.jpg",
-    "bmo-safe-07.jpg",
-    "bmo-safe-08.jpg",
-    "bmo-safe-09.jpg"
+    "/images/projects/bmo-safe/01.jpg",
+    "/images/projects/bmo-safe/02.jpg",
+    "/images/projects/bmo-safe/03.jpg",
+    "/images/projects/bmo-safe/04.jpg",
+    "/images/projects/bmo-safe/05.jpg",
+    "/images/projects/bmo-safe/06.jpg",
+    "/images/projects/bmo-safe/07.jpg",
+    "/images/projects/bmo-safe/08.jpg",
+    "/images/projects/bmo-safe/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

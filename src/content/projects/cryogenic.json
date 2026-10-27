@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "cryogenic.jpg",
+  "cover": "/images/projects/cryogenic/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "cryogenic-01.jpg",
-    "cryogenic-02.jpg"
+    "/images/projects/cryogenic/01.jpg",
+    "/images/projects/cryogenic/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

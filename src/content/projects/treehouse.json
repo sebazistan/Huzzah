@@ -9,17 +9,17 @@
   "summary": "I was part of a treehouse build for a TV commercial.",
   "description": "I was part of a treehouse build for a TV commercial.",
   "coverUrl": "",
-  "cover": "treehouse.jpg",
+  "cover": "/images/projects/treehouse/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [
     "https://youtube.com/shorts/3nNwRzXHFpw"
   ],
   "gallery": [
-    "treehouse-01.jpg",
-    "treehouse-02.jpg",
-    "treehouse-03.jpg",
-    "treehouse-04.jpg"
+    "/images/projects/treehouse/01.jpg",
+    "/images/projects/treehouse/02.jpg",
+    "/images/projects/treehouse/03.jpg",
+    "/images/projects/treehouse/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

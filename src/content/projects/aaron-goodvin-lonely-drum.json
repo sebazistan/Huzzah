@@ -7,7 +7,7 @@
   "summary": "Music video for Arron Goodvin. I'm especially proud of the square dancing in this. It's legit, and was so much work to recreate, but totally worth it.",
   "description": "Music video for Arron Goodvin. I'm especially proud of the square dancing in this. It's legit, and was so much work to recreate, but totally worth it.",
   "coverUrl": "",
-  "cover": "vfx-aaron-goodvin-lonely-drum.jpeg",
+  "cover": "/images/projects/aaron-goodvin-lonely-drum/cover.jpeg",
   "credits": [
     {
       "label": "Client",
@@ -24,7 +24,7 @@
     "https://www.youtube.com/watch?v=fERLJoAvd5k"
   ],
   "gallery": [
-    "vfx-aaron-goodvin-lonely-drum-01.jpg"
+    "/images/projects/aaron-goodvin-lonely-drum/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

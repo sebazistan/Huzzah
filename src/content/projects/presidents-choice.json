@@ -9,7 +9,7 @@
   "summary": "Pre-vis and animatic for a TV commercial.",
   "description": "Pre-vis and animatic for a TV commercial.",
   "coverUrl": "",
-  "cover": "presidents-choice.jpg",
+  "cover": "/images/projects/presidents-choice/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "presidents-choice-01.jpg",
-    "presidents-choice-02.jpg",
-    "presidents-choice-03.jpg",
-    "presidents-choice-04.jpg"
+    "/images/projects/presidents-choice/01.jpg",
+    "/images/projects/presidents-choice/02.jpg",
+    "/images/projects/presidents-choice/03.jpg",
+    "/images/projects/presidents-choice/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

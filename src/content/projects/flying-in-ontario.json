@@ -8,7 +8,7 @@
   "summary": "Drone video from around Ontario. Message me if you want to use this in your project. I have lots more like this!",
   "description": "Drone video from around Ontario. Message me if you want to use this in your project. I have lots more like this!",
   "coverUrl": "",
-  "cover": "kicks-flying-in-ontario.jpg",
+  "cover": "/images/projects/flying-in-ontario/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [
@@ -20,8 +20,8 @@
     "https://www.youtube.com/watch?v=0J2zr40Y5kE"
   ],
   "gallery": [
-    "kicks-flying-in-ontario-01.jpg",
-    "kicks-flying-in-ontario-02.jpg"
+    "/images/projects/flying-in-ontario/01.jpg",
+    "/images/projects/flying-in-ontario/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

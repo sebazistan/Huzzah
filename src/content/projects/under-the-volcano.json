@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "under-the-volcano.jpg",
+  "cover": "/images/projects/under-the-volcano/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [
@@ -18,8 +18,8 @@
     "https://youtu.be/D2bWa1Y-gdU"
   ],
   "gallery": [
-    "under-the-volcano-01.jpg",
-    "under-the-volcano-02.jpg"
+    "/images/projects/under-the-volcano/01.jpg",
+    "/images/projects/under-the-volcano/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

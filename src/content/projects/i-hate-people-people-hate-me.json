@@ -7,7 +7,7 @@
   "summary": "From IMDB: \"Perpetually disturbed by the world around them, two friends navigate their lives as outliers in Toronto's queer community.\"",
   "description": "From IMDB: \"Perpetually disturbed by the world around them, two friends navigate their lives as outliers in Toronto's queer community.\"\n\nOn set supervision and VFX for a TV show. Huzzah provided a number of shots including screen replacements and other fixes.",
   "coverUrl": "",
-  "cover": "vfx-i-hate-people-people-hate-me.png",
+  "cover": "/images/projects/i-hate-people-people-hate-me/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -32,8 +32,8 @@
     "https://www.youtube.com/watch?v=lHX8HmstAJw"
   ],
   "gallery": [
-    "vfx-i-hate-people-people-hate-me-01.jpg",
-    "vfx-i-hate-people-people-hate-me-02.jpg"
+    "/images/projects/i-hate-people-people-hate-me/01.jpg",
+    "/images/projects/i-hate-people-people-hate-me/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

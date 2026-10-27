@@ -5,27 +5,27 @@
       "text": "Sebastian Harder has helped create a number of movies, TV shows, webseries and commercials. From conception and pre-vis, to crafting blueprints, designing and creating props, running a budget or managing teams of set dressers and carpenters, we can do it all.",
       "link": "/design/category/production-design",
       "linkLabel": "Explore Production Design",
-      "video": "production-design.mp4",
-      "videoWebm": "production-design.webm",
-      "poster": "production-design.jpg"
+      "video": "/videos/services/production-design.mp4",
+      "videoWebm": "/videos/services/production-design.webm",
+      "poster": "/videos/services/production-design.jpg"
     },
     {
       "title": "Pre-Vis",
       "text": "Pre-vis is one component of Production Design and one of the most important steps in any project. Pre-vis is where a vision becomes a plan that can be shared with the client or agency or with buyers, dressers and carpenters. Skip pre-vis at your peril. Pre-vis comes in different flavours too. It can be realistic, or artistic, or it can be animated in the form of an animatic. And it can always be refined and revised until everybody is happy.",
       "link": "/design/category/pre-vis",
       "linkLabel": "Explore Pre-Vis",
-      "video": "pre-vis.mp4",
-      "videoWebm": "pre-vis.webm",
-      "poster": "pre-vis.jpg"
+      "video": "/videos/services/pre-vis.mp4",
+      "videoWebm": "/videos/services/pre-vis.webm",
+      "poster": "/videos/services/pre-vis.jpg"
     },
     {
       "title": "Props",
       "text": "Fabrication is where the rubber hits the road and it's a broad category that encompasses a range of technologies. Huzzah can draft blueprints for builders, create and run 2D or 3D files for CNC, vector files for laser cutting, or CAD files for 3D printing. Mold making and casting in plastic or silicone? No problem. Maybe it's just graphics that you need. Whatever it is, Huzzah has it covered.",
       "link": "/design/category/props",
       "linkLabel": "Explore Props",
-      "video": "props.mp4",
-      "videoWebm": "props.webm",
-      "poster": "props.jpg"
+      "video": "/videos/services/props.mp4",
+      "videoWebm": "/videos/services/props.webm",
+      "poster": "/videos/services/props.jpg"
     }
   ]
 }

@@ -7,7 +7,7 @@
   "summary": "VFX for a music video.",
   "description": "VFX for a music video.",
   "coverUrl": "",
-  "cover": "vfx-proof.png",
+  "cover": "/images/projects/proof/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -20,7 +20,7 @@
     "https://www.youtube.com/watch?v=UaiDVJMleUY"
   ],
   "gallery": [
-    "vfx-proof-01.jpg"
+    "/images/projects/proof/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

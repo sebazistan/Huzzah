@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a RBC commercial.",
   "description": "Pre-vis for a RBC commercial.",
   "coverUrl": "",
-  "cover": "rbc.jpg",
+  "cover": "/images/projects/rbc/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "rbc-01.jpg",
-    "rbc-02.jpg"
+    "/images/projects/rbc/01.jpg",
+    "/images/projects/rbc/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

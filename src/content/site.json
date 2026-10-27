@@ -19,13 +19,13 @@
   ],
   "vfxBio": "Huzzah is a Canadian Screen Award winning digital film services company based in Toronto, Canada. Headed by Sebastian Harder, Huzzah brings more than a decade of experience working in film and television. His work has been featured in feature films, advertising and on TV.",
   "vfxClientLogos": [
-    "logo1.jpg",
-    "logo2.jpg",
-    "logo3.jpg",
-    "logo4.jpg",
-    "logo5.jpg",
-    "logo6.jpg",
-    "logo7.jpg",
-    "logo8.jpg"
+    "/images/clients/logo1.jpg",
+    "/images/clients/logo2.jpg",
+    "/images/clients/logo3.jpg",
+    "/images/clients/logo4.jpg",
+    "/images/clients/logo5.jpg",
+    "/images/clients/logo6.jpg",
+    "/images/clients/logo7.jpg",
+    "/images/clients/logo8.jpg"
   ]
 }

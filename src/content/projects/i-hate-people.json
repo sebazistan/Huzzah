@@ -9,7 +9,7 @@
   "summary": "I art directed a day of pick ups and inserts.",
   "description": "I art directed a day of pick ups and inserts.",
   "coverUrl": "",
-  "cover": "i-hate-people.jpg",
+  "cover": "/images/projects/i-hate-people/cover.jpg",
   "credits": [
     {
       "label": "Client",
@@ -27,7 +27,7 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "i-hate-people-01.jpg"
+    "/images/projects/i-hate-people/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "ghostrider.jpg",
+  "cover": "/images/projects/ghostrider/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "ghostrider-01.jpg",
-    "ghostrider-02.jpg",
-    "ghostrider-03.jpg",
-    "ghostrider-04.jpg",
-    "ghostrider-05.jpg"
+    "/images/projects/ghostrider/01.jpg",
+    "/images/projects/ghostrider/02.jpg",
+    "/images/projects/ghostrider/03.jpg",
+    "/images/projects/ghostrider/04.jpg",
+    "/images/projects/ghostrider/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "amvuttra.jpg",
+  "cover": "/images/projects/amvuttra/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,18 +19,18 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "amvuttra-01.jpg",
-    "amvuttra-02.jpg",
-    "amvuttra-03.jpg",
-    "amvuttra-04.jpg",
-    "amvuttra-05.jpg",
-    "amvuttra-06.jpg",
-    "amvuttra-07.jpg",
-    "amvuttra-08.jpg",
-    "amvuttra-09.jpg",
-    "amvuttra-10.jpg",
-    "amvuttra-11.jpg",
-    "amvuttra-12.jpg"
+    "/images/projects/amvuttra/01.jpg",
+    "/images/projects/amvuttra/02.jpg",
+    "/images/projects/amvuttra/03.jpg",
+    "/images/projects/amvuttra/04.jpg",
+    "/images/projects/amvuttra/05.jpg",
+    "/images/projects/amvuttra/06.jpg",
+    "/images/projects/amvuttra/07.jpg",
+    "/images/projects/amvuttra/08.jpg",
+    "/images/projects/amvuttra/09.jpg",
+    "/images/projects/amvuttra/10.jpg",
+    "/images/projects/amvuttra/11.jpg",
+    "/images/projects/amvuttra/12.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

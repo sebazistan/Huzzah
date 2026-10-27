@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "canada-life.jpg",
+  "cover": "/images/projects/canada-life/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "canada-life-01.jpg",
-    "canada-life-02.jpg",
-    "canada-life-03.jpg",
-    "canada-life-04.jpg",
-    "canada-life-05.jpg",
-    "canada-life-06.jpg",
-    "canada-life-07.jpg",
-    "canada-life-08.jpg",
-    "canada-life-09.jpg"
+    "/images/projects/canada-life/01.jpg",
+    "/images/projects/canada-life/02.jpg",
+    "/images/projects/canada-life/03.jpg",
+    "/images/projects/canada-life/04.jpg",
+    "/images/projects/canada-life/05.jpg",
+    "/images/projects/canada-life/06.jpg",
+    "/images/projects/canada-life/07.jpg",
+    "/images/projects/canada-life/08.jpg",
+    "/images/projects/canada-life/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

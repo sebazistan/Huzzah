@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "mcdonalds-gameshow.jpg",
+  "cover": "/images/projects/mcdonalds-gameshow/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,14 +19,14 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "mcdonalds-gameshow-01.jpg",
-    "mcdonalds-gameshow-02.jpg",
-    "mcdonalds-gameshow-03.jpg",
-    "mcdonalds-gameshow-04.jpg",
-    "mcdonalds-gameshow-05.jpg",
-    "mcdonalds-gameshow-06.jpg",
-    "mcdonalds-gameshow-07.jpg",
-    "mcdonalds-gameshow-08.jpg"
+    "/images/projects/mcdonalds-gameshow/01.jpg",
+    "/images/projects/mcdonalds-gameshow/02.jpg",
+    "/images/projects/mcdonalds-gameshow/03.jpg",
+    "/images/projects/mcdonalds-gameshow/04.jpg",
+    "/images/projects/mcdonalds-gameshow/05.jpg",
+    "/images/projects/mcdonalds-gameshow/06.jpg",
+    "/images/projects/mcdonalds-gameshow/07.jpg",
+    "/images/projects/mcdonalds-gameshow/08.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

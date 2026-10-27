@@ -7,7 +7,7 @@
   "summary": "Design work for a TV commercial.",
   "description": "Design work for a TV commercial.",
   "coverUrl": "",
-  "cover": "hellmans-trophy.jpg",
+  "cover": "/images/projects/hellmans-trophy/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -17,13 +17,13 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "hellmans-trophy-01.jpg",
-    "hellmans-trophy-02.jpg",
-    "hellmans-trophy-03.jpg",
-    "hellmans-trophy-04.jpg",
-    "hellmans-trophy-05.jpg",
-    "hellmans-trophy-06.jpg",
-    "hellmans-trophy-07.jpg"
+    "/images/projects/hellmans-trophy/01.jpg",
+    "/images/projects/hellmans-trophy/02.jpg",
+    "/images/projects/hellmans-trophy/03.jpg",
+    "/images/projects/hellmans-trophy/04.jpg",
+    "/images/projects/hellmans-trophy/05.jpg",
+    "/images/projects/hellmans-trophy/06.jpg",
+    "/images/projects/hellmans-trophy/07.jpg"
   ],
   "galleryUrls": [],
   "title": "Hellman's Trophy",

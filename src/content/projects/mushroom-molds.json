@@ -9,7 +9,7 @@
   "summary": "More props for 'Silver Cord'. I 3D printed molds to make mushrooms from 2 part expanding foam. It worked really well. In the first version of Silver Cord I used real mushrooms, which looked good but didn't last very long. These things were bomb-proof. They were meant to look kinda rotty and gross.",
   "description": "More props for 'Silver Cord'. I 3D printed molds to make mushrooms from 2 part expanding foam. It worked really well. In the first version of Silver Cord I used real mushrooms, which looked good but didn't last very long. These things were bomb-proof. They were meant to look kinda rotty and gross.",
   "coverUrl": "",
-  "cover": "mushroom-molds.jpg",
+  "cover": "/images/projects/mushroom-molds/cover.jpg",
   "credits": [
     {
       "label": "Director",
@@ -21,19 +21,19 @@
     "https://youtu.be/uuLErIhyHF4"
   ],
   "gallery": [
-    "mushroom-molds-01.jpg",
-    "mushroom-molds-02.jpg",
-    "mushroom-molds-03.jpg",
-    "mushroom-molds-04.jpg",
-    "mushroom-molds-05.jpg",
-    "mushroom-molds-06.jpg",
-    "mushroom-molds-07.jpg",
-    "mushroom-molds-08.jpg",
-    "mushroom-molds-09.jpg",
-    "mushroom-molds-10.jpg",
-    "mushroom-molds-11.jpg",
-    "mushroom-molds-12.jpg",
-    "mushroom-molds-13.jpg"
+    "/images/projects/mushroom-molds/01.jpg",
+    "/images/projects/mushroom-molds/02.jpg",
+    "/images/projects/mushroom-molds/03.jpg",
+    "/images/projects/mushroom-molds/04.jpg",
+    "/images/projects/mushroom-molds/05.jpg",
+    "/images/projects/mushroom-molds/06.jpg",
+    "/images/projects/mushroom-molds/07.jpg",
+    "/images/projects/mushroom-molds/08.jpg",
+    "/images/projects/mushroom-molds/09.jpg",
+    "/images/projects/mushroom-molds/10.jpg",
+    "/images/projects/mushroom-molds/11.jpg",
+    "/images/projects/mushroom-molds/12.jpg",
+    "/images/projects/mushroom-molds/13.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

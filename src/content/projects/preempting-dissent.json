@@ -7,7 +7,7 @@
   "summary": "VFX for a documentary.",
   "description": "VFX for a documentary.",
   "coverUrl": "",
-  "cover": "vfx-preempting-dissent.png",
+  "cover": "/images/projects/preempting-dissent/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -22,7 +22,7 @@
   ],
   "videos": [],
   "gallery": [
-    "vfx-preempting-dissent-01.jpg"
+    "/images/projects/preempting-dissent/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

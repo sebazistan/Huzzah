@@ -7,7 +7,7 @@
   "summary": "VFX for a Ross Petty production.",
   "description": "VFX for a Ross Petty production.",
   "coverUrl": "",
-  "cover": "vfx-ross-petty-alice-in-winterland.jpeg",
+  "cover": "/images/projects/ross-petty-alice-in-winterland/cover.jpeg",
   "credits": [
     {
       "label": "Client",
@@ -22,7 +22,7 @@
   ],
   "videos": [],
   "gallery": [
-    "vfx-ross-petty-alice-in-winterland-01.jpg"
+    "/images/projects/ross-petty-alice-in-winterland/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

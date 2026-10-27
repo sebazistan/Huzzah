@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "bmo-hourglass.jpg",
+  "cover": "/images/projects/bmo-hourglass/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,13 +19,13 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "bmo-hourglass-01.jpg",
-    "bmo-hourglass-02.jpg",
-    "bmo-hourglass-03.jpg",
-    "bmo-hourglass-04.jpg",
-    "bmo-hourglass-05.jpg",
-    "bmo-hourglass-06.jpg",
-    "bmo-hourglass-07.jpg"
+    "/images/projects/bmo-hourglass/01.jpg",
+    "/images/projects/bmo-hourglass/02.jpg",
+    "/images/projects/bmo-hourglass/03.jpg",
+    "/images/projects/bmo-hourglass/04.jpg",
+    "/images/projects/bmo-hourglass/05.jpg",
+    "/images/projects/bmo-hourglass/06.jpg",
+    "/images/projects/bmo-hourglass/07.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

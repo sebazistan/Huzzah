@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "lg.jpg",
+  "cover": "/images/projects/lg/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "lg-01.jpg",
-    "lg-02.jpg",
-    "lg-03.jpg"
+    "/images/projects/lg/01.jpg",
+    "/images/projects/lg/02.jpg",
+    "/images/projects/lg/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a Tim Hortons TV commercial.",
   "description": "Pre-vis for a Tim Hortons TV commercial.",
   "coverUrl": "",
-  "cover": "tim-hortons.jpg",
+  "cover": "/images/projects/tim-hortons/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "tim-hortons-01.jpg",
-    "tim-hortons-02.jpg",
-    "tim-hortons-03.jpg",
-    "tim-hortons-04.jpg",
-    "tim-hortons-05.jpg"
+    "/images/projects/tim-hortons/01.jpg",
+    "/images/projects/tim-hortons/02.jpg",
+    "/images/projects/tim-hortons/03.jpg",
+    "/images/projects/tim-hortons/04.jpg",
+    "/images/projects/tim-hortons/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

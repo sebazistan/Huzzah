@@ -9,12 +9,12 @@
   "summary": "I designed a vinyl graphic for a motorbike.",
   "description": "I designed a vinyl graphic for a motorbike.",
   "coverUrl": "",
-  "cover": "fernando.jpg",
+  "cover": "/images/projects/fernando/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "fernando-01.jpg"
+    "/images/projects/fernando/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

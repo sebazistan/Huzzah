@@ -9,7 +9,7 @@
   "summary": "Design for a TV comemrcial.",
   "description": "Design for a TV comemrcial.",
   "coverUrl": "",
-  "cover": "bush-beans.jpg",
+  "cover": "/images/projects/bush-beans/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "bush-beans-01.jpg",
-    "bush-beans-02.jpg",
-    "bush-beans-03.jpg"
+    "/images/projects/bush-beans/01.jpg",
+    "/images/projects/bush-beans/02.jpg",
+    "/images/projects/bush-beans/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

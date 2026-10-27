@@ -8,15 +8,15 @@
   "summary": "We built a bench box with storage.",
   "description": "We built a bench box with storage.",
   "coverUrl": "",
-  "cover": "kicks-bench-box.jpg",
+  "cover": "/images/projects/bench-box/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "kicks-bench-box-01.jpg",
-    "kicks-bench-box-02.jpg",
-    "kicks-bench-box-03.jpg",
-    "kicks-bench-box-04.jpg"
+    "/images/projects/bench-box/01.jpg",
+    "/images/projects/bench-box/02.jpg",
+    "/images/projects/bench-box/03.jpg",
+    "/images/projects/bench-box/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

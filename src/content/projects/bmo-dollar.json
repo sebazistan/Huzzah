@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "bmo-dollar.jpg",
+  "cover": "/images/projects/bmo-dollar/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -21,11 +21,11 @@
     "https://www.youtube.com/watch?v=orK8xyCZy_4"
   ],
   "gallery": [
-    "bmo-dollar-01.jpg",
-    "bmo-dollar-02.jpg",
-    "bmo-dollar-03.jpg",
-    "bmo-dollar-04.jpg",
-    "bmo-dollar-05.jpg"
+    "/images/projects/bmo-dollar/01.jpg",
+    "/images/projects/bmo-dollar/02.jpg",
+    "/images/projects/bmo-dollar/03.jpg",
+    "/images/projects/bmo-dollar/04.jpg",
+    "/images/projects/bmo-dollar/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

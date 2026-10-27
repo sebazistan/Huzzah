@@ -8,15 +8,15 @@
   "summary": "Text and icon for the nephews ice cream stand! I built the stand out of an old fence that happened to be dismantled nearby.",
   "description": "Text and icon for the nephews ice cream stand! I built the stand out of an old fence that happened to be dismantled nearby.",
   "coverUrl": "",
-  "cover": "kicks-ogre-ice-cream.jpg",
+  "cover": "/images/projects/ogre-ice-cream/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "kicks-ogre-ice-cream-01.jpg",
-    "kicks-ogre-ice-cream-02.jpg",
-    "kicks-ogre-ice-cream-03.jpg",
-    "kicks-ogre-ice-cream-04.jpg"
+    "/images/projects/ogre-ice-cream/01.jpg",
+    "/images/projects/ogre-ice-cream/02.jpg",
+    "/images/projects/ogre-ice-cream/03.jpg",
+    "/images/projects/ogre-ice-cream/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

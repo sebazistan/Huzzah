@@ -8,16 +8,16 @@
   "summary": "Marie Kozlova stars in a fun sci fi short.",
   "description": "Marie Kozlova stars in a fun sci fi short.",
   "coverUrl": "",
-  "cover": "kicks-exo.jpg",
+  "cover": "/images/projects/exo/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [
     "https://www.youtube.com/watch?v=LEg7vd5xmOo"
   ],
   "gallery": [
-    "kicks-exo-01.jpg",
-    "kicks-exo-02.jpg",
-    "kicks-exo-03.jpg"
+    "/images/projects/exo/01.jpg",
+    "/images/projects/exo/02.jpg",
+    "/images/projects/exo/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

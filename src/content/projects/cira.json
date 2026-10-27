@@ -7,7 +7,7 @@
   "summary": "Take a closer look at some of the stuff that we built for the project.",
   "description": "Take a closer look at some of the stuff that we built for the project.",
   "coverUrl": "",
-  "cover": "cira.jpg",
+  "cover": "/images/projects/cira/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -17,12 +17,12 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "cira-01.jpg",
-    "cira-02.jpg",
-    "cira-03.jpg",
-    "cira-04.jpg",
-    "cira-05.jpg",
-    "cira-06.jpg"
+    "/images/projects/cira/01.jpg",
+    "/images/projects/cira/02.jpg",
+    "/images/projects/cira/03.jpg",
+    "/images/projects/cira/04.jpg",
+    "/images/projects/cira/05.jpg",
+    "/images/projects/cira/06.jpg"
   ],
   "galleryUrls": [],
   "title": "CIRA",

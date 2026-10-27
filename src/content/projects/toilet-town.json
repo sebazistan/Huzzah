@@ -8,7 +8,7 @@
   "summary": "A photo project documenting the street toilets of Toronto.",
   "description": "A photo project documenting the street toilets of Toronto.",
   "coverUrl": "",
-  "cover": "kicks-toilet-town.jpg",
+  "cover": "/images/projects/toilet-town/cover.jpg",
   "credits": [],
   "links": [
     {
@@ -18,9 +18,9 @@
   ],
   "videos": [],
   "gallery": [
-    "kicks-toilet-town-01.jpg",
-    "kicks-toilet-town-02.jpg",
-    "kicks-toilet-town-03.jpg"
+    "/images/projects/toilet-town/01.jpg",
+    "/images/projects/toilet-town/02.jpg",
+    "/images/projects/toilet-town/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

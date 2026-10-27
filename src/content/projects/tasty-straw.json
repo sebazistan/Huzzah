@@ -9,7 +9,7 @@
   "summary": "I designed, 3D printed and painted a \"tasty\" straw for a TV commercial.",
   "description": "I designed, 3D printed and painted a \"tasty\" straw for a TV commercial.",
   "coverUrl": "",
-  "cover": "tasty-straw.jpg",
+  "cover": "/images/projects/tasty-straw/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "tasty-straw-01.jpg",
-    "tasty-straw-02.jpg",
-    "tasty-straw-03.jpg",
-    "tasty-straw-04.jpg"
+    "/images/projects/tasty-straw/01.jpg",
+    "/images/projects/tasty-straw/02.jpg",
+    "/images/projects/tasty-straw/03.jpg",
+    "/images/projects/tasty-straw/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

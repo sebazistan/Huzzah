@@ -8,13 +8,13 @@
   "summary": "Designed and made a mold for custom chocolates. Will need to figure out how to temper chocolate next!",
   "description": "Designed and made a mold for custom chocolates. Will need to figure out how to temper chocolate next!",
   "coverUrl": "",
-  "cover": "kicks-chocolate-logo.jpg",
+  "cover": "/images/projects/chocolate-logo/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "kicks-chocolate-logo-01.jpg",
-    "kicks-chocolate-logo-02.jpg"
+    "/images/projects/chocolate-logo/01.jpg",
+    "/images/projects/chocolate-logo/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

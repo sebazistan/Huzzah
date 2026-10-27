@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "cibc.jpg",
+  "cover": "/images/projects/cibc/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "cibc-01.jpg",
-    "cibc-02.jpg"
+    "/images/projects/cibc/01.jpg",
+    "/images/projects/cibc/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

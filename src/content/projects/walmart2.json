@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "walmart2.jpg",
+  "cover": "/images/projects/walmart2/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "walmart2-01.jpg",
-    "walmart2-02.jpg",
-    "walmart2-03.jpg"
+    "/images/projects/walmart2/01.jpg",
+    "/images/projects/walmart2/02.jpg",
+    "/images/projects/walmart2/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

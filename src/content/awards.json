@@ -1,9 +1,9 @@
 {
-  "trophy": "trophy.webp",
-  "trophyStill": "trophy-still.jpg",
-  "logo": "csa-2023-logo.png",
-  "vfxPhoto": "vfx-photo.jpg",
-  "designPhoto": "design-photo.jpg",
+  "trophy": "/images/awards/trophy.webp",
+  "trophyStill": "/images/awards/trophy-still.jpg",
+  "logo": "/images/awards/csa-2023-logo.png",
+  "vfxPhoto": "/images/awards/vfx-photo.jpg",
+  "designPhoto": "/images/awards/design-photo.jpg",
   "items": [
     {
       "section": "vfx",

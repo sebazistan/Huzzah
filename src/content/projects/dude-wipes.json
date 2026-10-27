@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "dude-wipes.jpg",
+  "cover": "/images/projects/dude-wipes/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,20 +19,20 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "dude-wipes-01.jpg",
-    "dude-wipes-02.jpg",
-    "dude-wipes-03.jpg",
-    "dude-wipes-04.jpg",
-    "dude-wipes-05.jpg",
-    "dude-wipes-06.jpg",
-    "dude-wipes-07.jpg",
-    "dude-wipes-08.jpg",
-    "dude-wipes-09.jpg",
-    "dude-wipes-10.jpg",
-    "dude-wipes-11.jpg",
-    "dude-wipes-12.jpg",
-    "dude-wipes-13.jpg",
-    "dude-wipes-14.jpg"
+    "/images/projects/dude-wipes/01.jpg",
+    "/images/projects/dude-wipes/02.jpg",
+    "/images/projects/dude-wipes/03.jpg",
+    "/images/projects/dude-wipes/04.jpg",
+    "/images/projects/dude-wipes/05.jpg",
+    "/images/projects/dude-wipes/06.jpg",
+    "/images/projects/dude-wipes/07.jpg",
+    "/images/projects/dude-wipes/08.jpg",
+    "/images/projects/dude-wipes/09.jpg",
+    "/images/projects/dude-wipes/10.jpg",
+    "/images/projects/dude-wipes/11.jpg",
+    "/images/projects/dude-wipes/12.jpg",
+    "/images/projects/dude-wipes/13.jpg",
+    "/images/projects/dude-wipes/14.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

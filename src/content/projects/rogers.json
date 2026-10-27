@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "rogers.jpg",
+  "cover": "/images/projects/rogers/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,7 +19,7 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "rogers-01.jpg"
+    "/images/projects/rogers/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

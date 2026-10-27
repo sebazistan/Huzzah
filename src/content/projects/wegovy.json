@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "wegovy.jpg",
+  "cover": "/images/projects/wegovy/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -21,15 +21,15 @@
     "https://youtu.be/cOQwn4C1T0M"
   ],
   "gallery": [
-    "wegovy-01.jpg",
-    "wegovy-02.jpg",
-    "wegovy-03.jpg",
-    "wegovy-04.jpg",
-    "wegovy-05.jpg",
-    "wegovy-06.jpg",
-    "wegovy-07.jpg",
-    "wegovy-08.jpg",
-    "wegovy-09.jpg"
+    "/images/projects/wegovy/01.jpg",
+    "/images/projects/wegovy/02.jpg",
+    "/images/projects/wegovy/03.jpg",
+    "/images/projects/wegovy/04.jpg",
+    "/images/projects/wegovy/05.jpg",
+    "/images/projects/wegovy/06.jpg",
+    "/images/projects/wegovy/07.jpg",
+    "/images/projects/wegovy/08.jpg",
+    "/images/projects/wegovy/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

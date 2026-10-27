@@ -7,7 +7,7 @@
   "summary": "Three nerdy friends and the school bully must get themselves thrown into detention to find the entrance to a labyrinth of trap-laden tunnels protecting the fabled hidden…",
   "description": "Three nerdy friends and the school bully must get themselves thrown into detention to find the entrance to a labyrinth of trap-laden tunnels protecting the fabled hidden lab of Alexander Graham Bell.\n\nWhen I signed up to design this show Joe Kicak promised me two things. He said \"it's going to be hell and you will win awards.\" And he was right on both counts.",
   "coverUrl": "",
-  "cover": "detention-adventure-2.png",
+  "cover": "/images/projects/detention-adventure-2/cover.png",
   "credits": [
     {
       "label": "Client",
@@ -41,9 +41,9 @@
     "https://www.youtube.com/watch?v=RVV6PhOixVg"
   ],
   "gallery": [
-    "detention-adventure-2-01.jpg",
-    "detention-adventure-2-02.jpg",
-    "detention-adventure-2-03.jpg"
+    "/images/projects/detention-adventure-2/01.jpg",
+    "/images/projects/detention-adventure-2/02.jpg",
+    "/images/projects/detention-adventure-2/03.jpg"
   ],
   "galleryUrls": [],
   "title": "Detention Adventure 3",

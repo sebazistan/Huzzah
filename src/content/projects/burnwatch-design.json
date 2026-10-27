@@ -9,14 +9,14 @@
   "summary": "I designed a custom lifeguard tower.",
   "description": "I designed a custom lifeguard tower.",
   "coverUrl": "",
-  "cover": "burnwatch-design.jpg",
+  "cover": "/images/projects/burnwatch-design/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "burnwatch-design-01.jpg",
-    "burnwatch-design-02.jpg",
-    "burnwatch-design-03.jpg"
+    "/images/projects/burnwatch-design/01.jpg",
+    "/images/projects/burnwatch-design/02.jpg",
+    "/images/projects/burnwatch-design/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

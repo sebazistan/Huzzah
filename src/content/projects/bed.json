@@ -9,7 +9,7 @@
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
   "coverUrl": "",
-  "cover": "bed.jpg",
+  "cover": "/images/projects/bed/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "bed-01.jpg",
-    "bed-02.jpg",
-    "bed-03.jpg",
-    "bed-04.jpg",
-    "bed-05.jpg"
+    "/images/projects/bed/01.jpg",
+    "/images/projects/bed/02.jpg",
+    "/images/projects/bed/03.jpg",
+    "/images/projects/bed/04.jpg",
+    "/images/projects/bed/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

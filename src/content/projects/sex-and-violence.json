@@ -7,7 +7,7 @@
   "summary": "Intro for a TV show.",
   "description": "Intro for a TV show.\n\nI was thrilled when Thom Fitzgerald contacted me to do an intro for Sex and Violence. I'd enjoyed his movies and we happened to both be Centre For Art Tapes (an arty filmmaking cooperative in Halifax) alumni. I was given more or less free reign and had a blast shooting all the footage and creating the effects that appear in the intro. I didn't design the title but did animate it using a fun combination of low tech and digital techniques. I revised the intro for later seasons, but Thom liked it well enough that we stuck more or less to my first draft.",
   "coverUrl": "",
-  "cover": "vfx-sex-and-violence.jpeg",
+  "cover": "/images/projects/sex-and-violence/cover.jpeg",
   "credits": [
     {
       "label": "Director",
@@ -29,7 +29,7 @@
     "https://www.youtube.com/watch?v=EOSF1LhnkMY"
   ],
   "gallery": [
-    "vfx-sex-and-violence-01.jpg"
+    "/images/projects/sex-and-violence/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

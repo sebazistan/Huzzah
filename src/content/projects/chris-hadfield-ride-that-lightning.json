@@ -7,7 +7,7 @@
   "summary": "Music video for Chris Hadfield.",
   "description": "Music video for Chris Hadfield.",
   "coverUrl": "",
-  "cover": "vfx-chris-hadfield-ride-that-lightning.png",
+  "cover": "/images/projects/chris-hadfield-ride-that-lightning/cover.png",
   "credits": [
     {
       "label": "Client",
@@ -19,9 +19,9 @@
     "https://www.youtube.com/watch?v=GLxt_lhtFzM"
   ],
   "gallery": [
-    "vfx-chris-hadfield-ride-that-lightning-01.jpg",
-    "vfx-chris-hadfield-ride-that-lightning-02.jpg",
-    "vfx-chris-hadfield-ride-that-lightning-03.jpg"
+    "/images/projects/chris-hadfield-ride-that-lightning/01.jpg",
+    "/images/projects/chris-hadfield-ride-that-lightning/02.jpg",
+    "/images/projects/chris-hadfield-ride-that-lightning/03.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

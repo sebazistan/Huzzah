@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "cascade.jpg",
+  "cover": "/images/projects/cascade/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "cascade-01.jpg",
-    "cascade-02.jpg",
-    "cascade-03.jpg"
+    "/images/projects/cascade/01.jpg",
+    "/images/projects/cascade/02.jpg",
+    "/images/projects/cascade/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

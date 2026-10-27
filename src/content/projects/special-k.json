@@ -9,7 +9,7 @@
   "summary": "Pre-vis for an installation.",
   "description": "Pre-vis for an installation.",
   "coverUrl": "",
-  "cover": "special-k.jpg",
+  "cover": "/images/projects/special-k/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,12 +19,12 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "special-k-01.jpg",
-    "special-k-02.jpg",
-    "special-k-03.jpg",
-    "special-k-04.jpg",
-    "special-k-05.jpg",
-    "special-k-06.jpg"
+    "/images/projects/special-k/01.jpg",
+    "/images/projects/special-k/02.jpg",
+    "/images/projects/special-k/03.jpg",
+    "/images/projects/special-k/04.jpg",
+    "/images/projects/special-k/05.jpg",
+    "/images/projects/special-k/06.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

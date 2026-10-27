@@ -9,7 +9,7 @@
   "summary": "Prop Design for a commercial.",
   "description": "Prop Design for a commercial.",
   "coverUrl": "",
-  "cover": "td.jpg",
+  "cover": "/images/projects/td/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,17 +19,17 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "td-01.jpg",
-    "td-02.jpg",
-    "td-03.jpg",
-    "td-04.jpg",
-    "td-05.jpg",
-    "td-06.jpg",
-    "td-07.jpg",
-    "td-08.jpg",
-    "td-09.jpg",
-    "td-10.jpg",
-    "td-11.jpg"
+    "/images/projects/td/01.jpg",
+    "/images/projects/td/02.jpg",
+    "/images/projects/td/03.jpg",
+    "/images/projects/td/04.jpg",
+    "/images/projects/td/05.jpg",
+    "/images/projects/td/06.jpg",
+    "/images/projects/td/07.jpg",
+    "/images/projects/td/08.jpg",
+    "/images/projects/td/09.jpg",
+    "/images/projects/td/10.jpg",
+    "/images/projects/td/11.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

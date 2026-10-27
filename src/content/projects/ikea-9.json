@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "ikea-9.jpg",
+  "cover": "/images/projects/ikea-9/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "ikea-9-01.jpg",
-    "ikea-9-02.jpg"
+    "/images/projects/ikea-9/01.jpg",
+    "/images/projects/ikea-9/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

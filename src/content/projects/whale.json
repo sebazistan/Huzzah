@@ -9,7 +9,7 @@
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
   "coverUrl": "",
-  "cover": "whale.jpg",
+  "cover": "/images/projects/whale/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,13 +19,13 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "whale-01.jpg",
-    "whale-02.jpg",
-    "whale-03.jpg",
-    "whale-04.jpg",
-    "whale-05.jpg",
-    "whale-06.jpg",
-    "whale-07.jpg"
+    "/images/projects/whale/01.jpg",
+    "/images/projects/whale/02.jpg",
+    "/images/projects/whale/03.jpg",
+    "/images/projects/whale/04.jpg",
+    "/images/projects/whale/05.jpg",
+    "/images/projects/whale/06.jpg",
+    "/images/projects/whale/07.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

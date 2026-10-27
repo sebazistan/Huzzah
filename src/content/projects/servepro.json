@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a Servepro commercial",
   "description": "Pre-vis for a Servepro commercial",
   "coverUrl": "",
-  "cover": "servepro.jpg",
+  "cover": "/images/projects/servepro/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "servepro-01.jpg",
-    "servepro-02.jpg",
-    "servepro-03.jpg"
+    "/images/projects/servepro/01.jpg",
+    "/images/projects/servepro/02.jpg",
+    "/images/projects/servepro/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

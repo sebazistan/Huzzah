@@ -7,7 +7,7 @@
   "summary": "Music video for Chris Hadfield.",
   "description": "Music video for Chris Hadfield.",
   "coverUrl": "",
-  "cover": "vfx-chris-hadfield-feet-up.png",
+  "cover": "/images/projects/chris-hadfield-feet-up/cover.png",
   "credits": [
     {
       "label": "Client",
@@ -19,8 +19,8 @@
     "https://www.youtube.com/watch?v=EL_Ks90e964"
   ],
   "gallery": [
-    "vfx-chris-hadfield-feet-up-01.jpg",
-    "vfx-chris-hadfield-feet-up-02.jpg"
+    "/images/projects/chris-hadfield-feet-up/01.jpg",
+    "/images/projects/chris-hadfield-feet-up/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

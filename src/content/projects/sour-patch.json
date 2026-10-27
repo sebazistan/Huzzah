@@ -9,7 +9,7 @@
   "summary": "Design for a Sour Patch TV commercial.",
   "description": "Design for a Sour Patch TV commercial.",
   "coverUrl": "",
-  "cover": "sour-patch.jpg",
+  "cover": "/images/projects/sour-patch/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "sour-patch-01.jpg",
-    "sour-patch-02.jpg",
-    "sour-patch-03.jpg",
-    "sour-patch-04.jpg"
+    "/images/projects/sour-patch/01.jpg",
+    "/images/projects/sour-patch/02.jpg",
+    "/images/projects/sour-patch/03.jpg",
+    "/images/projects/sour-patch/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

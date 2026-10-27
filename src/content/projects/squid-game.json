@@ -9,7 +9,7 @@
   "summary": "Design for a Squid Game style console.",
   "description": "Design for a Squid Game style console.",
   "coverUrl": "",
-  "cover": "squid-game.jpg",
+  "cover": "/images/projects/squid-game/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "squid-game-01.jpg",
-    "squid-game-02.jpg",
-    "squid-game-03.jpg",
-    "squid-game-04.jpg"
+    "/images/projects/squid-game/01.jpg",
+    "/images/projects/squid-game/02.jpg",
+    "/images/projects/squid-game/03.jpg",
+    "/images/projects/squid-game/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

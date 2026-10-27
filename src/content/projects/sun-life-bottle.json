@@ -9,7 +9,7 @@
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
   "coverUrl": "",
-  "cover": "sun-life-bottle.jpg",
+  "cover": "/images/projects/sun-life-bottle/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "sun-life-bottle-01.jpg",
-    "sun-life-bottle-02.jpg",
-    "sun-life-bottle-03.jpg"
+    "/images/projects/sun-life-bottle/01.jpg",
+    "/images/projects/sun-life-bottle/02.jpg",
+    "/images/projects/sun-life-bottle/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

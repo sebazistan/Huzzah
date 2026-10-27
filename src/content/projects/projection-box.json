@@ -8,14 +8,14 @@
   "summary": "Designed and built a wall mounting projection box.",
   "description": "Designed and built a wall mounting projection box.",
   "coverUrl": "",
-  "cover": "kicks-projection-box.jpg",
+  "cover": "/images/projects/projection-box/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "kicks-projection-box-01.jpg",
-    "kicks-projection-box-02.jpg",
-    "kicks-projection-box-03.jpg"
+    "/images/projects/projection-box/01.jpg",
+    "/images/projects/projection-box/02.jpg",
+    "/images/projects/projection-box/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

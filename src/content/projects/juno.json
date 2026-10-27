@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "juno.jpg",
+  "cover": "/images/projects/juno/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,13 +19,13 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "juno-01.jpg",
-    "juno-02.jpg",
-    "juno-03.jpg",
-    "juno-04.jpg",
-    "juno-05.jpg",
-    "juno-06.jpg",
-    "juno-07.jpg"
+    "/images/projects/juno/01.jpg",
+    "/images/projects/juno/02.jpg",
+    "/images/projects/juno/03.jpg",
+    "/images/projects/juno/04.jpg",
+    "/images/projects/juno/05.jpg",
+    "/images/projects/juno/06.jpg",
+    "/images/projects/juno/07.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

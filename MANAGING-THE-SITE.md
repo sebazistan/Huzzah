@@ -113,7 +113,16 @@ Clicking any photo in a gallery (Toilet Town albums and the galleries on project
 
 ## Images and video
 
-- **Images**: upload in the admin. They are saved to `public/images/`.
+- **Where photos live**: every project and every Toilet Town album has **its own folder**, named after it:
+  ```
+  public/images/projects/kfc/        cover.jpg, 01.jpg, 02.jpg ...
+  public/images/projects/longing/    cover.png, 01.jpg ...
+  public/images/ttown/album-03/      cover.jpg, 001.jpg ...
+  ```
+  Pages with a single set of pictures use one flat folder: `public/images/awards/`, `public/images/clients/`, `public/videos/services/`, and `public/images/ttown/` (for the Toilet Town home and About pictures).
+- **Uploading in the admin files things for you.** When you add a photo to a project, the admin saves it into that project's folder automatically, so there's nothing to tidy afterwards.
+- **Don't rename or move the photo files by hand.** The admin remembers each photo by its path (it's stored in the project as `/images/projects/<project>/<file>`), so a renamed or moved file shows up as missing. If you want to reorganize, ask Claude to do it, and it updates the project files to match.
+- **Images** can be uploaded in the admin for every section.
   - Resize before uploading: about **2000 px on the long side**, JPG, under ~500 KB–1 MB each. Large originals bloat the repo.
   - Keep the whole repo comfortably under **1 GB** (GitHub's guideline). It's roughly 520 MB now, mostly images.
 - **Video**: don't upload video files to the repo. Host on YouTube or Vimeo and paste the link in **Videos**. If you ever need self-hosted video, tell me and we'll set up Cloudflare R2 or Bunny Stream.

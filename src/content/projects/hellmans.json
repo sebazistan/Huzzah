@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a commercial.",
   "description": "Pre-vis for a commercial.",
   "coverUrl": "",
-  "cover": "hellmans.jpg",
+  "cover": "/images/projects/hellmans/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,7 +19,7 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "hellmans-01.jpg"
+    "/images/projects/hellmans/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

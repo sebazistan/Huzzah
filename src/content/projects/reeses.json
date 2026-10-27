@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "reeses.jpg",
+  "cover": "/images/projects/reeses/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "reeses-01.jpg",
-    "reeses-02.jpg",
-    "reeses-03.jpg"
+    "/images/projects/reeses/01.jpg",
+    "/images/projects/reeses/02.jpg",
+    "/images/projects/reeses/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

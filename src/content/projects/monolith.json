@@ -9,7 +9,7 @@
   "summary": "Prop work for Detention Adventure",
   "description": "Prop work for Detention Adventure",
   "coverUrl": "",
-  "cover": "monolith.jpg",
+  "cover": "/images/projects/monolith/cover.jpg",
   "credits": [
     {
       "label": "Director",
@@ -25,9 +25,9 @@
     "https://youtu.be/GIgjL0WOW7c"
   ],
   "gallery": [
-    "monolith-01.jpg",
-    "monolith-02.jpg",
-    "monolith-03.jpg"
+    "/images/projects/monolith/01.jpg",
+    "/images/projects/monolith/02.jpg",
+    "/images/projects/monolith/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

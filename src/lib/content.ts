@@ -38,10 +38,10 @@ export async function getProjects(section?: Section) {
 export type Project = Awaited<ReturnType<typeof getProjects>>[number];
 
 export const image = (p: { cover?: string | null; coverUrl?: string }) =>
-  p.cover ? href(`/images/projects/${p.cover}`) : p.coverUrl || '';
+  p.cover ? href(p.cover) : p.coverUrl || '';
 
 export const galleryImages = (p: Project) => [
-  ...p.gallery.map((g, i) => ({ src: href(`/images/gallery/${g}`), caption: p.galleryCaptions[i] ?? '' })),
+  ...p.gallery.map((g, i) => ({ src: href(g), caption: p.galleryCaptions[i] ?? '' })),
   ...p.galleryUrls.map((src) => ({ src, caption: '' })),
 ];
 
@@ -56,7 +56,7 @@ export async function getAwards(section: 'design' | 'vfx') {
 
 export async function getAwardsMedia() {
   const a = await reader.singletons.awards.read();
-  const img = (f: string | null | undefined) => (f ? href(`/images/awards/${f}`) : '');
+  const img = (f: string | null | undefined) => (f ? href(f) : '');
   return {
     trophy: img(a?.trophy),
     trophyStill: img(a?.trophyStill),
@@ -75,7 +75,7 @@ export async function getAlbums() {
   return all.map((a) => ({ slug: a.slug, ...a.entry })).sort((a, b) => a.order - b.order);
 }
 
-export const ttImg = (name: string | null) => (name ? href(`/images/ttown/${name}`) : '');
+export const ttImg = (name: string | null) => (name ? href(name) : '');
 
 export function formatDate(d: string | null) {
   if (!d) return '';

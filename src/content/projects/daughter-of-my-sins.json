@@ -7,7 +7,7 @@
   "summary": "Music video for Chris Hadfield",
   "description": "Music video for Chris Hadfield",
   "coverUrl": "",
-  "cover": "vfx-daughter-of-my-sins.png",
+  "cover": "/images/projects/daughter-of-my-sins/cover.png",
   "credits": [
     {
       "label": "Client",
@@ -19,8 +19,8 @@
     "https://www.youtube.com/watch?v=lCiXYhWSBrY"
   ],
   "gallery": [
-    "vfx-daughter-of-my-sins-01.jpg",
-    "vfx-daughter-of-my-sins-02.jpg"
+    "/images/projects/daughter-of-my-sins/01.jpg",
+    "/images/projects/daughter-of-my-sins/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

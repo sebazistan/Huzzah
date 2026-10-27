@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "home-hardware.jpg",
+  "cover": "/images/projects/home-hardware/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "home-hardware-01.jpg",
-    "home-hardware-02.jpg",
-    "home-hardware-03.jpg",
-    "home-hardware-04.jpg",
-    "home-hardware-05.jpg"
+    "/images/projects/home-hardware/01.jpg",
+    "/images/projects/home-hardware/02.jpg",
+    "/images/projects/home-hardware/03.jpg",
+    "/images/projects/home-hardware/04.jpg",
+    "/images/projects/home-hardware/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -7,7 +7,7 @@
   "summary": "Cut off from home and facing an impossible mission against mounting odds, \"Deep Six\" is a hyper-realistic live-action portrayal of a deep space forward operating base at…",
   "description": "Cut off from home and facing an impossible mission against mounting odds, \"Deep Six\" is a hyper-realistic live-action portrayal of a deep space forward operating base at a pivotal moment for humankind 250 years in our future.\n\nHuzzah provided a large number of VFX shots for Deep Six including exteriors of a moon base.",
   "coverUrl": "",
-  "cover": "vfx-deep-six-2.png",
+  "cover": "/images/projects/deep-six-2/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -33,9 +33,9 @@
     "https://youtu.be/jONSxIewrAM"
   ],
   "gallery": [
-    "vfx-deep-six-2-01.jpg",
-    "vfx-deep-six-2-02.jpg",
-    "vfx-deep-six-2-03.jpg"
+    "/images/projects/deep-six-2/01.jpg",
+    "/images/projects/deep-six-2/02.jpg",
+    "/images/projects/deep-six-2/03.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

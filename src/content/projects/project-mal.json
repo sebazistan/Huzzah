@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a commercial",
   "description": "Pre-vis for a commercial",
   "coverUrl": "",
-  "cover": "project-mal.jpg",
+  "cover": "/images/projects/project-mal/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "project-mal-01.jpg",
-    "project-mal-02.jpg",
-    "project-mal-03.jpg",
-    "project-mal-04.jpg",
-    "project-mal-05.jpg"
+    "/images/projects/project-mal/01.jpg",
+    "/images/projects/project-mal/02.jpg",
+    "/images/projects/project-mal/03.jpg",
+    "/images/projects/project-mal/04.jpg",
+    "/images/projects/project-mal/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "tjx.jpg",
+  "cover": "/images/projects/tjx/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,17 +19,17 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "tjx-01.jpg",
-    "tjx-02.jpg",
-    "tjx-03.jpg",
-    "tjx-04.jpg",
-    "tjx-05.jpg",
-    "tjx-06.jpg",
-    "tjx-07.jpg",
-    "tjx-08.jpg",
-    "tjx-09.jpg",
-    "tjx-10.jpg",
-    "tjx-11.jpg"
+    "/images/projects/tjx/01.jpg",
+    "/images/projects/tjx/02.jpg",
+    "/images/projects/tjx/03.jpg",
+    "/images/projects/tjx/04.jpg",
+    "/images/projects/tjx/05.jpg",
+    "/images/projects/tjx/06.jpg",
+    "/images/projects/tjx/07.jpg",
+    "/images/projects/tjx/08.jpg",
+    "/images/projects/tjx/09.jpg",
+    "/images/projects/tjx/10.jpg",
+    "/images/projects/tjx/11.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

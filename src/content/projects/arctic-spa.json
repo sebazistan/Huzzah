@@ -7,7 +7,7 @@
   "summary": "A series of ads for Arctic Spa that needed 3D logo work and other effects.",
   "description": "A series of ads for Arctic Spa that needed 3D logo work and other effects.",
   "coverUrl": "",
-  "cover": "vfx-arctic-spa.jpeg",
+  "cover": "/images/projects/arctic-spa/cover.jpeg",
   "credits": [
     {
       "label": "Client",
@@ -19,7 +19,7 @@
     "https://www.youtube.com/watch?v=BJ2AEp9fxTc"
   ],
   "gallery": [
-    "vfx-arctic-spa-01.jpg"
+    "/images/projects/arctic-spa/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

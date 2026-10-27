@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "jewelers-mutual.jpg",
+  "cover": "/images/projects/jewelers-mutual/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,13 +19,13 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "jewelers-mutual-01.jpg",
-    "jewelers-mutual-02.jpg",
-    "jewelers-mutual-03.jpg",
-    "jewelers-mutual-04.jpg",
-    "jewelers-mutual-05.jpg",
-    "jewelers-mutual-06.jpg",
-    "jewelers-mutual-07.jpg"
+    "/images/projects/jewelers-mutual/01.jpg",
+    "/images/projects/jewelers-mutual/02.jpg",
+    "/images/projects/jewelers-mutual/03.jpg",
+    "/images/projects/jewelers-mutual/04.jpg",
+    "/images/projects/jewelers-mutual/05.jpg",
+    "/images/projects/jewelers-mutual/06.jpg",
+    "/images/projects/jewelers-mutual/07.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,7 +9,7 @@
   "summary": "Neon signs for a series.",
   "description": "Neon signs for a series.",
   "coverUrl": "",
-  "cover": "neon.jpg",
+  "cover": "/images/projects/neon/cover.jpg",
   "credits": [
     {
       "label": "Director",
@@ -28,8 +28,8 @@
   ],
   "videos": [],
   "gallery": [
-    "neon-01.jpg",
-    "neon-02.jpg"
+    "/images/projects/neon/01.jpg",
+    "/images/projects/neon/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

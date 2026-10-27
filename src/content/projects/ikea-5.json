@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "ikea-5.jpg",
+  "cover": "/images/projects/ikea-5/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "ikea-5-01.jpg",
-    "ikea-5-02.jpg",
-    "ikea-5-03.jpg",
-    "ikea-5-04.jpg",
-    "ikea-5-05.jpg",
-    "ikea-5-06.jpg",
-    "ikea-5-07.jpg",
-    "ikea-5-08.jpg",
-    "ikea-5-09.jpg"
+    "/images/projects/ikea-5/01.jpg",
+    "/images/projects/ikea-5/02.jpg",
+    "/images/projects/ikea-5/03.jpg",
+    "/images/projects/ikea-5/04.jpg",
+    "/images/projects/ikea-5/05.jpg",
+    "/images/projects/ikea-5/06.jpg",
+    "/images/projects/ikea-5/07.jpg",
+    "/images/projects/ikea-5/08.jpg",
+    "/images/projects/ikea-5/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

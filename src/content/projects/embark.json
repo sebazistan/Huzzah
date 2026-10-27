@@ -9,7 +9,7 @@
   "summary": "Prop work for an Embark TV commercial.",
   "description": "Prop work for an Embark TV commercial.",
   "coverUrl": "",
-  "cover": "embark.jpg",
+  "cover": "/images/projects/embark/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "embark-01.jpg",
-    "embark-02.jpg",
-    "embark-03.jpg",
-    "embark-04.jpg",
-    "embark-05.jpg",
-    "embark-06.jpg",
-    "embark-07.jpg",
-    "embark-08.jpg",
-    "embark-09.jpg"
+    "/images/projects/embark/01.jpg",
+    "/images/projects/embark/02.jpg",
+    "/images/projects/embark/03.jpg",
+    "/images/projects/embark/04.jpg",
+    "/images/projects/embark/05.jpg",
+    "/images/projects/embark/06.jpg",
+    "/images/projects/embark/07.jpg",
+    "/images/projects/embark/08.jpg",
+    "/images/projects/embark/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

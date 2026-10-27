@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a Buffalo Wild Wings TV commercial.",
   "description": "Pre-vis for a Buffalo Wild Wings TV commercial.",
   "coverUrl": "",
-  "cover": "wild-wings.jpg",
+  "cover": "/images/projects/wild-wings/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "wild-wings-01.jpg",
-    "wild-wings-02.jpg",
-    "wild-wings-03.jpg",
-    "wild-wings-04.jpg",
-    "wild-wings-05.jpg",
-    "wild-wings-06.jpg",
-    "wild-wings-07.jpg",
-    "wild-wings-08.jpg",
-    "wild-wings-09.jpg"
+    "/images/projects/wild-wings/01.jpg",
+    "/images/projects/wild-wings/02.jpg",
+    "/images/projects/wild-wings/03.jpg",
+    "/images/projects/wild-wings/04.jpg",
+    "/images/projects/wild-wings/05.jpg",
+    "/images/projects/wild-wings/06.jpg",
+    "/images/projects/wild-wings/07.jpg",
+    "/images/projects/wild-wings/08.jpg",
+    "/images/projects/wild-wings/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

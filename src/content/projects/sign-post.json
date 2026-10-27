@@ -9,7 +9,7 @@
   "summary": "design for a TV commercial.",
   "description": "design for a TV commercial.",
   "coverUrl": "",
-  "cover": "sign-post.jpg",
+  "cover": "/images/projects/sign-post/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,17 +19,17 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "sign-post-01.jpg",
-    "sign-post-02.jpg",
-    "sign-post-03.jpg",
-    "sign-post-04.jpg",
-    "sign-post-05.jpg",
-    "sign-post-06.jpg",
-    "sign-post-07.jpg",
-    "sign-post-08.jpg",
-    "sign-post-09.jpg",
-    "sign-post-10.jpg",
-    "sign-post-11.jpg"
+    "/images/projects/sign-post/01.jpg",
+    "/images/projects/sign-post/02.jpg",
+    "/images/projects/sign-post/03.jpg",
+    "/images/projects/sign-post/04.jpg",
+    "/images/projects/sign-post/05.jpg",
+    "/images/projects/sign-post/06.jpg",
+    "/images/projects/sign-post/07.jpg",
+    "/images/projects/sign-post/08.jpg",
+    "/images/projects/sign-post/09.jpg",
+    "/images/projects/sign-post/10.jpg",
+    "/images/projects/sign-post/11.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,13 +9,13 @@
   "summary": "Design for a theatre company.",
   "description": "Design for a theatre company.",
   "coverUrl": "",
-  "cover": "corbus-boxes.jpg",
+  "cover": "/images/projects/corbus-boxes/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "corbus-boxes-01.jpg",
-    "corbus-boxes-02.jpg"
+    "/images/projects/corbus-boxes/01.jpg",
+    "/images/projects/corbus-boxes/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

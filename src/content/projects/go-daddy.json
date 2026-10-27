@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "go-daddy.jpg",
+  "cover": "/images/projects/go-daddy/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,7 +19,7 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "go-daddy-01.jpg"
+    "/images/projects/go-daddy/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

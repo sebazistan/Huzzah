@@ -7,7 +7,7 @@
   "summary": "Music video for Meaghan Smith.",
   "description": "Music video for Meaghan Smith.",
   "coverUrl": "",
-  "cover": "vfx-friends-like-you.png",
+  "cover": "/images/projects/friends-like-you/cover.png",
   "credits": [
     {
       "label": "Client",
@@ -19,7 +19,7 @@
     "https://www.youtube.com/watch?v=d8tb02l8btI"
   ],
   "gallery": [
-    "vfx-friends-like-you-01.jpg"
+    "/images/projects/friends-like-you/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

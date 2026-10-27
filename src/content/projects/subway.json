@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "subway.jpg",
+  "cover": "/images/projects/subway/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "subway-01.jpg",
-    "subway-02.jpg",
-    "subway-03.jpg",
-    "subway-04.jpg",
-    "subway-05.jpg",
-    "subway-06.jpg",
-    "subway-07.jpg",
-    "subway-08.jpg",
-    "subway-09.jpg"
+    "/images/projects/subway/01.jpg",
+    "/images/projects/subway/02.jpg",
+    "/images/projects/subway/03.jpg",
+    "/images/projects/subway/04.jpg",
+    "/images/projects/subway/05.jpg",
+    "/images/projects/subway/06.jpg",
+    "/images/projects/subway/07.jpg",
+    "/images/projects/subway/08.jpg",
+    "/images/projects/subway/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

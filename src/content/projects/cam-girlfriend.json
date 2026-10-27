@@ -7,7 +7,7 @@
   "summary": "Daniel Rosenberg directed raunchy comedy show produced for IPF.",
   "description": "Daniel Rosenberg directed raunchy comedy show produced for IPF.",
   "coverUrl": "",
-  "cover": "vfx-cam-girlfriend.jpeg",
+  "cover": "/images/projects/cam-girlfriend/cover.jpeg",
   "credits": [
     {
       "label": "Director",
@@ -28,7 +28,7 @@
     "https://www.youtube.com/watch?v=tgKE4XIuJJM"
   ],
   "gallery": [
-    "vfx-cam-girlfriend-01.jpg"
+    "/images/projects/cam-girlfriend/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "fritos.jpg",
+  "cover": "/images/projects/fritos/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,14 +19,14 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "fritos-01.jpg",
-    "fritos-02.jpg",
-    "fritos-03.jpg",
-    "fritos-04.jpg",
-    "fritos-05.jpg",
-    "fritos-06.jpg",
-    "fritos-07.jpg",
-    "fritos-08.jpg"
+    "/images/projects/fritos/01.jpg",
+    "/images/projects/fritos/02.jpg",
+    "/images/projects/fritos/03.jpg",
+    "/images/projects/fritos/04.jpg",
+    "/images/projects/fritos/05.jpg",
+    "/images/projects/fritos/06.jpg",
+    "/images/projects/fritos/07.jpg",
+    "/images/projects/fritos/08.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

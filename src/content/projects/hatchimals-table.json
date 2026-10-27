@@ -9,7 +9,7 @@
   "summary": "Design for a TV commercial.",
   "description": "Design for a TV commercial.",
   "coverUrl": "",
-  "cover": "hatchimals-table.jpg",
+  "cover": "/images/projects/hatchimals-table/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "hatchimals-table-01.jpg",
-    "hatchimals-table-02.jpg",
-    "hatchimals-table-03.jpg",
-    "hatchimals-table-04.jpg"
+    "/images/projects/hatchimals-table/01.jpg",
+    "/images/projects/hatchimals-table/02.jpg",
+    "/images/projects/hatchimals-table/03.jpg",
+    "/images/projects/hatchimals-table/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

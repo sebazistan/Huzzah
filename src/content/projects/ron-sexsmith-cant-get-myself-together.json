@@ -7,7 +7,7 @@
   "summary": "Music video",
   "description": "Music video",
   "coverUrl": "",
-  "cover": "vfx-ron-sexsmith-cant-get-myself-together.jpeg",
+  "cover": "/images/projects/ron-sexsmith-cant-get-myself-together/cover.jpeg",
   "credits": [
     {
       "label": "Director",
@@ -23,8 +23,8 @@
     "https://www.youtube.com/watch?v=hfS5Ar92ZIg"
   ],
   "gallery": [
-    "vfx-ron-sexsmith-cant-get-myself-together-01.jpg",
-    "vfx-ron-sexsmith-cant-get-myself-together-02.jpg"
+    "/images/projects/ron-sexsmith-cant-get-myself-together/01.jpg",
+    "/images/projects/ron-sexsmith-cant-get-myself-together/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

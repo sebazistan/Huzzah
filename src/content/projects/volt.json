@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a Volt commercial.",
   "description": "Pre-vis for a Volt commercial.",
   "coverUrl": "",
-  "cover": "volt.jpg",
+  "cover": "/images/projects/volt/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,7 +19,7 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "volt-01.jpg"
+    "/images/projects/volt/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

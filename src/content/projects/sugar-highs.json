@@ -7,7 +7,7 @@
   "summary": "From IMDB: \"Three roomates who can't make rent would rather get high than work menial jobs. So they set out to find sugar daddies to pay their bills.\"",
   "description": "From IMDB: \"Three roomates who can't make rent would rather get high than work menial jobs. So they set out to find sugar daddies to pay their bills.\"\n\nHuzzah created a colourful intro for the series.",
   "coverUrl": "",
-  "cover": "vfx-sugar-highs.png",
+  "cover": "/images/projects/sugar-highs/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -32,10 +32,10 @@
     "https://www.youtube.com/watch?v=UfxukxudXqw"
   ],
   "gallery": [
-    "vfx-sugar-highs-01.jpg",
-    "vfx-sugar-highs-02.jpg",
-    "vfx-sugar-highs-03.jpg",
-    "vfx-sugar-highs-04.jpg"
+    "/images/projects/sugar-highs/01.jpg",
+    "/images/projects/sugar-highs/02.jpg",
+    "/images/projects/sugar-highs/03.jpg",
+    "/images/projects/sugar-highs/04.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

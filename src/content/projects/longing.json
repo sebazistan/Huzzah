@@ -7,7 +7,7 @@
   "summary": "VFX supervision and post work for 'Longing', starring Richard Gere and Diane Kruger. From IMDB: \"A business mogul runs into his old small town girlfriend while she is…",
   "description": "VFX supervision and post work for 'Longing', starring Richard Gere and Diane Kruger. From IMDB: \"A business mogul runs into his old small town girlfriend while she is visiting the big city only to find out that they had a child together that he was unaware of. Based on an award-winning foreign language film.\"\n\nHuzzah provided a number of VFX shots for 'Longing', most notably for a pivotal dream sequence which made use of a high-res 3D scan of a school. The 3D scan was created mostly using drone photography, also by Huzzah. Compositing, which was done partially in Canada by Huzzah and partially overseas, was tricky as the rectilinear snorkel lens used was quite soft, and introduced some odd distortion to the image.",
   "coverUrl": "",
-  "cover": "vfx-longing.png",
+  "cover": "/images/projects/longing/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -27,10 +27,10 @@
     "https://www.youtube.com/watch?v=XrJF7uIbTto"
   ],
   "gallery": [
-    "vfx-longing-01.jpg",
-    "vfx-longing-02.jpg",
-    "vfx-longing-03.jpg",
-    "vfx-longing-04.jpg"
+    "/images/projects/longing/01.jpg",
+    "/images/projects/longing/02.jpg",
+    "/images/projects/longing/03.jpg",
+    "/images/projects/longing/04.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": [

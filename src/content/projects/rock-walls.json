@@ -9,7 +9,7 @@
   "summary": "Designed and built some background rock walls for Detention Adventure",
   "description": "Designed and built some background rock walls for Detention Adventure",
   "coverUrl": "",
-  "cover": "rock-walls.jpg",
+  "cover": "/images/projects/rock-walls/cover.jpg",
   "credits": [
     {
       "label": "Director",
@@ -28,9 +28,9 @@
   ],
   "videos": [],
   "gallery": [
-    "rock-walls-01.jpg",
-    "rock-walls-02.jpg",
-    "rock-walls-03.jpg"
+    "/images/projects/rock-walls/01.jpg",
+    "/images/projects/rock-walls/02.jpg",
+    "/images/projects/rock-walls/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

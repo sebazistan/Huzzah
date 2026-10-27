@@ -7,7 +7,7 @@
   "summary": "VFX for an advertisement for a Murdoch Mysteries themed AR game.",
   "description": "VFX for an advertisement for a Murdoch Mysteries themed AR game.",
   "coverUrl": "",
-  "cover": "vfx-murdoch-mysteries-crime-nights.jpg",
+  "cover": "/images/projects/murdoch-mysteries-crime-nights/cover.jpg",
   "credits": [
     {
       "label": "Client",
@@ -24,8 +24,8 @@
     "https://www.youtube.com/watch?v=_ogKiWI0fxk"
   ],
   "gallery": [
-    "vfx-murdoch-mysteries-crime-nights-01.jpg",
-    "vfx-murdoch-mysteries-crime-nights-02.jpg"
+    "/images/projects/murdoch-mysteries-crime-nights/01.jpg",
+    "/images/projects/murdoch-mysteries-crime-nights/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

@@ -9,7 +9,7 @@
   "summary": "Design work of a TV commercial.",
   "description": "Design work of a TV commercial.",
   "coverUrl": "",
-  "cover": "bmo-desk.jpg",
+  "cover": "/images/projects/bmo-desk/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "bmo-desk-01.jpg",
-    "bmo-desk-02.jpg",
-    "bmo-desk-03.jpg",
-    "bmo-desk-04.jpg",
-    "bmo-desk-05.jpg",
-    "bmo-desk-06.jpg",
-    "bmo-desk-07.jpg",
-    "bmo-desk-08.jpg",
-    "bmo-desk-09.jpg"
+    "/images/projects/bmo-desk/01.jpg",
+    "/images/projects/bmo-desk/02.jpg",
+    "/images/projects/bmo-desk/03.jpg",
+    "/images/projects/bmo-desk/04.jpg",
+    "/images/projects/bmo-desk/05.jpg",
+    "/images/projects/bmo-desk/06.jpg",
+    "/images/projects/bmo-desk/07.jpg",
+    "/images/projects/bmo-desk/08.jpg",
+    "/images/projects/bmo-desk/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

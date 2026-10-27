@@ -9,7 +9,7 @@
   "summary": "Previs for a Quickbooks commercial.",
   "description": "Previs for a Quickbooks commercial.",
   "coverUrl": "",
-  "cover": "quickbooks-2.jpg",
+  "cover": "/images/projects/quickbooks-2/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "quickbooks-2-01.jpg",
-    "quickbooks-2-02.jpg"
+    "/images/projects/quickbooks-2/01.jpg",
+    "/images/projects/quickbooks-2/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

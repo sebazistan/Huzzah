@@ -7,7 +7,7 @@
   "summary": "Cut off from home and facing an impossible mission against mounting odds, \"Deep Six\" is a hyper-realistic live-action portrayal of a deep space forward operating base at…",
   "description": "Cut off from home and facing an impossible mission against mounting odds, \"Deep Six\" is a hyper-realistic live-action portrayal of a deep space forward operating base at a pivotal moment for humankind 250 years in our future.\n\nI've worked with director Davin Lengyel a number of times now. He's known to push things to the edge of what is possible on a budget and Deep Six was no exception. It was a tough one.",
   "coverUrl": "",
-  "cover": "deep-six.png",
+  "cover": "/images/projects/deep-six/cover.png",
   "credits": [
     {
       "label": "Client",
@@ -40,16 +40,16 @@
     "https://www.youtube.com/watch?v=spbDMAoOnyw"
   ],
   "gallery": [
-    "deep-six-01.jpg",
-    "deep-six-02.jpg",
-    "deep-six-03.jpg",
-    "deep-six-04.jpg",
-    "deep-six-05.jpg",
-    "deep-six-06.jpg",
-    "deep-six-07.jpg",
-    "deep-six-08.jpg",
-    "deep-six-09.jpg",
-    "deep-six-10.jpg"
+    "/images/projects/deep-six/01.jpg",
+    "/images/projects/deep-six/02.jpg",
+    "/images/projects/deep-six/03.jpg",
+    "/images/projects/deep-six/04.jpg",
+    "/images/projects/deep-six/05.jpg",
+    "/images/projects/deep-six/06.jpg",
+    "/images/projects/deep-six/07.jpg",
+    "/images/projects/deep-six/08.jpg",
+    "/images/projects/deep-six/09.jpg",
+    "/images/projects/deep-six/10.jpg"
   ],
   "galleryUrls": [],
   "title": "Deep Six",

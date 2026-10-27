@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "home-hardware-2.jpg",
+  "cover": "/images/projects/home-hardware-2/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "home-hardware-2-01.jpg",
-    "home-hardware-2-02.jpg",
-    "home-hardware-2-03.jpg",
-    "home-hardware-2-04.jpg",
-    "home-hardware-2-05.jpg",
-    "home-hardware-2-06.jpg",
-    "home-hardware-2-07.jpg",
-    "home-hardware-2-08.jpg",
-    "home-hardware-2-09.jpg"
+    "/images/projects/home-hardware-2/01.jpg",
+    "/images/projects/home-hardware-2/02.jpg",
+    "/images/projects/home-hardware-2/03.jpg",
+    "/images/projects/home-hardware-2/04.jpg",
+    "/images/projects/home-hardware-2/05.jpg",
+    "/images/projects/home-hardware-2/06.jpg",
+    "/images/projects/home-hardware-2/07.jpg",
+    "/images/projects/home-hardware-2/08.jpg",
+    "/images/projects/home-hardware-2/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

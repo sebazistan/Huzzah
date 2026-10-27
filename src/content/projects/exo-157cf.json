@@ -7,7 +7,7 @@
   "summary": "Marie Kozlova stars in a fun sci fi short.",
   "description": "Marie Kozlova stars in a fun sci fi short.",
   "coverUrl": "",
-  "cover": "vfx-exo-157cf.png",
+  "cover": "/images/projects/exo-157cf/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -19,9 +19,9 @@
     "https://www.youtube.com/watch?v=LEg7vd5xmOo"
   ],
   "gallery": [
-    "vfx-exo-157cf-01.jpg",
-    "vfx-exo-157cf-02.jpg",
-    "vfx-exo-157cf-03.jpg"
+    "/images/projects/exo-157cf/01.jpg",
+    "/images/projects/exo-157cf/02.jpg",
+    "/images/projects/exo-157cf/03.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

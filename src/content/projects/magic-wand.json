@@ -9,7 +9,7 @@
   "summary": "Design work for a TV commercial.",
   "description": "Design work for a TV commercial.",
   "coverUrl": "",
-  "cover": "magic-wand.jpg",
+  "cover": "/images/projects/magic-wand/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "magic-wand-01.jpg",
-    "magic-wand-02.jpg",
-    "magic-wand-03.jpg",
-    "magic-wand-04.jpg",
-    "magic-wand-05.jpg"
+    "/images/projects/magic-wand/01.jpg",
+    "/images/projects/magic-wand/02.jpg",
+    "/images/projects/magic-wand/03.jpg",
+    "/images/projects/magic-wand/04.jpg",
+    "/images/projects/magic-wand/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

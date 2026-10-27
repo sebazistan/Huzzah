@@ -9,7 +9,7 @@
   "summary": "Prop work for a Staples TV Commercial.",
   "description": "Prop work for a Staples TV Commercial.",
   "coverUrl": "",
-  "cover": "staples.jpg",
+  "cover": "/images/projects/staples/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "staples-01.jpg",
-    "staples-02.jpg",
-    "staples-03.jpg",
-    "staples-04.jpg"
+    "/images/projects/staples/01.jpg",
+    "/images/projects/staples/02.jpg",
+    "/images/projects/staples/03.jpg",
+    "/images/projects/staples/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,15 +9,15 @@
   "summary": "Creamsicle prop for a TV commercial.",
   "description": "Creamsicle prop for a TV commercial.",
   "coverUrl": "",
-  "cover": "creamsicle.jpg",
+  "cover": "/images/projects/creamsicle/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "creamsicle-01.jpg",
-    "creamsicle-02.jpg",
-    "creamsicle-03.jpg",
-    "creamsicle-04.jpg"
+    "/images/projects/creamsicle/01.jpg",
+    "/images/projects/creamsicle/02.jpg",
+    "/images/projects/creamsicle/03.jpg",
+    "/images/projects/creamsicle/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

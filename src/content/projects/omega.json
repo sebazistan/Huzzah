@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "omega.jpg",
+  "cover": "/images/projects/omega/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "omega-01.jpg",
-    "omega-02.jpg",
-    "omega-03.jpg"
+    "/images/projects/omega/01.jpg",
+    "/images/projects/omega/02.jpg",
+    "/images/projects/omega/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

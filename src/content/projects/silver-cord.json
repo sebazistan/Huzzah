@@ -9,7 +9,7 @@
   "summary": "Shot by Dave Lam, a teaser for the upcoming Silver Cord. A psychological thriller about mental illness, heaven and hell.",
   "description": "Shot by Dave Lam, a teaser for the upcoming Silver Cord. A psychological thriller about mental illness, heaven and hell.",
   "coverUrl": "",
-  "cover": "silver-cord.jpg",
+  "cover": "/images/projects/silver-cord/cover.jpg",
   "credits": [
     {
       "label": "Client",
@@ -34,15 +34,15 @@
     "https://www.youtube.com/watch?v=f4E8dEHok6E&t=3s"
   ],
   "gallery": [
-    "silver-cord-01.jpg",
-    "silver-cord-02.jpg",
-    "silver-cord-03.jpg",
-    "silver-cord-04.jpg",
-    "silver-cord-05.jpg",
-    "silver-cord-06.jpg",
-    "silver-cord-07.jpg",
-    "silver-cord-08.jpg",
-    "silver-cord-09.jpg"
+    "/images/projects/silver-cord/01.jpg",
+    "/images/projects/silver-cord/02.jpg",
+    "/images/projects/silver-cord/03.jpg",
+    "/images/projects/silver-cord/04.jpg",
+    "/images/projects/silver-cord/05.jpg",
+    "/images/projects/silver-cord/06.jpg",
+    "/images/projects/silver-cord/07.jpg",
+    "/images/projects/silver-cord/08.jpg",
+    "/images/projects/silver-cord/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

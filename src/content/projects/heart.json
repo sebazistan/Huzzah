@@ -9,7 +9,7 @@
   "summary": "Heart design and fabrication for a sign. Needed to fit existing metal cage. Not to brag but others attempted this and failed.... their attempts are in the gallery!",
   "description": "Heart design and fabrication for a sign. Needed to fit existing metal cage. Not to brag but others attempted this and failed.... their attempts are in the gallery!",
   "coverUrl": "",
-  "cover": "heart.jpg",
+  "cover": "/images/projects/heart/cover.jpg",
   "credits": [
     {
       "label": "Client",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "heart-01.jpg",
-    "heart-02.jpg",
-    "heart-03.jpg",
-    "heart-04.jpg",
-    "heart-05.jpg"
+    "/images/projects/heart/01.jpg",
+    "/images/projects/heart/02.jpg",
+    "/images/projects/heart/03.jpg",
+    "/images/projects/heart/04.jpg",
+    "/images/projects/heart/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

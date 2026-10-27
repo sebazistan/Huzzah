@@ -7,14 +7,14 @@
   "summary": "VFX for a short film.",
   "description": "VFX for a short film.",
   "coverUrl": "",
-  "cover": "vfx-second-guard.png",
+  "cover": "/images/projects/second-guard/cover.png",
   "credits": [],
   "links": [],
   "videos": [
     "https://www.youtube.com/watch?v=0sFvKa54QaY"
   ],
   "gallery": [
-    "vfx-second-guard-01.jpg"
+    "/images/projects/second-guard/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

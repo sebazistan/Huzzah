@@ -7,7 +7,7 @@
   "summary": "From IMDB: \"As the A-Troupe dancers prepare for the regional dance competition, relationships and loyalties are put to the test at the Next Step studio.\"",
   "description": "From IMDB: \"As the A-Troupe dancers prepare for the regional dance competition, relationships and loyalties are put to the test at the Next Step studio.\"\n\nHuzzah provided a number of shots including motion graphics and a variety of fixes, including some complicated paint-outs.",
   "coverUrl": "",
-  "cover": "vfx-the-next-step.png",
+  "cover": "/images/projects/the-next-step/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -36,7 +36,7 @@
     "https://www.youtube.com/watch?v=OBiGzKNttLM"
   ],
   "gallery": [
-    "vfx-the-next-step-01.jpg"
+    "/images/projects/the-next-step/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

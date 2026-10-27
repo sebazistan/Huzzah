@@ -9,7 +9,7 @@
   "summary": "Design for an installation at Vice.",
   "description": "Design for an installation at Vice.",
   "coverUrl": "",
-  "cover": "vice-jaguar.jpg",
+  "cover": "/images/projects/vice-jaguar/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "vice-jaguar-01.jpg",
-    "vice-jaguar-02.jpg",
-    "vice-jaguar-03.jpg",
-    "vice-jaguar-04.jpg",
-    "vice-jaguar-05.jpg"
+    "/images/projects/vice-jaguar/01.jpg",
+    "/images/projects/vice-jaguar/02.jpg",
+    "/images/projects/vice-jaguar/03.jpg",
+    "/images/projects/vice-jaguar/04.jpg",
+    "/images/projects/vice-jaguar/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

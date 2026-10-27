@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a Shoppers Drug Mart commercial.",
   "description": "Pre-vis for a Shoppers Drug Mart commercial.",
   "coverUrl": "",
-  "cover": "shoppers.jpg",
+  "cover": "/images/projects/shoppers/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "shoppers-01.jpg",
-    "shoppers-02.jpg",
-    "shoppers-03.jpg",
-    "shoppers-04.jpg",
-    "shoppers-05.jpg"
+    "/images/projects/shoppers/01.jpg",
+    "/images/projects/shoppers/02.jpg",
+    "/images/projects/shoppers/03.jpg",
+    "/images/projects/shoppers/04.jpg",
+    "/images/projects/shoppers/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

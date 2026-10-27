@@ -9,25 +9,25 @@
   "summary": "Turtle Prop for a TV commercial.",
   "description": "Turtle Prop for a TV commercial.",
   "coverUrl": "",
-  "cover": "turtle.jpg",
+  "cover": "/images/projects/turtle/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [
     "https://youtu.be/OX86zp2FMec"
   ],
   "gallery": [
-    "turtle-01.jpg",
-    "turtle-02.jpg",
-    "turtle-03.jpg",
-    "turtle-04.jpg",
-    "turtle-05.jpg",
-    "turtle-06.jpg",
-    "turtle-07.jpg",
-    "turtle-08.jpg",
-    "turtle-09.jpg",
-    "turtle-10.jpg",
-    "turtle-11.jpg",
-    "turtle-12.jpg"
+    "/images/projects/turtle/01.jpg",
+    "/images/projects/turtle/02.jpg",
+    "/images/projects/turtle/03.jpg",
+    "/images/projects/turtle/04.jpg",
+    "/images/projects/turtle/05.jpg",
+    "/images/projects/turtle/06.jpg",
+    "/images/projects/turtle/07.jpg",
+    "/images/projects/turtle/08.jpg",
+    "/images/projects/turtle/09.jpg",
+    "/images/projects/turtle/10.jpg",
+    "/images/projects/turtle/11.jpg",
+    "/images/projects/turtle/12.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

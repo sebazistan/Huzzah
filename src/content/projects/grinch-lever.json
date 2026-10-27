@@ -9,18 +9,18 @@
   "summary": "Ben Harris designed this one.",
   "description": "Ben Harris designed this one.",
   "coverUrl": "",
-  "cover": "grinch-lever.jpg",
+  "cover": "/images/projects/grinch-lever/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "grinch-lever-01.jpg",
-    "grinch-lever-02.jpg",
-    "grinch-lever-03.jpg",
-    "grinch-lever-04.jpg",
-    "grinch-lever-05.jpg",
-    "grinch-lever-06.jpg",
-    "grinch-lever-07.jpg"
+    "/images/projects/grinch-lever/01.jpg",
+    "/images/projects/grinch-lever/02.jpg",
+    "/images/projects/grinch-lever/03.jpg",
+    "/images/projects/grinch-lever/04.jpg",
+    "/images/projects/grinch-lever/05.jpg",
+    "/images/projects/grinch-lever/06.jpg",
+    "/images/projects/grinch-lever/07.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

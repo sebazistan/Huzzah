@@ -9,21 +9,21 @@
   "summary": "Prop Design for Suprema.",
   "description": "Prop Design for Suprema.",
   "coverUrl": "",
-  "cover": "suprema.jpg",
+  "cover": "/images/projects/suprema/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [
     "https://www.youtube.com/watch?v=QJ9mJ9mGOUI"
   ],
   "gallery": [
-    "suprema-01.jpg",
-    "suprema-02.jpg",
-    "suprema-03.jpg",
-    "suprema-04.jpg",
-    "suprema-05.jpg",
-    "suprema-06.jpg",
-    "suprema-07.jpg",
-    "suprema-08.jpg"
+    "/images/projects/suprema/01.jpg",
+    "/images/projects/suprema/02.jpg",
+    "/images/projects/suprema/03.jpg",
+    "/images/projects/suprema/04.jpg",
+    "/images/projects/suprema/05.jpg",
+    "/images/projects/suprema/06.jpg",
+    "/images/projects/suprema/07.jpg",
+    "/images/projects/suprema/08.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

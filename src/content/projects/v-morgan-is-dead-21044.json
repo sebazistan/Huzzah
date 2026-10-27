@@ -7,7 +7,7 @@
   "summary": "VFX for a webseries. Title sequence by Huzzah.",
   "description": "VFX for a webseries. Title sequence by Huzzah.",
   "coverUrl": "",
-  "cover": "vfx-v-morgan-is-dead-21044.jpeg",
+  "cover": "/images/projects/v-morgan-is-dead-21044/cover.jpeg",
   "credits": [
     {
       "label": "Director",
@@ -29,7 +29,7 @@
     "https://www.youtube.com/watch?v=WPCH5joRBbg"
   ],
   "gallery": [
-    "vfx-v-morgan-is-dead-21044-01.jpg"
+    "/images/projects/v-morgan-is-dead-21044/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

@@ -7,7 +7,7 @@
   "summary": "'My 90 Year Old Roomate' is an award winning Canadian comedy show.",
   "description": "'My 90 Year Old Roomate' is an award winning Canadian comedy show.",
   "coverUrl": "",
-  "cover": "vfx-my-90-year-old-roomate.png",
+  "cover": "/images/projects/my-90-year-old-roomate/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -32,7 +32,7 @@
     "https://www.youtube.com/watch?v=-c9jjj5MNBA"
   ],
   "gallery": [
-    "vfx-my-90-year-old-roomate-01.jpg"
+    "/images/projects/my-90-year-old-roomate/01.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

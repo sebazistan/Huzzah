@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "mccafe.jpg",
+  "cover": "/images/projects/mccafe/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,17 +19,17 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "mccafe-01.jpg",
-    "mccafe-02.jpg",
-    "mccafe-03.jpg",
-    "mccafe-04.jpg",
-    "mccafe-05.jpg",
-    "mccafe-06.jpg",
-    "mccafe-07.jpg",
-    "mccafe-08.jpg",
-    "mccafe-09.jpg",
-    "mccafe-10.jpg",
-    "mccafe-11.jpg"
+    "/images/projects/mccafe/01.jpg",
+    "/images/projects/mccafe/02.jpg",
+    "/images/projects/mccafe/03.jpg",
+    "/images/projects/mccafe/04.jpg",
+    "/images/projects/mccafe/05.jpg",
+    "/images/projects/mccafe/06.jpg",
+    "/images/projects/mccafe/07.jpg",
+    "/images/projects/mccafe/08.jpg",
+    "/images/projects/mccafe/09.jpg",
+    "/images/projects/mccafe/10.jpg",
+    "/images/projects/mccafe/11.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

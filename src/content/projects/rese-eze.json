@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "rese-eze.jpg",
+  "cover": "/images/projects/rese-eze/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,18 +19,18 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "rese-eze-01.jpg",
-    "rese-eze-02.jpg",
-    "rese-eze-03.jpg",
-    "rese-eze-04.jpg",
-    "rese-eze-05.jpg",
-    "rese-eze-06.jpg",
-    "rese-eze-07.jpg",
-    "rese-eze-08.jpg",
-    "rese-eze-09.jpg",
-    "rese-eze-10.jpg",
-    "rese-eze-11.jpg",
-    "rese-eze-12.jpg"
+    "/images/projects/rese-eze/01.jpg",
+    "/images/projects/rese-eze/02.jpg",
+    "/images/projects/rese-eze/03.jpg",
+    "/images/projects/rese-eze/04.jpg",
+    "/images/projects/rese-eze/05.jpg",
+    "/images/projects/rese-eze/06.jpg",
+    "/images/projects/rese-eze/07.jpg",
+    "/images/projects/rese-eze/08.jpg",
+    "/images/projects/rese-eze/09.jpg",
+    "/images/projects/rese-eze/10.jpg",
+    "/images/projects/rese-eze/11.jpg",
+    "/images/projects/rese-eze/12.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

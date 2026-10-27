@@ -7,7 +7,7 @@
   "summary": "VFX for Sesame Street.",
   "description": "VFX for Sesame Street.",
   "coverUrl": "",
-  "cover": "vfx-sesame-street-m.png",
+  "cover": "/images/projects/sesame-street-m/cover.png",
   "credits": [
     {
       "label": "Director",
@@ -19,8 +19,8 @@
     "https://www.youtube.com/watch?v=dHM7KBNKap0"
   ],
   "gallery": [
-    "vfx-sesame-street-m-01.jpg",
-    "vfx-sesame-street-m-02.jpg"
+    "/images/projects/sesame-street-m/01.jpg",
+    "/images/projects/sesame-street-m/02.jpg"
   ],
   "galleryUrls": [],
   "galleryCaptions": []

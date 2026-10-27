@@ -9,7 +9,7 @@
   "summary": "Design work of a TV commercial.",
   "description": "Design work of a TV commercial.",
   "coverUrl": "",
-  "cover": "bmo-card-box.jpg",
+  "cover": "/images/projects/bmo-card-box/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,13 +19,13 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "bmo-card-box-01.jpg",
-    "bmo-card-box-02.jpg",
-    "bmo-card-box-03.jpg",
-    "bmo-card-box-04.jpg",
-    "bmo-card-box-05.jpg",
-    "bmo-card-box-06.jpg",
-    "bmo-card-box-07.jpg"
+    "/images/projects/bmo-card-box/01.jpg",
+    "/images/projects/bmo-card-box/02.jpg",
+    "/images/projects/bmo-card-box/03.jpg",
+    "/images/projects/bmo-card-box/04.jpg",
+    "/images/projects/bmo-card-box/05.jpg",
+    "/images/projects/bmo-card-box/06.jpg",
+    "/images/projects/bmo-card-box/07.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

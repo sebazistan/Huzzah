@@ -9,7 +9,7 @@
   "summary": "Pre-vis for an installation.",
   "description": "Pre-vis for an installation.",
   "coverUrl": "",
-  "cover": "mazda.jpg",
+  "cover": "/images/projects/mazda/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "mazda-01.jpg",
-    "mazda-02.jpg",
-    "mazda-03.jpg",
-    "mazda-04.jpg",
-    "mazda-05.jpg",
-    "mazda-06.jpg",
-    "mazda-07.jpg",
-    "mazda-08.jpg",
-    "mazda-09.jpg"
+    "/images/projects/mazda/01.jpg",
+    "/images/projects/mazda/02.jpg",
+    "/images/projects/mazda/03.jpg",
+    "/images/projects/mazda/04.jpg",
+    "/images/projects/mazda/05.jpg",
+    "/images/projects/mazda/06.jpg",
+    "/images/projects/mazda/07.jpg",
+    "/images/projects/mazda/08.jpg",
+    "/images/projects/mazda/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

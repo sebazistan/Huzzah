@@ -9,7 +9,7 @@
   "summary": "Pre-vis for an installation.",
   "description": "Pre-vis for an installation.",
   "coverUrl": "",
-  "cover": "nordstrom.jpg",
+  "cover": "/images/projects/nordstrom/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,9 +19,9 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "nordstrom-01.jpg",
-    "nordstrom-02.jpg",
-    "nordstrom-03.jpg"
+    "/images/projects/nordstrom/01.jpg",
+    "/images/projects/nordstrom/02.jpg",
+    "/images/projects/nordstrom/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

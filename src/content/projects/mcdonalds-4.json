@@ -9,7 +9,7 @@
   "summary": "Prop work for a McDonald's commercial. I was responsible for lots of different parts of this but mostly building components of the miniature sets. It was also my job to figure out the layout and sizing for the sliding background layers in the Italian portion of this.",
   "description": "Prop work for a McDonald's commercial. I was responsible for lots of different parts of this but mostly building components of the miniature sets. It was also my job to figure out the layout and sizing for the sliding background layers in the Italian portion of this.",
   "coverUrl": "",
-  "cover": "mcdonalds-4.jpg",
+  "cover": "/images/projects/mcdonalds-4/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -24,16 +24,16 @@
     "https://www.youtube.com/watch?v=I35RXT8gLk0"
   ],
   "gallery": [
-    "mcdonalds-4-01.jpg",
-    "mcdonalds-4-02.jpg",
-    "mcdonalds-4-03.jpg",
-    "mcdonalds-4-04.jpg",
-    "mcdonalds-4-05.jpg",
-    "mcdonalds-4-06.jpg",
-    "mcdonalds-4-07.jpg",
-    "mcdonalds-4-08.jpg",
-    "mcdonalds-4-09.jpg",
-    "mcdonalds-4-10.jpg"
+    "/images/projects/mcdonalds-4/01.jpg",
+    "/images/projects/mcdonalds-4/02.jpg",
+    "/images/projects/mcdonalds-4/03.jpg",
+    "/images/projects/mcdonalds-4/04.jpg",
+    "/images/projects/mcdonalds-4/05.jpg",
+    "/images/projects/mcdonalds-4/06.jpg",
+    "/images/projects/mcdonalds-4/07.jpg",
+    "/images/projects/mcdonalds-4/08.jpg",
+    "/images/projects/mcdonalds-4/09.jpg",
+    "/images/projects/mcdonalds-4/10.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

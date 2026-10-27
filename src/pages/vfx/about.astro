@@ -12,7 +12,7 @@ const site = await getSite();
     <h2 style="margin-top:3rem;font-size:1.5rem">Clients</h2>
     <p style="font-size:.9rem;color:var(--muted)">Not an exhaustive list. Here's a few:</p>
     <div class="logos">
-      {site.vfxClientLogos.map((l, i) => <div class="logo-tile reveal" style={`--d:${(i % 4) * 60}ms`}><img src={href(`/images/clients/${l}`)} alt={`Client logo ${i + 1}`} loading="lazy" /></div>)}
+      {site.vfxClientLogos.map((l, i) => <div class="logo-tile reveal" style={`--d:${(i % 4) * 60}ms`}><img src={href(l)} alt={`Client logo ${i + 1}`} loading="lazy" /></div>)}
     </div>
   </div>
 </Base>

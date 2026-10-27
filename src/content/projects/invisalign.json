@@ -9,7 +9,7 @@
   "summary": "I designed sets for an Invisalign commercial.",
   "description": "I designed sets for an Invisalign commercial.",
   "coverUrl": "",
-  "cover": "invisalign.jpg",
+  "cover": "/images/projects/invisalign/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "invisalign-01.jpg",
-    "invisalign-02.jpg",
-    "invisalign-03.jpg",
-    "invisalign-04.jpg",
-    "invisalign-05.jpg"
+    "/images/projects/invisalign/01.jpg",
+    "/images/projects/invisalign/02.jpg",
+    "/images/projects/invisalign/03.jpg",
+    "/images/projects/invisalign/04.jpg",
+    "/images/projects/invisalign/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

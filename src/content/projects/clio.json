@@ -9,7 +9,7 @@
   "summary": "Design work for a TV commercial.",
   "description": "Design work for a TV commercial.",
   "coverUrl": "",
-  "cover": "clio.jpg",
+  "cover": "/images/projects/clio/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,19 +19,19 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "clio-01.jpg",
-    "clio-02.jpg",
-    "clio-03.jpg",
-    "clio-04.jpg",
-    "clio-05.jpg",
-    "clio-06.jpg",
-    "clio-07.jpg",
-    "clio-08.jpg",
-    "clio-09.jpg",
-    "clio-10.jpg",
-    "clio-11.jpg",
-    "clio-12.jpg",
-    "clio-13.jpg"
+    "/images/projects/clio/01.jpg",
+    "/images/projects/clio/02.jpg",
+    "/images/projects/clio/03.jpg",
+    "/images/projects/clio/04.jpg",
+    "/images/projects/clio/05.jpg",
+    "/images/projects/clio/06.jpg",
+    "/images/projects/clio/07.jpg",
+    "/images/projects/clio/08.jpg",
+    "/images/projects/clio/09.jpg",
+    "/images/projects/clio/10.jpg",
+    "/images/projects/clio/11.jpg",
+    "/images/projects/clio/12.jpg",
+    "/images/projects/clio/13.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

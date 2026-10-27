@@ -9,7 +9,7 @@
   "summary": "One of many props I designed and built for Detention Adventure.",
   "description": "One of many props I designed and built for Detention Adventure.",
   "coverUrl": "",
-  "cover": "mine-cart.jpg",
+  "cover": "/images/projects/mine-cart/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -24,14 +24,14 @@
   ],
   "videos": [],
   "gallery": [
-    "mine-cart-01.jpg",
-    "mine-cart-02.jpg",
-    "mine-cart-03.jpg",
-    "mine-cart-04.jpg",
-    "mine-cart-05.jpg",
-    "mine-cart-06.jpg",
-    "mine-cart-07.jpg",
-    "mine-cart-08.jpg"
+    "/images/projects/mine-cart/01.jpg",
+    "/images/projects/mine-cart/02.jpg",
+    "/images/projects/mine-cart/03.jpg",
+    "/images/projects/mine-cart/04.jpg",
+    "/images/projects/mine-cart/05.jpg",
+    "/images/projects/mine-cart/06.jpg",
+    "/images/projects/mine-cart/07.jpg",
+    "/images/projects/mine-cart/08.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

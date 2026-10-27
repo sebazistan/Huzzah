@@ -9,7 +9,7 @@
   "summary": "Designed and fabricated a parasol for a scary clown for a commercial.",
   "description": "Designed and fabricated a parasol for a scary clown for a commercial.",
   "coverUrl": "",
-  "cover": "sesqui.jpg",
+  "cover": "/images/projects/sesqui/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "sesqui-01.jpg",
-    "sesqui-02.jpg",
-    "sesqui-03.jpg",
-    "sesqui-04.jpg",
-    "sesqui-05.jpg"
+    "/images/projects/sesqui/01.jpg",
+    "/images/projects/sesqui/02.jpg",
+    "/images/projects/sesqui/03.jpg",
+    "/images/projects/sesqui/04.jpg",
+    "/images/projects/sesqui/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

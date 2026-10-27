@@ -9,7 +9,7 @@
   "summary": "Instagram ads. With help from my long-time collaborator Marie Kozlova we put together a series of complicated gags involving custom pinatas, a hydraulic press, a watermelon cannon and a wood chipper. Natrually these all had to be hauled to the middle of nowhere for the shoot. The pigs enjoyed the results from the cannon. Best of all, my crew would up being asked to be on camera on multiple occasions, and as a result, got paid extra. It was a challenging job in some ways, but operating a wood chipper was fun and it turned out well.",
   "description": "Instagram ads. With help from my long-time collaborator Marie Kozlova we put together a series of complicated gags involving custom pinatas, a hydraulic press, a watermelon cannon and a wood chipper. Natrually these all had to be hauled to the middle of nowhere for the shoot. The pigs enjoyed the results from the cannon. Best of all, my crew would up being asked to be on camera on multiple occasions, and as a result, got paid extra. It was a challenging job in some ways, but operating a wood chipper was fun and it turned out well.",
   "coverUrl": "",
-  "cover": "olly-vitamins.jpg",
+  "cover": "/images/projects/olly-vitamins/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -24,11 +24,11 @@
     "https://youtu.be/KrOwJRl8kTY"
   ],
   "gallery": [
-    "olly-vitamins-01.jpg",
-    "olly-vitamins-02.jpg",
-    "olly-vitamins-03.jpg",
-    "olly-vitamins-04.jpg",
-    "olly-vitamins-05.jpg"
+    "/images/projects/olly-vitamins/01.jpg",
+    "/images/projects/olly-vitamins/02.jpg",
+    "/images/projects/olly-vitamins/03.jpg",
+    "/images/projects/olly-vitamins/04.jpg",
+    "/images/projects/olly-vitamins/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

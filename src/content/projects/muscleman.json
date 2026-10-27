@@ -9,7 +9,7 @@
   "summary": "Prop for a Dairy Farmers commercial.",
   "description": "Prop for a Dairy Farmers commercial.",
   "coverUrl": "",
-  "cover": "muscleman.jpg",
+  "cover": "/images/projects/muscleman/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,7 +19,7 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "muscleman-01.jpg"
+    "/images/projects/muscleman/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

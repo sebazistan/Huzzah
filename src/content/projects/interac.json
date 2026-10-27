@@ -9,7 +9,7 @@
   "summary": "Pre-vis for an Interac TV commercial.",
   "description": "Pre-vis for an Interac TV commercial.",
   "coverUrl": "",
-  "cover": "interac.jpg",
+  "cover": "/images/projects/interac/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -21,9 +21,9 @@
     "https://youtu.be/PqYvW1bavzw"
   ],
   "gallery": [
-    "interac-01.jpg",
-    "interac-02.jpg",
-    "interac-03.jpg"
+    "/images/projects/interac/01.jpg",
+    "/images/projects/interac/02.jpg",
+    "/images/projects/interac/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

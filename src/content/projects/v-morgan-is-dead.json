@@ -9,7 +9,7 @@
   "summary": "Production design for a webseries.",
   "description": "Production design for a webseries.",
   "coverUrl": "",
-  "cover": "v-morgan-is-dead.jpg",
+  "cover": "/images/projects/v-morgan-is-dead/cover.jpg",
   "credits": [
     {
       "label": "Client",
@@ -31,7 +31,7 @@
     "https://youtu.be/WPCH5joRBbg"
   ],
   "gallery": [
-    "v-morgan-is-dead-01.jpg"
+    "/images/projects/v-morgan-is-dead/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

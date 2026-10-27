@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a Quilted Northern toilet paper commercial.",
   "description": "Pre-vis for a Quilted Northern toilet paper commercial.",
   "coverUrl": "",
-  "cover": "quilted-northern.jpg",
+  "cover": "/images/projects/quilted-northern/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "quilted-northern-01.jpg",
-    "quilted-northern-02.jpg"
+    "/images/projects/quilted-northern/01.jpg",
+    "/images/projects/quilted-northern/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

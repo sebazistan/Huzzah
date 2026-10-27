@@ -9,7 +9,7 @@
   "summary": "Sign cut for a Frito Lays commercial.",
   "description": "Sign cut for a Frito Lays commercial.",
   "coverUrl": "",
-  "cover": "video-hq.jpg",
+  "cover": "/images/projects/video-hq/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,7 +19,7 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "video-hq-01.jpg"
+    "/images/projects/video-hq/01.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

@@ -9,7 +9,7 @@
   "summary": "Props for a TV commercial.",
   "description": "Props for a TV commercial.",
   "coverUrl": "",
-  "cover": "milkbone2.jpg",
+  "cover": "/images/projects/milkbone2/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "milkbone2-01.jpg",
-    "milkbone2-02.jpg",
-    "milkbone2-03.jpg",
-    "milkbone2-04.jpg",
-    "milkbone2-05.jpg"
+    "/images/projects/milkbone2/01.jpg",
+    "/images/projects/milkbone2/02.jpg",
+    "/images/projects/milkbone2/03.jpg",
+    "/images/projects/milkbone2/04.jpg",
+    "/images/projects/milkbone2/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

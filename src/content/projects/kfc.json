@@ -7,7 +7,7 @@
   "summary": "A statue built for a KFC commercial.",
   "description": "Take a closer look at some of the stuff that we built for the project.",
   "coverUrl": "",
-  "cover": "kfc.jpg",
+  "cover": "/images/projects/kfc/cover.jpg",
   "credits": [
     {
       "label": "Client",
@@ -21,15 +21,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "kfc-01.jpg",
-    "kfc-02.jpg",
-    "kfc-03.jpg",
-    "kfc-04.jpg",
-    "kfc-05.jpg",
-    "kfc-06.jpg",
-    "kfc-07.jpg",
-    "kfc-08.jpg",
-    "kfc-09.jpg"
+    "/images/projects/kfc/01.jpg",
+    "/images/projects/kfc/02.jpg",
+    "/images/projects/kfc/03.jpg",
+    "/images/projects/kfc/04.jpg",
+    "/images/projects/kfc/05.jpg",
+    "/images/projects/kfc/06.jpg",
+    "/images/projects/kfc/07.jpg",
+    "/images/projects/kfc/08.jpg",
+    "/images/projects/kfc/09.jpg"
   ],
   "galleryUrls": [],
   "title": "KFC Statue",

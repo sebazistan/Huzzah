@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "skate.jpg",
+  "cover": "/images/projects/skate/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,10 +19,10 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "skate-01.jpg",
-    "skate-02.jpg",
-    "skate-03.jpg",
-    "skate-04.jpg"
+    "/images/projects/skate/01.jpg",
+    "/images/projects/skate/02.jpg",
+    "/images/projects/skate/03.jpg",
+    "/images/projects/skate/04.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

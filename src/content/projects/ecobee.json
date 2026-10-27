@@ -9,7 +9,7 @@
   "summary": "Pre-vis for an Ecobee TV commercial.",
   "description": "Pre-vis for an Ecobee TV commercial.",
   "coverUrl": "",
-  "cover": "ecobee.jpg",
+  "cover": "/images/projects/ecobee/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "ecobee-01.jpg",
-    "ecobee-02.jpg",
-    "ecobee-03.jpg",
-    "ecobee-04.jpg",
-    "ecobee-05.jpg"
+    "/images/projects/ecobee/01.jpg",
+    "/images/projects/ecobee/02.jpg",
+    "/images/projects/ecobee/03.jpg",
+    "/images/projects/ecobee/04.jpg",
+    "/images/projects/ecobee/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

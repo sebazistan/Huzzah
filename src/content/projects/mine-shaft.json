@@ -9,7 +9,7 @@
   "summary": "Mine shaft built for Detention Adventure. Scenic painted by Andy.",
   "description": "Mine shaft built for Detention Adventure. Scenic painted by Andy.",
   "coverUrl": "",
-  "cover": "mine-shaft.jpg",
+  "cover": "/images/projects/mine-shaft/cover.jpg",
   "credits": [
     {
       "label": "Director",
@@ -30,19 +30,19 @@
     "https://youtu.be/mAS_smQHEEw"
   ],
   "gallery": [
-    "mine-shaft-01.jpg",
-    "mine-shaft-02.jpg",
-    "mine-shaft-03.jpg",
-    "mine-shaft-04.jpg",
-    "mine-shaft-05.jpg",
-    "mine-shaft-06.jpg",
-    "mine-shaft-07.jpg",
-    "mine-shaft-08.jpg",
-    "mine-shaft-09.jpg",
-    "mine-shaft-10.jpg",
-    "mine-shaft-11.jpg",
-    "mine-shaft-12.jpg",
-    "mine-shaft-13.jpg"
+    "/images/projects/mine-shaft/01.jpg",
+    "/images/projects/mine-shaft/02.jpg",
+    "/images/projects/mine-shaft/03.jpg",
+    "/images/projects/mine-shaft/04.jpg",
+    "/images/projects/mine-shaft/05.jpg",
+    "/images/projects/mine-shaft/06.jpg",
+    "/images/projects/mine-shaft/07.jpg",
+    "/images/projects/mine-shaft/08.jpg",
+    "/images/projects/mine-shaft/09.jpg",
+    "/images/projects/mine-shaft/10.jpg",
+    "/images/projects/mine-shaft/11.jpg",
+    "/images/projects/mine-shaft/12.jpg",
+    "/images/projects/mine-shaft/13.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

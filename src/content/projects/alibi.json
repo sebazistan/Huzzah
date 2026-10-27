@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial.",
   "description": "Pre-vis for a TV commercial.",
   "coverUrl": "",
-  "cover": "alibi.jpg",
+  "cover": "/images/projects/alibi/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,15 +19,15 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "alibi-01.jpg",
-    "alibi-02.jpg",
-    "alibi-03.jpg",
-    "alibi-04.jpg",
-    "alibi-05.jpg",
-    "alibi-06.jpg",
-    "alibi-07.jpg",
-    "alibi-08.jpg",
-    "alibi-09.jpg"
+    "/images/projects/alibi/01.jpg",
+    "/images/projects/alibi/02.jpg",
+    "/images/projects/alibi/03.jpg",
+    "/images/projects/alibi/04.jpg",
+    "/images/projects/alibi/05.jpg",
+    "/images/projects/alibi/06.jpg",
+    "/images/projects/alibi/07.jpg",
+    "/images/projects/alibi/08.jpg",
+    "/images/projects/alibi/09.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

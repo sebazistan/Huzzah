@@ -9,7 +9,7 @@
   "summary": "Design for an installation",
   "description": "Design for an installation",
   "coverUrl": "",
-  "cover": "hudson-and-rex.jpg",
+  "cover": "/images/projects/hudson-and-rex/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,8 +19,8 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "hudson-and-rex-01.jpg",
-    "hudson-and-rex-02.jpg"
+    "/images/projects/hudson-and-rex/01.jpg",
+    "/images/projects/hudson-and-rex/02.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

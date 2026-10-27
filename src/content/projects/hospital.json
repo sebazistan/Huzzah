@@ -9,7 +9,7 @@
   "summary": "",
   "description": "",
   "coverUrl": "",
-  "cover": "hospital.jpg",
+  "cover": "/images/projects/hospital/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,12 +19,12 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "hospital-01.jpg",
-    "hospital-02.jpg",
-    "hospital-03.jpg",
-    "hospital-04.jpg",
-    "hospital-05.jpg",
-    "hospital-06.jpg"
+    "/images/projects/hospital/01.jpg",
+    "/images/projects/hospital/02.jpg",
+    "/images/projects/hospital/03.jpg",
+    "/images/projects/hospital/04.jpg",
+    "/images/projects/hospital/05.jpg",
+    "/images/projects/hospital/06.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

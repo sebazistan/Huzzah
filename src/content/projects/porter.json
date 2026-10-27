@@ -9,14 +9,14 @@
   "summary": "I designed and built a Porter Airlines chair. The tray and armrests raise/lower.",
   "description": "I designed and built a Porter Airlines chair. The tray and armrests raise/lower.",
   "coverUrl": "",
-  "cover": "porter.jpg",
+  "cover": "/images/projects/porter/cover.jpg",
   "credits": [],
   "links": [],
   "videos": [],
   "gallery": [
-    "porter-01.jpg",
-    "porter-02.jpg",
-    "porter-03.jpg"
+    "/images/projects/porter/01.jpg",
+    "/images/projects/porter/02.jpg",
+    "/images/projects/porter/03.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

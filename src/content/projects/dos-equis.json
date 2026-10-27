@@ -9,7 +9,7 @@
   "summary": "Pre-vis for a TV commercial",
   "description": "Pre-vis for a TV commercial",
   "coverUrl": "",
-  "cover": "dos-equis.jpg",
+  "cover": "/images/projects/dos-equis/cover.jpg",
   "credits": [
     {
       "label": "Production Designer",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "dos-equis-01.jpg",
-    "dos-equis-02.jpg",
-    "dos-equis-03.jpg",
-    "dos-equis-04.jpg",
-    "dos-equis-05.jpg"
+    "/images/projects/dos-equis/01.jpg",
+    "/images/projects/dos-equis/02.jpg",
+    "/images/projects/dos-equis/03.jpg",
+    "/images/projects/dos-equis/04.jpg",
+    "/images/projects/dos-equis/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []

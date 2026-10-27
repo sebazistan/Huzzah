@@ -9,7 +9,7 @@
   "summary": "Hand made ugly Jesus for a horror movie.",
   "description": "Hand made ugly Jesus for a horror movie.",
   "coverUrl": "",
-  "cover": "ugly-jesus.jpg",
+  "cover": "/images/projects/ugly-jesus/cover.jpg",
   "credits": [
     {
       "label": "Director",
@@ -19,11 +19,11 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "ugly-jesus-01.jpg",
-    "ugly-jesus-02.jpg",
-    "ugly-jesus-03.jpg",
-    "ugly-jesus-04.jpg",
-    "ugly-jesus-05.jpg"
+    "/images/projects/ugly-jesus/01.jpg",
+    "/images/projects/ugly-jesus/02.jpg",
+    "/images/projects/ugly-jesus/03.jpg",
+    "/images/projects/ugly-jesus/04.jpg",
+    "/images/projects/ugly-jesus/05.jpg"
   ],
   "galleryCaptions": [],
   "galleryUrls": []
