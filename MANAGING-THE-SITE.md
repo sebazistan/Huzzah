@@ -136,21 +136,27 @@ Editor → **Contact pages**. Each entry is one page at `/contact/<name>`:
 
 **To add another contact page** (for example "Press"): **Add item**, give it a URL name (lowercase letters, numbers and dashes), choose the **Site section** (this sets its look and menu), and write the heading and intro. Link to it from anywhere as `/contact/<name>`.
 
-Each page has its own **email** and **form service URL**. Anything left empty falls back to the main email in **Site settings**.
+**How the forms send email: Web3Forms**
 
-**How a form delivers messages**
+All the contact forms use **[Web3Forms](https://web3forms.com)**, a free service that emails you each message. The visitor stays on your page and sees "Thank you".
 
-- **With a form service URL:** the message goes to that service, which emails you. Free choices: [Formspree](https://formspree.io), [Web3Forms](https://web3forms.com) and [Basin](https://usebasin.com). Create a form there, copy its address into the page's *Form service URL*, then Save and Publish. Use a separate form for each page if you want them labelled or routed differently (the subject also gets a prefix like "Huzzah VFX: …").
-- **Without one:** pressing Send opens the visitor's own email app with the message filled in. It works, but it is less smooth than a form service.
+- **One key covers every page.** It's in Editor → **Site settings → Web3Forms access key**. Messages go to the email address you registered with Web3Forms.
+- **You can tell the pages apart** by the subject, which starts with the page, for example *"Huzzah VFX: Hello"* or *"Toilet Town: …"*. The email also includes a "page" line.
+- **To send one page to a different inbox:** create another key at web3forms.com using that email address, and paste it into that page's own **Web3Forms access key** box (Contact pages). Leave it empty otherwise.
+- **To change or replace the key:** get a new one from web3forms.com (enter your email and they send it), paste it over the old one in Site settings, then Save and Publish.
+- **The key is not a secret.** Web3Forms designs it to sit in the web page. The trade-off is that someone could in theory use it to send you junk, up to your monthly allowance. The form already has a hidden trap for simple spam bots, and Web3Forms has extra spam protection options in its dashboard if you ever need them.
+- **Plan limits:** the free plan has a monthly cap on messages. Check your Web3Forms dashboard or pricing page for the current number.
+- **No key set?** Pressing Send then opens the visitor's own email app with the message filled in. It works, but it's less smooth.
+- **Other form services** (such as Formspree) still work: put their address in the "Other form service address" box.
 
-**After setting up a form, send a test message from each contact page** and confirm it arrives.
+**After any change to the forms, send a test message from each contact page** and confirm it arrives. Check your spam folder the first time.
 
 ---
 
 ## 7. The other editable pages
 
 **Site settings**
-Home heading, tagline, bio, contact email, form service fallback, Instagram and IMDb links, the client list (Design About page), the VFX About text and client logos, the **VFX page intro**, the **For Kicks page intro**, and the **footer text**.
+Home heading, tagline, bio, contact email, the **Web3Forms access key** for the contact forms, Instagram and IMDb links, the client list (Design About page), the VFX About text and client logos, the **VFX page intro**, the **For Kicks page intro**, and the **footer text**.
 
 **Services**
 Each service has a title, text, button label, link and a **looping video** that plays on its own, muted, only while it is on screen. Upload an MP4 (required), optionally a WebM (smaller in some browsers), and a still image shown while it loads. Keep clips short and **under about 6 MB**, and **without sound** (browsers won't autoplay video that has sound). Visitors who prefer reduced motion see the still image.
@@ -305,7 +311,7 @@ For developers, or for Claude when making changes.
 | A Cloudflare build failed | Click **Copy build log**; the PROBLEM lines explain it. The live site is still on the last good version. |
 | `www.huzzahdesign.com` stopped working | In Cloudflare, check that the placeholder `www` DNS record and the Redirect Rule still exist ([section 9](#9-accounts-where-everything-lives)). |
 | A photo shows as missing | It was renamed, moved or deleted. The check will say which one. |
-| The contact form doesn't send email | A form service address isn't set for that page yet ([section 6](#6-contact-pages-and-forms)). |
+| The contact form doesn't send email | Check the Web3Forms key in Site settings is filled in and has no spaces, that you published after adding it, and your spam folder. Then try a test message ([section 6](#6-contact-pages-and-forms)). If it says "Oops", the key may be wrong or the monthly allowance used up: check the Web3Forms dashboard. |
 | The editor shows an image field as empty | Reload the page. If it persists, ask Claude (don't save that project meanwhile). |
 
 ---
@@ -325,7 +331,7 @@ For developers, or for Claude when making changes.
 
 Delete items as you finish them.
 
-- [ ] **Connect the contact forms** to a form service and test each page ([section 6](#6-contact-pages-and-forms)).
+- [ ] **Test the contact forms:** after the Web3Forms key is published, send a test message from each contact page and confirm it arrives ([section 6](#6-contact-pages-and-forms)).
 - [ ] **Google Search Console:** add `https://huzzahdesign.com` and submit `sitemap-index.xml`.
 - [ ] **Webflow:** keep it as a fallback for about a week after the switch, export any form submissions you want to keep, then downgrade or cancel the Site plan. Keep the project itself as a backup. Don't click Webflow's "Update domain" banner.
 - [ ] Optional: free visitor stats (Cloudflare Web Analytics) and an uptime alert.

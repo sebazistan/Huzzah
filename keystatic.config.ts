@@ -20,9 +20,13 @@ export default config({
         tagline: fields.text({ label: 'Tagline', multiline: true }),
         bio: fields.text({ label: 'About / bio', multiline: true }),
         email: fields.text({ label: 'Contact email' }),
+        web3formsKey: fields.text({
+          label: 'Web3Forms access key (for all contact forms)',
+          description: 'Paste the key Web3Forms emailed you. Messages from every contact page are sent to the email address you gave Web3Forms. Leave empty to open the visitor\'s email app instead.',
+        }),
         formEndpoint: fields.text({
-          label: 'Contact form endpoint (e.g. Formspree URL)',
-          description: 'Leave empty to fall back to a mailto: link.',
+          label: 'Other form service address (only if not using Web3Forms)',
+          description: 'For example a Formspree address. Leave empty if you use Web3Forms.',
         }),
         instagram: fields.url({ label: 'Instagram URL' }),
         imdb: fields.url({ label: 'IMDb URL' }),
@@ -61,9 +65,13 @@ export default config({
               label: 'Send to / show this email',
               description: 'Leave empty to use the main email from Site settings.',
             }),
+            accessKey: fields.text({
+              label: 'Web3Forms access key for this page (optional)',
+              description: 'Leave empty to use the key from Site settings. Only fill this in if this page should send to a different email address.',
+            }),
             endpoint: fields.text({
-              label: 'Form service URL (e.g. Formspree)',
-              description: 'Where the form posts. Leave empty to open the visitor\'s email app instead.',
+              label: 'Other form service address (optional)',
+              description: 'Only for a service other than Web3Forms. Leave empty normally.',
             }),
             subjectPrefix: fields.text({ label: 'Subject prefix' }),
           }),

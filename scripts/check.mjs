@@ -52,6 +52,7 @@ function fileRef(ref, where, { maxMB = 3 } = {}) {
 }
 
 const email = (v) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v);
+const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const slugOk = (v) => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(v);
 
 // ---------- load content
@@ -139,6 +140,7 @@ if (awards) {
 const site = readJson(join(root, 'src/content/site.json'));
 if (site) {
   if (site.email && !email(site.email)) warn(`Site settings: the email "${site.email}" does not look like an email address.`);
+  if (site.web3formsKey && !uuid.test(site.web3formsKey.trim())) warn('Site settings: the Web3Forms access key does not look right. It should be a long code like xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx with no spaces.');
   (site.vfxClientLogos || []).forEach((l, i) => fileRef(l, `VFX client logo ${i + 1}`));
 }
 
@@ -165,6 +167,7 @@ if (contact) {
     if (!['design', 'vfx', 'kicks'].includes(f.section)) problem(`${w}: the Site section must be Design, VFX or For Kicks.`);
     if (f.email && !email(f.email)) warn(`${w}: the email "${f.email}" does not look right.`);
     if (f.endpoint && !/^https:\/\//.test(f.endpoint)) warn(`${w}: the form service address should start with https://`);
+    if (f.accessKey && !uuid.test(f.accessKey.trim())) warn(`${w}: the Web3Forms access key does not look right. It should be a long code like xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx with no spaces.`);
   }
   if (!seen.has('design')) problem('Contact pages: there is no "design" contact page, but the menu links to it.');
 }

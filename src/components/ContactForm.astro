@@ -2,15 +2,17 @@
 import { getSite } from '../lib/content';
 
 interface Props {
-  form: { slug: string; heading: string; intro: string; email: string; endpoint: string; subjectPrefix: string };
+  form: { slug: string; heading: string; intro: string; email: string; endpoint: string; accessKey?: string; subjectPrefix: string };
 }
 const { form } = Astro.props;
 const site = await getSite();
 const email = form.email || site.email;
-const endpoint = form.endpoint || site.formEndpoint;
+// Web3Forms: an access key is enough, the address is always the same.
+const accessKey = form.accessKey || site.web3formsKey || '';
+const endpoint = form.endpoint || site.formEndpoint || (accessKey ? 'https://api.web3forms.com/submit' : '');
 ---
 
-<form class="form" data-endpoint={endpoint} data-email={email} data-prefix={form.subjectPrefix} data-topic={form.slug} novalidate>
+<form class="form" data-endpoint={endpoint} data-key={accessKey} data-email={email} data-prefix={form.subjectPrefix} data-topic={form.slug} novalidate>
   <label>Name<input name="name" required autocomplete="name" /></label>
   <label>Email<input type="email" name="email" required autocomplete="email" /></label>
   <label>Subject<input name="subject" autocomplete="off" /></label>
@@ -36,21 +38,37 @@ const endpoint = form.endpoint || site.formEndpoint;
       }
       const prefix = form.dataset.prefix || 'Website';
       const subject = `${prefix}: ${d.subject?.trim() || 'Hello'}`;
-      const { endpoint, email } = form.dataset;
+      const { endpoint, email, key } = form.dataset;
 
       if (endpoint) {
         btn.disabled = true;
         status.textContent = 'Sending…';
         try {
-          const res = await fetch(endpoint, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-            body: JSON.stringify({ name: d.name, email: d.email, subject, message: d.message, _subject: subject, _replyto: d.email, topic: form.dataset.topic }),
-          });
-          if (!res.ok) throw new Error(String(res.status));
+          let res: Response;
+          if (key) {
+            // Web3Forms: the access key travels with the message
+            const fd = new FormData();
+            fd.append('access_key', key);
+            fd.append('name', d.name);
+            fd.append('email', d.email);
+            fd.append('subject', subject);
+            fd.append('message', d.message);
+            fd.append('page', form.dataset.topic || '');
+            res = await fetch(endpoint, { method: 'POST', headers: { Accept: 'application/json' }, body: fd });
+          } else {
+            // Any other form service that accepts JSON (for example Formspree)
+            res = await fetch(endpoint, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+              body: JSON.stringify({ name: d.name, email: d.email, subject, message: d.message, _subject: subject, _replyto: d.email, topic: form.dataset.topic }),
+            });
+          }
+          const result = await res.json().catch(() => null);
+          if (!res.ok || result?.success === false) throw new Error(result?.message || String(res.status));
           form.reset();
           status.textContent = 'Thank you! Your message has been sent.';
-        } catch {
+        } catch (err) {
+          console.warn('Contact form error:', err);
           status.textContent = 'Oops! Something went wrong. Please try again, or email directly.';
         } finally {
           btn.disabled = false;
