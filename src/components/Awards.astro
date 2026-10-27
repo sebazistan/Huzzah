@@ -1,17 +1,50 @@
 ---
-import { getAwards, href } from '../lib/content';
+import { getAwards, getAwardsMedia, href } from '../lib/content';
 interface Props { section: 'design' | 'vfx' }
-const awards = await getAwards(Astro.props.section);
+const { section } = Astro.props;
+const awards = await getAwards(section);
+const media = await getAwardsMedia();
+const wins = awards.filter((a) => a.result === 'Winner').length;
+const noms = awards.length - wins;
+const photo = section === 'vfx' ? media.vfxPhoto : media.designPhoto;
+const photoAlt = section === 'vfx' ? 'Holding the Canadian Screen Award trophy' : 'The team at the TO Webfest awards';
+const showTrophy = section === 'vfx' && media.trophy;
 ---
 
-<ul class="awards">
-  {awards.map((a) => (
-    <li class="reveal">
-      <span class={`award-result ${a.result === 'Winner' ? 'win' : ''}`}>{a.result}</span>
-      <div>
+<section class="wrap awards-hero">
+  <div class="awards-hero-text">
+    <h1>Awards<span style="color:var(--accent)">.</span></h1>
+    <div class="awards-stats">
+      {wins > 0 && <span><b>{wins}</b> {wins === 1 ? 'win' : 'wins'}</span>}
+      {noms > 0 && <span><b>{noms}</b> {noms === 1 ? 'nomination' : 'nominations'}</span>}
+    </div>
+  </div>
+  {showTrophy && (
+    <div class="trophy" aria-hidden="false">
+      <picture>
+        {media.trophyStill && <source media="(prefers-reduced-motion: reduce)" srcset={media.trophyStill} />}
+        <img src={media.trophy} alt="Canadian Screen Award trophy, slowly rotating" width="400" height="400" fetchpriority="high" />
+      </picture>
+    </div>
+  )}
+</section>
+
+<div class="wrap awards-layout">
+  <ul class="award-cards">
+    {awards.map((a, i) => (
+      <li class={`award-card reveal ${a.result === 'Winner' ? 'win' : ''}`} style={`--d:${(i % 2) * 70}ms`}>
+        <span class="award-chip">{a.result}</span>
         <h2>{a.award}</h2>
-        <p>{a.url ? <a href={href(a.url)} rel="noopener">{a.detail}</a> : a.detail}</p>
-      </div>
-    </li>
-  ))}
-</ul>
+        <p>{a.detail}</p>
+        {a.url && <a class="award-link" href={href(a.url)} rel="noopener">{a.url.startsWith('/') ? 'See the project' : 'View on IMDb'} →</a>}
+      </li>
+    ))}
+  </ul>
+
+  {(photo || (section === 'vfx' && media.logo)) && (
+    <aside class="awards-aside reveal">
+      {section === 'vfx' && media.logo && <div class="award-logo"><img src={media.logo} alt="Canadian Screen Awards 2023" loading="lazy" /></div>}
+      {photo && <img class="award-photo" src={photo} alt={photoAlt} loading="lazy" />}
+    </aside>
+  )}
+</div>

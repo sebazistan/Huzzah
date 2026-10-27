@@ -24,6 +24,7 @@ function legacyRedirects() {
     '/huzzah/services': '/services',
     '/huzzah/contact': '/contact/design',
     '/huzzah/design-awards': '/design/awards',
+    '/huzzah/all-awards': '/design/awards',
     '/huzzah/project-categories/production-design': '/design/category/production-design',
     '/huzzah/project-categories/pre-vis': '/design/category/pre-vis',
     '/huzzah/project-categories/design': '/design/category/props',

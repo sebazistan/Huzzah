@@ -54,6 +54,18 @@ export async function getAwards(section: 'design' | 'vfx') {
   return items.filter((a) => a.section === section);
 }
 
+export async function getAwardsMedia() {
+  const a = await reader.singletons.awards.read();
+  const img = (f: string | null | undefined) => (f ? href(`/images/awards/${f}`) : '');
+  return {
+    trophy: img(a?.trophy),
+    trophyStill: img(a?.trophyStill),
+    logo: img(a?.logo),
+    vfxPhoto: img(a?.vfxPhoto),
+    designPhoto: img(a?.designPhoto),
+  };
+}
+
 export async function getToiletTown() {
   return (await reader.singletons.toiletTown.read())!;
 }

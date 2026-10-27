@@ -67,6 +67,32 @@ export default config({
       path: 'src/content/awards',
       format: { data: 'json' },
       schema: {
+        trophy: fields.file({
+          label: 'VFX page: animated trophy (WebP, GIF or APNG)',
+          description: 'Loops on its own. Keep it under about 1 MB.',
+          directory: 'public/images/awards',
+          publicPath: '/images/awards/',
+        }),
+        trophyStill: fields.image({
+          label: 'VFX page: still version of the trophy (for visitors who prefer reduced motion)',
+          directory: 'public/images/awards',
+          publicPath: '/images/awards/',
+        }),
+        logo: fields.image({
+          label: 'VFX page: award logo (shown above the photo)',
+          directory: 'public/images/awards',
+          publicPath: '/images/awards/',
+        }),
+        vfxPhoto: fields.image({
+          label: 'VFX page: photo',
+          directory: 'public/images/awards',
+          publicPath: '/images/awards/',
+        }),
+        designPhoto: fields.image({
+          label: 'Design page: photo',
+          directory: 'public/images/awards',
+          publicPath: '/images/awards/',
+        }),
         items: fields.array(
           fields.object({
             section: fields.select({ label: 'Shows on', options: [{ label: 'Design', value: 'design' }, { label: 'VFX', value: 'vfx' }], defaultValue: 'design' }),

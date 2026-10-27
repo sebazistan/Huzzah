@@ -85,7 +85,9 @@ Each page has its own **email** and **form service URL**. If either is empty it 
 
 ## Awards
 
-Admin → **Awards**. Each entry says whether it shows on the Design or VFX awards page, plus the result, award name, what it was for, and an optional link.
+Admin → **Awards**. Each entry says whether it shows on the Design or VFX awards page, plus the result, award name, what it was for, and an optional link. The page shows win and nomination counts automatically.
+
+The same screen holds the pictures: the **animated trophy** that loops at the top of the VFX page (an animated WebP, converted from your old 3.3 MB GIF to 0.7 MB), a **still version** for visitors who prefer reduced motion, the **award logo**, and one **photo** for each page. To swap the trophy animation, upload a new animated WebP or GIF and keep it under about 1 MB.
 
 ## Services page and its looping videos
 
