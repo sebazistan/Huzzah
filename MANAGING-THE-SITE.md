@@ -87,6 +87,15 @@ Each page has its own **email** and **form service URL**. If either is empty it 
 
 Admin → **Awards**. Each entry says whether it shows on the Design or VFX awards page, plus the result, award name, what it was for, and an optional link.
 
+## Services page and its looping videos
+
+Admin → **Services**. Each service has its text, a link, and a looping video that plays muted on its own (like the old Webflow page).
+
+- **Looping video (MP4)** is required. **WebM** is optional (some browsers use it because it's smaller) and the **still image** shows while the video loads.
+- Keep each file short (a few seconds to about 15 s) and under about **6 MB**. Videos that autoplay must have **no sound**, or browsers won't play them.
+- The videos live in `public/videos/services/`. They only play while on screen, and visitors who have "reduce motion" turned on see the still image instead.
+- This is different from project videos, which are YouTube or Vimeo links.
+
 ## Toilet Town
 
 Toilet Town is a mini-site inside For Kicks: `/kicks/toilet-town` (home), `/photos` (12 albums), `/about`, `/shop` and its own contact page.

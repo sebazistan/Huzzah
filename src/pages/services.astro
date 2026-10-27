@@ -2,16 +2,55 @@
 import Base from '../layouts/Base.astro';
 import { getServices, href } from '../lib/content';
 const items = await getServices();
+const vid = (f: string | null) => (f ? href(`/videos/services/${f}`) : '');
 ---
 
-<Base title="Services">
-  <div class="wrap page" style="max-width:980px">
+<Base title="Services" description="Production design, pre-vis and props for film, television and commercials.">
+  <div class="wrap page services">
     <h1>Services<span style="color:var(--accent)">.</span></h1>
     {items.map((s) => (
-      <section class="service reveal">
-        <h2>{s.title}</h2>
-        <div><p>{s.text}</p><a href={href(s.link)}>Explore {s.title} →</a></div>
+      <section class="service-row reveal">
+        <div class="service-text">
+          <h2>{s.title}</h2>
+          <p>{s.text}</p>
+          <a class="btn" href={href(s.link)}>{s.linkLabel || `Explore ${s.title}`}</a>
+        </div>
+        {s.video && (
+          <div class="service-video">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster={s.poster ? vid(s.poster) : undefined}
+              aria-label={`${s.title} reel (looping, no sound)`}
+            >
+              {s.videoWebm && <source src={vid(s.videoWebm)} type="video/webm" />}
+              <source src={vid(s.video)} type="video/mp4" />
+            </video>
+          </div>
+        )}
       </section>
     ))}
   </div>
+
+  <script>
+    // Play each loop only while it is on screen, and respect "reduce motion".
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const videos = document.querySelectorAll<HTMLVideoElement>('.service-video video');
+    if (reduce) {
+      videos.forEach((v) => { v.removeAttribute('autoplay'); v.pause(); });
+    } else {
+      const io = new IntersectionObserver(
+        (entries) => entries.forEach((e) => {
+          const v = e.target as HTMLVideoElement;
+          if (e.isIntersecting) v.play().catch(() => {});
+          else v.pause();
+        }),
+        { threshold: 0.25 },
+      );
+      videos.forEach((v) => io.observe(v));
+    }
+  </script>
 </Base>

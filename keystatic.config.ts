@@ -107,6 +107,23 @@ export default config({
             title: fields.text({ label: 'Title' }),
             text: fields.text({ label: 'Description', multiline: true }),
             link: fields.text({ label: 'Link (path)' }),
+            linkLabel: fields.text({ label: 'Link text (e.g. Explore Props)' }),
+            video: fields.file({
+              label: 'Looping video (MP4)',
+              description: 'Plays muted on a loop. Keep it short and under about 6 MB.',
+              directory: 'public/videos/services',
+              publicPath: '/videos/services/',
+            }),
+            videoWebm: fields.file({
+              label: 'Looping video (WebM, optional, smaller in some browsers)',
+              directory: 'public/videos/services',
+              publicPath: '/videos/services/',
+            }),
+            poster: fields.image({
+              label: 'Still image shown while the video loads',
+              directory: 'public/videos/services',
+              publicPath: '/videos/services/',
+            }),
           }),
           { label: 'Services', itemLabel: (p) => p.fields.title.value },
         ),
