@@ -18,7 +18,7 @@ const fullTitle = title ? `${title} | Huzzah` : 'Huzzah';
 const navs = {
   home: [],
   design: [
-    { href: '/design', label: 'Work' },
+    { href: '/', label: 'Work' },
     { href: '/design/category/production-design', label: 'Production Design' },
     { href: '/design/category/pre-vis', label: 'Pre-Vis' },
     { href: '/design/category/props', label: 'Props' },
@@ -35,7 +35,7 @@ const navs = {
   kicks: [
     { href: '/kicks', label: 'For Kicks' },
     { href: '/contact/kicks', label: 'Contact' },
-    { href: '/design', label: '← Design' },
+    { href: '/', label: '← Home' },
   ],
 };
 const nav = navOverride ?? navs[section];
@@ -44,7 +44,7 @@ const path = norm(Astro.url.pathname);
 const logo = brand ?? {
   label: 'HUZZAH',
   sub: section === 'vfx' ? 'VFX' : section === 'kicks' ? 'FOR KICKS' : 'DESIGN',
-  href: section === 'vfx' ? '/vfx' : '/design',
+  href: section === 'vfx' ? '/vfx' : '/',
 };
 ---
 

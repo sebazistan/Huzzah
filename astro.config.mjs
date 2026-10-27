@@ -14,6 +14,8 @@ const isDev = process.argv.includes('dev');
 function legacyRedirects() {
   /** @type {Record<string, string>} */
   const r = {
+    // /design used to be the Design home; the home page is now the site index
+    '/design': '/',
     '/huzzah/vfx': '/vfx',
     '/huzzah/vfx-about': '/vfx/about',
     '/huzzah/vfx-awards': '/vfx/awards',
@@ -62,7 +64,9 @@ const cloudflareRedirects = {
   hooks: {
     /** @param {{ dir: URL }} ctx */
     'astro:build:done': ({ dir }) => {
-      const lines = Object.entries(redirects).map(([from, to]) => `${from} ${to} 301`);
+      const lines = Object.entries(redirects).flatMap(([from, to]) =>
+        from === '/design' ? [`/design ${to} 301`, `/design/ ${to} 301`] : [`${from} ${to} 301`],
+      );
       writeFileSync(new URL('_redirects', dir), lines.join('\n') + '\n');
     },
   },
@@ -74,7 +78,7 @@ export default defineConfig({
   redirects,
   integrations: [
     react(),
-    sitemap({ filter: (page) => !/\/(huzzah|ttown|happy-trails)\//.test(page) && !/\/404\/?$/.test(page) }),
+    sitemap({ filter: (page) => !/\/(huzzah|ttown|happy-trails)\//.test(page) && !/\/404\/?$/.test(page) && !/\/design\/?$/.test(page) }),
     cloudflareRedirects,
     ...(isDev ? [keystatic()] : []),
   ],

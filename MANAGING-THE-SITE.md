@@ -134,11 +134,10 @@ git push
 
 | URL | What it is |
 |---|---|
-| `/` | Landing page: Design / VFX |
-| `/design` | Design home (featured work, categories, bio, contact) |
+| `/` | Home page = the Design home (featured work, categories, bio, contact). `/design` redirects here. |
 | `/design/<project>` | Design project page |
 | `/design/category/<category>` | Category listing |
-| `/vfx` | VFX archive with type filters |
+| `/vfx` | VFX archive with type filters. **Not linked from the Design side**: visitors only reach it with the direct link `https://huzzahdesign.com/vfx/`. |
 | `/vfx/<project>` | VFX project page |
 | `/kicks`, `/kicks/<project>` | For Kicks |
 | `/about`, `/services` | Text pages |

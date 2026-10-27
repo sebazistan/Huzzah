@@ -1,22 +1,46 @@
 ---
 import Base from '../layouts/Base.astro';
-import { href } from '../lib/content';
+import ProjectCard from '../components/ProjectCard.astro';
+import ContactForm from '../components/ContactForm.astro';
+import { getSite, getProjects, getCategories, getContactForms, href } from '../lib/content';
+
+const site = await getSite();
+const cats = await getCategories();
+const tiles = cats.filter((c) => c.section === 'design' || c.section === 'kicks');
+const featured = (await getProjects('design')).filter((p) => p.featured);
+const form = (await getContactForms()).find((f) => f.slug === 'design');
+const catHref = (c: (typeof cats)[number]) => href(c.section === 'kicks' ? '/kicks' : `/design/category/${c.slug}`);
 ---
 
-<Base section="home" description="Huzzah: production design, pre-vis, props and VFX for film, television and the web.">
-  <div class="split-brand">HUZZAH</div>
-  <div class="split">
-    <a class="split-pane design" href={href('/design')}>
-      <span class="kicker">Production Design · Pre-Vis · Props</span>
-      <h2>Design</h2>
-      <p>Sets, worlds and props for film, television and commercials.</p>
-      <span class="arrow">→</span>
-    </a>
-    <a class="split-pane vfx" href={href('/vfx')}>
-      <span class="kicker">Award-winning</span>
-      <h2>VFX</h2>
-      <p>Visual effects for film, television and the web.</p>
-      <span class="arrow">→</span>
-    </a>
+<Base description={site.tagline}>
+  <section class="wrap hero">
+    <h1>{site.heroHeading.replace(/\.$/, '')}<em>.</em></h1>
+    <p>{site.tagline}</p>
+  </section>
+
+  <div class="wrap">
+    <div class="cats">
+      {tiles.map((c, i) => (
+        <a class="cat reveal" href={catHref(c)} style={`--d:${i * 70}ms`}>
+          {(c.cover || c.coverUrl) && <img src={c.cover ? href(`/images/categories/${c.cover}`) : c.coverUrl} alt="" loading="lazy" />}
+          <div><h3>{c.name}</h3><p>{c.blurb}</p></div>
+        </a>
+      ))}
+    </div>
+
+    <div class="section-head"><h2>Featured work</h2></div>
+    <div class="grid">
+      {featured.map((p, i) => <ProjectCard project={p} base="/design" index={i} />)}
+    </div>
+
+    <div class="section-head"><h2>Who am I?</h2><a href={href('/about')}>Read more →</a></div>
+    <p style="max-width:62ch;font-size:1.15rem;color:#d4d3cf">{site.bio}</p>
+
+    {form && (
+      <>
+        <div class="section-head" id="contact"><h2>{form.heading}</h2><a href={href('/contact/design')}>Full contact page →</a></div>
+        <ContactForm form={form} />
+      </>
+    )}
   </div>
 </Base>
