@@ -237,6 +237,7 @@ export default config({
     projects: collection({
       label: 'Projects',
       slugField: 'title',
+      columns: ['section', 'category', 'date'],
       path: 'src/content/projects/*',
       format: { data: 'json' },
       schema: {
