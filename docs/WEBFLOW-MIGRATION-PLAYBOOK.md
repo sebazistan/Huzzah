@@ -17,6 +17,8 @@ Written from a real migration (huzzahdesign.com: about 340 CMS projects, 3,000 p
 > 4. **Ask me before** you push to GitHub, change DNS or nameservers, or do anything in my accounts. Follow the cutover order in phase 10 exactly.
 > 5. Keep explanations short and in plain language, and tell me honestly when something went wrong.
 
+**If the site is already partly migrated** (for example it already builds in Astro and is on Cloudflare), do not redo it: first compare the repo against the phase list and the verification checklist in section 9, report which phases are done, missing or wrong, and only then do the missing ones in order. Check these in particular: favicon, redirects from old URLs, the safety check in `npm run build`, contact forms, share previews, domain cutover state, Webflow wind-down, the handover guide, and (if wanted) phase 9b.
+
 ---
 
 ## 1. The target setup, and why
@@ -24,12 +26,12 @@ Written from a real migration (huzzahdesign.com: about 340 CMS projects, 3,000 p
 | Piece | Choice | Why |
 |---|---|---|
 | Site | **Astro** (static pages) | Fast, no server or database to maintain or patch, easy to host for free. |
-| Editing | **Keystatic**, local mode | A friendly editor (like the Webflow CMS) that saves content as JSON files in the repo. It runs on the owner's computer, never on the live site. |
+| Editing | **Keystatic**: local mode on the owner's computer, plus **Keystatic Cloud** for editing the live site in a browser | A friendly editor (like the Webflow CMS) that saves content as JSON files in the repo. Locally it writes the files directly; in the browser it commits to GitHub through Keystatic Cloud (free for up to 3 users per team). |
 | Code and backup | **GitHub** | Every change is saved and undoable; it is also the backup. |
 | Hosting | **Cloudflare** (a Worker serving static files) | Free, fast, no total site-size cap, real 301 redirects. GitHub Pages has a 1 GB published-site cap and only meta-refresh redirects. |
 | Forms | **Web3Forms** | Free, emails each message; the access key is meant to sit in the page. |
 
-Optional later: Keystatic's GitHub mode on Cloudflare so the owner can edit from any browser (needs a server route and a GitHub app; not done in the first migration), Cloudflare R2 for images if the repo nears about 1 GB.
+Browser editing (Keystatic Cloud) is phase 9b; it needs the Cloudflare adapter, so decide early whether the owner wants it. Optional later: Cloudflare R2 for images if the repo nears about 1 GB.
 
 ---
 
@@ -41,6 +43,7 @@ Optional later: Keystatic's GitHub mode on Cloudflare so the owner can edit from
 - The **live sitemap**: `https://their-domain/sitemap.xml`. It is the authoritative list of pages.
 - The site's **Webflow preview address**: `<shortname>.webflow.io`. The shortname is visible in the page source, in the CSS file name (`<shortname>.webflow.shared.….css`). **It keeps serving the old site after the domain moves**, so it is your way to read the old pages later.
 - A **Webflow code export** (Designer → Export Code) *only if* the site has interactive custom code (maps, calculators). Plain pages and CMS content don't need it.
+- The old site's **favicon and touch icon**. Read the `<link rel="icon">` and `<link rel="apple-touch-icon">` tags in the live HTML (or the Internet Archive copy, `web.archive.org/web/2025/https://domain/`, if the live site has moved) and download those two image files. They sit on `cdn.prod.website-files.com` and stop working when the plan is cancelled. Without this step the new site silently ships Astro's default logo as its tab icon.
 - Where the **domain is registered** (registrar) and where its **DNS is hosted** (these can differ), plus a screenshot of the current DNS records. **Email on the domain (MX and TXT records) must be preserved.**
 - Anything else living under the same domain: separate sub-sites, shops, apps, other hosting. (On the first migration an "interactive map" turned out to be a separate site on its own domain, so nothing needed porting.)
 
@@ -54,6 +57,7 @@ Optional later: Keystatic's GitHub mode on Cloudflare so the owner can edit from
 4. Photos stored in the repo (simplest; keep under about 1 GB total, resized) or in Cloudflare R2?
 5. How many contact forms, and which email should each go to?
 6. Do they want the double-click Windows shortcuts for editing and publishing (non-technical owners usually do)?
+7. Will anyone else (a client, a helper) edit in a browser? If so, plan phase 9b, and be upfront that Keystatic cannot limit a person to part of the site (see 9b).
 
 ---
 
@@ -88,7 +92,7 @@ Discovery and decisions → project setup → import and reconcile → pages and
 - Install **Node.js LTS** (Windows: `winget install OpenJS.NodeJS.LTS`). A running terminal or app will **not** see the new PATH; prepend `C:\Program Files\nodejs` in your shell.
 - Scaffold Astro. Check where it actually put the files: `npm create astro@latest -- .` created a **randomly named subfolder** instead of using the current folder. Move the files into the repo clone if so.
 - Add `@astrojs/react @keystatic/core @keystatic/astro react react-dom @astrojs/sitemap`.
-- In `astro.config.mjs`, add the Keystatic integration **only in dev** (`const isDev = process.argv.includes('dev')`), so the production build stays purely static.
+- In `astro.config.mjs`, start with the Keystatic integration **only in dev** (`const isDev = process.argv.includes('dev')`), so the production build stays purely static. Phase 9b changes this if browser editing is wanted.
 - Add `.nvmrc` containing `24`, and `.gitattributes` with `*.cmd text eol=crlf`.
 - Content as JSON: collections at `src/content/<name>/*` with `format: { data: 'json' }`.
 
@@ -134,6 +138,7 @@ Discovery and decisions → project setup → import and reconcile → pages and
 - Titles and descriptions assembled **only from facts in the data** (title, kind, year, credits, summary); never invent. Provide an optional per-project override field. Start descriptions with the project's name so near-identical jobs don't produce duplicate descriptions.
 - Alt text from project names and captions, honestly: it does not describe photo contents.
 - Audit with `verify-seo.mjs`.
+- **Favicon and touch icon**: put the two files from section 2 in `public/` (for example `favicon-32.png` and `apple-touch-icon.png`), make a `favicon.ico` from the 32 px PNG (an ICO file can wrap a PNG: a 22-byte header plus the PNG bytes), delete Astro's default `favicon.svg`, and link them in `Base.astro`: `<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">`, `<link rel="icon" href="/favicon.ico" sizes="any">`, `<link rel="apple-touch-icon" href="/apple-touch-icon.png">`. Check the built `index.html` for the three links. Browsers cache icons hard: test in a private window. *On the first migration the Astro logo shipped for weeks before anyone noticed.* Note that the Keystatic editor tab has its own bolt icon; that is not the site's icon.
 
 ### Phase 7: Safety check (build this early)
 
@@ -158,6 +163,32 @@ A `scripts/check.mjs` that runs **inside `npm run build`**, so Cloudflare runs i
   Validate locally with `npx wrangler deploy --dry-run` (it reads the files and checks limits: **25 MB per file, 20,000 files**).
 - Node: `.nvmrc` (24) is picked up automatically; no environment variables are needed.
 - The first successful deploy gives `<name>.<account>.workers.dev`. **Test everything there** (crawl, redirects, forms' HTML, 404) before touching DNS.
+
+### Phase 9b: Optional: editing in a browser (Keystatic Cloud)
+
+Lets the owner, or a client, edit at `https://domain/keystatic` from any browser with nothing to install. Each save is a commit to GitHub by `keystatic-cloud[bot]`; Cloudflare then runs the safety check and rebuilds (about 2 minutes). Local editing keeps working. This was done on Huzzah after the site was live, and it needed three fixes that you can skip by following this list.
+
+1. **Owner creates** a free account at **https://keystatic.cloud** (not keystatic.com/cloud), a team and a project connected to the GitHub repo (branch `main`). The project settings page shows the **project key** (`team/project`) and a **Primary URL** field: set it to the live domain, or sign-in is refused. Leave "Allow local development" ticked. Free plan: up to 3 users per team.
+2. `npm i @astrojs/cloudflare`, then in `astro.config.mjs`:
+   ```js
+   import cloudflare from '@astrojs/cloudflare';
+   const isDev = process.argv.includes('dev');
+   // ...
+   adapter: isDev ? undefined : cloudflare({ prerenderEnvironment: 'node', imageService: 'passthrough' }),
+   integrations: [ /* ... */ keystatic() ],   // now always on, not dev-only
+   ```
+   - **`prerenderEnvironment: 'node'` is required** if any page reads files with `node:fs` (the Keystatic reader does). Without it the build fails with `No such module "node:path"`.
+   - **Use the adapter for builds only (`isDev ? undefined`).** With the adapter on, `npm run dev` runs inside Cloudflare's sandbox, and the local editor fails with `exports is not defined` (HTTP 500 on `/api/keystatic/...`).
+   - Pages stay static; only `/keystatic` and `/api/keystatic` run on the server. The build output moves to `dist/client/` (static) and `dist/server/` (Worker). `_redirects` written in the `astro:build:done` hook still lands in `dist/client/`.
+3. `keystatic.config.ts`: `storage: import.meta.env?.PROD ? { kind: 'cloud' } : { kind: 'local' }` plus `cloud: { project: 'team/project' }`. Local dev keeps writing files directly.
+4. `wrangler.jsonc`: add `"compatibility_flags": ["nodejs_compat"]` and, inside `assets`, **`"run_worker_first": ["/keystatic", "/keystatic/*", "/api/keystatic/*"]`**. Keep `directory` and `not_found_handling` as they are; the adapter generates `dist/server/wrangler.json` and `wrangler deploy` follows it automatically. Add `.wrangler/` to `.gitignore`. The adapter also declares a `SESSION` KV binding that the site does not use; the dry run and the real deploy accepted it.
+5. **Why `run_worker_first` matters:** with `not_found_handling: "404-page"`, Cloudflare answers real *browser* navigations to any address without a static file by serving the 404 page **before the Worker runs**. A plain `curl` of `/keystatic` returned 200, but browsers got the 404 page. Test with browser-like headers: `curl -H "Sec-Fetch-Mode: navigate" -H "Sec-Fetch-Dest: document" -H "Accept: text/html" https://domain/keystatic`.
+6. Validate: `npm run build`, `npx wrangler deploy --dry-run` (expect the Worker around 1 MB and the same file count), `npx astro preview` for the editor page, and `npm run dev` for the local editor. Push, wait for a green build, then the owner signs in at `/keystatic`, makes one tiny edit, saves, and checks a new build appears.
+7. **Check which field a page actually shows** before calling an edit "not working": on Huzzah the owner edited `summary` (cards only) and looked for it on the page, which shows `description`.
+8. After the first browser save, expect Keystatic to **move photos into a `gallery/` subfolder** (`01.jpg` becomes `gallery/0.jpg`) and rewrite the paths. That is normal; the safety check accepts it. Pull before the next local edit, because the bot commits on `main` while the owner may be editing locally (the Publish shortcut pulls first).
+9. Optional list tidy: `columns: ['section', 'category', 'date']` on the main collection shows extra columns in the editor's list (read-only; search still works).
+
+**Limits to tell a client honestly.** Keystatic Cloud documents access **per team only**: no roles, no per-collection limits, no delete restrictions, nothing about review branches. Anyone invited can edit or delete any content, including site settings and form keys. Mitigations, from lightest to heaviest: a written briefing of what is theirs and what to leave alone; the owner glancing at GitHub's commit history or Cloudflare's builds; a custom simplified editor view (medium work, hides but does not lock); a branch-and-approve flow (not verified on this setup). Everything is undoable from git history, and the safety check keeps broken content from going live.
 
 ### Phase 10: Domain cutover (the dangerous part; follow this order)
 
@@ -197,8 +228,10 @@ Leave the owner with:
 3. Collapsed array items hide their inputs from page inspection; verify array data through the built pages instead.
 4. Remove migration leftovers (temporary URL fields) from the schema once done; keep advanced fields at the bottom with clear labels.
 5. New schema fields are missing from old JSON; the reader returns defaults, but write code defensively and update the content files too.
-6. Local mode only: the admin needs the dev server, so keep the production build free of the Keystatic integration.
-7. Don't rename or move photo files by hand later; the editor tracks them by path. Warn the owner.
+6. Local mode needs the dev server and real file access. If you later add the Cloudflare adapter, keep it out of dev (phase 9b), or the local editor breaks.
+7. Don't rename or move photo files by hand later; the editor tracks them by path. Warn the owner. (Browser saves do move them into a `gallery/` subfolder; that is Keystatic's own layout.)
+8. Keystatic Cloud's list view shows an entry's file name, not its title, unless you add `columns`.
+9. Keystatic Cloud has no roles or per-collection permissions (phase 9b). Don't promise a client a "limited" account.
 
 ---
 
@@ -216,6 +249,11 @@ Leave the owner with:
 | Autoplay videos and an animated GIF were nearly missed. | Read raw HTML, not summaries (phase 1). |
 | Scraped paragraphs came out glued together. | Check long texts after import. |
 | Assumed everything on the domain was Webflow. | Check hosting for each sub-site and domain. |
+| Shipped Astro's default logo as the tab icon. | Fetch the old favicon and touch icon in phase 1 and install them (phase 6). |
+| Browser editing: `/keystatic` returned the 404 page in browsers while `curl` returned 200. | `run_worker_first` for the editor routes; test with browser-like headers (phase 9b). |
+| Added the Cloudflare adapter and the local editor broke (`exports is not defined`). | Adapter for builds only (phase 9b). |
+| Build failed with `No such module "node:path"` after adding the adapter. | `prerenderEnvironment: 'node'` (phase 9b). |
+| Called a browser edit "not showing" when the page used a different field. | Check which field the page displays. |
 | Told the owner to keep Webflow a week "as a fallback". | After the DNS move, rolling back means re-pointing DNS and re-paying: the real backup is the CSVs plus the repo. Be honest about that. |
 
 ---
@@ -238,6 +276,8 @@ Leave the owner with:
 - [ ] `npm run build` passes with the safety check; `verify-seo` reports 0 problems.
 - [ ] Built HTML contains no `website-files.com`, `webflow.io` or `uploads-ssl`.
 - [ ] The admin opens and shows existing photos as thumbnails.
+- [ ] The built `index.html` links the old site's favicon and touch icon (not Astro's); checked in a private window.
+- [ ] If browser editing is on: browser-style `curl` of `/keystatic` returns 200; the owner signed in and one test edit produced a green build and showed on the page.
 - [ ] Test address: crawl of the sitemap, 20 or more old URLs redirect correctly, 404 page, forms present.
 - [ ] After cutover: `crawl-live.mjs` shows every page 200, 0 Webflow references, image spot-check clean; `www` to apex; HTTPS.
 - [ ] The owner sent a test message through every contact page and it arrived (check spam).
@@ -257,7 +297,9 @@ Leave the owner with:
 | `src/layouts/Base.astro` | Head tags (canonical, Open Graph, Twitter, JSON-LD), menus, footer |
 | `src/components/ContactForm.astro` | Web3Forms form with stub-friendly JavaScript |
 | `src/scripts/lightbox.ts`, `src/styles/lightbox.css` | The photo carousel |
-| `wrangler.jsonc`, `.nvmrc`, `.gitattributes` | Cloudflare deploy settings |
+| `wrangler.jsonc`, `.nvmrc`, `.gitattributes` | Cloudflare deploy settings (incl. `nodejs_compat` and `run_worker_first`) |
+| `docs/EDITING-IN-A-BROWSER.md` | Owner-facing setup notes for Keystatic Cloud |
+| `public/favicon-32.png`, `favicon.ico`, `apple-touch-icon.png` | The icon set and how it is linked in `Base.astro` |
 | `Edit site.cmd`, `Publish site.cmd` | The owner's shortcuts |
 | `MANAGING-THE-SITE.md` | The handover guide structure |
 | `migration-toolkit/` | The import, reconcile, audit and crawl scripts |
