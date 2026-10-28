@@ -6,7 +6,7 @@ The editor can also run on the live site at **https://huzzahdesign.com/keystatic
 
 1. Create a free account at https://keystatic.com/cloud and make a **team** and a **project**. Connect the project to the GitHub repo `sebazistan/Huzzah` (branch `main`).
 2. On the project's settings page, copy the project name (`team/project`).
-3. In `keystatic.config.ts`, replace `TEAM_NAME/PROJECT_NAME` in `CLOUD_PROJECT` with it, then publish.
+3. In `keystatic.config.ts`, set `CLOUD_PROJECT` to it (currently `huzzah/huzzah`), then publish. In the project settings also set Primary URL to `https://huzzahdesign.com`.
 4. Open https://huzzahdesign.com/keystatic, sign in and check you can see the projects.
 5. Invite helpers by email in the Keystatic Cloud team settings (free plan: up to 3 users per team).
 

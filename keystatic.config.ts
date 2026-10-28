@@ -9,7 +9,7 @@ const sections = [
 // Editing on your own computer (npm run dev) saves straight to the files.
 // The live site's editor (huzzahdesign.com/keystatic) saves through Keystatic Cloud,
 // which commits to GitHub; Cloudflare then rebuilds the site.
-const CLOUD_PROJECT = 'TEAM_NAME/PROJECT_NAME'; // from keystatic.com, project settings
+const CLOUD_PROJECT = 'huzzah/huzzah'; // from keystatic.com, project settings
 
 export default config({
   storage: import.meta.env?.PROD ? { kind: 'cloud' } : { kind: 'local' },
