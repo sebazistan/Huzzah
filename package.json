@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "check": "node scripts/check.mjs",
+    "shrink": "node scripts/shrink-images.mjs",
     "build": "node scripts/check.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro"

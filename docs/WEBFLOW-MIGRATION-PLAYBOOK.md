@@ -144,6 +144,15 @@ Discovery and decisions → project setup → import and reconcile → pages and
 
 A `scripts/check.mjs` that runs **inside `npm run build`**, so Cloudflare runs it too and a broken change can never go live (the site stays on the last good version). It should check: JSON validity; required fields (title, section, category); every image and video reference points at a file that exists; stored paths are in the editor's format; links between pages resolve; contact pages are well formed; oversized images warn. *On its first run it caught the 55 blank titles.* Pair it with a documentation table of every message and its fix.
 
+### Phase 7b: Keep photos small, automatically
+
+Photos are what fills the repo (Huzzah: 532 MB of a 550 MB repository), and browser uploads can arrive at any size. Two parts, both in `migration-toolkit/`:
+
+1. **`scripts/shrink-images.mjs`** (`npm run shrink`, `-- --dry` to preview). For every JPEG or PNG in `public/images` that is over 1 MB or wider than 2000 px: resize to at most 2000 px wide, re-save as JPEG (quality 80, mozjpeg); an **opaque PNG becomes a JPEG** and every reference to it in `src/content/*.json` is rewritten; a PNG with real transparency stays PNG. A result is only kept if it is at least 10% smaller, so running it twice changes nothing. Run it **once** after the import (Huzzah: 95 photos, 157 MB down to 29 MB, safety-check warnings went from 12 to 0), then build and spot-check a few pages.
+2. **`.github/workflows/shrink-images.yml`**: on every push to `main` that touches `public/images/**`, run the script and commit the smaller files back as `github-actions[bot]` (`permissions: contents: write`; skip when the actor is the bot so it cannot loop; `git pull --rebase` before pushing because the Keystatic bot may have committed meanwhile). Each browser upload then costs two Cloudflare builds (the upload, then the shrink); that is fine.
+
+Gotchas found writing it (all on Windows or with sharp): **read each file into a Buffer** (`sharp(readFileSync(file))`) and set `sharp.cache(false)`, otherwise overwriting the same file fails with `UNKNOWN: unknown error, open ...`; **sharp reports `hasAlpha: true` for screenshots whose alpha channel is fully opaque**, so test `(await sharp(buf).stats()).isOpaque` before deciding to keep a PNG, or the "optimized" PNG just gets palette-quantized and looks blotchy; and apply the 10% rule, or a re-run re-compresses the same JPEGs forever. Tell the owner honestly that **shrinking does not reduce the GitHub repo size** (git keeps the old versions); it speeds up the site and slows future growth. Rewriting history to reclaim space (`git filter-repo` plus force push) loses the undo history and can break integrations, so only consider it near 1 GB.
+
 ### Phase 8: Contact forms (Web3Forms)
 
 - The owner creates **one Web3Forms form per contact page** (name, website URL, destination email). Each has an **access key** (a UUID, public by design).
@@ -249,6 +258,7 @@ Leave the owner with:
 | Autoplay videos and an animated GIF were nearly missed. | Read raw HTML, not summaries (phase 1). |
 | Scraped paragraphs came out glued together. | Check long texts after import. |
 | Assumed everything on the domain was Webflow. | Check hosting for each sub-site and domain. |
+| Photos of 3 to 4 MB piled up in the repo (PNG screenshots especially). | Shrink script once after import, and the GitHub Action for later uploads (phase 7b). |
 | Shipped Astro's default logo as the tab icon. | Fetch the old favicon and touch icon in phase 1 and install them (phase 6). |
 | Browser editing: `/keystatic` returned the 404 page in browsers while `curl` returned 200. | `run_worker_first` for the editor routes; test with browser-like headers (phase 9b). |
 | Added the Cloudflare adapter and the local editor broke (`exports is not defined`). | Adapter for builds only (phase 9b). |
@@ -276,6 +286,7 @@ Leave the owner with:
 - [ ] `npm run build` passes with the safety check; `verify-seo` reports 0 problems.
 - [ ] Built HTML contains no `website-files.com`, `webflow.io` or `uploads-ssl`.
 - [ ] The admin opens and shows existing photos as thumbnails.
+- [ ] `npm run shrink -- --dry` reports nothing left to shrink; the safety check shows no large-photo warnings; the "Shrink photos" workflow exists (phase 7b).
 - [ ] The built `index.html` links the old site's favicon and touch icon (not Astro's); checked in a private window.
 - [ ] If browser editing is on: browser-style `curl` of `/keystatic` returns 200; the owner signed in and one test edit produced a green build and showed on the page.
 - [ ] Test address: crawl of the sitemap, 20 or more old URLs redirect correctly, 404 page, forms present.
@@ -298,6 +309,7 @@ Leave the owner with:
 | `src/components/ContactForm.astro` | Web3Forms form with stub-friendly JavaScript |
 | `src/scripts/lightbox.ts`, `src/styles/lightbox.css` | The photo carousel |
 | `wrangler.jsonc`, `.nvmrc`, `.gitattributes` | Cloudflare deploy settings (incl. `nodejs_compat` and `run_worker_first`) |
+| `scripts/shrink-images.mjs`, `.github/workflows/shrink-images.yml` | Automatic photo shrinking (phase 7b) |
 | `docs/EDITING-IN-A-BROWSER.md` | Owner-facing setup notes for Keystatic Cloud |
 | `public/favicon-32.png`, `favicon.ico`, `apple-touch-icon.png` | The icon set and how it is linked in `Base.astro` |
 | `Edit site.cmd`, `Publish site.cmd` | The owner's shortcuts |

@@ -1,0 +1,43 @@
+# Shrinks new or oversized photos automatically.
+# Runs whenever photos are pushed to main (for example uploads from the browser editor),
+# resizes anything over 1 MB or 2000 px wide, and commits the smaller version back.
+# The same script runs on your computer with:  npm run shrink
+name: Shrink photos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/images/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shrink-photos
+  cancel-in-progress: false
+
+jobs:
+  shrink:
+    # The bot's own commit must not start another run.
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: node scripts/shrink-images.mjs
+      - name: Commit the smaller photos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public/images src/content
+          if git diff --cached --quiet; then
+            echo "Nothing to shrink."
+          else
+            git commit -m "Shrink new photos automatically"
+            git pull --rebase origin main
+            git push origin main
+          fi

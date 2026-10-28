@@ -13,7 +13,7 @@ The editor can also run on the live site at **https://huzzahdesign.com/keystatic
 ## Things to know
 
 - There is no Publish step in the browser: each save goes live after the rebuild. A failed safety check keeps the old site live.
-- Photos uploaded in the browser are committed to the repo. Ask helpers for web-sized photos (about 1400 px wide, under 500 KB).
+- Photos uploaded in the browser are committed to the repo, then shrunk automatically by the "Shrink photos" GitHub job (anything over 1 MB or 2000 px wide) about a minute later, and the site rebuilds again. Smaller originals still save time.
 - Anyone invited can change any content, including contact emails and form keys.
 - Avoid editing in both places at once. Before using `Edit site`, pull the latest changes (Publish site does this for you).
 - Pages stay static; only `/keystatic` and `/api/keystatic` run on the server.

@@ -29,5 +29,7 @@ Put the Webflow CSV exports in `./csv/` (for example `csv/projects.csv`). Copy t
 | `make-share-image.mjs` | Makes the 1200 x 630 default share image (collage of covers plus wordmark). | SEO phase. |
 | `verify-seo.mjs` | Audits every built page: title, description, canonical, share image exists, JSON-LD parses. Reports duplicate titles and descriptions. | After every build in the SEO phase. |
 | `crawl-live.mjs` | Fetches every page in the **live** sitemap: status codes, leftover Webflow references, blank titles, image spot-check. | After every deploy and before cancelling Webflow. |
+| `shrink-images.mjs` | Shrinks oversized photos in `public/images` (over 1 MB or 2000 px wide): resizes, re-saves as JPEG, converts opaque PNGs to JPEG and fixes the paths in `src/content`. Idempotent. Copy it to `scripts/` and add `"shrink": "node scripts/shrink-images.mjs"` to `package.json`. | Once after the import, then automatically via the workflow below. |
+| `shrink-images.workflow.yml` | GitHub Action: runs the script whenever photos are pushed to `main` (for example uploads from the browser editor) and commits the smaller versions. Copy it to `.github/workflows/shrink-images.yml`. | After browser editing is set up. |
 
 The site's own safety check (`scripts/check.mjs`) and the Windows shortcuts (`Edit site.cmd`, `Publish site.cmd`) live in the repo root and are meant to be copied as they are.
