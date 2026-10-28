@@ -1,11 +1,11 @@
 {
+  "title": "Aaron Goodvin: Lonely Drum",
   "section": "vfx",
   "category": "vfx-work",
   "type": "Music Video",
-  "title": "Aaron Goodvin: Lonely Drum",
   "date": "2017-12-01",
   "featured": false,
-  "summary": "Music video for Arron Goodvin. I'm especially proud of the square dancing in this. It's legit, and was so much work to recreate, but totally worth it.",
+  "summary": "Music video for Arron Goodvin. I'm especially proud of the square dancing in this. It's legit, and was so much work to recreate, but totally worth it!",
   "description": "Music video for Arron Goodvin. I'm especially proud of the square dancing in this. It's legit, and was so much work to recreate, but totally worth it.",
   "cover": "/images/projects/aaron-goodvin-lonely-drum/cover.jpeg",
   "credits": [
@@ -24,7 +24,7 @@
     "https://www.youtube.com/watch?v=fERLJoAvd5k"
   ],
   "gallery": [
-    "/images/projects/aaron-goodvin-lonely-drum/01.jpg"
+    "/images/projects/aaron-goodvin-lonely-drum/gallery/0.jpg"
   ],
   "galleryCaptions": []
 }
