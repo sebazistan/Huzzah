@@ -1,7 +1,7 @@
 {
   "heroHeading": "Welcome.",
-  "homeTitle": "Huzzah | Production Design, Pre-Vis & Props in Toronto",
-  "homeDescription": "Production design, pre-vis and props for film, television and commercials, from Huzzah, a Canadian Screen Award-winning studio in Toronto.",
+  "homeTitle": "Huzzah | Sebastian Harder: Production Design & Props, Toronto",
+  "homeDescription": "Sebastian Harder's Huzzah studio in Toronto: production design, pre-vis and props for film, TV and commercials. Canadian Screen Award winner.",
   "shareImage": "/images/share/default.jpg",
   "ownerName": "Sebastian Harder",
   "tagline": "Production design, pre-vis and props for film, television and commercials.",
@@ -35,5 +35,6 @@
   ],
   "vfxIntro": "Huzzah creates award-winning VFX for film, television and the web, for projects at every budget level, including Kids in the Hall and Longing. Winner of a Canadian Screen Award for VFX.",
   "kicksIntro": "Not everything I do is for money.",
-  "footerText": "Huzzah. Toronto."
+  "footerText": "Huzzah. Toronto.",
+  "analyticsToken": ""
 }

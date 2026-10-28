@@ -1,11 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getSite, href } from '../lib/content';
-import { clip } from '../lib/seo';
+import { clip, aboutJsonLd } from '../lib/seo';
 const site = await getSite();
 ---
 
-<Base title="About Huzzah" description={clip(site.bio)}>
+<Base title={`About ${site.ownerName || 'Huzzah'}, production designer`} description={clip(site.bio)} jsonLd={aboutJsonLd(site)}>
   <div class="wrap page">
     <h1>About<span style="color:var(--accent)">.</span></h1>
     <p>{site.bio}</p>

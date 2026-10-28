@@ -9,6 +9,7 @@ import type { Project } from './content';
 export const SITE = (import.meta.env.SITE ?? 'https://huzzahdesign.com').replace(/\/$/, '');
 export const absUrl = (p: string) => (!p ? '' : /^https?:\/\//i.test(p) ? p : SITE + (p.startsWith('/') ? p : `/${p}`));
 export const orgId = `${SITE}/#organization`;
+export const personId = `${SITE}/#person`;
 
 const MAX = 160;
 const squash = (s: string) => s.replace(/\s+/g, ' ').trim();
@@ -86,7 +87,28 @@ export function siteJsonLd(site: Site, winners: string[], shareImage?: string) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'WebSite', '@id': `${SITE}/#website`, url: `${SITE}/`, name: 'Huzzah', inLanguage: 'en-CA', publisher: { '@id': orgId } },
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE}/#website`,
+        url: `${SITE}/`,
+        name: 'Huzzah',
+        alternateName: site.ownerName ? [site.ownerName, `${site.ownerName} Huzzah`] : undefined,
+        inLanguage: 'en-CA',
+        publisher: { '@id': orgId },
+      },
+      site.ownerName
+        ? {
+            '@type': 'Person',
+            '@id': personId,
+            name: site.ownerName,
+            jobTitle: 'Production designer',
+            url: `${SITE}/about/`,
+            worksFor: { '@id': orgId },
+            address: { '@type': 'PostalAddress', addressLocality: 'Toronto', addressRegion: 'ON', addressCountry: 'CA' },
+            knowsAbout: ['Production design', 'Pre-visualization', 'Prop design and fabrication', 'Visual effects'],
+            sameAs: sameAs.length ? sameAs : undefined,
+          }
+        : undefined,
       {
         '@type': 'Organization',
         '@id': orgId,
@@ -97,10 +119,21 @@ export function siteJsonLd(site: Site, winners: string[], shareImage?: string) {
         sameAs: sameAs.length ? sameAs : undefined,
         address: { '@type': 'PostalAddress', addressLocality: 'Toronto', addressRegion: 'ON', addressCountry: 'CA' },
         knowsAbout: ['Production design', 'Pre-visualization', 'Prop design and fabrication', 'Visual effects'],
-        founder: site.ownerName ? { '@type': 'Person', name: site.ownerName, sameAs: site.imdb || undefined } : undefined,
+        founder: site.ownerName ? { '@id': personId } : undefined,
         award: winners.length ? winners : undefined,
       },
-    ],
+    ].filter(Boolean),
+  };
+}
+
+/** The About page: who the person is, so searches for the name land here. */
+export function aboutJsonLd(site: Site & { bio?: string }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    url: absUrl('/about/'),
+    name: `About ${site.ownerName || 'Huzzah'}`,
+    mainEntity: { '@id': personId },
   };
 }
 

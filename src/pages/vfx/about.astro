@@ -5,7 +5,7 @@ import { clip } from '../../lib/seo';
 const site = await getSite();
 ---
 
-<Base title="About Huzzah VFX" section="vfx" description={clip(site.vfxBio)}>
+<Base title={`About Huzzah VFX and ${site.ownerName || 'Huzzah'}`} section="vfx" description={clip(site.vfxBio)}>
   <div class="wrap page">
     <h1>About<span style="color:var(--accent)">.</span></h1>
     <p>{site.vfxBio}</p>

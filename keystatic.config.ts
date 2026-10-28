@@ -44,6 +44,10 @@ export default config({
           description: 'Shown to Google as the person behind Huzzah.',
         }),
         bio: fields.text({ label: 'About / bio', multiline: true }),
+        analyticsToken: fields.text({
+          label: 'Cloudflare Web Analytics token (optional)',
+          description: 'Cloudflare dashboard > Analytics & Logs > Web Analytics > your site > the token in the snippet. Leave empty for no visitor counting.',
+        }),
         email: fields.text({ label: 'Contact email' }),
         web3formsKey: fields.text({
           label: 'Web3Forms access key (for all contact forms)',

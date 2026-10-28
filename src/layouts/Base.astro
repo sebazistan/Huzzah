@@ -70,6 +70,7 @@ const logo = brand ?? {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    {site.ownerName && <meta name="author" content={site.ownerName} />}
     {noindex && <meta name="robots" content="noindex" />}
     {!noindex && <link rel="canonical" href={canonical} />}
 
@@ -135,6 +136,9 @@ const logo = brand ?? {
       </footer>
     )}
 
+    {site.analyticsToken && (
+      <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: site.analyticsToken })}></script>
+    )}
     <script>
       import '../scripts/lightbox';
     </script>
