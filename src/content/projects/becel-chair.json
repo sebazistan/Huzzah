@@ -1,13 +1,12 @@
 {
+  "title": "Becel Chair",
   "section": "design",
   "category": "props",
   "type": "",
   "date": "2018-08-01",
   "featured": false,
-  "legacySlug": "",
-  "title": "Becel Chair",
   "summary": "Design work for a Becel commercial.",
-  "description": "Design work for a Becel commercial.",
+  "description": "Design work for a Becel commercial. Looks delicious.",
   "cover": "/images/projects/becel-chair/cover.jpg",
   "credits": [
     {
@@ -18,16 +17,16 @@
   "links": [],
   "videos": [],
   "gallery": [
-    "/images/projects/becel-chair/01.jpg",
-    "/images/projects/becel-chair/02.jpg",
-    "/images/projects/becel-chair/03.jpg",
-    "/images/projects/becel-chair/04.jpg",
-    "/images/projects/becel-chair/05.jpg",
-    "/images/projects/becel-chair/06.jpg",
-    "/images/projects/becel-chair/07.jpg",
-    "/images/projects/becel-chair/08.jpg",
-    "/images/projects/becel-chair/09.jpg",
-    "/images/projects/becel-chair/10.jpg"
+    "/images/projects/becel-chair/gallery/0.jpg",
+    "/images/projects/becel-chair/gallery/1.jpg",
+    "/images/projects/becel-chair/gallery/2.jpg",
+    "/images/projects/becel-chair/gallery/3.jpg",
+    "/images/projects/becel-chair/gallery/4.jpg",
+    "/images/projects/becel-chair/gallery/5.jpg",
+    "/images/projects/becel-chair/gallery/6.jpg",
+    "/images/projects/becel-chair/gallery/7.jpg",
+    "/images/projects/becel-chair/gallery/8.jpg",
+    "/images/projects/becel-chair/gallery/9.jpg"
   ],
   "galleryCaptions": []
 }
