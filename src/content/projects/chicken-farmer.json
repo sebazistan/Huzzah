@@ -1,0 +1,19 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2026-10-28",
+  "featured": false,
+  "title": "Chicken Farmer",
+  "summary": "A top-down chicken farm game that runs in your browser. Play it free.",
+  "seoDescription": "Chicken Farmer: a free browser game by Sebastian Harder. Look after twenty hens, sell eggs, keep foxes out and keep the farm afloat. No install needed.",
+  "description": "A top-down chicken farm game: look after twenty hens, sell eggs at the farm stand and the roadside stall, keep the foxes out, drive to the farm supply store, and keep the farm afloat.\n\nIt runs in any browser with nothing to install. The game is still being built, so expect it to change often.",
+  "cover": "/images/projects/chicken-farmer/cover.jpg",
+  "credits": [],
+  "links": [
+    { "label": "Play it", "url": "https://chickenfarmer.huzzahdesign.com/" }
+  ],
+  "videos": [],
+  "gallery": [],
+  "galleryCaptions": []
+}
