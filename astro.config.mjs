@@ -4,9 +4,10 @@ import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import keystatic from '@keystatic/astro';
+import cloudflare from '@astrojs/cloudflare';
 
-// The Keystatic admin (/keystatic) is a dev-time editor: it runs locally and
-// commits content to the repo. The published site itself is fully static.
+// On your own computer (npm run dev) the editor reads and writes the files directly,
+// so the Cloudflare adapter is only used for real builds.
 const isDev = process.argv.includes('dev');
 
 // Old Webflow URLs -> new URLs. Built from the content files so new projects
@@ -77,10 +78,13 @@ export default defineConfig({
   // The main address is the bare domain; www redirects to it (Cloudflare redirect rule).
   site: 'https://huzzahdesign.com',
   redirects,
+  // All pages are built ahead of time (static). Only the editor at /keystatic
+  // runs on the server, so the adapter is needed for that.
+  adapter: isDev ? undefined : cloudflare({ prerenderEnvironment: 'node', imageService: 'passthrough' }),
   integrations: [
     react(),
     sitemap({ filter: (page) => !/\/(huzzah|ttown|happy-trails)\//.test(page) && !/\/404\/?$/.test(page) && !/\/design\/?$/.test(page) }),
     cloudflareRedirects,
-    ...(isDev ? [keystatic()] : []),
+    keystatic(),
   ],
 });
