@@ -81,6 +81,22 @@ export function projectDescription(p: Project & { seoDescription?: string }, cat
 
 type Site = { instagram?: string | null; imdb?: string | null; tagline?: string; ownerName?: string };
 
+/** The person behind Huzzah. Full details, so it can stand alone on the About page as well as in the home page graph. */
+function personNode(site: Site) {
+  const sameAs = [site.instagram, site.imdb].filter(Boolean);
+  return {
+    '@type': 'Person',
+    '@id': personId,
+    name: site.ownerName,
+    jobTitle: 'Production designer',
+    url: `${SITE}/about/`,
+    worksFor: { '@id': orgId },
+    address: { '@type': 'PostalAddress', addressLocality: 'Toronto', addressRegion: 'ON', addressCountry: 'CA' },
+    knowsAbout: ['Production design', 'Pre-visualization', 'Prop design and fabrication', 'Visual effects'],
+    sameAs: sameAs.length ? sameAs : undefined,
+  };
+}
+
 /** Who Huzzah is: the organization and the website. Used on the home page. */
 export function siteJsonLd(site: Site, winners: string[], shareImage?: string) {
   const sameAs = [site.instagram, site.imdb].filter(Boolean);
@@ -96,19 +112,7 @@ export function siteJsonLd(site: Site, winners: string[], shareImage?: string) {
         inLanguage: 'en-CA',
         publisher: { '@id': orgId },
       },
-      site.ownerName
-        ? {
-            '@type': 'Person',
-            '@id': personId,
-            name: site.ownerName,
-            jobTitle: 'Production designer',
-            url: `${SITE}/about/`,
-            worksFor: { '@id': orgId },
-            address: { '@type': 'PostalAddress', addressLocality: 'Toronto', addressRegion: 'ON', addressCountry: 'CA' },
-            knowsAbout: ['Production design', 'Pre-visualization', 'Prop design and fabrication', 'Visual effects'],
-            sameAs: sameAs.length ? sameAs : undefined,
-          }
-        : undefined,
+      site.ownerName ? personNode(site) : undefined,
       {
         '@type': 'Organization',
         '@id': orgId,
@@ -133,7 +137,7 @@ export function aboutJsonLd(site: Site & { bio?: string }) {
     '@type': 'ProfilePage',
     url: absUrl('/about/'),
     name: `About ${site.ownerName || 'Huzzah'}`,
-    mainEntity: { '@id': personId },
+    mainEntity: personNode(site),
   };
 }
 
@@ -153,7 +157,8 @@ export function projectJsonLd(
       name: all.length > 1 ? `${p.title}, video ${i + 1}` : `${p.title}, video`,
       description: o.description,
       thumbnailUrl: [`https://i.ytimg.com/vi/${id}/hqdefault.jpg`],
-      uploadDate: p.date,
+      // Google wants a full date-time with a time zone, not just a day
+      uploadDate: p.date ? `${p.date}T00:00:00-05:00` : undefined,
       embedUrl: `https://www.youtube.com/embed/${id}`,
       contentUrl: `https://www.youtube.com/watch?v=${id}`,
     }));
