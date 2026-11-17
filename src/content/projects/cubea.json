@@ -1,0 +1,19 @@
+{
+  "section": "kicks",
+  "category": "for-kicks",
+  "type": "Personal",
+  "date": "2026-11-17",
+  "featured": false,
+  "title": "Cubea",
+  "summary": "A low-poly top-down game of the Cuban Revolution that runs in your browser. Play it free.",
+  "seoDescription": "Cubea: a free browser game by Sebastian Harder. A low-poly, top-down game of the Cuban Revolution where every cube is a person with a family, friends and a job.",
+  "description": "A low-poly 2D top-down game of the Cuban Revolution, where every cube is a person with a family, friends, a job and a memory.\n\nIt runs in any browser with nothing to install. The game is still being built, so expect it to change often.",
+  "cover": "",
+  "credits": [],
+  "links": [
+    { "label": "Play it", "url": "https://cubea.huzzahdesign.com/" }
+  ],
+  "videos": [],
+  "gallery": [],
+  "galleryCaptions": []
+}
